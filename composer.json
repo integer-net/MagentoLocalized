@@ -1,0 +1,42 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "firegento/pdf": "dev-development",
+        "connect20/locale_mage_community_de_de": "*",
+        "connect20/dermodpro_baseprice": "*",
+        "connect20/cashondelivery": "*",
+        "itabs/invoice": "dev-master",
+        "therouv/debitpayment": "dev-master",
+        "avstudnitz/AvS_ScopeHint": "dev-master",
+        "avstudnitz/AvS_AdminNotificationAdvanced": "dev-master",
+        "tim-reynolds/magento-qconfig": "dev-master",
+        "integer-net/removecustomeraccountlinks": "dev-master",
+        "integer_net/IntegerNet_Autoshipping": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/tim-reynolds/magento-qconfig.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/avstudnitz/AvS_ScopeHint.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/Autoshipping.git"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "../src/",
+        "skip-package-deployment": true
+    }
+}

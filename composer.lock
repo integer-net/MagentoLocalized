@@ -1,0 +1,179 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "4d345ddd07a8319f255a76a372f47a7d",
+    "packages": [
+        {
+            "name": "avstudnitz/AvS_ScopeHint",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
+                "reference": "9f7497d92c39fd78b24f20d6a5bc664743d656b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/9f7497d92c39fd78b24f20d6a5bc664743d656b4",
+                "reference": "9f7497d92c39fd78b24f20d6a5bc664743d656b4",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Creates a warning if a configuration setting is overwritten on a lower level (website or store view",
+            "homepage": "https://github.com/avstudnitz/AvS_ScopeHint",
+            "support": {
+                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
+                "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
+            },
+            "time": "2013-08-02 12:25:10"
+        },
+        {
+            "name": "connect20/Locale_Mage_community_de_DE",
+            "version": "1.7.0.20",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_de_DE/1.7.0.2.0/Locale_Mage_community_de_DE-1.7.0.2.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "OSL"
+            ],
+            "authors": [
+                {
+                    "name": "Rico Neitzel",
+                    "email": "rico@buro71a.de"
+                }
+            ],
+            "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten."
+        },
+        {
+            "name": "integer_net/IntegerNet_Autoshipping",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/Autoshipping.git",
+                "reference": "b399f989d1d5f9c3d2636cb520f591c93c32df82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/b399f989d1d5f9c3d2636cb520f591c93c32df82",
+                "reference": "b399f989d1d5f9c3d2636cb520f591c93c32df82",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Provide shipping costs in Magento Cart, plus the ability to change the country there",
+            "homepage": "https://github.com/integer-net/Autoshipping",
+            "support": {
+                "source": "https://github.com/integer-net/Autoshipping/tree/master",
+                "issues": "https://github.com/integer-net/Autoshipping/issues"
+            },
+            "time": "2013-08-02 09:52:44"
+        },
+        {
+            "name": "magento-hackathon/magento-composer-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
+                "reference": "74e496d5fd3bb517ecee064f2343a6744d2ab19e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/74e496d5fd3bb517ecee064f2343a6744d2ab19e",
+                "reference": "74e496d5fd3bb517ecee064f2343a6744d2ab19e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "composer/composer": "*",
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "magento-hackathon/composer-command-integrator": "*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "composer-command-registry": [
+                    "MagentoHackathon\\Composer\\Magento\\Command\\DeployCommand"
+                ],
+                "class": "MagentoHackathon\\Composer\\Magento\\Installer"
+            },
+            "autoload": {
+                "psr-0": {
+                    "MagentoHackathon\\Composer\\Magento": "src/"
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Fahlke aka Flyingmana",
+                    "email": "daniel@digitalmanufaktur.com"
+                },
+                {
+                    "name": "Jörg Weller",
+                    "email": "weller@flagbit.de"
+                },
+                {
+                    "name": "Karl Spies",
+                    "email": "karl.spies@gmx.net"
+                },
+                {
+                    "name": "Tobias Vogt",
+                    "email": "tobi@webguys.de"
+                },
+                {
+                    "name": "David Fuhr",
+                    "email": "fuhr@flagbit.de"
+                },
+                {
+                    "name": "Vinai Kopp",
+                    "email": "vinai@netzarbeiter.com"
+                }
+            ],
+            "description": "Composer installer for Magento modules",
+            "homepage": "https://github.com/magento-hackathon/magento-composer-installer",
+            "keywords": [
+                "composer-installer",
+                "magento"
+            ],
+            "support": {
+                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
+                "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
+            },
+            "time": "2013-07-31 04:30:45"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "avstudnitz/avs_scopehint": 20,
+        "integer_net/integernet_autoshipping": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
