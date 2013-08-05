@@ -1,6 +1,6 @@
 <?php
 /**
- * Magento Localized Module
+ * Localized Magento Editions
  *
  * @category   IntegerNet
  * @package    IntegerNet_MagentoLocalized

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Magento Localized Module
+ * Localized Magento Editions
  *
  * @category   IntegerNet
  * @package    IntegerNet_MagentoLocalized
@@ -28,14 +28,18 @@
             <de>
                 <name>Magento DE - Deutschland</name>
                 <image_filename>images/magento-localized/magento-edition-deutschland.jpg</image_filename>
+                <module_path>connect20/Locale_Mage_community_de_DE</module_path>
+                <locale_path>connect20/Locale_Mage_community_de_DE</locale_path>
             </de>
             <at>
                 <name>Magento AT - Österreich</name>
                 <image_filename>images/magento-localized/magento-edition-oesterreich.jpg</image_filename>
+                <locale_path>connect20/Locale_Mage_community_de_DE</locale_path>
             </at>
             <ch>
                 <name>Magento CH - Schweiz</name>
                 <image_filename>images/magento-localized/magento-edition-schweiz.jpg</image_filename>
+                <locale_path>connect20/Locale_Mage_community_de_DE</locale_path>
             </ch>
         </editions>
     </magento_localized>
