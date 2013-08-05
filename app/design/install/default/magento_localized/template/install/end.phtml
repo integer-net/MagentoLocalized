@@ -1,0 +1,29 @@
+<?php
+/**
+ * Magento Localized Module
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalized
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+
+/**
+ * Installation end page
+ *
+ * @see Mage_Install_Block_End
+ */
+?>
+<div class="page-head">
+    <h3><?php echo $this->__("You're All Set") ?>!</h3>
+</div>
+<?php if ($this->getIframeSourceUrl()): ?>
+    <iframe id="iframe_box" src="<?php echo $this->getIframeSourceUrl() ?>" frameborder="0" width="650" height="600"></iframe>
+<?php endif; ?>
+<p><?php echo $this->__('Get ready to experience Open-Source eCommerce Evolved.') ?></p>
+<p><?php echo $this->__('Please go to <a href="%s" target="_blank">Backend</a> now in order to complete the preconfiguration.', $this->getUrl('adminhtml')) ?></p>
+<div class="button-set">
+    <button class="form-button" onclick="window.open('<?php echo $this->getUrl('') ?>')" type="button"><?php echo $this->__('Go to Frontend') ?></button>&nbsp;&nbsp;
+    <button class="form-button" onclick="window.open('<?php echo $this->getUrl('adminhtml') ?>')" type="button"><?php echo $this->__('Go to Backend') ?></button>
+</div>

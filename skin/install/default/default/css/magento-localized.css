@@ -1,0 +1,35 @@
+/**
+ * Magento Localized Module
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalized
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+
+ul#magento_localization {
+    margin-bottom: 20px;
+}
+
+ul#magento_localization li {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 4px solid transparent;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+ul#magento_localization li.selected {
+    border-color: #f18200;
+}
+
+ul#magento_localization li input {
+    visibility: hidden;
+}
+
+ul#magento_localization li label {
+    cursor: pointer;
+}

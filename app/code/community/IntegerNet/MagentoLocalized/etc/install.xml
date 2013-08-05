@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento Localized Module
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalized
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+ -->
+<config>
+
+    <wizard>
+        <steps>
+            <begin translate="code">
+                <code>Country Selection</code>
+                <controller>wizard</controller>
+                <action>begin</action>
+            </begin>
+        </steps>
+    </wizard>
+
+</config>

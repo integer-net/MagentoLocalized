@@ -1,0 +1,98 @@
+<?php
+/**
+ * Magento Localized Module
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalized
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+
+/**
+ * Installation start page
+ *
+ * @see Mage_Install_Block_Begin
+ */
+?>
+<div class="page-head">
+    <h3><?php echo $this->__("Welcome to Magento's Installation Wizard") ?>!</h3>
+</div>
+<?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+<?php if(count($this->getMessagesBlock()->getMessages())==0): ?>
+<form action="<?php echo $this->getPostUrl() ?>" method="post" id="begin-form">
+
+<div>
+<h4><?php echo $this->__('Select your edition:') ?></h4>
+<ul id="magento_localization">
+    <li>
+        <label for="edition_de">
+            <img src="<?php echo $this->getSkinUrl('images/magento-localized/magento-edition-deutschland.jpg') ?>" alt="Magento DE" /><br />
+            <?php echo $this->__('Magento DE - Deutschland') ?>
+        </label>
+        <input type="radio" name="localization" class="validate-one-required-by-name" id="edition_de" value="1" />
+    </li>
+    <li>
+        <label for="edition_at">
+            <img src="<?php echo $this->getSkinUrl('images/magento-localized/magento-edition-oesterreich.jpg') ?>" alt="Magento AT" /><br />
+            <?php echo $this->__('Magento AT - Österreich') ?>
+        </label>
+        <input type="radio" name="localization" class="validate-one-required-by-name" id="edition_at" value="1" />
+    </li>
+    <li>
+        <label for="edition_ch">
+            <img src="<?php echo $this->getSkinUrl('images/magento-localized/magento-edition-schweiz.jpg') ?>" alt="Magento AT" /><br />
+            <?php echo $this->__('Magento CH - Schweiz') ?>
+        </label>
+        <input type="radio" name="localization" class="validate-one-required-by-name" id="edition_ch" value="1" />
+    </li>
+</ul>
+</div>
+
+<div class="clear"></div>
+
+<div style="height:20em; border:1px solid #ccc; margin-bottom:8px; padding:5px; background:#fff; overflow: auto; overflow-x:hidden; overflow-y:scroll;">
+<?php echo $this->getLicenseHtml() ?>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+function changeSubmitStatus(obj) {
+    $('submitButton').disabled = !obj.checked;
+    if(obj.checked){
+        $('submitButton').setStyle({'background':'#f18200','borderColor':'','cursor':'pointer','color':'#C73615'});
+    }
+    else{
+        $('submitButton').setStyle({'background':'#bbb','borderColor':'#bbb','cursor':'default','color':'white'});
+    }
+}
+//]]>
+</script>
+    <p>
+        <input type="checkbox" name="agree" value="1" id="agree" onclick="changeSubmitStatus(this)" class="checkbox validate-select" />
+        <label for="agree"><?php echo $this->__('I agree to the above terms and conditions.') ?></label>
+    </p>
+    <div class="button-set">
+        <button class="form-button" type="submit" id="submitButton" disabled="disabled"><span><?php echo $this->__('Continue') ?></span></button>
+    </div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+    changeSubmitStatus($('agree'));
+
+    var dataForm = new VarienForm('begin-form');
+
+    $('magento_localization').on('change', 'input', function(event) {
+        $$('#magento_localization li').each(function(liItem) {
+            liItem.select('input').each(function(inputElement) {
+                if (inputElement.checked) {
+                    liItem.addClassName('selected');
+                } else {
+                    liItem.removeClassName('selected');
+                }
+            });
+        });
+    });
+//]]>
+</script>
+<?php endif ?>

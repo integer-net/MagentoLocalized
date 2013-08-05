@@ -3,20 +3,46 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4d345ddd07a8319f255a76a372f47a7d",
+    "hash": "da4e9df5bf900dfcf952dc9d57be8d64",
     "packages": [
         {
-            "name": "avstudnitz/AvS_ScopeHint",
+            "name": "avstudnitz/admin-notification-advanced",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced.git",
+                "reference": "aba9a8fa2a9c392d15929d1c997fdf1699820292"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_AdminNotificationAdvanced/zipball/aba9a8fa2a9c392d15929d1c997fdf1699820292",
+                "reference": "aba9a8fa2a9c392d15929d1c997fdf1699820292",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "dev-master"
+            },
+            "type": "magento-module",
+            "description": "Adds options to mark all messages unread or remove all messages from admin notification popup and toolbar.",
+            "homepage": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced",
+            "support": {
+                "source": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced/tree/master",
+                "issues": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced/issues"
+            },
+            "time": "2013-08-05 08:21:22"
+        },
+        {
+            "name": "avstudnitz/scopehint",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "9f7497d92c39fd78b24f20d6a5bc664743d656b4"
+                "reference": "f8639a83f0bc85bddaaafd8c9d3fd737df08748a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/9f7497d92c39fd78b24f20d6a5bc664743d656b4",
-                "reference": "9f7497d92c39fd78b24f20d6a5bc664743d656b4",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/f8639a83f0bc85bddaaafd8c9d3fd737df08748a",
+                "reference": "f8639a83f0bc85bddaaafd8c9d3fd737df08748a",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +55,61 @@
                 "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2013-08-02 12:25:10"
+            "time": "2013-08-05 08:20:27"
+        },
+        {
+            "name": "connect20/CashOnDelivery",
+            "version": "0.4.3",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/CashOnDelivery/0.4.3/CashOnDelivery-0.4.3.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "Open-Software-License-(OSL)"
+            ],
+            "authors": [
+                {
+                    "name": "Phoenix Medien",
+                    "email": "info@phoenix-medien.de"
+                }
+            ],
+            "description": "Cash on Delivery allows to book additional fee on delivery depending on inland or international delivery."
+        },
+        {
+            "name": "connect20/DerModPro_BasePrice",
+            "version": "0.3.0",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/DerModPro_BasePrice/0.3.0/DerModPro_BasePrice-0.3.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "OSL-v3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Vinai Kopp",
+                    "email": "info@der-modulprogrammierer.de"
+                }
+            ],
+            "description": "This extension enables you to display the base price for products.  E.g. if you sell\ndifferent quantities of oil, you can enter the amount each bottle contains (like 250ml)\nand a reference unit (like liter), and the price per liter is calculated and displayed."
         },
         {
             "name": "connect20/Locale_Mage_community_de_DE",
@@ -59,17 +139,145 @@
             "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten."
         },
         {
-            "name": "integer_net/IntegerNet_Autoshipping",
+            "name": "fbrnc/aoe_jscsststamp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/fbrnc/Aoe_JsCssTstamp.git",
+                "reference": "d00b299c9943dd2e64109bd665f6b74bb6e1455d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/fbrnc/Aoe_JsCssTstamp/zipball/d00b299c9943dd2e64109bd665f6b74bb6e1455d",
+                "reference": "d00b299c9943dd2e64109bd665f6b74bb6e1455d",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca",
+                    "email": "mail@{firstname}-{lastname}.de"
+                }
+            ],
+            "description": "Automatic Versioning of JS and CSS files for Magento.",
+            "homepage": "https://github.com/fbrnc/Aoe_JsCssTstamp",
+            "support": {
+                "source": "https://github.com/fbrnc/Aoe_JsCssTstamp/tree/master",
+                "issues": "https://github.com/fbrnc/Aoe_JsCssTstamp/issues"
+            },
+            "time": "2013-06-10 04:57:50"
+        },
+        {
+            "name": "fbrnc/aoe_managestores",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/fbrnc/Aoe_ManageStores.git",
+                "reference": "v0.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/fbrnc/Aoe_ManageStores/zipball/v0.2.1",
+                "reference": "v0.2.1",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Fabrizio Branca",
+                    "email": "mail@{firstname}-{lastname}.de"
+                }
+            ],
+            "description": "Better stores management interface for Magento.",
+            "homepage": "https://github.com/fbrnc/Aoe_ManageStores",
+            "support": {
+                "source": "https://github.com/fbrnc/Aoe_ManageStores/tree/v0.2.1",
+                "issues": "https://github.com/fbrnc/Aoe_ManageStores/issues"
+            },
+            "time": "2013-03-09 06:03:05"
+        },
+        {
+            "name": "firegento/germansetup",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/firegento/firegento-germansetup.git",
+                "reference": "v1.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/firegento/firegento-germansetup/zipball/v1.2.3",
+                "reference": "v1.2.3",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "GermanSetup ist eine deutlich verbesserte Alternative zu bereits existierenden Modulen.",
+            "homepage": "https://github.com/firegento/firegento-germansetup",
+            "support": {
+                "source": "https://github.com/firegento/firegento-germansetup/tree/v1.2.3",
+                "issues": "https://github.com/firegento/firegento-germansetup/issues"
+            },
+            "time": "2013-06-05 11:38:35"
+        },
+        {
+            "name": "firegento/pdf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/firegento/firegento-pdf.git",
+                "reference": "5c09fff204470ab08f811756fe2fccf12003d997"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/5c09fff204470ab08f811756fe2fccf12003d997",
+                "reference": "5c09fff204470ab08f811756fe2fccf12003d997",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "FireGento Pdf overwrites standard PDF layouts for invoices and shipments.",
+            "homepage": "https://github.com/firegento/firegento-pdf",
+            "support": {
+                "source": "https://github.com/firegento/firegento-pdf/tree/master",
+                "issues": "https://github.com/firegento/firegento-pdf/issues"
+            },
+            "time": "2013-06-02 12:40:40"
+        },
+        {
+            "name": "integer-net/autoshipping",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/Autoshipping.git",
-                "reference": "b399f989d1d5f9c3d2636cb520f591c93c32df82"
+                "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/b399f989d1d5f9c3d2636cb520f591c93c32df82",
-                "reference": "b399f989d1d5f9c3d2636cb520f591c93c32df82",
+                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
+                "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "shasum": ""
             },
             "require": {
@@ -82,7 +290,92 @@
                 "source": "https://github.com/integer-net/Autoshipping/tree/master",
                 "issues": "https://github.com/integer-net/Autoshipping/issues"
             },
-            "time": "2013-08-02 09:52:44"
+            "time": "2013-08-05 08:22:19"
+        },
+        {
+            "name": "integer-net/removecustomeraccountlinks",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/integer-net/RemoveCustomerAccountLinks.git",
+                "reference": "57df69796def08f419cdc6d7bca7cb7ddb0a1fee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/integer-net/RemoveCustomerAccountLinks/zipball/57df69796def08f419cdc6d7bca7cb7ddb0a1fee",
+                "reference": "57df69796def08f419cdc6d7bca7cb7ddb0a1fee",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "map": [
+                    [
+                        "app/code/community/IntegerNet/RemoveCustomerAccountLinks",
+                        "app/code/community/IntegerNet/RemoveCustomerAccountLinks"
+                    ],
+                    [
+                        "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml",
+                        "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml"
+                    ],
+                    [
+                        "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv",
+                        "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv"
+                    ]
+                ]
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Philipp"
+                }
+            ],
+            "description": "Removes customer account links in Magento.",
+            "homepage": "https://github.com/integer-net/RemoveCustomerAccountLinks",
+            "support": {
+                "source": "https://github.com/integer-net/RemoveCustomerAccountLinks/tree/master",
+                "issues": "https://github.com/integer-net/RemoveCustomerAccountLinks/issues"
+            },
+            "time": "2013-03-04 16:15:57"
+        },
+        {
+            "name": "itabs/invoice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/itabs/Itabs_Invoice.git",
+                "reference": "v1.1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/itabs/Itabs_Invoice/zipball/v1.1.0",
+                "reference": "v1.1.0",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rouven Alexander Rieker",
+                    "email": "therouv@googlemail.com"
+                }
+            ],
+            "description": "Provides the payment method Invoice",
+            "homepage": "https://github.com/itabs/Itabs_Invoice",
+            "support": {
+                "source": "https://github.com/itabs/Itabs_Invoice/tree/v1.1.0",
+                "issues": "https://github.com/itabs/Itabs_Invoice/issues"
+            },
+            "time": "2013-04-11 09:47:12"
         },
         {
             "name": "magento-hackathon/magento-composer-installer",
@@ -157,6 +450,75 @@
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
             "time": "2013-07-31 04:30:45"
+        },
+        {
+            "name": "therouv/debitpayment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/therouv/Magento-DebitPayment.git",
+                "reference": "1.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/therouv/Magento-DebitPayment/zipball/1.0.2",
+                "reference": "1.0.2",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rouven Alexander Rieker",
+                    "email": "therouv@googlemail.com"
+                }
+            ],
+            "description": "Provides the payment method DebitPayment",
+            "homepage": "https://github.com/therouv/Magento-DebitPayment",
+            "support": {
+                "source": "https://github.com/therouv/Magento-DebitPayment/tree/1.0.2",
+                "issues": "https://github.com/therouv/Magento-DebitPayment/issues"
+            },
+            "time": "2013-05-24 10:09:12"
+        },
+        {
+            "name": "tim-reynolds/magento-qconfig",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
+                "reference": "1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/1.0",
+                "reference": "1.0",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Reynolds"
+                }
+            ],
+            "description": "Magento config quick search",
+            "homepage": "https://github.com/tim-reynolds/",
+            "support": {
+                "source": "https://github.com/tim-reynolds/magento-qconfig/tree/1.0",
+                "issues": "https://github.com/tim-reynolds/magento-qconfig/issues"
+            },
+            "time": "2013-07-31 19:42:16"
         }
     ],
     "packages-dev": [
@@ -167,8 +529,17 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "avstudnitz/avs_scopehint": 20,
-        "integer_net/integernet_autoshipping": 20
+        "firegento/germansetup": 20,
+        "firegento/pdf": 20,
+        "fbrnc/aoe_managestores": 20,
+        "fbrnc/aoe_jscsststamp": 20,
+        "itabs/invoice": 20,
+        "therouv/debitpayment": 20,
+        "avstudnitz/scopehint": 20,
+        "avstudnitz/admin-notification-advanced": 20,
+        "tim-reynolds/magento-qconfig": 20,
+        "integer-net/removecustomeraccountlinks": 20,
+        "integer-net/autoshipping": 20
     },
     "platform": [
 
