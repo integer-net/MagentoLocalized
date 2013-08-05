@@ -13,6 +13,7 @@
  * Installation start page
  *
  * @see Mage_Install_Block_Begin
+ * @var $this Mage_Install_Block_Begin
  */
 ?>
 <div class="page-head">
@@ -25,27 +26,16 @@
 <div>
 <h4><?php echo $this->__('Select your edition:') ?></h4>
 <ul id="magento_localization">
+    <?php foreach ((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData): ?>
+        <?php $editionData = (array)$editionData ?>
     <li>
-        <label for="edition_de">
-            <img src="<?php echo $this->getSkinUrl('images/magento-localized/magento-edition-deutschland.jpg') ?>" alt="Magento DE" /><br />
-            <?php echo $this->__('Magento DE - Deutschland') ?>
+        <label for="edition_<?php echo $editionCode ?>">
+            <img src="<?php echo $this->getSkinUrl($editionData['image_filename']) ?>" alt="<?php echo $editionData['name'] ?>" /><br />
+            <?php echo $editionData['name'] ?>
         </label>
-        <input type="radio" name="localization" class="validate-one-required-by-name" id="edition_de" value="1" />
+        <input type="radio" name="edition" class="validate-one-required-by-name" id="edition_<?php echo $editionCode ?>" value="<?php echo $editionCode ?>" />
     </li>
-    <li>
-        <label for="edition_at">
-            <img src="<?php echo $this->getSkinUrl('images/magento-localized/magento-edition-oesterreich.jpg') ?>" alt="Magento AT" /><br />
-            <?php echo $this->__('Magento AT - Österreich') ?>
-        </label>
-        <input type="radio" name="localization" class="validate-one-required-by-name" id="edition_at" value="1" />
-    </li>
-    <li>
-        <label for="edition_ch">
-            <img src="<?php echo $this->getSkinUrl('images/magento-localized/magento-edition-schweiz.jpg') ?>" alt="Magento AT" /><br />
-            <?php echo $this->__('Magento CH - Schweiz') ?>
-        </label>
-        <input type="radio" name="localization" class="validate-one-required-by-name" id="edition_ch" value="1" />
-    </li>
+    <?php endforeach ?>
 </ul>
 </div>
 
@@ -80,7 +70,7 @@ function changeSubmitStatus(obj) {
 //<![CDATA[
     changeSubmitStatus($('agree'));
 
-    var dataForm = new VarienForm('begin-form');
+    var beginForm = new VarienForm('begin-form');
 
     $('magento_localization').on('change', 'input', function(event) {
         $$('#magento_localization li').each(function(liItem) {

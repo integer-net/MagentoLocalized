@@ -184,17 +184,17 @@
                 </observers>
             </checkout_additional_information>
         </events>-->
-    </frontend>
 
-    <wizard>
-        <steps>
-            <begin translate="code">
-                <code>Begin</code>
-                <controller>wizard</controller>
-                <action>begin</action>
-            </begin>
-        </steps>
-    </wizard>
+        <routers>
+            <install>
+                <args>
+                    <modules>
+                        <IntegerNet_MagentoLocalized before="Mage_Install">IntegerNet_MagentoLocalized_Install</IntegerNet_MagentoLocalized>
+                    </modules>
+                </args>
+            </install>
+        </routers>
+    </frontend>
 
     <default>
 <!--        <general>

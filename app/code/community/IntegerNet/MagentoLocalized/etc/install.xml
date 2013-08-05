@@ -20,6 +20,24 @@
                 <action>begin</action>
             </begin>
         </steps>
+
     </wizard>
+
+    <magento_localized>
+        <editions>
+            <de>
+                <name>Magento DE - Deutschland</name>
+                <image_filename>images/magento-localized/magento-edition-deutschland.jpg</image_filename>
+            </de>
+            <at>
+                <name>Magento AT - Österreich</name>
+                <image_filename>images/magento-localized/magento-edition-oesterreich.jpg</image_filename>
+            </at>
+            <ch>
+                <name>Magento CH - Schweiz</name>
+                <image_filename>images/magento-localized/magento-edition-schweiz.jpg</image_filename>
+            </ch>
+        </editions>
+    </magento_localized>
 
 </config>
