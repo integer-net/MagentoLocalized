@@ -28,18 +28,18 @@
             <de>
                 <name>Magento DE - Deutschland</name>
                 <image_filename>images/magento-localized/magento-edition-deutschland.jpg</image_filename>
-                <module_path>connect20/Locale_Mage_community_de_DE</module_path>
-                <locale_path>connect20/Locale_Mage_community_de_DE</locale_path>
+                <module_package>integer-net/magento-localized-de</module_package>
+                <locale_package>connect20/locale_mage_community_de_de</locale_package>
             </de>
             <at>
                 <name>Magento AT - Österreich</name>
                 <image_filename>images/magento-localized/magento-edition-oesterreich.jpg</image_filename>
-                <locale_path>connect20/Locale_Mage_community_de_DE</locale_path>
+                <locale_package>connect20/locale_mage_community_de_de</locale_package>
             </at>
             <ch>
                 <name>Magento CH - Schweiz</name>
                 <image_filename>images/magento-localized/magento-edition-schweiz.jpg</image_filename>
-                <locale_path>connect20/Locale_Mage_community_de_DE</locale_path>
+                <locale_package>connect20/locale_mage_community_de_de</locale_package>
             </ch>
         </editions>
     </magento_localized>

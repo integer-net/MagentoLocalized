@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "da4e9df5bf900dfcf952dc9d57be8d64",
+    "hash": "bf4f1c5ead7829bbc7a2187423908f85",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -293,6 +293,32 @@
             "time": "2013-08-05 08:22:19"
         },
         {
+            "name": "integer-net/magento-localized-de",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
+                "reference": "d4c5cadefd1fe959ebf36342c2a788915ba1d79d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/d4c5cadefd1fe959ebf36342c2a788915ba1d79d",
+                "reference": "d4c5cadefd1fe959ebf36342c2a788915ba1d79d",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "German Localization package for Magento Localized (aka Magento DE)",
+            "homepage": "https://github.com/integer-net/MagentoLocalizedDE",
+            "support": {
+                "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
+                "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
+            },
+            "time": "2013-08-05 13:44:01"
+        },
+        {
             "name": "integer-net/removecustomeraccountlinks",
             "version": "dev-master",
             "source": {
@@ -529,17 +555,18 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "integer-net/magento-localized-de": 20,
         "firegento/germansetup": 20,
         "firegento/pdf": 20,
         "fbrnc/aoe_managestores": 20,
         "fbrnc/aoe_jscsststamp": 20,
-        "itabs/invoice": 20,
-        "therouv/debitpayment": 20,
         "avstudnitz/scopehint": 20,
         "avstudnitz/admin-notification-advanced": 20,
         "tim-reynolds/magento-qconfig": 20,
         "integer-net/removecustomeraccountlinks": 20,
-        "integer-net/autoshipping": 20
+        "integer-net/autoshipping": 20,
+        "itabs/invoice": 20,
+        "therouv/debitpayment": 20
     },
     "platform": [
 

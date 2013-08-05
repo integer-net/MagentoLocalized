@@ -1,20 +1,24 @@
 {
     "minimum-stability": "dev",
     "require": {
+        "integer-net/magento-localized-de": "dev-master",
+
+        "connect20/locale_mage_community_de_de": "*",
+
         "firegento/germansetup": "dev-master",
         "firegento/pdf": "dev-master",
-        "connect20/locale_mage_community_de_de": "*",
         "fbrnc/aoe_managestores": "dev-master",
         "fbrnc/aoe_jscsststamp": "dev-master",
         "connect20/dermodpro_baseprice": "*",
-        "connect20/cashondelivery": "*",
-        "itabs/invoice": "dev-master",
-        "therouv/debitpayment": "dev-master",
         "avstudnitz/scopehint": "dev-master",
         "avstudnitz/admin-notification-advanced": "dev-master",
         "tim-reynolds/magento-qconfig": "dev-master",
         "integer-net/removecustomeraccountlinks": "dev-master",
-        "integer-net/autoshipping": "dev-master"
+        "integer-net/autoshipping": "dev-master",
+
+        "connect20/cashondelivery": "*",
+        "itabs/invoice": "dev-master",
+        "therouv/debitpayment": "dev-master"
     },
     "repositories": [
         {
@@ -36,6 +40,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/Autoshipping.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
         }
     ],
     "extra": {
