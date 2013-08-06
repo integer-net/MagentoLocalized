@@ -42,9 +42,6 @@ class IntegerNet_MagentoLocalized_Model_Installer
         }
 
         Mage::app()->cleanCache();
-        Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
-        Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
-
     }
 
     /**

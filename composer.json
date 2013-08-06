@@ -4,6 +4,7 @@
         "integer-net/magento-localized-de": "dev-master",
 
         "connect20/locale_mage_community_de_de": "*",
+        "connect20/locale_mage_community_ru_ru": "*",
 
         "firegento/germansetup": "dev-master",
         "firegento/pdf": "dev-master",

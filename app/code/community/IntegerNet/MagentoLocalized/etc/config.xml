@@ -234,7 +234,7 @@
                 <session_cookie_lifetime>36000</session_cookie_lifetime>
             </security>
             <startup>
-                <!--<page>system/magento_localized</page>-->
+                <page>system/magento_localized/configuration</page>
             </startup>
             <magento_localized>
                 <display_logo>1</display_logo>

@@ -23,6 +23,8 @@ class IntegerNet_MagentoLocalized_Model_Observer
     public function predispatchInstallWizard($observer)
     {
         Mage::getDesign()->setTheme('magento_localized');
+        Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
+        Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
     }
 
     /**
