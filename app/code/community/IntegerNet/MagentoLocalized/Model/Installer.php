@@ -32,6 +32,8 @@ class IntegerNet_MagentoLocalized_Model_Installer
         $localizedModulePackageName = Mage::getSingleton('install/config')->getNode('magento_localized/editions/' . $editionCode . '/module_package');
         if ($localizedModulePackageName) {
             $this->installPackageByName($localizedModulePackageName);
+            Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
+            Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
         } else {
             Mage::throwException(Mage::helper('magento_localized')->__('Localized Package for code "%s" not set', $editionCode));
         }

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="root">
+            <action method="unsetChild"><name>menu</name></action>
+            <block type="magento_localized/page_menu" name="menu" as="menu" />
+        </reference>
+        <reference name="head">
+            <action method="addCss"><name>magento_localized/magento_localized.css</name></action>
+        </reference>
+        <reference name="header">
+            <action method="setTemplate">
+                <template>magento_localized/header.phtml</template>
+            </action>
+            <block type="magento_localized/logo" name="magento_localized.logo" as="logo" template="magento_localized/logo.phtml" />
+        </reference>
+        <reference name="before_body_end">
+            <block type="magento_localized/tracking" name="magento_localized.tracking" template="magento_localized/tracking.phtml" after="*" />
+        </reference>
+    </default>
+
+    <adminhtml_dashboard_index>
+        <reference name="dashboard">
+            <action method="unsetChild"><name>sales</name></action>
+            <block type="adminhtml/text_list" name="dashboard.sales" as="sales">
+                <block type="magento_localized/dashboard_widget" name="dashboard.sales.magento_localized"
+                    template="magento_localized/dashboard/widget.phtml"/>
+                <block type="adminhtml/dashboard_sales" name="dashboard.sales.sales"/>
+            </block>
+        </reference>
+    </adminhtml_dashboard_index>
+
+</layout>

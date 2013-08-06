@@ -32,14 +32,13 @@
                 <class>IntegerNet_MagentoLocalized_Helper</class>
             </magento_localized>
         </helpers>
-<!--        <resources>
+        <resources>
             <magento_localized_setup>
                 <setup>
                     <module>IntegerNet_MagentoLocalized</module>
-                    <class>magento_localized/setup</class>
                 </setup>
             </magento_localized_setup>
-        </resources>-->
+        </resources>
         <events>
             <controller_action_predispatch_install_wizard_index>
                 <observers>
@@ -139,7 +138,7 @@
     </admin>
 
     <frontend>
-<!--        <layout>
+        <layout>
             <updates>
                 <magento_localized>
                     <file>magento_localized.xml</file>
@@ -156,15 +155,6 @@
             </modules>
         </translate>
         <events>
-            <core_collection_abstract_load_after>
-                <observers>
-                    <integernet_magento_localized>
-                        <type>singleton</type>
-                        <class>magento_localized/observer</class>
-                        <method>afterLoadCollection</method>
-                    </integernet_magento_localized>
-                </observers>
-            </core_collection_abstract_load_after>
             <cms_page_load_after>
                 <observers>
                     <integernet_magento_localized>
@@ -183,7 +173,7 @@
                     </integernet_magento_localized>
                 </observers>
             </checkout_additional_information>
-        </events>-->
+        </events>
 
         <routers>
             <install>
@@ -197,49 +187,6 @@
     </frontend>
 
     <default>
-<!--        <general>
-            <country>
-                <allow>DE</allow>
-            </country>
-            <locale>
-                <code>de_DE</code>
-                <firstday>1</firstday>
-            </locale>
-            <store_information>
-                <merchant_country>DE</merchant_country>
-            </store_information>
-            <imprint>
-                <country>DE</country>
-                <display_copyright>1</display_copyright>
-            </imprint>
-        </general>
-        <design>
-            <header>
-                <welcome>Herzlich Willkommen!</welcome>
-            </header>
-            <theme>
-                <locale>custom</locale>
-                <template>custom</template>
-                <skin>custom</skin>
-                <layout>custom</layout>
-            </theme>
-        </design>
-        <catalog>
-            <custom_options>
-                <time_format>24h</time_format>
-                <date_fields_order>d,m,y</date_fields_order>
-            </custom_options>
-            <baseprice>
-                <base_price_incl_tax>1</base_price_incl_tax>
-                <frontend_label>entspricht {{baseprice}} pro {{reference_amount}} {{reference_unit}}</frontend_label>
-            </baseprice>
-        </catalog>
-        <sales>
-            <reorder>
-                <allow>0</allow>
-                <hide_sidebar_box>1</hide_sidebar_box>
-            </reorder>
-        </sales>
         <removecustomeraccountlinks>
             <settings>
                 <remove>recurring_profiles,billing_agreements,tags,OAuth Customer Tokens</remove>
@@ -261,61 +208,6 @@
                 <checkout_multiple>0</checkout_multiple>
             </option>
         </shipping>
-        <autoshipping>
-            <settings>
-                <enabled>1</enabled>
-                <country_id>DE</country_id>
-            </settings>
-        </autoshipping>
-        <carriers>
-            <flatrate>
-                <title>Versandkosten</title>
-                <name>Pauschal</name>
-                <type>O</type>
-                <price>4.90</price>
-            </flatrate>
-            <freeshipping>
-                <active>1</active>
-                <title>Versandkosten</title>
-                <name>Versandkostenfrei</name>
-                <free_shipping_subtotal>50</free_shipping_subtotal>
-            </freeshipping>
-        </carriers>
-        <payment>
-            <ccsave>
-                <active>0</active>
-            </ccsave>
-            <checkmo>
-                <active>0</active>
-            </checkmo>
-            <free>
-                <title>Kostenfrei</title>
-            </free>
-            <banktransfer>
-                <active>1</active>
-                <title>Vorkasse</title>
-                <sort_order>20</sort_order>
-            </banktransfer>
-            <debit>
-                <active>1</active>
-                <title>Lastschrift</title>
-                <sort_order>30</sort_order>
-                <order_status>pending</order_status>
-                <allowspecific>1</allowspecific>
-                <specificcountry>DE</specificcountry>
-            </debit>
-            <cashondelivery>
-                <active>1</active>
-                <title>Nachnahme</title>
-                <sort_order>40</sort_order>
-                <order_status>pending</order_status>
-                <shippingallowspecific>1</shippingallowspecific>
-                <shippingspecificcountry>DE</shippingspecificcountry>
-                <inlandcosts>2</inlandcosts>
-                <customtext>Bei Zahlung per Nachnahme erhebt der Zusteller zusätzlich 2,00 €
-                    Übermittlungsentgelt vor Ort.</customtext>
-            </cashondelivery>
-        </payment>
         <admin>
             <security>
                 <session_cookie_lifetime>36000</session_cookie_lifetime>
@@ -341,39 +233,5 @@
                 <merge_css_files>0</merge_css_files>
             </css>
         </dev>
-        <magento_localized>
-            <appfactory_url_de>http://de.nr-apps.com</appfactory_url_de>
-            <appfactory_url_en>http://www.nr-apps.com</appfactory_url_en>
-            <magentode_url_de>http://de.nr-apps.com/store/magento-de.html</magentode_url_de>
-            <magentode_url_en>http://www.nr-apps.com/store/magento-de.html</magentode_url_en>
-            <integernet_url_de>http://www.integer-net.de</integernet_url_de>
-            <integernet_url_en>http://www.integer-net.de</integernet_url_en>
-            <limesoda_url_de>http://www.limesoda.com/</limesoda_url_de>
-            <limesoda_url_en>http://www.limesoda.com/</limesoda_url_en>
-            <openstream_url_de>http://www.openstream.ch/</openstream_url_de>
-            <openstream_url_en>http://www.openstream.ch/e</openstream_url_en>
-            <tracking_url>http://www.nr-apps.com/store/magento_localized/tracking</tracking_url>
-            <newsfeed_url>http://www.nr-apps.com/store/media/magento_localized/feed.xml</newsfeed_url>
-            <iframe_url_prefix>https://www.nr-apps.com/n/magento-de/</iframe_url_prefix>
-            <iframe_url_suffix>.html</iframe_url_suffix>
-            <feed_url_prefix>http://www.nr-apps.com/store/media/magento_localized/</feed_url_prefix>
-            <default_language>
-                <code>de</code>
-                <name>Deutsch</name>
-            </default_language>
-            <available_languages>
-                <en_US>English</en_US>
-                &lt;!&ndash;<fr_FR>Français</fr_FR>&ndash;&gt;
-                &lt;!&ndash;<it_IT>Italiano</it_IT>&ndash;&gt;
-            </available_languages>
-            <country>DE</country>
-            <currency>EUR</currency>
-            <timezone>Europe/Berlin</timezone>
-            <module_title>Magento DE</module_title>
-            <module_code>magento_de</module_code>
-        </magento_localized>
-        <germansetup>
-            <default_country>de</default_country>
-        </germansetup>-->
     </default>
 </config>
