@@ -4,7 +4,7 @@
         <system>
             <children>
                 <magento_localized translate="title">
-                    <title>Magento Localized</title>
+                    <title>Localized Magento Editions</title>
                     <sort_order>11</sort_order>
                     <action>adminhtml/magentoLocalized/form</action>
                     <class>magento_localized</class>
@@ -44,7 +44,7 @@
             </children>
         </system>
         <magento_localized translate="title" module="magento_localized">
-            <title>Magento DE</title>
+            <title>Localized Magento Editions</title>
             <sort_order>11</sort_order>
             <action>adminhtml/magentoLocalized</action>
             <class>magento_localized</class>
@@ -89,13 +89,13 @@
                     <system>
                         <children>
                             <magento_localized translate="title">
-                                <title>German Store Configuration for Magento CE</title>
+                                <title>Localized Magento Editions</title>
                                 <sort_order>11</sort_order>
                             </magento_localized>
                         </children>
                     </system>
                     <magento_localized translate="title">
-                        <title>German Store Configuration for Magento CE</title>
+                        <title>Localized Magento Editions</title>
                         <sort_order>11</sort_order>
                     </magento_localized>
                 </children>

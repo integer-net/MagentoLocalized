@@ -18,6 +18,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Deploystrategy\DeploystrategyAbstract');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Deploystrategy\Copy');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Parser');
+        $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\MapParser');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\PackageXmlParser');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\ModmanParser');
     }
@@ -40,6 +41,8 @@ class IntegerNet_MagentoLocalized_Model_Installer
         if ($localePackageName) {
             $this->installPackageByName($localePackageName);
         }
+
+        $this->installPackageByName('firegento/germansetup');
 
         Mage::app()->cleanCache();
     }

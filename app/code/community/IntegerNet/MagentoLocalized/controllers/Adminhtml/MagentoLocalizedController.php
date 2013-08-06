@@ -137,6 +137,8 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             $this->_deactivateCache();
         }
 
+        $this->_installModules();
+
         $this->_updateConfigData();
 
         $this->_createStores();
@@ -163,10 +165,28 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
         $this->_redirect('');
     }
 
+    protected function _installModules()
+    {
+        $installer = Mage::getSingleton('magento_localized/installer');
+
+        $installer->installPackageByName('firegento/pdf');
+        $installer->installPackageByName('fbrnc/aoe_managestores');
+        $installer->installPackageByName('fbrnc/aoe_jscsststamp');
+        $installer->installPackageByName('connect20/dermodpro_baseprice');
+        $installer->installPackageByName('avstudnitz/scopehint');
+        $installer->installPackageByName('avstudnitz/dmin-notification-advanced');
+        $installer->installPackageByName('tim-reynolds/magento-qconfig');
+        $installer->installPackageByName('integer-net/removecustomeraccountlinks');
+        $installer->installPackageByName('integer-net/autoshipping');
+        $installer->installPackageByName('connect20/cashondelivery');
+        $installer->installPackageByName('itabs/invoice');
+        $installer->installPackageByName('therouv/debitpayment');
+    }
+
     /**
      * Update configuration based on form entries
      */
-    public function _updateConfigData()
+    protected function _updateConfigData()
     {
         if ($this->getRequest()->isPost()) {
 
