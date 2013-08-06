@@ -1,0 +1,12 @@
+#nav li.magento_localized > a {
+    background: url('logo.png') no-repeat 8px 4px !important;
+}
+#nav ul li.magento_localized > a {
+    background: url('logo.png') no-repeat 13px 3px !important;
+}
+#nav li.magento_localized > a span {
+    padding-left: 20px;
+}
+#nav ul li.magento_localized > a span {
+    padding-left: 35px;
+}

@@ -30,12 +30,7 @@ class IntegerNet_MagentoLocalized_Block_Logo extends Mage_Adminhtml_Block_Templa
      */
     public function getLogoUrl()
     {
-        $localeCode = Mage::app()->getLocale()->getLocaleCode();
-        if (strpos($localeCode, 'de_') === 0) {
-            return $this->getSkinUrl('magento_localized/logo-magento_localized-de.png');
-        } else {
-            return $this->getSkinUrl('magento_localized/logo-magento_localized-de.png');
-        }
+        return $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename'));
     }
 
     /**

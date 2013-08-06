@@ -49,9 +49,11 @@
                     <a href="<?php echo $this->getUrl('') ?>" style="text-decoration: none;">
                         <img src="<?php echo $this->getSkinUrl('images/logo.gif') ?>" title="<?php echo Mage::helper('install')->__('Magento') ?>" alt="<?php echo Mage::helper('install')->__('Magento') ?>" />
                     </a>
-                    <a href="<?php echo Mage::getStoreConfig('magento_localized/url') ?>" target="_blank">
-                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" title="<?php echo Mage::helper('magento_localized')->__('Magento Localized') ?>" alt="<?php echo Mage::helper('magento_localized')->__('Magento Localized') ?>" />
+                    <?php if (Mage::getStoreConfig('magento_localized/logo_filename')): ?>
+                    <a href="<?php echo Mage::getStoreConfig('magento_localized/module_url') ?>" target="_blank" title="<?php echo Mage::getStoreConfig('magento_localized/module_title') ?>">
+                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') ?>" />
                     </a>
+                    <?php endif ?>
                 </h1>
 
                 <?php echo $this->getChildHtml('topSearch') ?>

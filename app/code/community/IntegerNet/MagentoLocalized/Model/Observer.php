@@ -66,7 +66,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
         $page = $observer->getObject();
         if ($page->getIdentifier() == 'impressum' && Mage::getStoreConfigFlag('general/imprint/display_copyright')) {
             $copyrightHtml = Mage::app()->getLayout()
-                ->createBlock('magento_localized/frontend_copyright', 'copyright')
+                ->createBlock('core/template', 'copyright')
                 ->setTemplate('magento_localized/copyright.phtml')
                 ->toHtml();
             $page->setContent($page->getContent() . $copyrightHtml);
