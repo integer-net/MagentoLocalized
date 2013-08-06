@@ -16,22 +16,26 @@
             <version>0.1.0</version>
         </IntegerNet_MagentoLocalized>
     </modules>
+
     <global>
         <models>
             <magento_localized>
                 <class>IntegerNet_MagentoLocalized_Model</class>
             </magento_localized>
         </models>
+
         <blocks>
             <magento_localized>
                 <class>IntegerNet_MagentoLocalized_Block</class>
             </magento_localized>
         </blocks>
+
         <helpers>
             <magento_localized>
                 <class>IntegerNet_MagentoLocalized_Helper</class>
             </magento_localized>
         </helpers>
+
         <resources>
             <magento_localized_setup>
                 <setup>
@@ -39,6 +43,7 @@
                 </setup>
             </magento_localized_setup>
         </resources>
+
         <events>
             <controller_action_predispatch_install_wizard_index>
                 <observers>
@@ -114,6 +119,7 @@
                 </magento_localized>
             </updates>
         </layout>
+
         <translate>
             <modules>
                 <IntegerNet_MagentoLocalized>
@@ -130,7 +136,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <IntegerNet_MagentoLocalized after="Mage_Adminhtml">IntegerNet_MagentoLocalized</IntegerNet_MagentoLocalized>
+                        <IntegerNet_MagentoLocalized after="Mage_Adminhtml">IntegerNet_MagentoLocalized_Adminhtml</IntegerNet_MagentoLocalized>
                     </modules>
                 </args>
             </adminhtml>
@@ -145,6 +151,7 @@
                 </magento_localized>
             </updates>
         </layout>
+
         <translate>
             <modules>
                 <IntegerNet_MagentoLocalized>
@@ -154,6 +161,7 @@
                 </IntegerNet_MagentoLocalized>
             </modules>
         </translate>
+
         <events>
             <cms_page_load_after>
                 <observers>
@@ -164,6 +172,7 @@
                     </integernet_magento_localized>
                 </observers>
             </cms_page_load_after>
+
             <checkout_additional_information>
                 <observers>
                     <integernet_magento_localized>
@@ -185,6 +194,18 @@
             </install>
         </routers>
     </frontend>
+
+    <install>
+        <translate>
+            <modules>
+                <IntegerNet_MagentoLocalized>
+                    <files>
+                        <default>IntegerNet_MagentoLocalized.csv</default>
+                    </files>
+                </IntegerNet_MagentoLocalized>
+            </modules>
+        </translate>
+    </install>
 
     <default>
         <removecustomeraccountlinks>
@@ -213,7 +234,7 @@
                 <session_cookie_lifetime>36000</session_cookie_lifetime>
             </security>
             <startup>
-                <page>system/magento_localized</page>
+                <!--<page>system/magento_localized</page>-->
             </startup>
             <magento_localized>
                 <display_logo>1</display_logo>

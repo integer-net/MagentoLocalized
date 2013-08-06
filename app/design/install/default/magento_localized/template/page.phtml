@@ -49,8 +49,8 @@
                     <a href="<?php echo $this->getUrl('') ?>" style="text-decoration: none;">
                         <img src="<?php echo $this->getSkinUrl('images/logo.gif') ?>" title="<?php echo Mage::helper('install')->__('Magento') ?>" alt="<?php echo Mage::helper('install')->__('Magento') ?>" />
                     </a>
-                    <a href="<?php echo Mage::getStoreConfig('germanstoreconfig/url') ?>" target="_blank">
-                        <img src="<?php echo $this->getSkinUrl('images/magento-edition-deutschland.jpg') ?>" title="<?php echo Mage::helper('install')->__('Magento Localized') ?>" alt="<?php echo Mage::helper('install')->__('Magento Localized') ?>" />
+                    <a href="<?php echo Mage::getStoreConfig('magento_localized/url') ?>" target="_blank">
+                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" title="<?php echo Mage::helper('magento_localized')->__('Magento Localized') ?>" alt="<?php echo Mage::helper('magento_localized')->__('Magento Localized') ?>" />
                     </a>
                 </h1>
 

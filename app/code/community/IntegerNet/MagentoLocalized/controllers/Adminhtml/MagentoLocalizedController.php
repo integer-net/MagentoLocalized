@@ -9,7 +9,7 @@
  * @author     Andreas von Studnitz <avs@integer-net.de>
  */
 
-class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends Mage_Adminhtml_Controller_Action
+class IntegerNet_MagentoLocalized_Adminhtml_MagentolocalizedController extends Mage_Adminhtml_Controller_Action
 {
     public function indexAction()
     {

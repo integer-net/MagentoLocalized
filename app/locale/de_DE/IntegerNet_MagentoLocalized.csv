@@ -78,3 +78,6 @@
 "<a href=""%s"" target=""_blank"">Magento DE</a> is a project of the Magento community powered by <a href=""%s"" target=""_blank"">Netresearch App Factory</a> &amp; <a href=""%s"" target=""_blank"">integer_net</a>","<a href=""%s"" target=""_blank"">Magento DE</a> ist ein Projekt der Magento Community powered by <a href=""%s"" target=""_blank"">Netresearch App Factory</a> &amp; <a href=""%s"" target=""_blank"">integer_net</a>"
 
 "Phoenix_CashOnDelivery::You will be charged an extra fee of %s.","Nachnahmegebühr %s"
+
+"Country Selection","Länderauswahl"
+"Please go to <a href=""%s"">Backend</a> now in order to complete the preconfiguration.","Bitte betreten Sie jetzt das <a href=""%s"">Backend</a>, um die Konfiguration abzuschließen."
