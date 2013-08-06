@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "66dae181d4e514490998fe37a598b38c",
+    "hash": "0cb0a7361dbfad00a680ba88cea1ffe8",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -139,6 +139,33 @@
             "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten."
         },
         {
+            "name": "connect20/Locale_Mage_community_ru_RU",
+            "version": "1.0.19870.47",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_ru_RU/1.0.19870.4.7/Locale_Mage_community_ru_RU-1.0.19870.4.7.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "AFL-v3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Magento Core",
+                    "email": "magentoadmin@magentocommerce.com"
+                }
+            ],
+            "description": "Magento Community Modules - Russian (Russia) Language Pack"
+        },
+        {
             "name": "fbrnc/aoe_jscsststamp",
             "version": "dev-master",
             "source": {
@@ -267,6 +294,32 @@
             "time": "2013-06-02 12:40:40"
         },
         {
+            "name": "ikonoshirt/customadminnotifications",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git",
+                "reference": "88807e2154ed018c8a5da53c88fae5705cda9a01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ikonoshirt/CustomAdminNotifications/zipball/88807e2154ed018c8a5da53c88fae5705cda9a01",
+                "reference": "88807e2154ed018c8a5da53c88fae5705cda9a01",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "dev-master"
+            },
+            "type": "magento-module",
+            "description": "Add own RSS Feeds to admin notifications.",
+            "homepage": "https://github.com/ikonoshirt/CustomAdminNotifications",
+            "support": {
+                "source": "https://github.com/ikonoshirt/CustomAdminNotifications/tree/master",
+                "issues": "https://github.com/ikonoshirt/CustomAdminNotifications/issues"
+            },
+            "time": "2013-08-06 13:56:13"
+        },
+        {
             "name": "integer-net/autoshipping",
             "version": "dev-master",
             "source": {
@@ -298,12 +351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
-                "reference": "d4c5cadefd1fe959ebf36342c2a788915ba1d79d"
+                "reference": "296b5a98b3b75b93c5dfc8ab6a05e10aa491d460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/d4c5cadefd1fe959ebf36342c2a788915ba1d79d",
-                "reference": "d4c5cadefd1fe959ebf36342c2a788915ba1d79d",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/296b5a98b3b75b93c5dfc8ab6a05e10aa491d460",
+                "reference": "296b5a98b3b75b93c5dfc8ab6a05e10aa491d460",
                 "shasum": ""
             },
             "require": {
@@ -316,7 +369,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
             },
-            "time": "2013-08-05 13:44:01"
+            "time": "2013-08-06 11:14:49"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
@@ -565,6 +618,7 @@
         "tim-reynolds/magento-qconfig": 20,
         "integer-net/removecustomeraccountlinks": 20,
         "integer-net/autoshipping": 20,
+        "ikonoshirt/customadminnotifications": 20,
         "itabs/invoice": 20,
         "therouv/debitpayment": 20
     },

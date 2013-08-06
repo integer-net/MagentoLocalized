@@ -254,5 +254,76 @@
                 <merge_css_files>0</merge_css_files>
             </css>
         </dev>
+        <magento_localized>
+            <form_fields>
+                <general__imprint__shop_name translate="label">
+                    <type>text</type>
+                    <label>Shop Name</label>
+                    <sorting>10</sorting>
+                    <optional>0</optional>
+                </general__imprint__shop_name>
+                <general__imprint__company_first translate="label">
+                    <type>text</type>
+                    <label>Company 1</label>
+                    <sorting>20</sorting>
+                    <optional>0</optional>
+                </general__imprint__company_first>
+                <general__imprint__company_second translate="label">
+                    <type>text</type>
+                    <label>Company 2</label>
+                    <sorting>25</sorting>
+                    <optional>1</optional>
+                </general__imprint__company_second>
+                <general__imprint__street translate="label">
+                    <type>text</type>
+                    <label>Street</label>
+                    <sorting>30</sorting>
+                    <optional>0</optional>
+                </general__imprint__street>
+                <general__imprint__zip translate="label">
+                    <type>text</type>
+                    <label>Zip</label>
+                    <sorting>40</sorting>
+                    <optional>0</optional>
+                </general__imprint__zip>
+                <general__imprint__city translate="label">
+                    <type>text</type>
+                    <label>City</label>
+                    <sorting>50</sorting>
+                    <optional>0</optional>
+                </general__imprint__city>
+                <general__imprint__country translate="label">
+                    <type>select</type>
+                    <source_model>adminhtml/system_config_source_country</source_model>
+                    <label>Country</label>
+                    <sorting>60</sorting>
+                    <optional>0</optional>
+                </general__imprint__country>
+                <general__imprint__telephone translate="label">
+                    <type>text</type>
+                    <label>Telephone</label>
+                    <sorting>70</sorting>
+                    <optional>0</optional>
+                </general__imprint__telephone>
+                <general__imprint__fax translate="label">
+                    <type>text</type>
+                    <label>Fax</label>
+                    <sorting>80</sorting>
+                    <optional>1</optional>
+                </general__imprint__fax>
+                <general__imprint__email translate="label">
+                    <type>text</type>
+                    <label>E-Mail</label>
+                    <sorting>90</sorting>
+                    <optional>0</optional>
+                </general__imprint__email>
+                <general__imprint__web translate="label">
+                    <type>text</type>
+                    <label>Website</label>
+                    <sorting>100</sorting>
+                    <optional>0</optional>
+                </general__imprint__web>
+            </form_fields>
+        </magento_localized>
     </default>
 </config>

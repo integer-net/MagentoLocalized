@@ -16,6 +16,7 @@
         "tim-reynolds/magento-qconfig": "dev-master",
         "integer-net/removecustomeraccountlinks": "dev-master",
         "integer-net/autoshipping": "dev-master",
+        "ikonoshirt/customadminnotifications": "dev-master",
 
         "connect20/cashondelivery": "*",
         "itabs/invoice": "dev-master",
@@ -41,6 +42,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/Autoshipping.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
         },
         {
             "type": "vcs",
