@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0cb0a7361dbfad00a680ba88cea1ffe8",
+    "hash": "222c36194cc11ed75954fd6cf9ccb08a",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -37,12 +37,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "f8639a83f0bc85bddaaafd8c9d3fd737df08748a"
+                "reference": "0.5.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/f8639a83f0bc85bddaaafd8c9d3fd737df08748a",
-                "reference": "f8639a83f0bc85bddaaafd8c9d3fd737df08748a",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/0.5.0",
+                "reference": "0.5.0",
                 "shasum": ""
             },
             "require": {
@@ -52,10 +52,10 @@
             "description": "Creates a warning if a configuration setting is overwritten on a lower level (website or store view",
             "homepage": "https://github.com/avstudnitz/AvS_ScopeHint",
             "support": {
-                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
+                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/0.5.0",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2013-08-05 08:20:27"
+            "time": "2013-08-06 18:59:11"
         },
         {
             "name": "connect20/CashOnDelivery",
@@ -110,33 +110,6 @@
                 }
             ],
             "description": "This extension enables you to display the base price for products.  E.g. if you sell\ndifferent quantities of oil, you can enter the amount each bottle contains (like 250ml)\nand a reference unit (like liter), and the price per liter is calculated and displayed."
-        },
-        {
-            "name": "connect20/Locale_Mage_community_de_DE",
-            "version": "1.7.0.20",
-            "dist": {
-                "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_de_DE/1.7.0.2.0/Locale_Mage_community_de_DE-1.7.0.2.0.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "extra": {
-                "package-xml": "package.xml"
-            },
-            "license": [
-                "OSL"
-            ],
-            "authors": [
-                {
-                    "name": "Rico Neitzel",
-                    "email": "rico@buro71a.de"
-                }
-            ],
-            "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten."
         },
         {
             "name": "connect20/Locale_Mage_community_ru_RU",
@@ -531,6 +504,42 @@
             "time": "2013-07-31 04:30:45"
         },
         {
+            "name": "riconeitzel/german-localepack-de-de",
+            "version": "dev-preview",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git",
+                "reference": "25c6bdfae1443981873e2f1f5a2809ea3b7c7e62"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/25c6bdfae1443981873e2f1f5a2809ea3b7c7e62",
+                "reference": "25c6bdfae1443981873e2f1f5a2809ea3b7c7e62",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Rico Neitzel"
+                },
+                {
+                    "name": "Daniel Sasse"
+                }
+            ],
+            "description": "German Community Translation",
+            "support": {
+                "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/preview",
+                "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
+            },
+            "time": "2013-08-02 13:49:29"
+        },
+        {
             "name": "therouv/debitpayment",
             "version": "dev-master",
             "source": {
@@ -609,6 +618,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "integer-net/magento-localized-de": 20,
+        "riconeitzel/german-localepack-de-de": 20,
         "firegento/germansetup": 20,
         "firegento/pdf": 20,
         "fbrnc/aoe_managestores": 20,

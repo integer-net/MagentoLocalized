@@ -3,7 +3,7 @@
     "require": {
         "integer-net/magento-localized-de": "dev-master",
 
-        "connect20/locale_mage_community_de_de": "*",
+        "riconeitzel/german-localepack-de-de": "dev-preview",
         "connect20/locale_mage_community_ru_ru": "*",
 
         "firegento/germansetup": "dev-master",
@@ -46,6 +46,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git"
         },
         {
             "type": "vcs",
