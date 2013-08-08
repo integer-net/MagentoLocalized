@@ -324,6 +324,118 @@
                     <optional>0</optional>
                 </general__imprint__web>
             </form_fields>
+
+            <modules>
+                <firegento_pdf>
+                    <name>FireGento PDF</name>
+                    <description>FireGento PDF overwrites standard PDF layouts for invoices, shipments and creditmemos.</description>
+                    <url>http://www.magentocommerce.com/magento-connect/pdf-9999.html</url>
+                    <code>firegento/pdf</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </firegento_pdf>
+                <dermodpro_baseprice>
+                    <name>Baseprice Extension</name>
+                    <description>Automatic calculation and indication of the basis price for articles</description>
+                    <url>http://www.nr-apps.com/store/baseprice-extension-basic.html</url>
+                    <code>connect20/dermodpro_baseprice</code>
+                    <is_required>0</is_required>
+                    <is_default>0</is_default>
+                    <is_available>1</is_available>
+                </dermodpro_baseprice>
+                <aoe_managestores>
+                    <name>Manage Stores</name>
+                    <description>A much more intuitive interface for managing your shop structure.</description>
+                    <url>http://www.fabrizio-branca.de/magento-website-store-groups-store-views.html</url>
+                    <code>fbrnc/aoe_managestores</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </aoe_managestores>
+                <aoe_jscsststamp>
+                    <name>JS CSS Timestamp</name>
+                    <description>Automatic Versioning of JS and CSS files for Magento</description>
+                    <url>https://github.com/fbrnc/Aoe_JsCssTstamp</url>
+                    <code>fbrnc/aoe_jscsststamp</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </aoe_jscsststamp>
+                <avstudnitz_scopehint>
+                    <name>Scope Hint</name>
+                    <description>Creates a warning if a configuration setting is overwritten on a lower level (website or store view)</description>
+                    <url>https://github.com/avstudnitz/AvS_ScopeHint</url>
+                    <code>avstudnitz/scopehint</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </avstudnitz_scopehint>
+                <avstudnitz_admin_notification_advanced>
+                    <name>Admin Notification Advanced</name>
+                    <description>Improves handling of notifactions in admin area: mark all read, delete all, ...</description>
+                    <url>https://github.com/avstudnitz/AvS_ScopeHint</url>
+                    <code>avstudnitz/admin-notification-advanced</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </avstudnitz_admin_notification_advanced>
+                <timreynolds_magento_qconfig>
+                    <name>Magento Quick Config Module</name>
+                    <description>A Magento module that adds Quick Search functionality to the Admin Configuration area</description>
+                    <url>https://github.com/tim-reynolds/magento-qconfig</url>
+                    <code>tim-reynolds/magento-qconfig</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </timreynolds_magento_qconfig>
+                <integernet_removecustomeraccountlinks>
+                    <name>Removes Customer Account Links</name>
+                    <description>Removes unwanted Links from the "My Account" Navigation</description>
+                    <url>https://github.com/integer-net/RemoveCustomerAccountLinks</url>
+                    <code>integer-net/removecustomeraccountlinks</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </integernet_removecustomeraccountlinks>
+                <integernet_autoshipping>
+                    <name>Autoshipping</name>
+                    <description>Provide shipping costs in Magento Cart, plus the ability to change the country there</description>
+                    <url>https://github.com/integer-net/Autoshipping</url>
+                    <code>integer-net/autoshipping</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </integernet_autoshipping>
+                <cashondelivery>
+                    <name>Cash on Delivery (Payment Method)</name>
+                    <description>Cash on Delivery allows to book additional fee on delivery depending on inland or international delivery.</description>
+                    <url>http://www.magentocommerce.com/magento-connect/cashondelivery.html</url>
+                    <code>connect20/cashondelivery</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </cashondelivery>
+                <itabs_invoice>
+                    <name>Invoice (Payment Method)</name>
+                    <description>Payment Method "Invoice"</description>
+                    <url>https://github.com/itabs/Itabs_Invoice</url>
+                    <code>itabs/invoice</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </itabs_invoice>
+                <therouv_debitpayment>
+                    <name>Debit Payment (Payment Method)</name>
+                    <description>This extension allows shop owners to provide the payment method "DebitPayment" to their customers.</description>
+                    <url>http://www.magentocommerce.com/magento-connect/debitpayment.html</url>
+                    <code>therouv/debitpayment</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </therouv_debitpayment>
+
+            </modules>
         </magento_localized>
     </default>
 </config>

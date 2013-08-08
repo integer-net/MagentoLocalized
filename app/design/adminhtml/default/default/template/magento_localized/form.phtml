@@ -69,6 +69,8 @@
             </div>
         </div>
 
+
+
         <div class="entry-edit-head">
             <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('PayPal') ?></h4>
             <div class="form-buttons"></div>
@@ -90,6 +92,8 @@
             </div>
         </div>
 
+
+
         <?php if (sizeof($this->getAdditionalLanguages())): ?>
         <div class="entry-edit-head">
             <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Store Languages') ?></h4>
@@ -108,7 +112,7 @@
                                 <label for="field_language_<?php echo $languageCode ?>"><?php echo $this->__($languageName) ?></label>
                                 <br />
                                 <?php endforeach ?>
-                                (<?php echo $this->__('German language will be created automatically.') ?>)
+                                (<?php echo $this->__('%s language will be created automatically.', $this->__(Mage::getStoreConfig('magento_localized/default_language/name'))) ?>)
                             </td>
                             <td class="comment"></td>
                         </tr>
@@ -117,6 +121,67 @@
             </div>
         </div>
         <?php endif ?>
+
+
+
+        <div class="entry-edit-head">
+            <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Integrated Modules') ?></h4>
+            <div class="form-buttons"></div>
+        </div>
+
+        <div class="fieldset" id="group_modules">
+            <div class="hor-scroll">
+                <table cellspacing="0" class="form-list">
+                    <tbody>
+                    <tr id="field_modules_default">
+                        <td class="label"></td>
+                        <td class="value">
+                            <input type="radio" name="modules_default" id="field_modules_default_1" class="radio modules-default" value="1" checked="checked" />
+                            <label for="field_modules_default"><?php echo $this->__('Install default modules') ?></label>
+                            <br />
+                            <input type="radio" name="modules_default" id="field_modules_default_0" class="radio modules-default" value="0" />
+                            <label for="field_modules_default"><?php echo $this->__('Choose which modules you want to install (Advanced Mode)') ?></label>
+                        </td>
+                    </tr>
+                    <tr id="field_modules" style="display: none;">
+                        <td class="label"><label><?php echo $this->__('Install the following modules:') ?></label></td>
+                        <td class="value">
+                            <?php foreach ($this->getModulesData() as $moduleIdentifier => $module): ?>
+                                <?php if (!$module['is_available']): continue; endif ?>
+                                <input
+                                    type="checkbox"
+                                    name="module[<?php echo $moduleIdentifier ?>]"
+                                    id="field_module_<?php echo $moduleIdentifier ?>"
+                                    class="checkbox"
+                                    value="1"
+                                    <?php if ($module['is_default']): ?>checked="checked"<?php endif ?>
+                                    <?php if ($module['is_required']): ?>disabled="disabled"<?php endif ?>
+                                    />
+                                <label for="field_module_<?php echo $moduleIdentifier ?>">
+                                    <?php echo $this->__($module['name']) ?>
+                                </label>
+                                <?php if ($module['description'] || $module['url']): ?>
+                                    <?php if ($module['url']): ?>
+                                        <a href="<?php echo $module['url'] ?>" target="_blank">
+                                    <?php endif ?>
+                                        <img src="<?php echo $this->getSkinUrl('images/i_question-mark.png') ?>"
+                                             alt="<?php echo $this->escapeHtml($this->__($module['description'])) ?>"
+                                             title="<?php echo $this->escapeHtml($this->__($module['description'])) ?> (<?php echo $this->__('Click for more information in a new window') ?>)" />
+                                    <?php if ($module['url']): ?>
+                                        </a>
+                                    <?php endif ?>
+                                <?php endif ?>
+                                <br />
+
+                            <?php endforeach ?>
+                        </td>
+                        <td class="comment"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
 
         <div class="entry-edit-head">
             <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Help to improve %s - data transfer', $moduleTitle) ?></h4>
@@ -216,4 +281,12 @@
 </div>
 <script type="text/javascript">
     setupForm = new varienForm('setup_form', '');
+
+    $('field_modules_default').on('change', 'input', function(event) {
+        if ($F('field_modules_default_1')) {
+            $('field_modules').hide();
+        } else {
+            $('field_modules').show();
+        }
+    });
 </script>

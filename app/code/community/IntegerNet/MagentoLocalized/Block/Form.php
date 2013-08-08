@@ -56,4 +56,13 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
     {
         return Mage::getStoreConfig('magento_localized/available_languages');
     }
+
+    public function getModulesData()
+    {
+        $modulesData = array();
+        foreach(Mage::getStoreConfig('magento_localized/modules') as $moduleIdentifier => $module) {
+            $modulesData[$moduleIdentifier] = (array) $module;
+        }
+        return $modulesData;
+    }
 }
