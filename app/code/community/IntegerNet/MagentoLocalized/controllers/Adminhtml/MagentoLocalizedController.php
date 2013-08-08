@@ -169,18 +169,17 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
     {
         $installer = Mage::getSingleton('magento_localized/installer');
 
-        $installer->installPackageByName('firegento/pdf');
-        $installer->installPackageByName('fbrnc/aoe_managestores');
-        $installer->installPackageByName('fbrnc/aoe_jscsststamp');
-        $installer->installPackageByName('connect20/dermodpro_baseprice');
-        $installer->installPackageByName('avstudnitz/scopehint');
-        $installer->installPackageByName('avstudnitz/dmin-notification-advanced');
-        $installer->installPackageByName('tim-reynolds/magento-qconfig');
-        $installer->installPackageByName('integer-net/removecustomeraccountlinks');
-        $installer->installPackageByName('integer-net/autoshipping');
-        $installer->installPackageByName('connect20/cashondelivery');
-        $installer->installPackageByName('itabs/invoice');
-        $installer->installPackageByName('therouv/debitpayment');
+        foreach((array)Mage::getStoreConfig('magento_localized/modules') as $moduleIdentifier => $module) {
+
+            $modulesParam = $this->getRequest()->getParam('module');
+            if (
+                $module['is_required']
+                || ($this->getRequest()->getParam('modules_default') == 1 && $module['is_default'])
+                || ($module['is_available'] && isset($modulesParam[$moduleIdentifier]) && $modulesParam[$moduleIdentifier] == 1)
+            ) {
+                $installer->installPackageByName($module['code']);
+            }
+        }
     }
 
     /**
