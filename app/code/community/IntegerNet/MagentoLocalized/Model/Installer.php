@@ -42,6 +42,12 @@ class IntegerNet_MagentoLocalized_Model_Installer
             $this->installPackageByName($localePackageName);
         }
 
+        $localeFallbackPackageName = Mage::getSingleton('install/config')->getNode('magento_localized/editions/' . $editionCode . '/locale_fallback_package');
+        if ($localeFallbackPackageName) {
+            $this->installPackageByName('magento-hackathon/localefallback');
+            $this->installPackageByName($localeFallbackPackageName);
+        }
+
         $this->installPackageByName('firegento/germansetup');
 
         Mage::app()->cleanCache();

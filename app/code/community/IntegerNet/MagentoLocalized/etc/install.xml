@@ -34,13 +34,15 @@
             <at>
                 <name>Magento AT - Österreich</name>
                 <image_filename>magento_localized/magento-edition-at.jpg</image_filename>
-                <locale_package>riconeitzel/german-localepack-de-de</locale_package>
+                <locale_package></locale_package>
+                <locale_fallback_package>riconeitzel/german-localepack-de-de</locale_fallback_package>
             </at>
             <ch>
                 <name>Magento CH - Schweiz</name>
                 <image_filename>magento_localized/magento-edition-ch.jpg</image_filename>
                 <module_package>integer-net/magento-localized-ch</module_package>
-                <locale_package>riconeitzel/german-localepack-de-de</locale_package>
+                <locale_package></locale_package>
+                <locale_fallback_package>riconeitzel/german-localepack-de-de</locale_fallback_package>
             </ch>
             <ru>
                 <name>Magento RU - Россия</name>

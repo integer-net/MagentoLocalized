@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "1116dde7629b439a1d4bfda417c35c33",
+    "hash": "387c9f71b9f19a36403eb09fd5ff3625",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -319,17 +319,43 @@
             "time": "2013-08-05 08:22:19"
         },
         {
+            "name": "integer-net/magento-localized-at",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/MagentoLocalizedAT.git",
+                "reference": "0a23e9a15c80aeef867201fb16173d9155518c5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/0a23e9a15c80aeef867201fb16173d9155518c5a",
+                "reference": "0a23e9a15c80aeef867201fb16173d9155518c5a",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Austrian Localization package for Magento Localized (aka Magento AT)",
+            "homepage": "https://github.com/integer-net/MagentoLocalizedAT",
+            "support": {
+                "source": "https://github.com/integer-net/MagentoLocalizedAT/tree/master",
+                "issues": "https://github.com/integer-net/MagentoLocalizedAT/issues"
+            },
+            "time": "2013-08-09 11:00:57"
+        },
+        {
             "name": "integer-net/magento-localized-ch",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "b343b4a0c38a9cf605e9fe5534080a3c7a3bf427"
+                "reference": "1c0e3824fddaa93f41b5d024c35e99baaee2e0d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/b343b4a0c38a9cf605e9fe5534080a3c7a3bf427",
-                "reference": "b343b4a0c38a9cf605e9fe5534080a3c7a3bf427",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/1c0e3824fddaa93f41b5d024c35e99baaee2e0d0",
+                "reference": "1c0e3824fddaa93f41b5d024c35e99baaee2e0d0",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +368,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2013-08-09 10:18:43"
+            "time": "2013-08-09 10:43:59"
         },
         {
             "name": "integer-net/magento-localized-de",
@@ -673,6 +699,7 @@
     "stability-flags": {
         "integer-net/magento-localized-de": 20,
         "integer-net/magento-localized-ch": 20,
+        "integer-net/magento-localized-at": 20,
         "riconeitzel/german-localepack-de-de": 20,
         "firegento/germansetup": 20,
         "firegento/pdf": 20,

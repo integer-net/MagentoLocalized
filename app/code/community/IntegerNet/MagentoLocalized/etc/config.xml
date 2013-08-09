@@ -395,7 +395,7 @@
                     <url>https://github.com/integer-net/RemoveCustomerAccountLinks</url>
                     <code>integer-net/removecustomeraccountlinks</code>
                     <is_required>0</is_required>
-                    <is_default>0</is_default>
+                    <is_default>1</is_default>
                     <is_available>1</is_available>
                 </integernet_removecustomeraccountlinks>
                 <integernet_autoshipping>
@@ -403,7 +403,7 @@
                     <description>Provide shipping costs in Magento Cart, plus the ability to change the country there</description>
                     <url>https://github.com/integer-net/Autoshipping</url>
                     <code>integer-net/autoshipping</code>
-                    <is_required>1</is_required>
+                    <is_required>0</is_required>
                     <is_default>1</is_default>
                     <is_available>1</is_available>
                 </integernet_autoshipping>
