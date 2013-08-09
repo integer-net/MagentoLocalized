@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "222c36194cc11ed75954fd6cf9ccb08a",
+    "hash": "333bac05f28acfd5e7c5cf63077fb42c",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -37,25 +37,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "0.5.0"
+                "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/0.5.0",
-                "reference": "0.5.0",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
             "require": {
                 "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
-            "description": "Creates a warning if a configuration setting is overwritten on a lower level (website or store view",
+            "description": "Creates a warning if a configuration setting, product data or category data is overwritten on a lower level (website or store view)",
             "homepage": "https://github.com/avstudnitz/AvS_ScopeHint",
             "support": {
-                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/0.5.0",
+                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2013-08-06 18:59:11"
+            "time": "2013-08-06 22:05:50"
         },
         {
             "name": "connect20/CashOnDelivery",
@@ -243,12 +243,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-pdf.git",
-                "reference": "5c09fff204470ab08f811756fe2fccf12003d997"
+                "reference": "db130d53782bb6f4195108fba7766662cc9fb5fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-pdf/zipball/5c09fff204470ab08f811756fe2fccf12003d997",
-                "reference": "5c09fff204470ab08f811756fe2fccf12003d997",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/db130d53782bb6f4195108fba7766662cc9fb5fa",
+                "reference": "db130d53782bb6f4195108fba7766662cc9fb5fa",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +264,7 @@
                 "source": "https://github.com/firegento/firegento-pdf/tree/master",
                 "issues": "https://github.com/firegento/firegento-pdf/issues"
             },
-            "time": "2013-06-02 12:40:40"
+            "time": "2013-08-07 11:37:01"
         },
         {
             "name": "ikonoshirt/customadminnotifications",
@@ -324,12 +324,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
-                "reference": "296b5a98b3b75b93c5dfc8ab6a05e10aa491d460"
+                "reference": "e16b3f20f5540460529b1592e21ed9a3bff88029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/296b5a98b3b75b93c5dfc8ab6a05e10aa491d460",
-                "reference": "296b5a98b3b75b93c5dfc8ab6a05e10aa491d460",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/e16b3f20f5540460529b1592e21ed9a3bff88029",
+                "reference": "e16b3f20f5540460529b1592e21ed9a3bff88029",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +342,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
             },
-            "time": "2013-08-06 11:14:49"
+            "time": "2013-08-09 08:08:41"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
@@ -350,12 +350,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/integer-net/RemoveCustomerAccountLinks.git",
-                "reference": "57df69796def08f419cdc6d7bca7cb7ddb0a1fee"
+                "reference": "9b495c58b65c9389db36842ba9ffeb5cd32eafdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/integer-net/RemoveCustomerAccountLinks/zipball/57df69796def08f419cdc6d7bca7cb7ddb0a1fee",
-                "reference": "57df69796def08f419cdc6d7bca7cb7ddb0a1fee",
+                "url": "https://github.com/integer-net/RemoveCustomerAccountLinks/zipball/9b495c58b65c9389db36842ba9ffeb5cd32eafdc",
+                "reference": "9b495c58b65c9389db36842ba9ffeb5cd32eafdc",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +392,7 @@
                 "source": "https://github.com/integer-net/RemoveCustomerAccountLinks/tree/master",
                 "issues": "https://github.com/integer-net/RemoveCustomerAccountLinks/issues"
             },
-            "time": "2013-03-04 16:15:57"
+            "time": "2013-08-06 18:43:59"
         },
         {
             "name": "itabs/invoice",
