@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "333bac05f28acfd5e7c5cf63077fb42c",
+    "hash": "4db1e02d536283e1f91cdced21303fcf",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -319,6 +319,32 @@
             "time": "2013-08-05 08:22:19"
         },
         {
+            "name": "integer-net/magento-localized-ch",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
+                "reference": "b343b4a0c38a9cf605e9fe5534080a3c7a3bf427"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/b343b4a0c38a9cf605e9fe5534080a3c7a3bf427",
+                "reference": "b343b4a0c38a9cf605e9fe5534080a3c7a3bf427",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Swiss Localization package for Magento Localized (aka Magento CH)",
+            "homepage": "https://github.com/integer-net/MagentoLocalizedCH",
+            "support": {
+                "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
+                "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
+            },
+            "time": "2013-08-09 10:18:43"
+        },
+        {
             "name": "integer-net/magento-localized-de",
             "version": "dev-master",
             "source": {
@@ -618,6 +644,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "integer-net/magento-localized-de": 20,
+        "integer-net/magento-localized-ch": 20,
         "riconeitzel/german-localepack-de-de": 20,
         "firegento/germansetup": 20,
         "firegento/pdf": 20,

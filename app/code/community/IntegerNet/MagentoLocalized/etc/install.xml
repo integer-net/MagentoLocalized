@@ -39,6 +39,7 @@
             <ch>
                 <name>Magento CH - Schweiz</name>
                 <image_filename>magento_localized/magento-edition-ch.jpg</image_filename>
+                <module_package>integer-net/magento-localized-ch</module_package>
                 <locale_package>riconeitzel/german-localepack-de-de</locale_package>
             </ch>
             <ru>

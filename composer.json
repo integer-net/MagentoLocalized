@@ -2,6 +2,7 @@
     "minimum-stability": "dev",
     "require": {
         "integer-net/magento-localized-de": "dev-master",
+        "integer-net/magento-localized-ch": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
         "connect20/locale_mage_community_ru_ru": "*",
@@ -54,6 +55,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedCH.git"
         }
     ],
     "extra": {
