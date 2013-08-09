@@ -151,10 +151,12 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
             $this->_reindexAll();
 
-            Mage::getSingleton('adminhtml/session')->addSuccess($this->__('Magento was prepared successfully.'));
+            Mage::getSingleton('adminhtml/session')->addSuccess($this->__('Magento was prepared successfully. Please log out and log in again in order to access the newly installed modules.'));
 
             // Set a config flag to indicate that the setup has been initialized.
             $this->_setConfigData('magento_localized/is_initialized', 1);
+
+            $this->_setConfigData('removecustomeraccountlinks/settings/remove', 'recurring_profiles,billing_agreements,tags,OAuth Customer Tokens');
 
         } else {
 
@@ -197,7 +199,9 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 }
                 $this->_setConfigData('general/store_information/name', $fieldData['general__imprint__shop_name']);
                 $this->_setConfigData('general/store_information/phone', $fieldData['general__imprint__telephone']);
-                $this->_setConfigData('general/store_information/merchant_vat_number', $fieldData['general__imprint__vat_id']);
+                if (isset($fieldData['general__imprint__vat_id'])) {
+                    $this->_setConfigData('general/store_information/merchant_vat_number', $fieldData['general__imprint__vat_id']);
+                }
                 $this->_setConfigData('general/store_information/address', $this->_getAddress($fieldData));
                 $this->_setConfigData('sales/identity/address', $this->_getAddress($fieldData));
                 $this->_setConfigData('design/head/default_title', $fieldData['general__imprint__shop_name']);
@@ -223,18 +227,40 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 $this->_setConfigData('shipping/origin/postcode', $fieldData['general__imprint__zip']);
                 $this->_setConfigData('shipping/origin/city', $fieldData['general__imprint__city']);
                 $this->_setConfigData('shipping/origin/street_line1', $fieldData['general__imprint__street']);
-                $this->_setConfigData('payment/banktransfer/instructions', $this->__(
-                    'After completion of this order, please transfer the order amount to: %s, Account %s, Bank number %s, %s (IBAN %s, SWIFT %s)',
-                    $fieldData['general__imprint__bank_account_owner'],
-                    $fieldData['general__imprint__bank_account'],
-                    $fieldData['general__imprint__bank_code_number'],
-                    $fieldData['general__imprint__bank_name'],
-                    $fieldData['general__imprint__iban'],
-                    $fieldData['general__imprint__swift']
-                ));
-                $this->_setConfigData('debitpayment/bankaccount/account_owner', $fieldData['general__imprint__bank_account_owner']);
-                $this->_setConfigData('debitpayment/bankaccount/routing_number', $fieldData['general__imprint__bank_code_number']);
-                $this->_setConfigData('debitpayment/bankaccount/account_number', $fieldData['general__imprint__bank_account']);
+                if (isset($fieldData['general__imprint__bank_account_owner'])
+                    && isset($fieldData['general__imprint__bank_account'])
+                    && isset($fieldData['general__imprint__bank_code_number'])
+                    && isset($fieldData['general__imprint__iban'])
+                    && isset($fieldData['general__imprint__swift'])
+                ) {
+                    $this->_setConfigData('payment/banktransfer/instructions', $this->__(
+                        'After completion of this order, please transfer the order amount to: %s, Account %s, Bank number %s, %s',
+                        $fieldData['general__imprint__bank_account_owner'],
+                        $fieldData['general__imprint__bank_account'],
+                        $fieldData['general__imprint__bank_code_number'],
+                        $fieldData['general__imprint__bank_name']
+                    ));
+
+                    $this->_setConfigData('debitpayment/bankaccount/account_owner', $fieldData['general__imprint__bank_account_owner']);
+                    $this->_setConfigData('debitpayment/bankaccount/routing_number', $fieldData['general__imprint__bank_code_number']);
+                    $this->_setConfigData('debitpayment/bankaccount/account_number', $fieldData['general__imprint__bank_account']);
+
+                    if (isset($fieldData['general__imprint__iban'])
+                        && isset($fieldData['general__imprint__swift'])
+                    ) {
+                        $this->_setConfigData('payment/banktransfer/instructions', $this->__(
+                            'After completion of this order, please transfer the order amount to: %s, Account %s, Bank number %s, %s (IBAN %s, SWIFT %s)',
+                            $fieldData['general__imprint__bank_account_owner'],
+                            $fieldData['general__imprint__bank_account'],
+                            $fieldData['general__imprint__bank_code_number'],
+                            $fieldData['general__imprint__bank_name'],
+                            $fieldData['general__imprint__iban'],
+                            $fieldData['general__imprint__swift']
+                        ));
+
+                    }
+                }
+
 
                 $defaultStore = Mage::app()->getDefaultStoreView();
                 if ($defaultStore->getId()) {
