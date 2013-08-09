@@ -34,6 +34,7 @@
             <at>
                 <name>Magento AT - Österreich</name>
                 <image_filename>magento_localized/magento-edition-at.jpg</image_filename>
+                <module_package>integer-net/magento-localized-at</module_package>
                 <locale_package></locale_package>
                 <locale_fallback_package>riconeitzel/german-localepack-de-de</locale_fallback_package>
             </at>
