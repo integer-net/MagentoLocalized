@@ -9,6 +9,7 @@
 
         "firegento/germansetup": "dev-master",
         "firegento/pdf": "dev-master",
+        "magento-hackathon/localefallback": "dev-master",
         "fbrnc/aoe_managestores": "dev-master",
         "fbrnc/aoe_jscsststamp": "dev-master",
         "connect20/dermodpro_baseprice": "*",
@@ -47,6 +48,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git"
         },
         {
             "type": "vcs",

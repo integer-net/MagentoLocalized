@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4db1e02d536283e1f91cdced21303fcf",
+    "hash": "1116dde7629b439a1d4bfda417c35c33",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -456,6 +456,34 @@
             "time": "2013-04-11 09:47:12"
         },
         {
+            "name": "magento-hackathon/localefallback",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
+                "reference": "6de1846bb9c0ace7d6fa6a7d3eb39593de458fdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/6de1846bb9c0ace7d6fa6a7d3eb39593de458fdb",
+                "reference": "6de1846bb9c0ace7d6fa6a7d3eb39593de458fdb",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "license": [
+                "OSL-3.0"
+            ],
+            "description": "Allows a fallback for locales (translations, emails etc.)",
+            "homepage": "https://github.com/magento-hackathon/Hackathon_LocaleFallback",
+            "support": {
+                "source": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/tree/master"
+            },
+            "time": "2013-08-02 13:39:57"
+        },
+        {
             "name": "magento-hackathon/magento-composer-installer",
             "version": "dev-master",
             "source": {
@@ -648,6 +676,7 @@
         "riconeitzel/german-localepack-de-de": 20,
         "firegento/germansetup": 20,
         "firegento/pdf": 20,
+        "magento-hackathon/localefallback": 20,
         "fbrnc/aoe_managestores": 20,
         "fbrnc/aoe_jscsststamp": 20,
         "avstudnitz/scopehint": 20,
