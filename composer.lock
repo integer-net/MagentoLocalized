@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "373f067805b77b89969abb7cee2c10c7",
+    "hash": "a25af40d1b576b63912747e2431aad14",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -36,12 +36,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
@@ -112,31 +112,25 @@
             "description": "This extension enables you to display the base price for products.  E.g. if you sell\ndifferent quantities of oil, you can enter the amount each bottle contains (like 250ml)\nand a reference unit (like liter), and the price per liter is calculated and displayed."
         },
         {
-            "name": "connect20/Locale_Mage_community_ru_RU",
-            "version": "1.0.19870.47",
-            "dist": {
-                "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_ru_RU/1.0.19870.4.7/Locale_Mage_community_ru_RU-1.0.19870.4.7.tgz",
-                "reference": null,
-                "shasum": null
+            "name": "etws/et_russianlanguagepack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://avstudnitz@bitbucket.org/avstudnitz/et_russianlanguagepack.git",
+                "reference": "a7d3c5d5aecd4f1321b7d0ed61787b37b296a456"
             },
             "require": {
                 "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
-            "extra": {
-                "package-xml": "package.xml"
-            },
-            "license": [
-                "AFL-v3.0"
-            ],
             "authors": [
                 {
-                    "name": "Magento Core",
-                    "email": "magentoadmin@magentocommerce.com"
+                    "name": "ET Web Solutions"
                 }
             ],
-            "description": "Magento Community Modules - Russian (Russia) Language Pack"
+            "description": "ET Russian Language Pack",
+            "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
+            "time": "2013-08-14 12:23:31"
         },
         {
             "name": "fbrnc/aoe_jscsststamp",
@@ -214,12 +208,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-germansetup.git",
-                "reference": "04d90e23b39148416b7ba64444ebf9aaeb48b271"
+                "reference": "d53739f00a09871145e7de952a95eca099c95dcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-germansetup/zipball/04d90e23b39148416b7ba64444ebf9aaeb48b271",
-                "reference": "04d90e23b39148416b7ba64444ebf9aaeb48b271",
+                "url": "https://github.com/firegento/firegento-germansetup/zipball/d53739f00a09871145e7de952a95eca099c95dcb",
+                "reference": "d53739f00a09871145e7de952a95eca099c95dcb",
                 "shasum": ""
             },
             "require": {
@@ -235,7 +229,7 @@
                 "source": "https://github.com/firegento/firegento-germansetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-germansetup/issues"
             },
-            "time": "2013-06-21 08:49:53"
+            "time": "2013-08-09 15:14:49"
         },
         {
             "name": "firegento/pdf",
@@ -243,12 +237,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-pdf.git",
-                "reference": "97af12210463a0709731afaefd5565ed2229a0e1"
+                "reference": "106e9c1b1c33eee57c5818ba1139d0fe771db2c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-pdf/zipball/97af12210463a0709731afaefd5565ed2229a0e1",
-                "reference": "97af12210463a0709731afaefd5565ed2229a0e1",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/106e9c1b1c33eee57c5818ba1139d0fe771db2c8",
+                "reference": "106e9c1b1c33eee57c5818ba1139d0fe771db2c8",
                 "shasum": ""
             },
             "require": {
@@ -264,7 +258,7 @@
                 "source": "https://github.com/firegento/firegento-pdf/tree/development",
                 "issues": "https://github.com/firegento/firegento-pdf/issues"
             },
-            "time": "2013-06-06 13:14:48"
+            "time": "2013-08-14 09:51:38"
         },
         {
             "name": "ikonoshirt/customadminnotifications",
@@ -324,12 +318,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedAT.git",
-                "reference": "3c82296090c4cc982961c12ffb474a8b418fa044"
+                "reference": "6acc6e397969548b415bf1bf953b6243336d972e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/3c82296090c4cc982961c12ffb474a8b418fa044",
-                "reference": "3c82296090c4cc982961c12ffb474a8b418fa044",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/6acc6e397969548b415bf1bf953b6243336d972e",
+                "reference": "6acc6e397969548b415bf1bf953b6243336d972e",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +336,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedAT/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedAT/issues"
             },
-            "time": "2013-08-09 15:19:26"
+            "time": "2013-08-09 15:33:12"
         },
         {
             "name": "integer-net/magento-localized-ch",
@@ -350,12 +344,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "19fac4f5517a4de29eca8594f91922f87c697000"
+                "reference": "23034af088d79b6cd857cf3fdf2577c4b5e01634"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/19fac4f5517a4de29eca8594f91922f87c697000",
-                "reference": "19fac4f5517a4de29eca8594f91922f87c697000",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/23034af088d79b6cd857cf3fdf2577c4b5e01634",
+                "reference": "23034af088d79b6cd857cf3fdf2577c4b5e01634",
                 "shasum": ""
             },
             "require": {
@@ -368,7 +362,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2013-08-09 15:19:43"
+            "time": "2013-08-09 15:32:57"
         },
         {
             "name": "integer-net/magento-localized-de",
@@ -376,12 +370,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
-                "reference": "d23db698c88d0f6c7cb771b95bd2cd302564af66"
+                "reference": "9ba738d88b1bb459e9316e7997421b0126fe5528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/d23db698c88d0f6c7cb771b95bd2cd302564af66",
-                "reference": "d23db698c88d0f6c7cb771b95bd2cd302564af66",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/9ba738d88b1bb459e9316e7997421b0126fe5528",
+                "reference": "9ba738d88b1bb459e9316e7997421b0126fe5528",
                 "shasum": ""
             },
             "require": {
@@ -394,7 +388,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
             },
-            "time": "2013-08-09 15:19:03"
+            "time": "2013-08-09 15:32:38"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
@@ -625,12 +619,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/therouv/Magento-DebitPayment.git",
-                "reference": "1.0.2"
+                "reference": "issue-24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/therouv/Magento-DebitPayment/zipball/1.0.2",
-                "reference": "1.0.2",
+                "url": "https://github.com/therouv/Magento-DebitPayment/zipball/issue-24",
+                "reference": "issue-24",
                 "shasum": ""
             },
             "require": {
@@ -649,10 +643,10 @@
             "description": "Provides the payment method DebitPayment",
             "homepage": "https://github.com/therouv/Magento-DebitPayment",
             "support": {
-                "source": "https://github.com/therouv/Magento-DebitPayment/tree/1.0.2",
+                "source": "https://github.com/therouv/Magento-DebitPayment/tree/issue-24",
                 "issues": "https://github.com/therouv/Magento-DebitPayment/issues"
             },
-            "time": "2013-05-24 10:09:12"
+            "time": "2013-08-14 07:42:47"
         },
         {
             "name": "tim-reynolds/magento-qconfig",
@@ -701,6 +695,7 @@
         "integer-net/magento-localized-ch": 20,
         "integer-net/magento-localized-at": 20,
         "riconeitzel/german-localepack-de-de": 20,
+        "etws/et_russianlanguagepack": 20,
         "firegento/germansetup": 20,
         "firegento/pdf": 20,
         "magento-hackathon/localefallback": 20,

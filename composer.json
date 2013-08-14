@@ -6,7 +6,7 @@
         "integer-net/magento-localized-at": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
-        "connect20/locale_mage_community_ru_ru": "*",
+        "etws/et_russianlanguagepack": "dev-master",
 
         "firegento/germansetup": "dev-development",
         "firegento/pdf": "dev-development",
@@ -32,31 +32,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/tim-reynolds/magento-qconfig.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/avstudnitz/AvS_ScopeHint.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/avstudnitz/AvS_AdminNotificationAdvanced.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/integer-net/Autoshipping.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git"
         },
         {
             "type": "vcs",
@@ -69,6 +45,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedAT.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://avstudnitz@bitbucket.org/avstudnitz/et_russianlanguagepack.git"
         }
     ],
     "extra": {
