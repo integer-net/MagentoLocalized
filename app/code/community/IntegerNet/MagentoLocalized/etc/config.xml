@@ -436,6 +436,30 @@
                 </therouv_debitpayment>
 
             </modules>
+
+            <languages>
+                <de_DE>
+                    <name>German</name>
+                    <code>riconeitzel/german-localepack-de-de</code>
+                </de_DE>
+                <en_US>
+                    <name>English</name>
+                    <code></code>
+                </en_US>
+                <fr_FR>
+                    <name>French</name>
+                    <code>connect20/locale_mage_community_fr_fr</code>
+                </fr_FR>
+                <it_IT>
+                    <name>Italian</name>
+                    <code>connect20/locale_mage_community_it_it</code>
+                </it_IT>
+                <ru_RU>
+                    <name>Russian</name>
+                    <code>etws/et_russianlanguagepack</code>
+                </ru_RU>
+            </languages>
+
         </magento_localized>
     </default>
 </config>

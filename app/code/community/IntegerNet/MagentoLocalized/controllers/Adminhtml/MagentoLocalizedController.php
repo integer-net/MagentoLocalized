@@ -11,6 +11,8 @@
 
 class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends Mage_Adminhtml_Controller_Action
 {
+    protected $_storeLocales = array();
+
     public function indexAction()
     {
         $helper = Mage::helper('magento_localized');
@@ -265,8 +267,8 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 $defaultStore = Mage::app()->getDefaultStoreView();
                 if ($defaultStore->getId()) {
                     $defaultStore
-                        ->setName(Mage::getStoreConfig('magento_localized/default_language/name'))
-                        ->setCode(Mage::getStoreConfig('magento_localized/default_language/code'))
+                        ->setName($this->__(Mage::getStoreConfig('magento_localized/languages/' . Mage::getStoreConfig('magento_localized/default_language') . '/name')))
+                        ->setCode(current(explode('_', Mage::getStoreConfig('magento_localized/default_language'))))
                         ->save();
                 }
                 $defaultStoreGroup = $defaultStore->getGroup();
@@ -308,6 +310,8 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
         $this->_setConfigData('general/region/state_required', '');
         $this->_setConfigData('general/region/display_all', 0);
         $this->_setConfigData('admin/startup/page', 'dashboard');
+
+        $this->_storeLocales['default'] = Mage::getStoreConfig('magento_localized/default_language');
 
         if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
 
@@ -368,6 +372,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 }
 
                 if ($storeCreated) {
+                    Mage::app()->reinitStores();
                     $this->_setConfigData('web/url/use_store', 1);
                 }
             }
@@ -391,12 +396,14 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
         }
         $store
             ->setCode($languageCode)
-            ->setName($this->__(Mage::getStoreConfig('magento_localized/available_languages/' . $localeCode)))
+            ->setName($this->__(Mage::getStoreConfig('magento_localized/languages/' . $localeCode . '/name')))
             ->setWebsiteId(Mage::app()->getDefaultStoreView()->getWebsiteId())
             ->setGroupId(Mage::app()->getDefaultStoreView()->getGroupId())
             ->setIsActive(1)
             ->setSortOrder($sortOrder)
             ->save();
+
+        $this->_storeLocales[$store->getId()] = $localeCode;
 
         $this->_setConfigData('general/locale/code', $localeCode, 'stores', $store->getId());
         $this->_setConfigData('general/locale/code_fallback', $localeCode, 'stores', $store->getId());
@@ -438,7 +445,9 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
     protected function _runMageSetup()
     {
         Mage::getSingleton('magesetup/setup')->setup(array(
-            'country' => strtolower(Mage::getStoreConfig('magento_localized/country'))
+            'country' => strtolower(Mage::getStoreConfig('magento_localized/country')),
+            'cms_locale' => $this->_storeLocales,
+            'email_locale' => $this->_storeLocales,
         ));
     }
 

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "9a8080c963cebefff684523b9f1491e4",
+    "hash": "267118d5c0811268a3ea6a15b63c78bf",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -112,6 +112,60 @@
             "description": "This extension enables you to display the base price for products.  E.g. if you sell\ndifferent quantities of oil, you can enter the amount each bottle contains (like 250ml)\nand a reference unit (like liter), and the price per liter is calculated and displayed."
         },
         {
+            "name": "connect20/Locale_Mage_community_fr_FR",
+            "version": "1.7.0.1",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_fr_FR/1.7.0.1/Locale_Mage_community_fr_FR-1.7.0.1.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "AFL-v3.0"
+            ],
+            "authors": [
+                {
+                    "name": "SeL",
+                    "email": "seb.lepers@gmail.com"
+                }
+            ],
+            "description": "Magento Community Modules - French (France) Language Pack"
+        },
+        {
+            "name": "connect20/Locale_Mage_community_it_IT",
+            "version": "1.7.0.210",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_it_IT/1.7.0.2.10/Locale_Mage_community_it_IT-1.7.0.2.10.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "Academic-Free-License-(AFL)"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Carboni",
+                    "email": "magento@antoniocarboni.com"
+                }
+            ],
+            "description": "Magento Community Modules -  Pacchetto di lingua italiano (Italia)&#xD;\n"
+        },
+        {
             "name": "etws/et_russianlanguagepack",
             "version": "dev-master",
             "source": {
@@ -208,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "8db79a74ac162cb76f78eab29b1880a6a24616e1"
+                "reference": "04454833b347df4f66f8d38d6869a268895966dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/8db79a74ac162cb76f78eab29b1880a6a24616e1",
-                "reference": "8db79a74ac162cb76f78eab29b1880a6a24616e1",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/04454833b347df4f66f8d38d6869a268895966dc",
+                "reference": "04454833b347df4f66f8d38d6869a268895966dc",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +283,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-08-15 09:16:57"
+            "time": "2013-08-15 16:44:26"
         },
         {
             "name": "firegento/pdf",
@@ -396,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedRU.git",
-                "reference": "95eb8bb4cf082df0b516d877f9412c2f10a2d445"
+                "reference": "9c482a774f99489f152fd19c86d53a261bd71f5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/95eb8bb4cf082df0b516d877f9412c2f10a2d445",
-                "reference": "95eb8bb4cf082df0b516d877f9412c2f10a2d445",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/9c482a774f99489f152fd19c86d53a261bd71f5f",
+                "reference": "9c482a774f99489f152fd19c86d53a261bd71f5f",
                 "shasum": ""
             },
             "require": {
@@ -414,7 +468,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedRU/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedRU/issues"
             },
-            "time": "2013-08-15 14:07:07"
+            "time": "2013-08-15 14:35:02"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",

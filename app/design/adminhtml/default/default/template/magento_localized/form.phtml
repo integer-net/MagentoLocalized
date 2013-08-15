@@ -87,10 +87,13 @@
             </table>
         </div>
     </div>
-    <button type="button" value="Back" id="button-page-one" class="form-buttons" onclick="doButtonClick(this.id,'page-one')"><span><span><?php echo $this->__('Next'); ?></span></span></button>
+    <button type="button" value="Back" id="button-page-one" class="form-buttons" onclick="doButtonClick(this.id,'page-one')"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
 </div>
 
 <div id="page-two" style="display: none;">
+    <button type="button" value="Back" id="button-page-two" onclick="doButtonClick(this.id,'page-two')"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
+    <br /><br />
+
     <?php if (sizeof($this->getAdditionalLanguages())): ?>
         <div class="entry-edit-head">
             <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Store Languages') ?></h4>
@@ -104,12 +107,15 @@
                     <tr>
                         <td class="label"><label for="field_paypal_email"><?php echo $this->__('Create Additional Store Languages') ?></label></td>
                         <td class="value">
-                            <?php foreach($this->getAdditionalLanguages() as $languageCode => $languageName): ?>
+                            <?php foreach($this->getAdditionalLanguages() as $languageCode => $dummy): ?>
                                 <input type="checkbox" name="language[<?php echo $languageCode ?>]" id="field_language_<?php echo $languageCode ?>" class="checkbox" value="1" />
-                                <label for="field_language_<?php echo $languageCode ?>"><?php echo $this->__($languageName) ?></label>
+                                <label for="field_language_<?php echo $languageCode ?>"><?php echo $this->__(Mage::getStoreConfig('magento_localized/languages/' . $languageCode . '/name')) ?></label>
                                 <br />
                             <?php endforeach ?>
-                            (<?php echo $this->__('%s language will be created automatically.', $this->__(Mage::getStoreConfig('magento_localized/default_language/name'))) ?>)
+                            (<?php echo $this->__(
+                                '%s language will be created automatically.',
+                                $this->__(Mage::getStoreConfig('magento_localized/languages/' . Mage::getStoreConfig('magento_localized/default_language') . '/name'))
+                            ) ?>)
                         </td>
                         <td class="comment"></td>
                     </tr>
@@ -274,9 +280,9 @@
             </table>
         </div>
     </div>
-    <button type="button" value="Back" id="button-page-two" onclick="doButtonClick(this.id,'page-two')"><span><span><?php echo $this->__('Back'); ?></span></span></button>
+    <button type="button" value="Back" id="button-page-two" onclick="doButtonClick(this.id,'page-two')"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
     <p class="form-buttons">
-        <?php echo $this->getButtonHtml(Mage::helper('adminhtml')->__('Save'), 'setupForm.submit();', 'save'); ?>
+        <?php echo $this->getButtonHtml(Mage::helper('adminhtml')->__('Setup %s', Mage::getStoreConfig('magento_localized/module_title')), 'setupForm.submit();', 'save'); ?>
     </p>
 </div>
 </form>

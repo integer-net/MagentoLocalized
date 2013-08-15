@@ -15,9 +15,10 @@
 "Store Languages","Shop-Sprachen"
 "Create Additional Store Languages","Zusätzliche Sprachen anlegen"
 "German","Deutsch"
-"English","English"
-"Français","Français"
-"Italiano","Italiano"
+"English","Englisch"
+"French","Französisch"
+"Italian","Italienisch"
+"Russian","Russisch"
 "%s language will be created automatically.","%s wird als Standardsprache automatisch angelegt."
 "Default Category","Standard-Kategorie"
 "Display Logo in Header","Logo im Header anzeigen"
@@ -86,3 +87,7 @@
 
 "Country Selection","Länderauswahl"
 "Please go to <a href=""%s"">Backend</a> now in order to complete the preconfiguration.","Bitte betreten Sie jetzt das <a href=""%s"">Backend</a>, um die Konfiguration abzuschließen."
+
+"Next Page","Nächste Seite"
+"Previous Page","Vorherige Seite"
+"Setup %s","%s einrichten"
