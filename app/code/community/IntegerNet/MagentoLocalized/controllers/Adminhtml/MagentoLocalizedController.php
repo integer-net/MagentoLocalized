@@ -147,7 +147,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
             $this->_markNotificationsAsRead();
 
-            $this->_runGermanSetup();
+            $this->_runMageSetup();
 
             $this->_reindexAll();
 
@@ -433,11 +433,11 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
     }
 
     /**
-     * Run Setup of GermanSetup as if the form had been filled and submitted
+     * Run Setup of MageSetup as if the form had been filled and submitted
      */
-    protected function _runGermanSetup()
+    protected function _runMageSetup()
     {
-        Mage::getSingleton('germansetup/setup')->setup(array(
+        Mage::getSingleton('magesetup/setup')->setup(array(
             'country' => strtolower(Mage::getStoreConfig('magento_localized/country'))
         ));
     }

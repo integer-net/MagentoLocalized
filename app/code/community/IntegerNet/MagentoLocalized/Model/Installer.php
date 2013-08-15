@@ -48,7 +48,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
             $this->installPackageByName($localeFallbackPackageName);
         }
 
-        $this->installPackageByName('firegento/germansetup');
+        $this->installPackageByName('firegento/magesetup');
 
         Mage::app()->cleanCache();
     }

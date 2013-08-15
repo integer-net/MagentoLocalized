@@ -37,6 +37,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/firegento/firegento-magesetup.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
         },
         {
