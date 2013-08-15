@@ -4,11 +4,12 @@
         "integer-net/magento-localized-de": "dev-master",
         "integer-net/magento-localized-ch": "dev-master",
         "integer-net/magento-localized-at": "dev-master",
+        "integer-net/magento-localized-ru": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
         "etws/et_russianlanguagepack": "dev-master",
 
-        "firegento/germansetup": "dev-development",
+        "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-development",
         "magento-hackathon/localefallback": "dev-master",
         "fbrnc/aoe_managestores": "dev-master",
@@ -45,6 +46,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedAT.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedRU.git"
         },
         {
             "type": "vcs",

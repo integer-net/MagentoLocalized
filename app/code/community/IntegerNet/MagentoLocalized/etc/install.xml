@@ -47,6 +47,7 @@
             </ch>
             <ru>
                 <name>Magento RU - Россия</name>
+                <module_package>integer-net/magento-localized-ru</module_package>
                 <image_filename>magento_localized/magento-edition-ru.jpg</image_filename>
                 <locale_package>etws/et_russianlanguagepack</locale_package>
             </ru>
