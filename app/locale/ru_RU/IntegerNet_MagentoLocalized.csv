@@ -1,0 +1,94 @@
+"Localized Magento Editions","Локализованные редакции Magento"
+"Partners - Localized Magento Editions","Партнёры - Локализованные редакции Magento"
+"Dashboard - Localized Magento Editions","Панель управления - Локализованные редакции Magento"
+"Suggestions - Localized Magento Editions","Рекомендации - Локализованные редакции Magento"
+"Partners","Партнёры"
+"Dashboard","Панель управления"
+"Suggestions","Предложения"
+"Please enter your data:","Пожалуйста, введите ваши данные:"
+"Shop Data","Данные магазина"
+"Magento was prepared successfully. Please log out and log in again in order to access the newly installed modules.","Magento успешно подготовлена. Выйдите из панели управления и авторизуйтесь снова, чтобы получить доступ к установленным новым модулям."
+"Your data was saved successfully.","Ваши данные успешно сохранены."
+"After completion of this order, please transfer the order amount to: %s, Account %s, Bank number %s, %s (IBAN %s, SWIFT %s)","Реквизиты: %s, Аккаунт %s, Номер %s, %s (IBAN %s, SWIFT %s)."
+"After completion of this order, please transfer the order amount to: %s, Account %s, Bank number %s, %s","Реквизиты: %s, Аккаунт %s, Номер %s, %s."
+"PayPal Merchant Account Email Address","Email адрес учётной записи продавца PayPal"
+"Store Languages","Языки магазина"
+"Create Additional Store Languages","Создать дополнительные языки магазина"
+"German","Немецкий"
+"English","Английский"
+"Français","Французский"
+"Italiano","Итальянский"
+"Russian","Русский"
+"%s language will be created automatically.","%s язык будет создан автоматически."
+"Default Category","Категория по умолчанию"
+"Display Logo in Header","Отображать логотип в шапке"
+"Display Entry in Menu","Отображать в меню пункт Вход"
+"Display Block in Dashboard","Отображать блок в панели управления"
+"optional","необязательно"
+"Partners","Партнёры"
+"Recommendations","Рекомендации"
+"Integrated Modules","Втроенные модули"
+"Install the following modules:","Установить следующие модули:"
+"Click for more information in a new window","Нажмите для просмотра подробной информации в новом окне"
+"Install default modules","Установить стандартные модули"
+"Choose which modules you want to install (Advanced Mode)","Выберите модули для установки (расширенный режим)"
+
+"Help to improve %s - data transfer","Помогите улучшить %s - передача данных"
+"%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integratet the best and most important extensions for the German market together with the community.","%s это проект, создаваемый сообществом для сообщества. %s создан для того, чтобы начинать использовать Magento было как можно легче. Проект был начат компанией Netresearch App Factory. Реализация ведётся под руководством integer_net и их опытных разработчиков, которые встраивают лучшие и важнейшие модули для немецкого рынка."
+
+"Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions for the German market.","Ваше согласие на передачу информации об использовании системы и контактных данных через %s позволяет разработчикам и партнёрам сообщества распространять, разрабатывать и постоянно улучшать %s. Таким образом, вы и многие другие продавцы получите выгоду от соответствующей современным требованиям и привлекательной %s системы, которая постоянно адаптируется к немецкому рынку."
+
+"Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted.","Конечно вы сами решаете какие именно данные будут передаваться. В принципе, данный проект заинтересован только в информации об использовании системы и, если это требуется, контактной информации из ваших исходящих данных."
+
+"Thank you very much in advance for your help.","Заранее большое спасибо за вашу помощь."
+"I wish no information to be transmitted.","Я не желаю, чтобы передавалась какая нибудь информация."
+"I want to help monitor the distribution of %s and therefore agree on transmitting only the information necessary to accomplish this, thereby supporting the project.","Я хочу помочь контролировать распространение %s и, следовательно, согласен с передачей только той информации, которая необходима для достижения этой цели, тем самым поддерживая проект."
+
+"What information will be transmitted?","Какая информация будет передаваться?"
+"I want to help monitor the distribution of %s and also want to profit from exclusive offers from the NR App Factory and their partners.","Я хочу помочь контролировать распространение %s и таким образом получать выгоду от эксклюзивных предложений NR App Factory и их партнёров."
+
+"This could be your exclusive offers","Это могут быть ваши эксклюзивные предложения."
+"Offers could be for example:","Пример конкретный предложений:"
+"Special conditions when purchasing extensions or services from the NAF store nr.apps.com","Специальные условия при покупке модулей и услуг из NAF магазина nr.apps.com"
+"Purchase options and special conditions for Magento event tickes, e.g. Meet Magento or Developers Paradise","Параметры покупок и специальных условий на билеты событий Magento, например, Meet Magento или Developers Paradise"
+"Purchase options and special conditions for Magento education tickets, e.g. NR Campus","Параметры покупок и специальных условий на билетs на получение образования Magento, например, NR Campus"
+"Showing your shop name and a link to your domain on nr-apps.com","Отображение названия вашего магазина и ссылки на ваш домен на сайте nr-apps.com"
+
+"and many more","и многое другое"
+"For your personal offers and information about %s, please see the newsfeed of your system.","Для просмотра ориентированных на вас специальных предложениях и информации о %s, пожалуйста, прочитайте ленту новостей в вашей системе."
+"I agree to help monitor the distribution of %s and therefore agree on transmitting the information necessary to accomplish this, thereby supporting the project.","Я согласен помочь контролировать распространение %s и, следовательно, согласен передавать необходимую для достижения этой цели информацию, тем самым поддерживая проект."
+"Server IP","IP сервера"
+"Request Date","Дата запроса"
+"Magento Version","Версия Magento"
+"Imprint Datas: Shop Name, Company, Street, ZIP, City, Country, Telephone, Fax, Email, Website, CEO, Owner","Исходящие данные: Название магазина, Компания, Улица, Почтовый индекс, Город, Страна, Телефон, Факс, Email, Сайт, CEO, Владелец"
+"Further information on data privacy can be found <a href=""%s"" target=""_blank"">here</a>.","Дополнительная информация о защите данных доступна <a href=""%s"" target=""_blank"">тут</a>"
+
+"News cannot be displayed at the moment. Please try again later.","В данный момент новости не могут быть отображены. Пожалуйста, повторите попытку позже"
+"Store ""%s"" already exists.","Магазин ""%s"" уже существует."
+
+"FireGento German Setup","FireGento German Setup"
+"Extension Setup","Настройка модуля"
+"Tax Settings","Настройки налогов"
+"Checkout Agreements","Bestellbedingungen"
+
+"FireGento PDF","FireGento PDF"
+
+"Autoshipping","Автодоставка"
+
+"Cash On Delivery","Наличные"
+
+"Debit","Дебет"
+"Bank Data Setup","Настройка банковских данных"
+
+"Remove Customer Account Links","Удалить ссылки на учётную запись"
+
+"Configuration","Конфигурация"
+
+"Display Copyright Notice in Imprint","Отображать сообщение об авторских правах в исходящих данных"
+"<a href=""%s"" target=""_blank"">%s</a> is a project of the Magento community","<a href=""%s"" target=""_blank"">%s</a> это проект сообщенства Magento"
+"powered by","при поддержке"
+
+"Phoenix_CashOnDelivery::You will be charged an extra fee of %s.","Наценка %s"
+
+"Country Selection","Выбор страны"
+"Please go to <a href=""%s"">Backend</a> now in order to complete the preconfiguration.","Пожалуйста, перейдите в <a href=""%s"">панель управления</a> для завершения установки."
