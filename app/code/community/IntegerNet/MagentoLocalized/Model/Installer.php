@@ -80,7 +80,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
     protected function _autoloadMagentoComposerClass($className)
     {
         $baseMagentoComposerPath = Mage::getBaseDir() . DS . 'vendor' . DS . 'magento-hackathon' . DS . 'magento-composer-installer' . DS . 'src';
-        $filename = $baseMagentoComposerPath . str_replace('/', DS, $className) . '.php';
+        $filename = $baseMagentoComposerPath . str_replace('\\', DS, $className) . '.php';
         require_once($filename);
     }
 
