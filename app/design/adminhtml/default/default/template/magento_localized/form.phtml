@@ -139,9 +139,18 @@
                 <tr id="field_modules_default">
                     <td class="label"></td>
                     <td class="value">
+                        <?php if ($this->isInitialized()): ?>
+                        <input type="radio" name="modules_default" id="field_modules_default_x" class="radio modules-default" value="" checked="checked" />
+                        <label for="field_modules_default_x"><?php echo $this->__('Don\'t install additional modules') ?></label>
+                        <br />
+                        <input type="radio" name="modules_default" id="field_modules_default_1" class="radio modules-default" value="1" />
+                        <label for="field_modules_default_1"><?php echo $this->__('Install default modules') ?></label>
+                        <br />
+                        <?php else: ?>
                         <input type="radio" name="modules_default" id="field_modules_default_1" class="radio modules-default" value="1" checked="checked" />
                         <label for="field_modules_default_1"><?php echo $this->__('Install default modules') ?></label>
                         <br />
+                        <?php endif ?>
                         <input type="radio" name="modules_default" id="field_modules_default_0" class="radio modules-default" value="0" />
                         <label for="field_modules_default_0"><?php echo $this->__('Choose which modules you want to install (Advanced Mode)') ?></label>
                     </td>
@@ -291,16 +300,14 @@
     setupForm = new varienForm('setup_form', '');
 
     $('field_modules_default').on('change', 'input', function(event) {
-        if ($F('field_modules_default_1')) {
-            $('field_modules').hide();
-        } else {
+        if ($F('field_modules_default_0')) {
             $('field_modules').show();
+        } else {
+            $('field_modules').hide();
         }
     });
 
     function doButtonClick(event, element) {
-        console.log(event);
-        console.log(element);
         if(event == 'button-page-one') {
             $(element).setStyle({
                 'display': 'none'

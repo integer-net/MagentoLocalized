@@ -55,18 +55,14 @@ class IntegerNet_MagentoLocalized_Model_Installer
 
     /**
      * @param string $packageName
+     * @return boolean
      */
     public function installPackageByName($packageName)
     {
-        if (Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
-            return;
-        }
-
         $composerConfiguration = $this->_getComposerConfiguration();
 
         foreach ($composerConfiguration['packages'] as $packageConfiguration) {
             if (strtolower($packageConfiguration['name']) == strtolower($packageName)) {
-                $this->installPackageByConfiguration($packageConfiguration);
                 if (isset($packageConfiguration['source']['reference']) && !is_null($packageConfiguration['source']['reference'])) {
                     $reference = $packageConfiguration['source']['reference'];
                 } else if (isset($packageConfiguration['dist']['reference']) && !is_null($packageConfiguration['dist']['reference'])) {
@@ -74,7 +70,15 @@ class IntegerNet_MagentoLocalized_Model_Installer
                 } else {
                     $reference = $packageConfiguration['version'];
                 }
+
+                if (Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName)) == Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
+                    return false;
+                }
+
+                $this->installPackageByConfiguration($packageConfiguration);
+
                 $this->_setConfigData('magento_localized/installed_modules/' . strtolower($packageName), $reference);
+                return true;
             }
         }
     }
