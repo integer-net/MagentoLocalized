@@ -11,6 +11,23 @@
 class IntegerNet_MagentoLocalized_Model_Observer
 {
     /**
+     * Store installed modules data to database
+     *
+     * @param Varien_Event_Observer $observer
+     * @event controller_action_predispatch_install_wizard_end
+     */
+    public function predispatchInstallWizardEnd($observer)
+    {
+        $installConfigData = Mage::getSingleton('install/session')->getInstallConfigData();
+        if (is_array($installConfigData)) {
+            foreach($installConfigData as $path => $value) {
+                $this->_setConfigData($path, $value);
+            }
+        }
+        $this->predispatchInstallWizard($observer);
+    }
+
+    /**
      * Set theme to "magento_localized" with fallback to "default"
      *
      * @param Varien_Event_Observer $observer
@@ -18,7 +35,6 @@ class IntegerNet_MagentoLocalized_Model_Observer
      * @event controller_action_predispatch_install_wizard_locale
      * @event controller_action_predispatch_install_wizard_config
      * @event controller_action_predispatch_install_wizard_administrator
-     * @event controller_action_predispatch_install_wizard_end
      */
     public function predispatchInstallWizard($observer)
     {
@@ -100,6 +116,29 @@ class IntegerNet_MagentoLocalized_Model_Observer
                 $text .= $customText;
                 $additionalObject->setText($text);
             }
+        }
+    }
+
+    public function onAdminUserLoginSuccess(Varien_Event_Observer $observer)
+    {
+        if (Mage::getStoreConfig('magento_localized/is_initialized')) {
+            Mage::getSingleton('magento_localized/installer')->updateInstalledModules();
+        }
+    }
+
+    /**
+     * Set configuration data
+     *
+     * @param string $key
+     * @param string|int $value
+     * @param string $scope
+     * @param int $scopeId
+     */
+    protected function _setConfigData($key, $value, $scope = 'default', $scopeId = 0)
+    {
+        $setup = Mage::getModel('eav/entity_setup', 'core_setup');
+        if ($setup->getConnection()) {
+            $setup->setConfigData($key, $value, $scope, $scopeId);
         }
     }
 }

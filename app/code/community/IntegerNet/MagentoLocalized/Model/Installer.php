@@ -53,6 +53,21 @@ class IntegerNet_MagentoLocalized_Model_Installer
         Mage::app()->cleanCache();
     }
 
+    public function updateInstalledModules()
+    {
+        foreach(Mage::getStoreConfig('magento_localized/installed_modules') as $namespace => $moduleConfig) {
+            foreach($moduleConfig as $moduleName => $reference) {
+                $packageName= $namespace . '/' . $moduleName;
+                if ($this->installPackageByName($packageName)) {
+                    Mage::getSingleton('adminhtml/session')->addSuccess(
+                        Mage::helper('magento_localized')->__('Successfully update module %s.', $packageName)
+                    );
+                    Mage::log(Mage::helper('magento_localized')->__('Successfully update module %s.', $packageName));
+                }
+            }
+        }
+    }
+
     /**
      * @param string $packageName
      * @return boolean
@@ -71,7 +86,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
                     $reference = $packageConfiguration['version'];
                 }
 
-                if (Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName)) == Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
+                if ($reference == Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
                     return false;
                 }
 
@@ -155,6 +170,13 @@ class IntegerNet_MagentoLocalized_Model_Installer
         $setup = Mage::getModel('eav/entity_setup', 'core_setup');
         if ($setup->getConnection()) {
             $setup->setConfigData($key, $value, $scope, $scopeId);
+        } else {
+            $installConfigData = Mage::getSingleton('install/session')->getInstallConfigData();
+            if (!is_array($installConfigData)) {
+                $installConfigData = array();
+            }
+            $installConfigData[$key] = $value;
+            Mage::getSingleton('install/session')->setInstallConfigData($installConfigData);
         }
     }
 }

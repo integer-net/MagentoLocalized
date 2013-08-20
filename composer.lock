@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "267118d5c0811268a3ea6a15b63c78bf",
+    "hash": "bddb99956e5eef03f5c1af2dfa0d37e8",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -36,12 +36,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
@@ -262,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "c21f9f2bd734624bd225d158874a426a8493e20a"
+                "reference": "3acd992d4fb84b06548959be99c97d813df408b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/c21f9f2bd734624bd225d158874a426a8493e20a",
-                "reference": "c21f9f2bd734624bd225d158874a426a8493e20a",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/3acd992d4fb84b06548959be99c97d813df408b1",
+                "reference": "3acd992d4fb84b06548959be99c97d813df408b1",
                 "shasum": ""
             },
             "require": {
@@ -283,7 +283,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-08-19 16:45:15"
+            "time": "2013-08-20 11:00:29"
         },
         {
             "name": "firegento/pdf",
@@ -372,12 +372,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedAT.git",
-                "reference": "512c92994f4a5f943e47ca649a11658491f766ed"
+                "reference": "83868819bcf1b07c213727ac07e07eb2bf6b7da2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/512c92994f4a5f943e47ca649a11658491f766ed",
-                "reference": "512c92994f4a5f943e47ca649a11658491f766ed",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/83868819bcf1b07c213727ac07e07eb2bf6b7da2",
+                "reference": "83868819bcf1b07c213727ac07e07eb2bf6b7da2",
                 "shasum": ""
             },
             "require": {
@@ -390,7 +390,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedAT/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedAT/issues"
             },
-            "time": "2013-08-19 16:48:22"
+            "time": "2013-08-20 10:13:22"
         },
         {
             "name": "integer-net/magento-localized-ch",

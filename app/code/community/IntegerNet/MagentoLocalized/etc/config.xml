@@ -104,7 +104,7 @@
                     <magento_localized_theme>
                         <type>singleton</type>
                         <class>magento_localized/observer</class>
-                        <method>predispatchInstallWizard</method>
+                        <method>predispatchInstallWizardEnd</method>
                     </magento_localized_theme>
                 </observers>
             </controller_action_predispatch_install_wizard_end>
@@ -129,6 +129,18 @@
                 </IntegerNet_MagentoLocalized>
             </modules>
         </translate>
+
+        <events>
+            <admin_session_user_login_success>
+                <observers>
+                    <magento_localized>
+                        <type>singleton</type>
+                        <class>magento_localized/observer</class>
+                        <method>onAdminUserLoginSuccess</method>
+                    </magento_localized>
+                </observers>
+            </admin_session_user_login_success>
+        </events>
     </adminhtml>
 
     <admin>
