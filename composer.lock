@@ -398,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "360dada9d341964d96402a921f8ebbdd6ba4809a"
+                "reference": "bcdd139ffcc36203bc00bd147bb333261c4f4de9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/360dada9d341964d96402a921f8ebbdd6ba4809a",
-                "reference": "360dada9d341964d96402a921f8ebbdd6ba4809a",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/bcdd139ffcc36203bc00bd147bb333261c4f4de9",
+                "reference": "bcdd139ffcc36203bc00bd147bb333261c4f4de9",
                 "shasum": ""
             },
             "require": {
@@ -416,7 +416,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2013-08-19 16:52:26"
+            "time": "2013-08-20 11:37:27"
         },
         {
             "name": "integer-net/magento-localized-de",
