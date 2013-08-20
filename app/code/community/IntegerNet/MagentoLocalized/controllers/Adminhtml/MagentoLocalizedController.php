@@ -408,6 +408,12 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
         $this->_setConfigData('general/locale/code', $localeCode, 'stores', $store->getId());
         $this->_setConfigData('general/locale/code_fallback', $localeCode, 'stores', $store->getId());
 
+        $installer = Mage::getSingleton('magento_localized/installer');
+        $localePackageName = Mage::getStoreConfig('magento_localized/languages/' . $localeCode . '/code');
+        if ($localePackageName) {
+            $installer->installPackageByName($localePackageName);
+        }
+
         return true;
     }
 

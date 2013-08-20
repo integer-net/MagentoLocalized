@@ -67,4 +67,9 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
         }
         return $modulesData;
     }
+
+    public function isInitialized()
+    {
+        return Mage::getStoreConfigFlag('magento_localized/is_initialized');
+    }
 }

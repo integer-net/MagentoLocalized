@@ -54,15 +54,27 @@ class IntegerNet_MagentoLocalized_Model_Installer
     }
 
     /**
-     * @param string $localePackageName
+     * @param string $packageName
      */
-    public function installPackageByName($localePackageName)
+    public function installPackageByName($packageName)
     {
+        if (Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
+            return;
+        }
+
         $composerConfiguration = $this->_getComposerConfiguration();
 
         foreach ($composerConfiguration['packages'] as $packageConfiguration) {
-            if (strtolower($packageConfiguration['name']) == strtolower($localePackageName)) {
+            if (strtolower($packageConfiguration['name']) == strtolower($packageName)) {
                 $this->installPackageByConfiguration($packageConfiguration);
+                if (isset($packageConfiguration['source']['reference']) && !is_null($packageConfiguration['source']['reference'])) {
+                    $reference = $packageConfiguration['source']['reference'];
+                } else if (isset($packageConfiguration['dist']['reference']) && !is_null($packageConfiguration['dist']['reference'])) {
+                    $reference = $packageConfiguration['dist']['reference'];
+                } else {
+                    $reference = $packageConfiguration['version'];
+                }
+                $this->_setConfigData('magento_localized/installed_modules/' . strtolower($packageName), $reference);
             }
         }
     }
@@ -124,5 +136,21 @@ class IntegerNet_MagentoLocalized_Model_Installer
         }
 
         return $this->_composerConfiguration;
+    }
+
+    /**
+     * Set configuration data
+     *
+     * @param string $key
+     * @param string|int $value
+     * @param string $scope
+     * @param int $scopeId
+     */
+    protected function _setConfigData($key, $value, $scope = 'default', $scopeId = 0)
+    {
+        $setup = Mage::getModel('eav/entity_setup', 'core_setup');
+        if ($setup->getConnection()) {
+            $setup->setConfigData($key, $value, $scope, $scopeId);
+        }
     }
 }

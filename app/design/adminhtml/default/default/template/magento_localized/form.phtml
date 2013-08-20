@@ -94,7 +94,7 @@
     <button type="button" value="Back" id="button-page-two" onclick="doButtonClick(this.id,'page-two')"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
     <br /><br />
 
-    <?php if (sizeof($this->getAdditionalLanguages())): ?>
+    <?php if (!$this->isInitialized() && sizeof($this->getAdditionalLanguages())): ?>
         <div class="entry-edit-head">
             <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Store Languages') ?></h4>
             <div class="form-buttons"></div>
