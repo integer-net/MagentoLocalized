@@ -450,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedRU.git",
-                "reference": "7a49c6910b89e544089df8100f4abdd064659e77"
+                "reference": "c57b590a25789a7f5e1f3033c4fa9a1236e7a674"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/7a49c6910b89e544089df8100f4abdd064659e77",
-                "reference": "7a49c6910b89e544089df8100f4abdd064659e77",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/c57b590a25789a7f5e1f3033c4fa9a1236e7a674",
+                "reference": "c57b590a25789a7f5e1f3033c4fa9a1236e7a674",
                 "shasum": ""
             },
             "require": {
@@ -468,7 +468,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedRU/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedRU/issues"
             },
-            "time": "2013-08-19 16:53:54"
+            "time": "2013-08-20 15:27:42"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
