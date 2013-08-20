@@ -27,14 +27,14 @@
 "optional","необязательно"
 "Partners","Партнёры"
 "Recommendations","Рекомендации"
-"Integrated Modules","Втроенные модули"
+"Integrated Modules","Встроенные модули"
 "Install the following modules:","Установить следующие модули:"
 "Click for more information in a new window","Нажмите для просмотра подробной информации в новом окне"
 "Install default modules","Установить стандартные модули"
 "Choose which modules you want to install (Advanced Mode)","Выберите модули для установки (расширенный режим)"
 
 "Help to improve %s - data transfer","Помогите улучшить %s - передача данных"
-"%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integratet the best and most important extensions for the German market together with the community.","%s это проект, создаваемый сообществом для сообщества. %s создан для того, чтобы начинать использовать Magento было как можно легче. Проект был начат компанией Netresearch App Factory. Реализация ведётся под руководством integer_net и их опытных разработчиков, которые встраивают лучшие и важнейшие модули для немецкого рынка."
+"%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integratet the best and most important extensions for the German market together with the community.","%s это проект, создаваемый сообществом для сообщества. %s создан для того, чтобы начать использовать Magento было как можно легче. Проект был начат компанией Netresearch App Factory. Реализация ведётся под руководством integer_net и их опытных разработчиков, которые встраивают лучшие и важнейшие модули для немецкого рынка."
 
 "Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions for the German market.","Ваше согласие на передачу информации об использовании системы и контактных данных через %s позволяет разработчикам и партнёрам сообщества распространять, разрабатывать и постоянно улучшать %s. Таким образом, вы и многие другие продавцы получите выгоду от соответствующей современным требованиям и привлекательной %s системы, которая постоянно адаптируется к немецкому рынку."
 
@@ -48,10 +48,10 @@
 "I want to help monitor the distribution of %s and also want to profit from exclusive offers from the NR App Factory and their partners.","Я хочу помочь контролировать распространение %s и таким образом получать выгоду от эксклюзивных предложений NR App Factory и их партнёров."
 
 "This could be your exclusive offers","Это могут быть ваши эксклюзивные предложения."
-"Offers could be for example:","Пример конкретный предложений:"
+"Offers could be for example:","Пример конкретных предложений:"
 "Special conditions when purchasing extensions or services from the NAF store nr.apps.com","Специальные условия при покупке модулей и услуг из NAF магазина nr.apps.com"
 "Purchase options and special conditions for Magento event tickes, e.g. Meet Magento or Developers Paradise","Параметры покупок и специальных условий на билеты событий Magento, например, Meet Magento или Developers Paradise"
-"Purchase options and special conditions for Magento education tickets, e.g. NR Campus","Параметры покупок и специальных условий на билетs на получение образования Magento, например, NR Campus"
+"Purchase options and special conditions for Magento education tickets, e.g. NR Campus","Параметры покупок и специальных условий на билеты на получение образования Magento, например, NR Campus"
 "Showing your shop name and a link to your domain on nr-apps.com","Отображение названия вашего магазина и ссылки на ваш домен на сайте nr-apps.com"
 
 "and many more","и многое другое"
@@ -92,3 +92,8 @@
 
 "Country Selection","Выбор страны"
 "Please go to <a href=""%s"">Backend</a> now in order to complete the preconfiguration.","Пожалуйста, перейдите в <a href=""%s"">панель управления</a> для завершения установки."
+"News","Лента новостей"
+
+
+"Next Page","Следующая страница"
+"Previous Page","Предыдущая страница"
