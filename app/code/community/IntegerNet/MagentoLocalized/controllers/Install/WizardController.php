@@ -26,11 +26,14 @@ class IntegerNet_MagentoLocalized_Install_WizardController extends Mage_Install_
         if ($agree && $step = $this->_getWizard()->getStepByName('begin')) {
             $this->getResponse()->setRedirect($step->getNextUrl());
 
-            try {
-                Mage::getSingleton('magento_localized/installer')->installEditionModules($this->getRequest()->getPost('edition'));
-            } catch (Exception $e) {
-                Mage::getSingleton('install/session')->addError($e->getMessage());
-                $this->getResponse()->setRedirect($step->getUrl());
+            if ($edition = $this->getRequest()->getPost('edition')) {
+
+                try {
+                    Mage::getSingleton('magento_localized/installer')->installEditionModules($edition);
+                } catch (Exception $e) {
+                    Mage::getSingleton('install/session')->addError($e->getMessage());
+                    $this->getResponse()->setRedirect($step->getUrl());
+                }
             }
         }
         else {

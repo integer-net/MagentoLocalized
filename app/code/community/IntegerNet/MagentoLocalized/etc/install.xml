@@ -12,6 +12,7 @@
  -->
 <config>
 
+<!--
     <wizard>
         <steps>
             <begin translate="code">
@@ -22,6 +23,7 @@
         </steps>
 
     </wizard>
+-->
 
     <magento_localized>
         <editions>

@@ -52,8 +52,34 @@ class IntegerNet_MagentoLocalized_Model_Observer
      */
     public function predispatchInstallStart($observer)
     {
+        Mage::getSingleton('install/session')->setIsCountrySelected(null);
+        if ($edition = $this->_getEdition()) {
+
+            try {
+                Mage::getSingleton('magento_localized/installer')->installEditionModules($edition);
+                Mage::getSingleton('install/session')->setIsCountrySelected(1);
+            } catch (Exception $e) {
+                Mage::getSingleton('install/session')->addError($e->getMessage());
+            }
+        }
+
+        Mage::getDesign()->setTheme('magento_localized');
         Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
         Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
+    }
+
+    /**
+     * @return string
+     */
+    protected function _getEdition()
+    {
+        foreach((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData) {
+            if (file_exists(Mage::getBaseDir() . DS . 'magento_' . $editionCode . '.txt')) {
+                return $editionCode;
+            }
+        }
+
+        return '';
     }
 
     /**

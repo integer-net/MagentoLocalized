@@ -23,6 +23,7 @@
 <?php if(count($this->getMessagesBlock()->getMessages())==0): ?>
 <form action="<?php echo $this->getPostUrl() ?>" method="post" id="begin-form">
 
+<?php if (!Mage::getSingleton('install/session')->getIsCountrySelected()): ?>
 <div>
 <h4><?php echo $this->__('Select your edition:') ?></h4>
 <ul id="magento_localization">
@@ -38,10 +39,26 @@
     <?php endforeach ?>
 </ul>
 </div>
+<script type="text/javascript">
+    //<![CDATA[
+    $('magento_localization').on('change', 'input', function(event) {
+        $$('#magento_localization li').each(function(liItem) {
+            liItem.select('input').each(function(inputElement) {
+                if (inputElement.checked) {
+                    liItem.addClassName('selected');
+                } else {
+                    liItem.removeClassName('selected');
+                }
+            });
+        });
+    });
+    //]]>
+</script>
 
 <div class="clear"></div>
+<?php endif ?>
 
-<div style="height:20em; border:1px solid #ccc; margin-bottom:8px; padding:5px; background:#fff; overflow: auto; overflow-x:hidden; overflow-y:scroll;">
+    <div style="height:20em; border:1px solid #ccc; margin-bottom:8px; padding:5px; background:#fff; overflow: auto; overflow-x:hidden; overflow-y:scroll;">
 <?php echo $this->getLicenseHtml() ?>
 </div>
 
@@ -71,18 +88,6 @@ function changeSubmitStatus(obj) {
     changeSubmitStatus($('agree'));
 
     var beginForm = new VarienForm('begin-form');
-
-    $('magento_localization').on('change', 'input', function(event) {
-        $$('#magento_localization li').each(function(liItem) {
-            liItem.select('input').each(function(inputElement) {
-                if (inputElement.checked) {
-                    liItem.addClassName('selected');
-                } else {
-                    liItem.removeClassName('selected');
-                }
-            });
-        });
-    });
 //]]>
 </script>
 <?php endif ?>
