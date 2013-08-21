@@ -446,6 +446,15 @@
                     <is_default>1</is_default>
                     <is_available>1</is_available>
                 </therouv_debitpayment>
+                <openstream_rappenrounding>
+                    <name>Magento 5 Cent Rounding</name>
+                    <description>Magento 5-Rappen-Rundung for Swiss Magento Merchants</description>
+                    <url>https://github.com/openstream/Magento5CentRounding</url>
+                    <code>openstream/rappenrounding</code>
+                    <is_required>0</is_required>
+                    <is_default>0</is_default>
+                    <is_available>0</is_available>
+                </openstream_rappenrounding>
 
             </modules>
 

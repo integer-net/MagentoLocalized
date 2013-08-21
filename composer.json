@@ -43,6 +43,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/openstream/Magento5CentRounding.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
         },
         {

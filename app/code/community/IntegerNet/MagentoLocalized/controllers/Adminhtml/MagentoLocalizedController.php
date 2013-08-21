@@ -299,12 +299,16 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 $this->_setConfigData('payment/paypal_standard/title', 'PayPal');
                 $this->_setConfigData('payment/paypal_standard/sort_order', 10);
             }
-            $this->_setConfigData('ikonoshirt/custom_rss_feeds/feeds/magento_localized',
-                Mage::getStoreConfig('magento_localized/feed_url_prefix')
-                    . Mage::getStoreConfig('magento_localized/module_code')
-                    . '_'
-                    . $fieldData['admin__magento_localized__datatransfer']
-                    . '.xml');
+
+            $feedUrl = Mage::getStoreConfig('magento_localized/feed_url_prefix')
+                . Mage::getStoreConfig('magento_localized/module_code')
+                . '_'
+                . $fieldData['admin__magento_localized__datatransfer']
+                . '.xml';
+            $this->_setConfigData('ikonoshirt/custom_rss_feeds/feeds/magento_localized', $feedUrl);
+            $this->_setConfigData('magento_localized/newsfeed_url', $feedUrl);
+
+            Mage::getSingleton('magento_localized/installer')->installPackageByName('ikonoshirt/customadminnotifications');
         }
 
         $this->_setConfigData('general/region/state_required', '');
