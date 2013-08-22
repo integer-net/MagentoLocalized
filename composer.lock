@@ -262,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "57f7b586213ba1720a86ff60010d9fd075c4f8ee"
+                "reference": "4ebbb494ee69faa6862e88fc9bc5ab70925ec3c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/57f7b586213ba1720a86ff60010d9fd075c4f8ee",
-                "reference": "57f7b586213ba1720a86ff60010d9fd075c4f8ee",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/4ebbb494ee69faa6862e88fc9bc5ab70925ec3c8",
+                "reference": "4ebbb494ee69faa6862e88fc9bc5ab70925ec3c8",
                 "shasum": ""
             },
             "require": {
@@ -283,7 +283,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-08-22 09:29:31"
+            "time": "2013-08-22 13:30:57"
         },
         {
             "name": "firegento/pdf",
