@@ -491,10 +491,10 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
     protected function _getLanguageUrlPart()
     {
         $localeCode = Mage::app()->getLocale()->getLocaleCode();
-        if (strpos($localeCode, 'de_') === 0) {
-            return 'de';
+        if (strpos($localeCode, Mage::getStoreConfig('magento_localized/iframe_main_language_code')) === 0) {
+            return Mage::getStoreConfig('magento_localized/iframe_main_language_code');
         } else {
-            return 'en';
+            return Mage::getStoreConfig('magento_localized/iframe_fallback_language_code');
         }
     }
 }

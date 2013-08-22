@@ -16,8 +16,8 @@
 "Create Additional Store Languages","Создать дополнительные языки магазина"
 "German","Немецкий"
 "English","Английский"
-"Français","Французский"
-"Italiano","Итальянский"
+"French","Французский"
+"Italian","Итальянский"
 "Russian","Русский"
 "%s language will be created automatically.","%s язык будет создан автоматически."
 "Default Category","Категория по умолчанию"
@@ -30,6 +30,7 @@
 "Integrated Modules","Встроенные модули"
 "Install the following modules:","Установить следующие модули:"
 "Click for more information in a new window","Нажмите для просмотра подробной информации в новом окне"
+"Don't install additional modules","Не устанавливать дополнительные модули"
 "Install default modules","Установить стандартные модули"
 "Choose which modules you want to install (Advanced Mode)","Выберите модули для установки (расширенный режим)"
 
@@ -94,6 +95,6 @@
 "Please go to <a href=""%s"">Backend</a> now in order to complete the preconfiguration.","Пожалуйста, перейдите в <a href=""%s"">панель управления</a> для завершения установки."
 "News","Лента новостей"
 
-
 "Next Page","Следующая страница"
 "Previous Page","Предыдущая страница"
+"Setup %s","установка %s"
