@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c28a1f2c169c5b87a01024d039257a78",
+    "hash": "c532e46fab9fb47219113a2a4e54a327",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -262,12 +262,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "78c2cb946792f9f239ad1421072cfddd35fa3b55"
+                "reference": "92d3a0f8d7faaa2643303cc72365557561dfd9a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/78c2cb946792f9f239ad1421072cfddd35fa3b55",
-                "reference": "78c2cb946792f9f239ad1421072cfddd35fa3b55",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/92d3a0f8d7faaa2643303cc72365557561dfd9a6",
+                "reference": "92d3a0f8d7faaa2643303cc72365557561dfd9a6",
                 "shasum": ""
             },
             "require": {
@@ -283,7 +283,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-08-20 15:02:35"
+            "time": "2013-08-21 14:13:58"
         },
         {
             "name": "firegento/pdf",
@@ -398,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "bcdd139ffcc36203bc00bd147bb333261c4f4de9"
+                "reference": "5074fcd09977dcd7b913f2691f5ffe8924c06b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/bcdd139ffcc36203bc00bd147bb333261c4f4de9",
-                "reference": "bcdd139ffcc36203bc00bd147bb333261c4f4de9",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/5074fcd09977dcd7b913f2691f5ffe8924c06b1e",
+                "reference": "5074fcd09977dcd7b913f2691f5ffe8924c06b1e",
                 "shasum": ""
             },
             "require": {
@@ -416,7 +416,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2013-08-20 11:37:27"
+            "time": "2013-08-21 10:14:33"
         },
         {
             "name": "integer-net/magento-localized-de",
@@ -450,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedRU.git",
-                "reference": "c57b590a25789a7f5e1f3033c4fa9a1236e7a674"
+                "reference": "0e4454f0d4cd5bac52ca0dd0fe867cde98633f46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/c57b590a25789a7f5e1f3033c4fa9a1236e7a674",
-                "reference": "c57b590a25789a7f5e1f3033c4fa9a1236e7a674",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/0e4454f0d4cd5bac52ca0dd0fe867cde98633f46",
+                "reference": "0e4454f0d4cd5bac52ca0dd0fe867cde98633f46",
                 "shasum": ""
             },
             "require": {
@@ -468,7 +468,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedRU/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedRU/issues"
             },
-            "time": "2013-08-20 15:27:42"
+            "time": "2013-08-22 08:35:06"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
