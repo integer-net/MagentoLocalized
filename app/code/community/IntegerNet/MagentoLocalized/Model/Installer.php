@@ -50,7 +50,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
 
         $this->installPackageByName('firegento/magesetup');
 
-        Mage::app()->cleanCache();
+        $this->_cleanCache();
     }
 
     public function updateInstalledModules()
@@ -171,6 +171,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
         if ($setup->getConnection()) {
             $setup->setConfigData($key, $value, $scope, $scopeId);
         } else {
+            // store config data temporarily in session until a database connection exists
             $installConfigData = Mage::getSingleton('install/session')->getInstallConfigData();
             if (!is_array($installConfigData)) {
                 $installConfigData = array();
@@ -178,5 +179,10 @@ class IntegerNet_MagentoLocalized_Model_Installer
             $installConfigData[$key] = $value;
             Mage::getSingleton('install/session')->setInstallConfigData($installConfigData);
         }
+    }
+
+    protected function _cleanCache()
+    {
+        Mage::app()->cleanCache();
     }
 }

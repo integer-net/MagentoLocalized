@@ -52,12 +52,17 @@ class IntegerNet_MagentoLocalized_Model_Observer
      */
     public function predispatchInstallStart($observer)
     {
-        Mage::getSingleton('install/session')->setIsCountrySelected(null);
-        if ($edition = $this->_getEdition()) {
+        if (!Mage::getSingleton('install/session')->getIsCountrySelected() && $edition = $this->_getEdition()) {
 
             try {
                 Mage::getSingleton('magento_localized/installer')->installEditionModules($edition);
                 Mage::getSingleton('install/session')->setIsCountrySelected(1);
+
+                $controller = $observer->getControllerAction();
+                $controller->getResponse()->setRedirect(Mage::getUrl('*/*/*'));
+                $controller->getResponse()->sendResponse();
+                $controller->getRequest()->setDispatched(true);
+
             } catch (Exception $e) {
                 Mage::getSingleton('install/session')->addError($e->getMessage());
             }
@@ -74,7 +79,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
     protected function _getEdition()
     {
         foreach((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData) {
-            if (file_exists(Mage::getBaseDir() . DS . 'magento_' . $editionCode . '.txt')) {
+            if (file_exists(Mage::getBaseDir() . DS . 'magento-' . $editionCode . '.txt')) {
                 return $editionCode;
             }
         }
