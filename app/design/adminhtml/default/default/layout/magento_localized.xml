@@ -41,4 +41,12 @@
         </reference>
     </adminhtml_dashboard_index>
 
+    <adminhtml_magentolocalized_form>
+        <reference name="root">
+            <action method="unsetChild"><name>notifications</name></action>
+        </reference>
+        <reference name="content">
+            <block type="magento_localized/form" name="magento_localized.form" />
+        </reference>
+    </adminhtml_magentolocalized_form>
 </layout>

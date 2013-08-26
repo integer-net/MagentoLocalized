@@ -109,7 +109,7 @@
                 <table cellspacing="0" class="form-list">
                     <tbody>
                     <tr>
-                        <td class="label"><label for="field_paypal_email"><?php echo $this->__('Create Additional Store Languages') ?></label></td>
+                        <td class="label"><label><?php echo $this->__('Create Additional Store Languages') ?></label></td>
                         <td class="value">
                             <?php foreach($this->getAdditionalLanguages() as $languageCode => $dummy): ?>
                                 <input type="checkbox" name="language[<?php echo $languageCode ?>]" id="field_language_<?php echo $languageCode ?>" class="checkbox" value="1" />
@@ -294,7 +294,7 @@
         </div>
     </div>
 
-    <?php if (false): ?>
+<?php if ($page3Content = $this->getChildHtml('page3')): ?>
     <button type="button" value="Next" id="button-page-two-next" class="form-buttons" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
 
 </div>
@@ -303,7 +303,7 @@
     <button type="button" value="Back" id="button-page-three-prev" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
     <br /><br />
 
-Content 3
+    <?php echo $page3Content ?>
 <?php endif ?>
 
     <p class="form-buttons">

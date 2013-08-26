@@ -34,7 +34,6 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             ->append(
                 $this->getLayout()
                     ->createBlock('adminhtml/template')
-                    ->setNameInLayout('magento_localized.form')
                     ->setTemplate('magento_localized/iframe.phtml')
                     ->setIframeUrl($iframeUrl)
             );
@@ -117,14 +116,6 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 ->_addBreadcrumb($helper->__(Mage::getStoreConfig('magento_localized/module_title')), $helper->__(Mage::getStoreConfig('magento_localized/module_title')))
                 ->_setActiveMenu('system/magento_localized');
         }
-
-        $this->getLayout()
-            ->getBlock('content')
-            ->append($this->getLayout()->createBlock('magento_localized/form'));
-
-        $this->getLayout()
-            ->getBlock('root')
-            ->unsetChild('notifications');
 
         $this->renderLayout();
     }
