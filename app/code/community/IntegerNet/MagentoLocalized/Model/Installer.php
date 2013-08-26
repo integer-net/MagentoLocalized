@@ -79,9 +79,10 @@ class IntegerNet_MagentoLocalized_Model_Installer
      * Install / update a package by its identifier
      *
      * @param string $packageName
+     * @param boolean $force
      * @return boolean
      */
-    public function installPackageByName($packageName)
+    public function installPackageByName($packageName, $force = false)
     {
         $composerConfiguration = $this->_getComposerConfiguration();
 
@@ -95,7 +96,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
                     $reference = $packageConfiguration['version'];
                 }
 
-                if ($reference == Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
+                if (!$force && $reference == Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
                     // same version as before
                     return false;
                 }
