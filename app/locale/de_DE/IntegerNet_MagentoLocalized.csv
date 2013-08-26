@@ -34,6 +34,7 @@
 "Don't install additional modules","Keine weiteren Module installieren"
 "Install default modules","Standardmodule installieren"
 "Choose which modules you want to install (Advanced Mode)","Zu installierende Module auswählen (erweiterter Modus)"
+"Successfully updated module %s.","Das Modul %s wurder erfolgreich aktualisiert."
 
 "Help to improve %s - data transfer","Mithilfe zur Verbesserung von %s - Datenübertragung"
 "%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community.","%s ist ein Projekt von der Community für die Community. %s wurde erstellt, um den Einstieg in Magento so einfach wie möglich zu gestalten. Initiiert wurde das Projekt von der Netresearch App Factory. Für den Lead der Umsetzung sind mit integer_net erfahrene und engagierte Entwickler im Boot, die gemeinsam mit der Community die wichtigsten und besten Exensions integriert haben."

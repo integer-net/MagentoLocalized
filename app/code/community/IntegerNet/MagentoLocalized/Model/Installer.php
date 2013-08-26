@@ -60,15 +60,24 @@ class IntegerNet_MagentoLocalized_Model_Installer
                 $packageName= $namespace . '/' . $moduleName;
                 if ($this->installPackageByName($packageName)) {
                     Mage::getSingleton('adminhtml/session')->addSuccess(
-                        Mage::helper('magento_localized')->__('Successfully update module %s.', $packageName)
+                        Mage::helper('magento_localized')->__('Successfully updated module %s.', $packageName)
                     );
-                    Mage::log(Mage::helper('magento_localized')->__('Successfully update module %s.', $packageName));
+                    Mage::log(Mage::helper('magento_localized')->__('Successfully updated module %s.', $packageName));
                 }
             }
         }
     }
 
+    public function installEbayEditionModules()
+    {
+        $this->installPackageByName(Mage::getSingleton('install/config')->getNode('magento_localized/ebay_edition/module_package'));
+
+        $this->_cleanCache();
+    }
+
     /**
+     * Install / update a package by its identifier
+     *
      * @param string $packageName
      * @return boolean
      */
@@ -87,6 +96,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
                 }
 
                 if ($reference == Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName))) {
+                    // same version as before
                     return false;
                 }
 
@@ -98,6 +108,9 @@ class IntegerNet_MagentoLocalized_Model_Installer
         }
     }
 
+    /**
+     * @param array $packageConfiguration
+     */
     public function installPackageByConfiguration($packageConfiguration)
     {
         $sourceDir = $this->getSourceDir($packageConfiguration);

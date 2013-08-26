@@ -50,8 +50,13 @@
                         <img src="<?php echo $this->getSkinUrl('images/logo.gif') ?>" title="<?php echo Mage::helper('install')->__('Magento') ?>" alt="<?php echo Mage::helper('install')->__('Magento') ?>" />
                     </a>
                     <?php if (Mage::getStoreConfig('magento_localized/logo_filename')): ?>
-                    <a href="<?php echo Mage::getStoreConfig('magento_localized/module_url') ?>" target="_blank" title="<?php echo Mage::getStoreConfig('magento_localized/module_title') ?>">
-                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') ?>" />
+                    <a href="<?php echo Mage::getStoreConfig('magento_localized/module_url_override') ? Mage::getStoreConfig('magento_localized/module_url_override') : Mage::getStoreConfig('magento_localized/module_url') ?>" target="_blank" title="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>">
+                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" />
+                    </a>
+                    <?php endif ?>
+                    <?php if (Mage::getStoreConfig('magento_localized/logo_2_filename')): ?>
+                    <a href="<?php echo Mage::getStoreConfig('magento_localized/module_url_override') ? Mage::getStoreConfig('magento_localized/module_url_override') : Mage::getStoreConfig('magento_localized/module_url') ?>" target="_blank" title="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>">
+                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_2_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" />
                     </a>
                     <?php endif ?>
                 </h1>

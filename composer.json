@@ -26,7 +26,10 @@
 
         "connect20/cashondelivery": "*",
         "itabs/invoice": "dev-master",
-        "therouv/debitpayment": "dev-master"
+        "therouv/debitpayment": "dev-master",
+
+        "integer-net/magento-localized-ebay": "dev-master",
+        "billsafe/billsafe": "dev-master"
     },
     "repositories": [
         {
@@ -44,6 +47,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/openstream/Magento5CentRounding.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/BillSAFE.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedEbay.git"
         },
         {
             "type": "vcs",

@@ -12,7 +12,6 @@
  -->
 <config>
 
-<!--
     <wizard>
         <steps>
             <begin translate="code">
@@ -21,9 +20,7 @@
                 <action>begin</action>
             </begin>
         </steps>
-
     </wizard>
--->
 
     <magento_localized>
         <editions>
@@ -54,6 +51,9 @@
                 <locale_package>etws/et_russianlanguagepack</locale_package>
             </ru>
         </editions>
+        <ebay_edition>
+            <module_package>integer-net/magento-localized-ebay</module_package>
+        </ebay_edition>
     </magento_localized>
 
 </config>

@@ -35,6 +35,15 @@ class IntegerNet_MagentoLocalized_Install_WizardController extends Mage_Install_
                     $this->getResponse()->setRedirect($step->getUrl());
                 }
             }
+            if (($ebayEdition = $this->getRequest()->getPost('ebay_edition')) && $ebayEdition == 1) {
+
+                try {
+                    Mage::getSingleton('magento_localized/installer')->installEbayEditionModules();
+                } catch (Exception $e) {
+                    Mage::getSingleton('install/session')->addError($e->getMessage());
+                    $this->getResponse()->setRedirect($step->getUrl());
+                }
+            }
         }
         else {
             $this->_redirect('install');

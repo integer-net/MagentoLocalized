@@ -25,19 +25,27 @@
 
 <?php if (!Mage::getSingleton('install/session')->getIsCountrySelected()): ?>
 <div>
-<h4><?php echo $this->__('Select your edition:') ?></h4>
-<ul id="magento_localization">
-    <?php foreach ((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData): ?>
-        <?php $editionData = (array)$editionData ?>
-    <li>
-        <label for="edition_<?php echo $editionCode ?>">
-            <img src="<?php echo $this->getSkinUrl($editionData['image_filename']) ?>" alt="<?php echo $editionData['name'] ?>" /><br />
-            <?php echo $editionData['name'] ?>
-        </label>
-        <input type="radio" name="edition" class="validate-one-required-by-name" id="edition_<?php echo $editionCode ?>" value="<?php echo $editionCode ?>" />
-    </li>
-    <?php endforeach ?>
-</ul>
+    <h4><?php echo $this->__('Select your edition:') ?></h4>
+    <ul id="magento_localization">
+        <?php foreach ((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData): ?>
+            <?php $editionData = (array)$editionData ?>
+        <li>
+            <label for="edition_<?php echo $editionCode ?>">
+                <img src="<?php echo $this->getSkinUrl($editionData['image_filename']) ?>" alt="<?php echo $editionData['name'] ?>" /><br />
+                <?php echo $editionData['name'] ?>
+            </label>
+            <input type="radio" name="edition" class="validate-one-required-by-name" id="edition_<?php echo $editionCode ?>" value="<?php echo $editionCode ?>" />
+        </li>
+        <?php endforeach ?>
+    </ul>
+
+    <div class="clear"></div>
+
+    <p>
+        <input type="checkbox" name="ebay_edition" value="1" id="ebay_edition" class="checkbox" />
+        <label for="ebay_edition"><?php echo $this->__('Install ebay edition') ?></label>
+    </p>
+
 </div>
 <script type="text/javascript">
     //<![CDATA[
@@ -55,10 +63,9 @@
     //]]>
 </script>
 
-<div class="clear"></div>
 <?php endif ?>
 
-    <div style="height:20em; border:1px solid #ccc; margin-bottom:8px; padding:5px; background:#fff; overflow: auto; overflow-x:hidden; overflow-y:scroll;">
+<div style="height:20em; border:1px solid #ccc; margin-bottom:8px; padding:5px; background:#fff; overflow: auto; overflow-x:hidden; overflow-y:scroll;">
 <?php echo $this->getLicenseHtml() ?>
 </div>
 

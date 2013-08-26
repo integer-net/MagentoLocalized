@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c532e46fab9fb47219113a2a4e54a327",
+    "hash": "85287478425393cd0a5298ac18169729",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -56,6 +56,32 @@
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
             "time": "2013-08-06 22:05:50"
+        },
+        {
+            "name": "billsafe/billsafe",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/BillSAFE.git",
+                "reference": "c1f9dd6c446b30d867949261bd47cd96d649f27f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/c1f9dd6c446b30d867949261bd47cd96d649f27f",
+                "reference": "c1f9dd6c446b30d867949261bd47cd96d649f27f",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Payment module for invoice and rate payment",
+            "homepage": "hhttp://www.magentocommerce.com/magento-connect/billsafe-3890.html",
+            "support": {
+                "source": "https://github.com/integer-net/BillSAFE/tree/v13.0.6",
+                "issues": "https://github.com/integer-net/BillSAFE/issues"
+            },
+            "time": "2013-08-26 09:12:02"
         },
         {
             "name": "connect20/CashOnDelivery",
@@ -372,12 +398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedAT.git",
-                "reference": "c7eca8e7b07ea6c16f44b9db5bba90240d604151"
+                "reference": "c085683f82b05a7145396d7a0f6cac9a1322e613"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/c7eca8e7b07ea6c16f44b9db5bba90240d604151",
-                "reference": "c7eca8e7b07ea6c16f44b9db5bba90240d604151",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/c085683f82b05a7145396d7a0f6cac9a1322e613",
+                "reference": "c085683f82b05a7145396d7a0f6cac9a1322e613",
                 "shasum": ""
             },
             "require": {
@@ -390,7 +416,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedAT/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedAT/issues"
             },
-            "time": "2013-08-22 09:32:21"
+            "time": "2013-08-26 10:23:28"
         },
         {
             "name": "integer-net/magento-localized-ch",
@@ -398,12 +424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "56104e53c9481a4e72ac09406dfe4b4e67725937"
+                "reference": "b669d1345ea7996fb4a420a325f59ea0f8db9f78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/56104e53c9481a4e72ac09406dfe4b4e67725937",
-                "reference": "56104e53c9481a4e72ac09406dfe4b4e67725937",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/b669d1345ea7996fb4a420a325f59ea0f8db9f78",
+                "reference": "b669d1345ea7996fb4a420a325f59ea0f8db9f78",
                 "shasum": ""
             },
             "require": {
@@ -416,7 +442,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2013-08-22 09:32:47"
+            "time": "2013-08-26 10:24:12"
         },
         {
             "name": "integer-net/magento-localized-de",
@@ -424,12 +450,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
-                "reference": "a1c5e0761f5581637c4954c2b07e6f96fbbd5e36"
+                "reference": "8200ebdc5151540caa19b0159345594e22675470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/a1c5e0761f5581637c4954c2b07e6f96fbbd5e36",
-                "reference": "a1c5e0761f5581637c4954c2b07e6f96fbbd5e36",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/8200ebdc5151540caa19b0159345594e22675470",
+                "reference": "8200ebdc5151540caa19b0159345594e22675470",
                 "shasum": ""
             },
             "require": {
@@ -442,7 +468,33 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
             },
-            "time": "2013-08-22 09:33:05"
+            "time": "2013-08-26 10:24:41"
+        },
+        {
+            "name": "integer-net/magento-localized-ebay",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
+                "reference": "fe1c89b996ae0465cda31ba3ed1692aeee78858e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/fe1c89b996ae0465cda31ba3ed1692aeee78858e",
+                "reference": "fe1c89b996ae0465cda31ba3ed1692aeee78858e",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Ebay edition package for Magento Localized",
+            "homepage": "https://github.com/integer-net/MagentoLocalizedEbay",
+            "support": {
+                "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
+                "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
+            },
+            "time": "2013-08-26 10:21:00"
         },
         {
             "name": "integer-net/magento-localized-ru",
@@ -450,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedRU.git",
-                "reference": "32234a3bb378806b021f32979358993d7bc232dc"
+                "reference": "829dc3b9c73d47b8b60152f337ba6e5776c4b01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/32234a3bb378806b021f32979358993d7bc232dc",
-                "reference": "32234a3bb378806b021f32979358993d7bc232dc",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/829dc3b9c73d47b8b60152f337ba6e5776c4b01b",
+                "reference": "829dc3b9c73d47b8b60152f337ba6e5776c4b01b",
                 "shasum": ""
             },
             "require": {
@@ -468,7 +520,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedRU/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedRU/issues"
             },
-            "time": "2013-08-22 09:33:22"
+            "time": "2013-08-26 10:25:04"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
@@ -789,7 +841,9 @@
         "integer-net/autoshipping": 20,
         "ikonoshirt/customadminnotifications": 20,
         "itabs/invoice": 20,
-        "therouv/debitpayment": 20
+        "therouv/debitpayment": 20,
+        "integer-net/magento-localized-ebay": 20,
+        "billsafe/billsafe": 20
     },
     "platform": [
 
