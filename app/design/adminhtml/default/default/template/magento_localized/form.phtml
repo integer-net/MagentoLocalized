@@ -67,6 +67,7 @@
         </div>
     </div>
 
+    <?php if (Mage::getStoreConfig('magento_localized/display_paypal_email_field') == 1): ?>
     <div class="entry-edit-head">
         <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('PayPal') ?></h4>
         <div class="form-buttons"></div>
@@ -87,11 +88,14 @@
             </table>
         </div>
     </div>
-    <button type="button" value="Back" id="button-page-one" class="form-buttons" onclick="doButtonClick(this.id,'page-one')"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
+    <?php endif ?>
+
+
+    <button type="button" value="Next" id="button-page-one-next" class="form-buttons" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
 </div>
 
 <div id="page-two" style="display: none;">
-    <button type="button" value="Back" id="button-page-two" onclick="doButtonClick(this.id,'page-two')"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
+    <button type="button" value="Back" id="button-page-two-prev" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
     <br /><br />
 
     <?php if (!$this->isInitialized() && sizeof($this->getAdditionalLanguages())): ?>
@@ -289,7 +293,19 @@
             </table>
         </div>
     </div>
-    <button type="button" value="Back" id="button-page-two" onclick="doButtonClick(this.id,'page-two')"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
+
+    <?php if (false): ?>
+    <button type="button" value="Next" id="button-page-two-next" class="form-buttons" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
+
+</div>
+
+<div id="page-three" style="display: none;">
+    <button type="button" value="Back" id="button-page-three-prev" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
+    <br /><br />
+
+Content 3
+<?php endif ?>
+
     <p class="form-buttons">
         <?php echo $this->getButtonHtml(Mage::helper('adminhtml')->__('Setup %s', Mage::getStoreConfig('magento_localized/module_title')), 'setupForm.submit();', 'save'); ?>
     </p>
@@ -307,21 +323,52 @@
         }
     });
 
-    function doButtonClick(event, element) {
-        if(event == 'button-page-one') {
-            $(element).setStyle({
-                'display': 'none'
-            });
-            $('page-two').setStyle({
-                'display': 'block'
-            });
-        }else{
-            $('page-one').setStyle({
-                'display': 'block'
-            });
-            $(element).setStyle({
-                'display': 'none'
-            });
+    function doButtonClick(event) {
+        switch(event) {
+            case 'button-page-one-next':
+                $('page-one').setStyle({
+                    'display': 'none'
+                });
+                $('page-two').setStyle({
+                    'display': 'block'
+                });
+                $('page-three').setStyle({
+                    'display': 'none'
+                });
+                break;
+            case 'button-page-two-prev':
+                $('page-one').setStyle({
+                    'display': 'block'
+                });
+                $('page-two').setStyle({
+                    'display': 'none'
+                });
+                $('page-three').setStyle({
+                    'display': 'none'
+                });
+                break;
+            case 'button-page-two-next':
+                $('page-one').setStyle({
+                    'display': 'none'
+                });
+                $('page-two').setStyle({
+                    'display': 'none'
+                });
+                $('page-three').setStyle({
+                    'display': 'block'
+                });
+                break;
+            case 'button-page-three-prev':
+                $('page-one').setStyle({
+                    'display': 'none'
+                });
+                $('page-two').setStyle({
+                    'display': 'block'
+                });
+                $('page-three').setStyle({
+                    'display': 'none'
+                });
+                break;
 
         }
 

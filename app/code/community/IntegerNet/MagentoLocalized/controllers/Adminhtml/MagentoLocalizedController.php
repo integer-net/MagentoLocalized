@@ -34,6 +34,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             ->append(
                 $this->getLayout()
                     ->createBlock('adminhtml/template')
+                    ->setNameInLayout('magento_localized.form')
                     ->setTemplate('magento_localized/iframe.phtml')
                     ->setIframeUrl($iframeUrl)
             );

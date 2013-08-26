@@ -337,6 +337,8 @@
                 </general__imprint__web>
             </form_fields>
 
+            <display_paypal_email_field>1</display_paypal_email_field>
+
             <modules>
                 <firegento_pdf>
                     <name>FireGento PDF</name>
