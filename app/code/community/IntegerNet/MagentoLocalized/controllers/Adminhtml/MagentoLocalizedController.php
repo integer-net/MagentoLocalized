@@ -135,6 +135,8 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
         $this->_updateConfigData();
 
+        Mage::dispatchEvent('magento_localized_form_save', array('params' => $this->getRequest()->getParams()));
+
         $this->_createStores();
 
         if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
