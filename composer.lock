@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "85287478425393cd0a5298ac18169729",
+    "hash": "7e5ea858bc766a7af50bf385cb446943",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -36,12 +36,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
+                "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/BillSAFE.git",
-                "reference": "c1f9dd6c446b30d867949261bd47cd96d649f27f"
+                "reference": "e510f4345b8b8841898402f861b4e43152aba0b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/c1f9dd6c446b30d867949261bd47cd96d649f27f",
-                "reference": "c1f9dd6c446b30d867949261bd47cd96d649f27f",
+                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/e510f4345b8b8841898402f861b4e43152aba0b4",
+                "reference": "e510f4345b8b8841898402f861b4e43152aba0b4",
                 "shasum": ""
             },
             "require": {
@@ -78,10 +78,10 @@
             "description": "Payment module for invoice and rate payment",
             "homepage": "hhttp://www.magentocommerce.com/magento-connect/billsafe-3890.html",
             "support": {
-                "source": "https://github.com/integer-net/BillSAFE/tree/v13.0.6",
+                "source": "https://github.com/integer-net/BillSAFE/tree/master",
                 "issues": "https://github.com/integer-net/BillSAFE/issues"
             },
-            "time": "2013-08-26 09:12:02"
+            "time": "2013-08-27 07:27:11"
         },
         {
             "name": "connect20/CashOnDelivery",
@@ -288,12 +288,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "4ebbb494ee69faa6862e88fc9bc5ab70925ec3c8"
+                "reference": "caf640d44e1e688f57f71d0e5db752fc6fe687dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/4ebbb494ee69faa6862e88fc9bc5ab70925ec3c8",
-                "reference": "4ebbb494ee69faa6862e88fc9bc5ab70925ec3c8",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/caf640d44e1e688f57f71d0e5db752fc6fe687dc",
+                "reference": "caf640d44e1e688f57f71d0e5db752fc6fe687dc",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-08-22 13:30:57"
+            "time": "2013-08-26 16:19:35"
         },
         {
             "name": "firegento/pdf",
