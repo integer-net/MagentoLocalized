@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7e5ea858bc766a7af50bf385cb446943",
+    "hash": "85287478425393cd0a5298ac18169729",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -36,12 +36,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "11c75388722b8b04137702ce15f39d7008be9da8"
+                "reference": "2eb8e87ba52f17cbd0e355cc333b3bcc58acb4d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/11c75388722b8b04137702ce15f39d7008be9da8",
-                "reference": "11c75388722b8b04137702ce15f39d7008be9da8",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/2eb8e87ba52f17cbd0e355cc333b3bcc58acb4d5",
+                "reference": "2eb8e87ba52f17cbd0e355cc333b3bcc58acb4d5",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +494,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2013-08-27 10:37:41"
+            "time": "2013-08-28 10:21:15"
         },
         {
             "name": "integer-net/magento-localized-ru",
