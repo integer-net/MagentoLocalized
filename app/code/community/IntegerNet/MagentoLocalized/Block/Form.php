@@ -13,7 +13,6 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
     public function __construct()
     {
         parent::__construct();
-        $this->setTemplate('magento_localized/form.phtml');
         $this->setTitle(Mage::helper('magento_localized') ->__(Mage::getStoreConfig('magento_localized/module_title')));
     }
 

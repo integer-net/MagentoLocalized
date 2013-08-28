@@ -1,0 +1,88 @@
+<?php
+/**
+ * Localized Magento Editions
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalized
+ * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+
+/**
+ * @see IntegerNet_MagentoLocalized_Block_Form
+ * @var $this IntegerNet_MagentoLocalized_Block_Form
+ */
+?>
+
+<?php $moduleTitle = $this->__(Mage::getStoreConfig('magento_localized/module_title')) ?>
+
+<div class="content-header">
+    <h3>
+        <?php echo $this->__('%s Setup', $moduleTitle) ?><br />
+        <?php echo $this->__('Page %s of %s', $this->getPageNumber(), $this->getNumberPages()) ?>: <?php echo $this->__('Shop Data') ?>
+    </h3>
+</div>
+
+<div class="entry-edit-head">
+    <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Shop Data') ?></h4>
+    <div class="form-buttons"></div>
+</div>
+
+<div class="fieldset" id="group_fields">
+    <div class="hor-scroll">
+        <table cellspacing="0" class="form-list">
+            <tbody>
+            <?php foreach($this->getInputFields() as $field): ?>
+                <tr>
+                    <td class="label"><label for="field_<?php echo $field['name'] ?>"><?php echo $field['label'] ?></label></td>
+                    <td class="value">
+                        <?php if ($field['type'] == 'select'): ?>
+                            <select name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>" style="width:150px !important;">
+                                <?php $value = $this->getValue($field['name']) ?>
+                                <?php foreach(Mage::getSingleton($field['source_model'])->toOptionArray() as $option): ?>
+                                    <option value="<?php echo $option['value'] ?>"<?php if($option['value'] == $value): ?> selected="selected"<?php endif ?>>
+                                        <?php echo $option['label'] ?>
+                                    </option>
+                                <?php endforeach ?>
+                            </select>
+                        <?php elseif($field['type'] == 'textarea'): ?>
+                            <textarea name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>"><?php echo $this->getValue($field['name']) ?></textarea>
+                        <?php else: ?>
+                            <input type="text" name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>"class="input-text" value="<?php echo $this->getValue($field['name']) ?>" />
+                        <?php endif ?>
+                    </td>
+                    <td class="comment">
+                        <?php if (isset($field['optional']) && $field['optional']): ?>
+                            (<?php echo $this->__('optional') ?>)
+                        <?php endif ?>
+                    </td>
+                </tr>
+            <?php endforeach ?>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<?php if (Mage::getStoreConfig('magento_localized/display_paypal_email_field') == 1): ?>
+<div class="entry-edit-head">
+    <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('PayPal') ?></h4>
+    <div class="form-buttons"></div>
+</div>
+
+<div class="fieldset" id="group_paypal">
+    <div class="hor-scroll">
+        <table cellspacing="0" class="form-list">
+            <tbody>
+            <tr>
+                <td class="label"><label for="field_paypal_email"><?php echo $this->__('PayPal Merchant Account Email Address') ?></label></td>
+                <td class="value">
+                    <input type="text" name="paypal_email" id="field_paypal_email" class="input-text" value="<?php echo Mage::getStoreConfig('paypal/general/business_account') ?>" />
+                </td>
+                <td class="comment">(<?php echo $this->__('optional') ?>)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<?php endif ?>

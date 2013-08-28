@@ -46,7 +46,10 @@
             <action method="unsetChild"><name>notifications</name></action>
         </reference>
         <reference name="content">
-            <block type="magento_localized/form" name="magento_localized.form" />
+            <block type="magento_localized/form" name="magento_localized.form" template="magento_localized/form.phtml">
+                <block type="magento_localized/form" name="magento_localized.form.page1" as="page1" template="magento_localized/form/page1.phtml" />
+                <block type="magento_localized/form" name="magento_localized.form.page2" as="page2" template="magento_localized/form/page2.phtml" />
+            </block>
         </reference>
     </adminhtml_magentolocalized_form>
 </layout>

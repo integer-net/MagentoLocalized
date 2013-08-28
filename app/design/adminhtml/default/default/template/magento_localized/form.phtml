@@ -14,296 +14,43 @@
  * @var $this IntegerNet_MagentoLocalized_Block_Form
  */
 ?>
-
-<?php $moduleTitle = $this->__(Mage::getStoreConfig('magento_localized/module_title')) ?>
-
-<div class="content-header">
-    <h3><?php echo $moduleTitle ?></h3>
-</div>
-
-<p><?php echo $this->__('Please enter your data:') ?></p>
+<?php $page3 = $this->getChild('page3') ?>
+<?php $numberPages = is_object($page3) ? 3 : 2 ?>
 
 <div class="entry-edit">
 <form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="setup_form">
 <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
 <div id="page-one" style="position: relative; left: 0px;">
-    <div class="entry-edit-head">
-        <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Shop Data') ?></h4>
-        <div class="form-buttons"></div>
-    </div>
 
-    <div class="fieldset" id="group_fields">
-        <div class="hor-scroll">
-            <table cellspacing="0" class="form-list">
-                <tbody>
-                <?php foreach($this->getInputFields() as $field): ?>
-                    <tr>
-                        <td class="label"><label for="field_<?php echo $field['name'] ?>"><?php echo $field['label'] ?></label></td>
-                        <td class="value">
-                            <?php if ($field['type'] == 'select'): ?>
-                                <select name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>" style="width:150px !important;">
-                                    <?php $value = $this->getValue($field['name']) ?>
-                                    <?php foreach(Mage::getSingleton($field['source_model'])->toOptionArray() as $option): ?>
-                                        <option value="<?php echo $option['value'] ?>"<?php if($option['value'] == $value): ?> selected="selected"<?php endif ?>>
-                                            <?php echo $option['label'] ?>
-                                        </option>
-                                    <?php endforeach ?>
-                                </select>
-                            <?php elseif($field['type'] == 'textarea'): ?>
-                                <textarea name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>"><?php echo $this->getValue($field['name']) ?></textarea>
-                            <?php else: ?>
-                                <input type="text" name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>"class="input-text" value="<?php echo $this->getValue($field['name']) ?>" />
-                            <?php endif ?>
-                        </td>
-                        <td class="comment">
-                            <?php if (isset($field['optional']) && $field['optional']): ?>
-                                (<?php echo $this->__('optional') ?>)
-                            <?php endif ?>
-                        </td>
-                    </tr>
-                <?php endforeach ?>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <?php if (Mage::getStoreConfig('magento_localized/display_paypal_email_field') == 1): ?>
-    <div class="entry-edit-head">
-        <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('PayPal') ?></h4>
-        <div class="form-buttons"></div>
-    </div>
-
-    <div class="fieldset" id="group_paypal">
-        <div class="hor-scroll">
-            <table cellspacing="0" class="form-list">
-                <tbody>
-                <tr>
-                    <td class="label"><label for="field_paypal_email"><?php echo $this->__('PayPal Merchant Account Email Address') ?></label></td>
-                    <td class="value">
-                        <input type="text" name="paypal_email" id="field_paypal_email" class="input-text" value="<?php echo Mage::getStoreConfig('paypal/general/business_account') ?>" />
-                    </td>
-                    <td class="comment">(<?php echo $this->__('optional') ?>)</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-    <?php endif ?>
-
+    <?php echo $this->getChild('page1')
+        ->setPageNumber(1)
+        ->setNumberPages($numberPages)
+        ->toHtml() ?>
 
     <button type="button" value="Next" id="button-page-one-next" class="form-buttons" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
 </div>
 
 <div id="page-two" style="display: none;">
+
+    <?php echo $this->getChild('page2')
+        ->setPageNumber(2)
+        ->setNumberPages($numberPages)
+        ->toHtml() ?>
+
     <button type="button" value="Back" id="button-page-two-prev" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
-    <br /><br />
-
-    <?php if (!$this->isInitialized() && sizeof($this->getAdditionalLanguages())): ?>
-        <div class="entry-edit-head">
-            <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Store Languages') ?></h4>
-            <div class="form-buttons"></div>
-        </div>
-
-        <div class="fieldset" id="group_paypal">
-            <div class="hor-scroll">
-                <table cellspacing="0" class="form-list">
-                    <tbody>
-                    <tr>
-                        <td class="label"><label><?php echo $this->__('Create Additional Store Languages') ?></label></td>
-                        <td class="value">
-                            <?php foreach($this->getAdditionalLanguages() as $languageCode => $dummy): ?>
-                                <input type="checkbox" name="language[<?php echo $languageCode ?>]" id="field_language_<?php echo $languageCode ?>" class="checkbox" value="1" />
-                                <label for="field_language_<?php echo $languageCode ?>"><?php echo $this->__(Mage::getStoreConfig('magento_localized/languages/' . $languageCode . '/name')) ?></label>
-                                <br />
-                            <?php endforeach ?>
-                            (<?php echo $this->__(
-                                '%s language will be created automatically.',
-                                $this->__(Mage::getStoreConfig('magento_localized/languages/' . Mage::getStoreConfig('magento_localized/default_language') . '/name'))
-                            ) ?>)
-                        </td>
-                        <td class="comment"></td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    <?php endif ?>
-
-
-
-    <div class="entry-edit-head">
-        <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Integrated Modules') ?></h4>
-        <div class="form-buttons"></div>
-    </div>
-
-    <div class="fieldset" id="group_modules">
-        <div class="hor-scroll">
-            <table cellspacing="0" class="form-list">
-                <tbody>
-                <tr id="field_modules_default">
-                    <td class="label"></td>
-                    <td class="value">
-                        <?php if ($this->isInitialized()): ?>
-                        <input type="radio" name="modules_default" id="field_modules_default_x" class="radio modules-default" value="" checked="checked" />
-                        <label for="field_modules_default_x"><?php echo $this->__('Don\'t install additional modules') ?></label>
-                        <br />
-                        <input type="radio" name="modules_default" id="field_modules_default_1" class="radio modules-default" value="1" />
-                        <label for="field_modules_default_1"><?php echo $this->__('Install default modules') ?></label>
-                        <br />
-                        <?php else: ?>
-                        <input type="radio" name="modules_default" id="field_modules_default_1" class="radio modules-default" value="1" checked="checked" />
-                        <label for="field_modules_default_1"><?php echo $this->__('Install default modules') ?></label>
-                        <br />
-                        <?php endif ?>
-                        <input type="radio" name="modules_default" id="field_modules_default_0" class="radio modules-default" value="0" />
-                        <label for="field_modules_default_0"><?php echo $this->__('Choose which modules you want to install (Advanced Mode)') ?></label>
-                    </td>
-                </tr>
-                <tr id="field_modules" style="display: none;">
-                    <td class="label"><label><?php echo $this->__('Install the following modules:') ?></label></td>
-                    <td class="value">
-                        <?php foreach ($this->getModulesData() as $moduleIdentifier => $module): ?>
-                            <?php if (!$module['is_available']): continue; endif ?>
-                            <input
-                                type="checkbox"
-                                name="module[<?php echo $moduleIdentifier ?>]"
-                                id="field_module_<?php echo $moduleIdentifier ?>"
-                                class="checkbox"
-                                value="1"
-                                <?php if ($module['is_default']): ?>checked="checked"<?php endif ?>
-                                <?php if ($module['is_required']): ?>disabled="disabled"<?php endif ?>
-                                />
-                            <label for="field_module_<?php echo $moduleIdentifier ?>">
-                                <?php echo $this->__($module['name']) ?>
-                            </label>
-                            <?php if ($module['description'] || $module['url']): ?>
-                                <?php if ($module['url']): ?>
-                                    <a href="<?php echo $module['url'] ?>" target="_blank">
-                                <?php endif ?>
-                                <img src="<?php echo $this->getSkinUrl('images/i_question-mark.png') ?>"
-                                     alt="<?php echo $this->escapeHtml($this->__($module['description'])) ?>"
-                                     title="<?php echo $this->escapeHtml($this->__($module['description'])) ?> (<?php echo $this->__('Click for more information in a new window') ?>)" />
-                                <?php if ($module['url']): ?>
-                                    </a>
-                                <?php endif ?>
-                            <?php endif ?>
-                            <br />
-
-                        <?php endforeach ?>
-                    </td>
-                    <td class="comment"></td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-
-    <div class="entry-edit-head">
-        <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Help to improve %s - data transfer', $moduleTitle) ?></h4>
-        <div class="form-buttons"></div>
-    </div>
-
-    <div class="fieldset" id="group_datatransfer">
-        <div class="hor-scroll">
-            <table cellspacing="0" class="form-list">
-                <tbody>
-                <tr>
-                    <td colspan="2">
-                        <p><?php echo $this->__('%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community.', $moduleTitle, $moduleTitle) ?></p>
-                        <p><?php echo $this->__('Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions.', $moduleTitle, $moduleTitle, $moduleTitle) ?></p>
-                        <p><?php echo $this->__('Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted.') ?></p>
-                        <p><?php echo $this->__('Thank you very much in advance for your help.') ?></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="value">
-                        <input
-                            type="radio"
-                            name="field[admin__magento_localized__datatransfer]"
-                            id="field_datatransfer_none"
-                            value="<?php echo IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_NONE ?>"
-                            <?php if(Mage::getStoreConfig('admin/magento_localized/datatransfer') == IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_NONE): ?>checked="checked"<?php endif ?>
-                            />
-                    </td>
-                    <td class="value">
-                        <label for="field_datatransfer_none"><?php echo $this->__('I wish no information to be transmitted.') ?></label>
-                    </td>
-                    <td class="comment"></td>
-                </tr>
-                <tr>
-                    <td class="value">
-                        <input
-                            type="radio"
-                            name="field[admin__magento_localized__datatransfer]"
-                            id="field_datatransfer_basic"
-                            value="<?php echo IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_BASIC ?>"
-                            <?php if(Mage::getStoreConfig('admin/magento_localized/datatransfer') == IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_BASIC): ?>checked="checked"<?php endif ?>
-                            />
-                    </td>
-                    <td class="value">
-                        <label for="field_datatransfer_basic"><?php echo $this->__('I want to help monitor the distribution of %s and therefore agree on transmitting only the information necessary to accomplish this, thereby supporting the project.', $moduleTitle) ?></label><br />
-                        <p id="datatransfer_basic_information_link"><a style="cursor: pointer;" onclick="$('datatransfer_basic_information_list').show(); $('datatransfer_basic_information_link').hide();"><?php echo $this->__('What information will be transmitted?') ?></a></p>
-                        <ul style="list-style: disc outside; margin-left: 30px; display: none;" id="datatransfer_basic_information_list">
-                            <li><?php echo $this->__('Server IP') ?></li>
-                            <li><?php echo $this->__('Request Date') ?></li>
-                        </ul>
-                    </td>
-                    <td class="comment"></td>
-                </tr>
-                <tr>
-                    <td class="value">
-                        <input
-                            type="radio"
-                            name="field[admin__magento_localized__datatransfer]"
-                            id="field_datatransfer_advanced"
-                            value="<?php echo IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_ADVANCED ?>"
-                            <?php if(Mage::getStoreConfig('admin/magento_localized/datatransfer') == IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_ADVANCED): ?>checked="checked"<?php endif ?>
-                            />
-                    </td>
-                    <td class="value">
-                        <label for="field_datatransfer_advanced"><?php echo $this->__('I want to help monitor the distribution of %s and also want to profit from exclusive offers from the NR App Factory and their partners.', $moduleTitle) ?></label><br />
-                        <p id="datatransfer_advanced_offer_link"><a style="cursor: pointer;" onclick="$('datatransfer_advanced_offer_list').show(); $('datatransfer_advanced_offer_text').show(); $('datatransfer_advanced_offer_link').hide();"><?php echo $this->__('This could be your exclusive offers') ?></a></p>
-                        <p id="datatransfer_advanced_offer_text" style="display: none;"><?php echo $this->__('Offers could be for example:') ?></p>
-                        <ul id="datatransfer_advanced_offer_list" style="list-style: disc outside; margin-left: 30px; display: none;">
-                            <li><?php echo $this->__('Special conditions when purchasing extensions or services from the NAF store nr.apps.com') ?></li>
-                            <li><?php echo $this->__('Purchase options and special conditions for Magento event tickes, e.g. Meet Magento or Developers Paradise') ?></li>
-                            <li><?php echo $this->__('Purchase options and special conditions for Magento education tickets, e.g. NR Campus') ?></li>
-                            <li><?php echo $this->__('Showing your shop name and a link to your domain on nr-apps.com') ?></li>
-                            <li><?php echo $this->__('and many more') ?></li>
-                        </ul>
-                        <p><?php echo $this->__('For your personal offers and information about %s, please see the newsfeed of your system.', $moduleTitle) ?></p>
-                        <p><?php echo $this->__('I agree to help monitor the distribution of %s and therefore agree on transmitting the information necessary to accomplish this, thereby supporting the project.', $moduleTitle) ?></p>
-                        <p id="datatransfer_advanced_information_link"><a style="cursor: pointer;" onclick="$('datatransfer_advanced_information_list').show(); $('datatransfer_advanced_information_link').hide();"><?php echo $this->__('What information will be transmitted?') ?></a></p>
-                        <ul style="list-style: disc outside; margin-left: 30px; display: none;" id="datatransfer_advanced_information_list">
-                            <li><?php echo $this->__('Server IP') ?></li>
-                            <li><?php echo $this->__('Request Date') ?></li>
-                            <li><?php echo $this->__('Magento Version') ?></li>
-                            <li><?php echo $this->__('Imprint Datas: Shop Name, Company, Street, ZIP, City, Country, Telephone, Fax, Email, Website, CEO, Owner') ?></li>
-                        </ul><br/>
-                    </td>
-                    <td class="comment"></td>
-                </tr>
-                <tr>
-                    <td colspan="3">
-                        <p><?php echo $this->__('Further information on data privacy can be found <a href="%s" target="_blank">here</a>.', 'http://de.nr-apps.com/store/datenschutz/') ?></p>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-<?php if ($page3Content = $this->getChildHtml('page3')): ?>
+<?php if (is_object($page3)): ?>
     <button type="button" value="Next" id="button-page-two-next" class="form-buttons" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Next Page'); ?></span></span></button>
 
 </div>
 
 <div id="page-three" style="display: none;">
-    <button type="button" value="Back" id="button-page-three-prev" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
-    <br /><br />
 
-    <?php echo $page3Content ?>
+    <?php echo $page3
+        ->setPageNumber(3)
+        ->setNumberPages(3)
+        ->toHtml() ?>
+
+    <button type="button" value="Back" id="button-page-three-prev" onclick="doButtonClick(this.id)"><span><span><?php echo $this->__('Previous Page'); ?></span></span></button>
 <?php endif ?>
 
     <p class="form-buttons">
