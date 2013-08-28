@@ -502,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "fcdb39997abf66e4e49c993b1649054563c6b904"
+                "reference": "abcbbd0902e0153c22e8037d46dbdcb0d9b36e60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/fcdb39997abf66e4e49c993b1649054563c6b904",
-                "reference": "fcdb39997abf66e4e49c993b1649054563c6b904",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/abcbbd0902e0153c22e8037d46dbdcb0d9b36e60",
+                "reference": "abcbbd0902e0153c22e8037d46dbdcb0d9b36e60",
                 "shasum": ""
             },
             "require": {
@@ -520,7 +520,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2013-08-28 13:33:26"
+            "time": "2013-08-28 13:46:54"
         },
         {
             "name": "integer-net/magento-localized-ru",
