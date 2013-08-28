@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "85287478425393cd0a5298ac18169729",
+    "hash": "4a578b729c27a0992503031b51c9c57c",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/BillSAFE.git",
-                "reference": "e510f4345b8b8841898402f861b4e43152aba0b4"
+                "reference": "5cef1ac3ce7dd0d675ac7b6442df03dfc0ff0667"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/e510f4345b8b8841898402f861b4e43152aba0b4",
-                "reference": "e510f4345b8b8841898402f861b4e43152aba0b4",
+                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/5cef1ac3ce7dd0d675ac7b6442df03dfc0ff0667",
+                "reference": "5cef1ac3ce7dd0d675ac7b6442df03dfc0ff0667",
                 "shasum": ""
             },
             "require": {
@@ -76,12 +76,12 @@
             },
             "type": "magento-module",
             "description": "Payment module for invoice and rate payment",
-            "homepage": "hhttp://www.magentocommerce.com/magento-connect/billsafe-3890.html",
+            "homepage": "http://www.magentocommerce.com/magento-connect/billsafe-3890.html",
             "support": {
                 "source": "https://github.com/integer-net/BillSAFE/tree/master",
                 "issues": "https://github.com/integer-net/BillSAFE/issues"
             },
-            "time": "2013-08-27 07:27:11"
+            "time": "2013-08-28 13:13:40"
         },
         {
             "name": "connect20/CashOnDelivery",
@@ -190,6 +190,32 @@
                 }
             ],
             "description": "Magento Community Modules -  Pacchetto di lingua italiano (Italia)&#xD;\n"
+        },
+        {
+            "name": "ess/m2e-pro",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/M2E.git",
+                "reference": "5b72a65bf39a5c70b4c229aecf3a11472e694652"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/5b72a65bf39a5c70b4c229aecf3a11472e694652",
+                "reference": "5b72a65bf39a5c70b4c229aecf3a11472e694652",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
+            "homepage": "http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-importing-and-stock-level-synchronization.html",
+            "support": {
+                "source": "https://github.com/integer-net/M2E/tree/master",
+                "issues": "https://github.com/integer-net/M2E/issues"
+            },
+            "time": "2013-08-28 13:27:11"
         },
         {
             "name": "etws/et_russianlanguagepack",
@@ -476,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "2eb8e87ba52f17cbd0e355cc333b3bcc58acb4d5"
+                "reference": "fcdb39997abf66e4e49c993b1649054563c6b904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/2eb8e87ba52f17cbd0e355cc333b3bcc58acb4d5",
-                "reference": "2eb8e87ba52f17cbd0e355cc333b3bcc58acb4d5",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/fcdb39997abf66e4e49c993b1649054563c6b904",
+                "reference": "fcdb39997abf66e4e49c993b1649054563c6b904",
                 "shasum": ""
             },
             "require": {
@@ -494,7 +520,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2013-08-28 10:21:15"
+            "time": "2013-08-28 13:33:26"
         },
         {
             "name": "integer-net/magento-localized-ru",
@@ -613,12 +639,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
-                "reference": "6de1846bb9c0ace7d6fa6a7d3eb39593de458fdb"
+                "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/6de1846bb9c0ace7d6fa6a7d3eb39593de458fdb",
-                "reference": "6de1846bb9c0ace7d6fa6a7d3eb39593de458fdb",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
+                "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "shasum": ""
             },
             "require": {
@@ -633,7 +659,7 @@
             "support": {
                 "source": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/tree/master"
             },
-            "time": "2013-08-02 13:39:57"
+            "time": "2013-08-28 11:34:43"
         },
         {
             "name": "magento-hackathon/magento-composer-installer",
@@ -843,7 +869,8 @@
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
         "integer-net/magento-localized-ebay": 20,
-        "billsafe/billsafe": 20
+        "billsafe/billsafe": 20,
+        "ess/m2e-pro": 20
     },
     "platform": [
 

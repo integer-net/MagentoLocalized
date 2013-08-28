@@ -29,7 +29,8 @@
         "therouv/debitpayment": "dev-master",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "billsafe/billsafe": "dev-master"
+        "billsafe/billsafe": "dev-master",
+        "ess/m2e-pro": "dev-master"
     },
     "repositories": [
         {
@@ -51,6 +52,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/BillSAFE.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/M2E.git"
         },
         {
             "type": "vcs",
