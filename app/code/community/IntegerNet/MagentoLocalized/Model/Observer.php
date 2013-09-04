@@ -79,6 +79,12 @@ class IntegerNet_MagentoLocalized_Model_Observer
     protected function _getEdition()
     {
         foreach((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData) {
+            if (file_exists(Mage::getBaseDir() . DS . 'magento-ebay-' . $editionCode . '.txt')) {
+                return 'ebay-' . $editionCode;
+            }
+        }
+
+        foreach((array)Mage::getSingleton('install/config')->getNode('magento_localized/editions') as $editionCode => $editionData) {
             if (file_exists(Mage::getBaseDir() . DS . 'magento-' . $editionCode . '.txt')) {
                 return $editionCode;
             }

@@ -30,6 +30,12 @@ class IntegerNet_MagentoLocalized_Model_Installer
      */
     public function installEditionModules($editionCode)
     {
+        if (strpos($editionCode, 'ebay') === 0) {
+            $ebayPackageName = Mage::getSingleton('install/config')->getNode('magento_localized/ebay_edition/module_package');
+            $this->installPackageByName($ebayPackageName);
+            $editionCode = substr($editionCode, 5);
+        }
+
         $localizedModulePackageName = Mage::getSingleton('install/config')->getNode('magento_localized/editions/' . $editionCode . '/module_package');
         if ($localizedModulePackageName) {
             $this->installPackageByName($localizedModulePackageName);

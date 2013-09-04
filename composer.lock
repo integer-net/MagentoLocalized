@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4a578b729c27a0992503031b51c9c57c",
+    "hash": "cbc637438cfb6218fa5dc44b943d58df",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -36,12 +36,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
+                "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
@@ -314,12 +314,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "caf640d44e1e688f57f71d0e5db752fc6fe687dc"
+                "reference": "cc9f75a7afc6612c8caaa0c78b0c7e7fba8dd3e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/caf640d44e1e688f57f71d0e5db752fc6fe687dc",
-                "reference": "caf640d44e1e688f57f71d0e5db752fc6fe687dc",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/cc9f75a7afc6612c8caaa0c78b0c7e7fba8dd3e9",
+                "reference": "cc9f75a7afc6612c8caaa0c78b0c7e7fba8dd3e9",
                 "shasum": ""
             },
             "require": {
@@ -335,7 +335,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-08-26 16:19:35"
+            "time": "2013-08-30 09:32:39"
         },
         {
             "name": "firegento/pdf",
