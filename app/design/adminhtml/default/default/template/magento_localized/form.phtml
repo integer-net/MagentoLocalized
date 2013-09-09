@@ -54,7 +54,13 @@
 <?php endif ?>
 
     <p class="form-buttons">
-        <?php echo $this->getButtonHtml(Mage::helper('adminhtml')->__('Setup %s', Mage::getStoreConfig('magento_localized/module_title')), 'setupForm.submit();', 'save'); ?>
+        <?php 
+        $buttonText = Mage::helper('magento_localized')->__('Setup %s', Mage::getStoreConfig('magento_localized/module_title'));
+        if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
+            $buttonText .= '<br /><small>' . Mage::helper('magento_localized')->__('This could take a little while') . '</small>';
+        }
+        echo $this->getButtonHtml($buttonText, 'setupForm.submit();', 'save'); 
+        ?>
     </p>
 </div>
 </form>

@@ -109,7 +109,7 @@
 
 <div class="button-set">
     <p class="required">* <?php echo $this->__('Required Fields') ?></p>
-    <button class="form-button" type="submit"><span><?php echo $this->__('Continue') ?></span></button>
+    <button class="form-button" type="submit"><span><?php echo $this->__('Continue') ?><br />(<small><?php echo $this->__('This could take a little while') ?></small>)</span></button>
 </div>
 </form>
 <script type="text/javascript">
@@ -118,6 +118,6 @@
 <?php else: ?>
     <div><?php echo $this->__('Please set all required settings before clicking Continue') ?></div>
     <div class="button-set">
-        <button class="form-button" type="button" onclick="setLocation('<?php echo $this->getUrl('*/*/*', array('_current'=>true)) ?>')"><span><?php echo $this->__('Continue') ?></span></button>
+        <button class="form-button" type="button" onclick="setLocation('<?php echo $this->getUrl('*/*/*', array('_current'=>true)) ?>')"><span><?php echo $this->__('Continue') ?><br />(<small><?php echo $this->__('This could take a little while') ?></small>)</span></button>
     </div>
 <?php endif; ?>

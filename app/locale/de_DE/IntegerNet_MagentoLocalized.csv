@@ -87,6 +87,7 @@
 
 "Phoenix_CashOnDelivery::You will be charged an extra fee of %s.","Nachnahmegebühr %s"
 
+"This could take a little while","Bitte haben Sie etwas Geduld"
 "Country Selection","Länderauswahl"
 "Please go to Backend now in order to complete the preconfiguration.","Bitte betreten Sie jetzt das AdminPanel, um die Konfiguration abzuschließen."
 
