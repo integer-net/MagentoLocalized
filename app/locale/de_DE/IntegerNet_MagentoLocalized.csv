@@ -97,3 +97,5 @@
 "Page %s of %s","Seite %s von %s"
 "Languages, Modules, Datatransfer","Sprachen, Module, Datenübertragung"
 "Modules, Datatransfer","Module, Datenübertragung"
+
+"An error occured. Please provide write access to the whole Magento directory and all subdirectories.","Ein Fehler ist aufgetreten. Bitte beachten Sie, dass Schreibrechte für das Magento-Verzeichnis und alle Unterverzeichnisse vorliegen müssen."

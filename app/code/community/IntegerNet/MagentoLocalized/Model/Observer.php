@@ -64,6 +64,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
                 $controller->getRequest()->setDispatched(true);
 
             } catch (Exception $e) {
+                Mage::getSingleton('install/session')->addError(Mage::helper('magento_localized')->__('An error occured. Please provide write access to the whole Magento directory and all subdirectories.'));
                 Mage::getSingleton('install/session')->addError($e->getMessage());
             }
         }
