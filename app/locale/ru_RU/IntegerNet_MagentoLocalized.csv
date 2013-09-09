@@ -92,7 +92,7 @@
 "Phoenix_CashOnDelivery::You will be charged an extra fee of %s.","Наценка %s"
 
 "Country Selection","Выбор страны"
-"Please go to <a href=""%s"">Backend</a> now in order to complete the preconfiguration.","Пожалуйста, перейдите в <a href=""%s"">панель управления</a> для завершения установки."
+"Please go to Backend now in order to complete the preconfiguration.","Пожалуйста, перейдите в панель управления для завершения установки."
 "News","Лента новостей"
 
 "Next Page","Следующая страница"

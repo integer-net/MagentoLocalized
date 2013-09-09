@@ -30,16 +30,12 @@ class IntegerNet_MagentoLocalized_Install_WizardController extends Mage_Install_
 
                 try {
                     Mage::getSingleton('magento_localized/installer')->installEditionModules($edition);
-                } catch (Exception $e) {
-                    Mage::getSingleton('install/session')->addError($e->getMessage());
-                    $this->getResponse()->setRedirect($step->getUrl());
-                }
-            }
-            if (($ebayEdition = $this->getRequest()->getPost('ebay_edition')) && $ebayEdition == 1) {
 
-                try {
-                    Mage::getSingleton('magento_localized/installer')->installEbayEditionModules();
+                    if (($ebayEdition = $this->getRequest()->getPost('ebay_edition')) && $ebayEdition == 1) {
+                        Mage::getSingleton('magento_localized/installer')->installEbayEditionModules();
+                    }
                 } catch (Exception $e) {
+                    Mage::getSingleton('install/session')->addError(Mage::helper('magento_localized')->__('An error occured. Please provide write access to the whole Magento directory and all subdirectories.'));
                     Mage::getSingleton('install/session')->addError($e->getMessage());
                     $this->getResponse()->setRedirect($step->getUrl());
                 }
