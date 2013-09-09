@@ -23,6 +23,7 @@
         "integer-net/removecustomeraccountlinks": "dev-master",
         "integer-net/autoshipping": "dev-master",
         "ikonoshirt/customadminnotifications": "dev-master",
+        "openstream/rappenrounding": "dev-master",
 
         "connect20/cashondelivery": "*",
         "itabs/invoice": "dev-master",
@@ -30,24 +31,12 @@
 
         "integer-net/magento-localized-ebay": "dev-master",
         "billsafe/billsafe": "dev-master",
-        "ess/m2e-pro": "dev-master"
+        "ess/m2e-pro": "v5.2.5"
     },
     "repositories": [
         {
             "type": "composer",
             "url": "http://packages.firegento.com"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/firegento/firegento-magesetup.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/openstream/Magento5CentRounding.git"
         },
         {
             "type": "vcs",
@@ -79,7 +68,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://avstudnitz@bitbucket.org/etws/et_russianlanguagepack.git"
+            "url": "https://bitbucket.org/etws/et_russianlanguagepack.git"
         }
     ],
     "extra": {
