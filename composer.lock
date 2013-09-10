@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "de5d5d92cf991e801787ec44a74f60de",
+    "hash": "c1ab798622bf01337f2849ea502cac4a",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -193,16 +193,16 @@
         },
         {
             "name": "ess/m2e-pro",
-            "version": "v5.2.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/M2E.git",
-                "reference": "de425b60a4edd3f2755a0743cc4c1254493866ee"
+                "reference": "5b72a65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/de425b60a4edd3f2755a0743cc4c1254493866ee",
-                "reference": "de425b60a4edd3f2755a0743cc4c1254493866ee",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/fe652f1efbab5eb55c3a432d537994297e2b1d16",
+                "reference": "5b72a65",
                 "shasum": ""
             },
             "require": {
@@ -212,10 +212,10 @@
             "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
             "homepage": "http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-importing-and-stock-level-synchronization.html",
             "support": {
-                "source": "https://github.com/integer-net/M2E/tree/v5.2.5",
+                "source": "https://github.com/integer-net/M2E/tree/v6.0.3",
                 "issues": "https://github.com/integer-net/M2E/issues"
             },
-            "time": "2013-08-28 13:19:32"
+            "time": "2013-08-28 13:27:11"
         },
         {
             "name": "etws/et_russianlanguagepack",
@@ -911,7 +911,8 @@
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
         "integer-net/magento-localized-ebay": 20,
-        "billsafe/billsafe": 20
+        "billsafe/billsafe": 20,
+        "ess/m2e-pro": 20
     },
     "platform": [
 
