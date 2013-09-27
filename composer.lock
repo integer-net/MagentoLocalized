@@ -36,12 +36,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
+                "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
                 "shasum": ""
             },
@@ -320,12 +320,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-magesetup.git",
-                "reference": "5a14126b233e3d01342aca5c18b920e3f65f18f5"
+                "reference": "84c01107b7159dc2aeb8894be74f8d2797a60c01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-magesetup/zipball/5a14126b233e3d01342aca5c18b920e3f65f18f5",
-                "reference": "5a14126b233e3d01342aca5c18b920e3f65f18f5",
+                "url": "https://github.com/firegento/firegento-magesetup/zipball/84c01107b7159dc2aeb8894be74f8d2797a60c01",
+                "reference": "84c01107b7159dc2aeb8894be74f8d2797a60c01",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-09-09 20:07:55"
+            "time": "2013-09-18 16:02:41"
         },
         {
             "name": "firegento/pdf",
@@ -355,12 +355,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-pdf.git",
-                "reference": "199492596458a06a7301648e51e06c17c4f92197"
+                "reference": "92024aa1ae57e70db8960badb2bafab36b8496ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-pdf/zipball/199492596458a06a7301648e51e06c17c4f92197",
-                "reference": "199492596458a06a7301648e51e06c17c4f92197",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/92024aa1ae57e70db8960badb2bafab36b8496ef",
+                "reference": "92024aa1ae57e70db8960badb2bafab36b8496ef",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +376,7 @@
                 "source": "https://github.com/firegento/firegento-pdf/tree/development",
                 "issues": "https://github.com/firegento/firegento-pdf/issues"
             },
-            "time": "2013-08-15 06:56:36"
+            "time": "2013-09-20 07:49:56"
         },
         {
             "name": "ikonoshirt/customadminnotifications",
@@ -781,13 +781,13 @@
             "version": "dev-preview",
             "source": {
                 "type": "git",
-                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git",
-                "reference": "25c6bdfae1443981873e2f1f5a2809ea3b7c7e62"
+                "url": "git://github.com/riconeitzel/German_LocalePack_de_DE.git",
+                "reference": "db82ede3056ee9a86674541fd63c4307a88ac642"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/25c6bdfae1443981873e2f1f5a2809ea3b7c7e62",
-                "reference": "25c6bdfae1443981873e2f1f5a2809ea3b7c7e62",
+                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE/zipball/db82ede3056ee9a86674541fd63c4307a88ac642",
+                "reference": "db82ede3056ee9a86674541fd63c4307a88ac642",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/preview",
                 "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
             },
-            "time": "2013-08-02 13:49:29"
+            "time": "2013-09-10 16:29:38"
         },
         {
             "name": "therouv/debitpayment",
@@ -818,12 +818,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/therouv/Magento-DebitPayment.git",
-                "reference": "1.0.4"
+                "reference": "1.0.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/therouv/Magento-DebitPayment/zipball/1.0.4",
-                "reference": "1.0.4",
+                "url": "https://github.com/therouv/Magento-DebitPayment/zipball/1.0.5",
+                "reference": "1.0.5",
                 "shasum": ""
             },
             "require": {
@@ -842,10 +842,10 @@
             "description": "Provides the payment method DebitPayment",
             "homepage": "https://github.com/therouv/Magento-DebitPayment",
             "support": {
-                "source": "https://github.com/therouv/Magento-DebitPayment/tree/1.0.4",
+                "source": "https://github.com/therouv/Magento-DebitPayment/tree/1.0.5",
                 "issues": "https://github.com/therouv/Magento-DebitPayment/issues"
             },
-            "time": "2013-09-09 07:22:52"
+            "time": "2013-09-23 15:42:41"
         },
         {
             "name": "tim-reynolds/magento-qconfig",
