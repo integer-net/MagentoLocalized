@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c1ab798622bf01337f2849ea502cac4a",
+    "hash": "46b512a1905558af1b10c34d7ba34103",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -320,12 +320,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-magesetup.git",
-                "reference": "84c01107b7159dc2aeb8894be74f8d2797a60c01"
+                "reference": "73dd956"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://github.com/firegento/firegento-magesetup/zipball/84c01107b7159dc2aeb8894be74f8d2797a60c01",
-                "reference": "84c01107b7159dc2aeb8894be74f8d2797a60c01",
+                "reference": "73dd956",
                 "shasum": ""
             },
             "require": {
@@ -347,7 +347,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2013-09-18 16:02:41"
+            "time": "2013-10-01 08:26:53"
         },
         {
             "name": "firegento/pdf",
@@ -384,16 +384,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git",
-                "reference": "88807e2154ed018c8a5da53c88fae5705cda9a01"
+                "reference": "d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ikonoshirt/CustomAdminNotifications/zipball/88807e2154ed018c8a5da53c88fae5705cda9a01",
-                "reference": "88807e2154ed018c8a5da53c88fae5705cda9a01",
+                "url": "https://api.github.com/repos/ikonoshirt/CustomAdminNotifications/zipball/d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c",
+                "reference": "d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c",
                 "shasum": ""
             },
             "require": {
-                "magento-hackathon/magento-composer-installer": "dev-master"
+                "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
             "description": "Add own RSS Feeds to admin notifications.",
@@ -402,19 +402,19 @@
                 "source": "https://github.com/ikonoshirt/CustomAdminNotifications/tree/master",
                 "issues": "https://github.com/ikonoshirt/CustomAdminNotifications/issues"
             },
-            "time": "2013-08-06 13:56:13"
+            "time": "2013-09-09 15:14:20"
         },
         {
             "name": "integer-net/autoshipping",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/integer-net/Autoshipping.git",
+                "url": "git://github.com/integer-net/Autoshipping.git",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
+                "url": "https://github.com/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "shasum": ""
             },
@@ -650,12 +650,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
+                "url": "git://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
+                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "shasum": ""
             },
@@ -852,12 +852,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
+                "url": "git://github.com/tim-reynolds/magento-qconfig.git",
                 "reference": "1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/1.0",
+                "url": "https://github.com/tim-reynolds/magento-qconfig/zipball/1.0",
                 "reference": "1.0",
                 "shasum": ""
             },
