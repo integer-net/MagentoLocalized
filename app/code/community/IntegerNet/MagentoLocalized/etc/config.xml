@@ -22,6 +22,11 @@
             <magento_localized>
                 <class>IntegerNet_MagentoLocalized_Model</class>
             </magento_localized>
+            <catalog>
+                <rewrite>
+                    <category_attribute_backend_image>IntegerNet_MagentoLocalized_Model_Catalog_Category_Attribute_Backend_Image</category_attribute_backend_image>
+                </rewrite>
+            </catalog>
         </models>
 
         <blocks>
