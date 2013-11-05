@@ -63,12 +63,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/BillSAFE.git",
-                "reference": "5cef1ac3ce7dd0d675ac7b6442df03dfc0ff0667"
+                "reference": "f73680c83837ef5301453c5ebf271fbe20465186"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/5cef1ac3ce7dd0d675ac7b6442df03dfc0ff0667",
-                "reference": "5cef1ac3ce7dd0d675ac7b6442df03dfc0ff0667",
+                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/f73680c83837ef5301453c5ebf271fbe20465186",
+                "reference": "f73680c83837ef5301453c5ebf271fbe20465186",
                 "shasum": ""
             },
             "require": {
@@ -81,7 +81,7 @@
                 "source": "https://github.com/integer-net/BillSAFE/tree/master",
                 "issues": "https://github.com/integer-net/BillSAFE/issues"
             },
-            "time": "2013-08-28 13:13:40"
+            "time": "2013-10-10 12:14:26"
         },
         {
             "name": "connect20/CashOnDelivery",
@@ -324,7 +324,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-magesetup/zipball/84c01107b7159dc2aeb8894be74f8d2797a60c01",
+                "url": "https://github.com/firegento/firegento-magesetup/zipball/6b04dc37dfa44363bbef94036847c8cd76d2a6b2",
                 "reference": "73dd956",
                 "shasum": ""
             },
@@ -355,12 +355,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-pdf.git",
-                "reference": "92024aa1ae57e70db8960badb2bafab36b8496ef"
+                "reference": "47c2ee900755fdc2e0683831bd94338e8101e284"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-pdf/zipball/92024aa1ae57e70db8960badb2bafab36b8496ef",
-                "reference": "92024aa1ae57e70db8960badb2bafab36b8496ef",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/47c2ee900755fdc2e0683831bd94338e8101e284",
+                "reference": "47c2ee900755fdc2e0683831bd94338e8101e284",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +376,7 @@
                 "source": "https://github.com/firegento/firegento-pdf/tree/development",
                 "issues": "https://github.com/firegento/firegento-pdf/issues"
             },
-            "time": "2013-09-20 07:49:56"
+            "time": "2013-10-26 15:29:21"
         },
         {
             "name": "ikonoshirt/customadminnotifications",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
-                "reference": "a58dd87e616990180529c02f1a8a7093b0f6d0fa"
+                "reference": "057588c9bbf7e961ac832de72efdc158aa7a6afa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/a58dd87e616990180529c02f1a8a7093b0f6d0fa",
-                "reference": "a58dd87e616990180529c02f1a8a7093b0f6d0fa",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/057588c9bbf7e961ac832de72efdc158aa7a6afa",
+                "reference": "057588c9bbf7e961ac832de72efdc158aa7a6afa",
                 "shasum": ""
             },
             "require": {
@@ -748,7 +748,7 @@
                 "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
-            "time": "2013-09-08 10:33:42"
+            "time": "2013-10-26 16:39:06"
         },
         {
             "name": "openstream/rappenrounding",
@@ -782,12 +782,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/riconeitzel/German_LocalePack_de_DE.git",
-                "reference": "db82ede3056ee9a86674541fd63c4307a88ac642"
+                "reference": "c97bd6e871d7dd4470fab340800a6daef4c1d08d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE/zipball/db82ede3056ee9a86674541fd63c4307a88ac642",
-                "reference": "db82ede3056ee9a86674541fd63c4307a88ac642",
+                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE/zipball/c97bd6e871d7dd4470fab340800a6daef4c1d08d",
+                "reference": "c97bd6e871d7dd4470fab340800a6daef4c1d08d",
                 "shasum": ""
             },
             "require": {
@@ -810,7 +810,7 @@
                 "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/preview",
                 "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
             },
-            "time": "2013-09-10 16:29:38"
+            "time": "2013-10-16 10:46:07"
         },
         {
             "name": "therouv/debitpayment",

@@ -26,6 +26,9 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
         return $this->getUrl('*/*/save');
     }
 
+    /**
+     * @return array
+     */
     public function getInputFields()
     {
         $inputFields = array();
@@ -43,6 +46,10 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
         return $inputFields;
     }
 
+    /**
+     * @param string $fieldname
+     * @return mixed
+     */
     public function getValue($fieldname)
     {
         $fieldCode = implode('/', explode('__', $fieldname));
@@ -58,6 +65,9 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
         return Mage::getStoreConfig('magento_localized/available_languages');
     }
 
+    /**
+     * @return array
+     */
     public function getModulesData()
     {
         $modulesData = array();
@@ -67,8 +77,33 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
         return $modulesData;
     }
 
+    /**
+     * @return bool
+     */
     public function isInitialized()
     {
         return Mage::getStoreConfigFlag('magento_localized/is_initialized');
+    }
+
+    /**
+     * Create buttonn and return its html
+     *
+     * @param string $label
+     * @param string $onclick
+     * @param string $class
+     * @param string $id
+     * @return string
+     */
+    public function getButtonHtml($label, $onclick, $class='', $id=null) {
+        return $this->getLayout()->createBlock('adminhtml/widget_button')
+            ->setData(array(
+                'label'     => $label,
+                'title'     => strip_tags(str_replace('<br />', ' - ', $label)),
+                'onclick'   => $onclick,
+                'class'     => $class,
+                'type'      => 'button',
+                'id'        => $id,
+            ))
+            ->toHtml();
     }
 }
