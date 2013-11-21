@@ -246,6 +246,11 @@
                 <checkout_multiple>0</checkout_multiple>
             </option>
         </shipping>
+        <tax>
+            <ignore_notification>
+                <discount>1</discount>
+            </ignore_notification>
+        </tax>
         <admin>
             <security>
                 <session_cookie_lifetime>36000</session_cookie_lifetime>
