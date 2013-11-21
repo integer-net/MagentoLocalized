@@ -37,12 +37,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce"
+                "reference": "6b22289bc1990cea26f8fcf5deddb044ccc063d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
-                "reference": "c5254bd7ada6c8115ab9dc070923bcc4813df3ce",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/6b22289bc1990cea26f8fcf5deddb044ccc063d9",
+                "reference": "6b22289bc1990cea26f8fcf5deddb044ccc063d9",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,7 @@
                 "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2013-08-06 22:05:50"
+            "time": "2013-11-11 20:24:57"
         },
         {
             "name": "billsafe/billsafe",
@@ -324,7 +324,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-magesetup/zipball/6b04dc37dfa44363bbef94036847c8cd76d2a6b2",
+                "url": "https://github.com/firegento/firegento-magesetup/zipball/63c0738bffa0078b914c9233f41baa939e887a6c",
                 "reference": "73dd956",
                 "shasum": ""
             },
@@ -355,12 +355,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-pdf.git",
-                "reference": "47c2ee900755fdc2e0683831bd94338e8101e284"
+                "reference": "aa5ebf979b42ef2acc34c20ef312c0c4eaf973cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-pdf/zipball/47c2ee900755fdc2e0683831bd94338e8101e284",
-                "reference": "47c2ee900755fdc2e0683831bd94338e8101e284",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/aa5ebf979b42ef2acc34c20ef312c0c4eaf973cb",
+                "reference": "aa5ebf979b42ef2acc34c20ef312c0c4eaf973cb",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +376,7 @@
                 "source": "https://github.com/firegento/firegento-pdf/tree/development",
                 "issues": "https://github.com/firegento/firegento-pdf/issues"
             },
-            "time": "2013-10-26 15:29:21"
+            "time": "2013-10-31 19:27:03"
         },
         {
             "name": "ikonoshirt/customadminnotifications",
@@ -514,12 +514,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "694817373190f3e4e1bc409a96dc5e434e6b6764"
+                "reference": "ce8b3163622ec24a5d646fdb8fca459ecd650b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/694817373190f3e4e1bc409a96dc5e434e6b6764",
-                "reference": "694817373190f3e4e1bc409a96dc5e434e6b6764",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/ce8b3163622ec24a5d646fdb8fca459ecd650b1e",
+                "reference": "ce8b3163622ec24a5d646fdb8fca459ecd650b1e",
                 "shasum": ""
             },
             "require": {
@@ -532,7 +532,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2013-09-09 14:25:48"
+            "time": "2013-11-21 16:05:00"
         },
         {
             "name": "integer-net/magento-localized-ru",
@@ -679,16 +679,13 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
-                "reference": "057588c9bbf7e961ac832de72efdc158aa7a6afa"
+                "reference": "02f7b627c7f21805c467a6d1d100121ac44b48dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/057588c9bbf7e961ac832de72efdc158aa7a6afa",
-                "reference": "057588c9bbf7e961ac832de72efdc158aa7a6afa",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/02f7b627c7f21805c467a6d1d100121ac44b48dc",
+                "reference": "02f7b627c7f21805c467a6d1d100121ac44b48dc",
                 "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "1.0.0"
             },
             "require-dev": {
                 "composer/composer": "*",
@@ -715,7 +712,7 @@
             "authors": [
                 {
                     "name": "Daniel Fahlke aka Flyingmana",
-                    "email": "daniel@digitalmanufaktur.com"
+                    "email": "flyingmana@googlemail.com"
                 },
                 {
                     "name": "Jörg Weller",
@@ -748,7 +745,7 @@
                 "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
-            "time": "2013-10-26 16:39:06"
+            "time": "2013-11-09 19:31:23"
         },
         {
             "name": "openstream/rappenrounding",
