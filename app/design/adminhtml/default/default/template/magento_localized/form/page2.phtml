@@ -97,7 +97,7 @@
                 <td class="label"><label><?php echo $this->__('Install the following modules:') ?></label></td>
                 <td class="value">
                     <?php foreach ($this->getModulesData() as $moduleIdentifier => $module): ?>
-                        <?php if (!$module['is_available']): continue; endif ?>
+                        <?php if (!isset($module['is_available']) || !$module['is_available']): continue; endif ?>
                         <input
                             type="checkbox"
                             name="module[<?php echo $moduleIdentifier ?>]"

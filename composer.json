@@ -27,6 +27,7 @@
         "connect20/cashondelivery": "*",
         "itabs/invoice": "dev-master",
         "therouv/debitpayment": "dev-master",
+        "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
         "billsafe/billsafe": "dev-master",

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5d9a72579367633c55b023f1f96f412d",
+    "hash": "b1de18efe5d3da465e25b93742936a5c",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -82,6 +82,33 @@
                 "issues": "https://github.com/integer-net/BillSAFE/issues"
             },
             "time": "2013-10-10 12:14:26"
+        },
+        {
+            "name": "connect20/BankPayment",
+            "version": "0.3.3",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/BankPayment/0.3.3/BankPayment-0.3.3.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "Open-Software-License-(OSL)"
+            ],
+            "authors": [
+                {
+                    "name": "Phoenix Medien",
+                    "email": "info@phoenix-medien.de"
+                }
+            ],
+            "description": "Bank prepayment module which notifies the buyer to which bank account he has to transfer the money."
         },
         {
             "name": "connect20/CashOnDelivery",

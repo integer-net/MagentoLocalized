@@ -373,7 +373,7 @@
                     <description>A much more intuitive interface for managing your shop structure.</description>
                     <url>http://www.fabrizio-branca.de/magento-website-store-groups-store-views.html</url>
                     <code>fbrnc/aoe_managestores</code>
-                    <is_required>0</is_required>
+                    <is_required>1</is_required>
                     <is_default>1</is_default>
                     <is_available>1</is_available>
                 </aoe_managestores>
@@ -396,7 +396,7 @@
                     <is_available>1</is_available>
                 </avstudnitz_admin_notification_advanced>
                 <timreynolds_magento_qconfig>
-                    <name>Magento Quick Config Module</name>
+                    <name>Magento Quick Config Search</name>
                     <description>A Magento module that adds Quick Search functionality to the Admin Configuration area</description>
                     <url>https://github.com/tim-reynolds/magento-qconfig</url>
                     <code>tim-reynolds/magento-qconfig</code>
@@ -424,13 +424,22 @@
                 </integernet_autoshipping>
                 <cashondelivery>
                     <name>Cash on Delivery (Payment Method)</name>
-                    <description>Cash on Delivery allows to book additional fee on delivery depending on inland or international delivery.</description>
+                    <description>Cash on Delivery allows to book additional fee on delivery depending on domestic or international delivery.</description>
                     <url>http://www.magentocommerce.com/magento-connect/cashondelivery.html</url>
                     <code>connect20/cashondelivery</code>
                     <is_required>0</is_required>
-                    <is_default>1</is_default>
+                    <is_default>0</is_default>
                     <is_available>1</is_available>
                 </cashondelivery>
+                <bankpayment>
+                    <name>Bank Prepayment (Payment Method)</name>
+                    <description>Payment Method "Bank Prepayment"</description>
+                    <url>http://www.magentocommerce.com/magento-connect/bankpayment.html</url>
+                    <code>connect20/bankpayment</code>
+                    <is_required>0</is_required>
+                    <is_default>0</is_default>
+                    <is_available>1</is_available>
+                </bankpayment>
                 <itabs_invoice>
                     <name>Invoice (Payment Method)</name>
                     <description>Payment Method "Invoice"</description>
@@ -446,7 +455,7 @@
                     <url>http://www.magentocommerce.com/magento-connect/debitpayment.html</url>
                     <code>therouv/debitpayment</code>
                     <is_required>0</is_required>
-                    <is_default>1</is_default>
+                    <is_default>0</is_default>
                     <is_available>1</is_available>
                 </therouv_debitpayment>
                 <openstream_rappenrounding>
