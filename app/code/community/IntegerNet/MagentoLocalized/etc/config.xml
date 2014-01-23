@@ -377,15 +377,6 @@
                     <is_default>1</is_default>
                     <is_available>1</is_available>
                 </aoe_managestores>
-                <aoe_jscsststamp>
-                    <name>JS CSS Timestamp</name>
-                    <description>Automatic Versioning of JS and CSS files for Magento</description>
-                    <url>https://github.com/fbrnc/Aoe_JsCssTstamp</url>
-                    <code>fbrnc/aoe_jscsststamp</code>
-                    <is_required>0</is_required>
-                    <is_default>1</is_default>
-                    <is_available>1</is_available>
-                </aoe_jscsststamp>
                 <avstudnitz_scopehint>
                     <name>Scope Hint</name>
                     <description>Creates a warning if a configuration setting is overwritten on a lower level (website or store view)</description>
