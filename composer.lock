@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "46b512a1905558af1b10c34d7ba34103",
+    "hash": "7d599e24a22bf34c1e56db3c5adeb91e",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -223,12 +223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/etws/et_russianlanguagepack.git",
-                "reference": "3ce249f4aff4e19d0cc46fac294d1b3f6a6127fd"
+                "reference": "9949faee440491fe7bb3caaa1deab7a4e5f0d5eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/3ce249f4aff4e19d0cc46fac294d1b3f6a6127fd.zip",
-                "reference": "3ce249f4aff4e19d0cc46fac294d1b3f6a6127fd",
+                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/9949faee440491fe7bb3caaa1deab7a4e5f0d5eb.zip",
+                "reference": "9949faee440491fe7bb3caaa1deab7a4e5f0d5eb",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
             ],
             "description": "ET Russian Language Pack",
             "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
-            "time": "2013-08-20 09:37:00"
+            "time": "2013-11-25 08:49:11"
         },
         {
             "name": "fbrnc/aoe_jscsststamp",
@@ -324,7 +324,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-magesetup/zipball/63c0738bffa0078b914c9233f41baa939e887a6c",
+                "url": "https://github.com/firegento/firegento-magesetup/zipball/c5d2e34ebfd242331f5d513f5ad5c98d9fdb8b6b",
                 "reference": "73dd956",
                 "shasum": ""
             },
@@ -616,12 +616,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/itabs/Itabs_Invoice.git",
-                "reference": "v1.1.0"
+                "reference": "v1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/itabs/Itabs_Invoice/zipball/v1.1.0",
-                "reference": "v1.1.0",
+                "url": "https://github.com/itabs/Itabs_Invoice/zipball/v1.2.0",
+                "reference": "v1.2.0",
                 "shasum": ""
             },
             "require": {
@@ -640,10 +640,10 @@
             "description": "Provides the payment method Invoice",
             "homepage": "https://github.com/itabs/Itabs_Invoice",
             "support": {
-                "source": "https://github.com/itabs/Itabs_Invoice/tree/v1.1.0",
+                "source": "https://github.com/itabs/Itabs_Invoice/tree/v1.2.0",
                 "issues": "https://github.com/itabs/Itabs_Invoice/issues"
             },
-            "time": "2013-04-11 09:47:12"
+            "time": "2013-11-30 22:47:08"
         },
         {
             "name": "magento-hackathon/localefallback",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
-                "reference": "02f7b627c7f21805c467a6d1d100121ac44b48dc"
+                "reference": "f859d059e2259e021bffca27c387cf10e124ac07"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/02f7b627c7f21805c467a6d1d100121ac44b48dc",
-                "reference": "02f7b627c7f21805c467a6d1d100121ac44b48dc",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/f859d059e2259e021bffca27c387cf10e124ac07",
+                "reference": "f859d059e2259e021bffca27c387cf10e124ac07",
                 "shasum": ""
             },
             "require-dev": {
@@ -745,7 +745,7 @@
                 "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
-            "time": "2013-11-09 19:31:23"
+            "time": "2013-12-01 19:05:46"
         },
         {
             "name": "openstream/rappenrounding",
