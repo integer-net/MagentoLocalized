@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7d599e24a22bf34c1e56db3c5adeb91e",
+    "hash": "5d9a72579367633c55b023f1f96f412d",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -166,10 +166,10 @@
         },
         {
             "name": "connect20/Locale_Mage_community_it_IT",
-            "version": "1.7.0.210",
+            "version": "1.8.1.00",
             "dist": {
                 "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_it_IT/1.7.0.2.10/Locale_Mage_community_it_IT-1.7.0.2.10.tgz",
+                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_it_IT/1.8.1.0.0/Locale_Mage_community_it_IT-1.8.1.0.0.tgz",
                 "reference": null,
                 "shasum": null
             },
@@ -181,7 +181,7 @@
                 "package-xml": "package.xml"
             },
             "license": [
-                "Academic-Free-License-(AFL)"
+                "AFL"
             ],
             "authors": [
                 {
@@ -223,12 +223,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/etws/et_russianlanguagepack.git",
-                "reference": "9949faee440491fe7bb3caaa1deab7a4e5f0d5eb"
+                "reference": "31996d15cf570984576ea0bafeecd84c280f745e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/9949faee440491fe7bb3caaa1deab7a4e5f0d5eb.zip",
-                "reference": "9949faee440491fe7bb3caaa1deab7a4e5f0d5eb",
+                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/31996d15cf570984576ea0bafeecd84c280f745e.zip",
+                "reference": "31996d15cf570984576ea0bafeecd84c280f745e",
                 "shasum": ""
             },
             "require": {
@@ -242,42 +242,7 @@
             ],
             "description": "ET Russian Language Pack",
             "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
-            "time": "2013-11-25 08:49:11"
-        },
-        {
-            "name": "fbrnc/aoe_jscsststamp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/fbrnc/Aoe_JsCssTstamp.git",
-                "reference": "d00b299c9943dd2e64109bd665f6b74bb6e1455d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/fbrnc/Aoe_JsCssTstamp/zipball/d00b299c9943dd2e64109bd665f6b74bb6e1455d",
-                "reference": "d00b299c9943dd2e64109bd665f6b74bb6e1455d",
-                "shasum": ""
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Fabrizio Branca",
-                    "email": "mail@{firstname}-{lastname}.de"
-                }
-            ],
-            "description": "Automatic Versioning of JS and CSS files for Magento.",
-            "homepage": "https://github.com/fbrnc/Aoe_JsCssTstamp",
-            "support": {
-                "source": "https://github.com/fbrnc/Aoe_JsCssTstamp/tree/master",
-                "issues": "https://github.com/fbrnc/Aoe_JsCssTstamp/issues"
-            },
-            "time": "2013-06-10 04:57:50"
+            "time": "2013-12-14 14:13:36"
         },
         {
             "name": "fbrnc/aoe_managestores",
@@ -324,7 +289,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-magesetup/zipball/c5d2e34ebfd242331f5d513f5ad5c98d9fdb8b6b",
+                "url": "https://github.com/firegento/firegento-magesetup/zipball/633930dee01039956607c457c5f026e5f7e0a0db",
                 "reference": "73dd956",
                 "shasum": ""
             },
@@ -336,12 +301,129 @@
             },
             "type": "magento-module",
             "extra": {
-                "magento-root-dir": "test/"
+                "magento-root-dir": "test/",
+                "magento_connect": {
+                    "name": "FireGento_MageSetup",
+                    "summary": "MageSetup configures a shop for a national market. It creates configuration and tax settings, email templates, cms blocks and pages.",
+                    "channel": "community",
+                    "php_min": "5.3.0",
+                    "php_max": "7.9.9",
+                    "stability": "stable",
+                    "license_uri": "http://www.gnu.org/licenses/gpl-3.0.html",
+                    "content": [
+                        {
+                            "type": "magecommunity",
+                            "structure": "dir",
+                            "path": "FireGento/MageSetup"
+                        },
+                        {
+                            "type": "mageetc",
+                            "structure": "file",
+                            "path": "modules/FireGento_MageSetup.xml"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "de_AT/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "de_CH/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "de_DE/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "de_DE/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "en_US/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "en_US/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "ru_RU/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "ru_RU/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "fr_CH/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "fr_FR/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "fr_FR/template/magesetup"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "it_IT/FireGento_MageSetup.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "dir",
+                            "path": "it_IT/template/magesetup"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "file",
+                            "path": "adminhtml/default/default/layout/magesetup.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "dir",
+                            "path": "adminhtml/default/default/template/magesetup"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "file",
+                            "path": "frontend/base/default/layout/magesetup.xml"
+                        },
+                        {
+                            "type": "magedesign",
+                            "structure": "dir",
+                            "path": "frontend/base/default/template/magesetup"
+                        },
+                        {
+                            "type": "mageskin",
+                            "structure": "dir",
+                            "path": "frontend/base/default/css/magesetup"
+                        }
+                    ]
+                }
             },
             "license": [
                 "GPL-3.0"
             ],
-            "description": "MageSetup configures a shop for a national market. It creates configuration and tax settings, email templates, cms blocks and pages.",
+            "authors": [
+                {
+                    "name": "Team FireGento",
+                    "email": "team@firegento.com"
+                }
+            ],
+            "description": "<p>Central features of MageSetup are:</p><ul><li>Setting of important configuration settings</li><li>Predefined tax settings and tax classes for shipping from several countries to worldwide destinations</li><li>Assign new tax classes to all products (configurable)</li><li>Creation of email templates based on the local language pack. Legal texts can be added to some templates automatically.</li><li>Creation and Activation of Checkout Agreements. Agreements can be shown at customer registration instead of or additional to the checkout. They can be required or not.</li><li>Creation of default CMS pages like imprint, terms and conditions, privacy, shipping, payment methods.</li><li>Create email templates, cms pages and blocks as well as checkout agreements for store views with a different language as well</li><li>Possibility to add tax and/or shipping info to all prices</li><li>Automatical generation of meta data to products</li><li>Saving of every status change of newsletter subscriptions</li><li>Presets are configurable via xml files for every country seperately</li><li>Many more, see the <a href=\"https://github.com/firegento/firegento-magesetup/blob/development/docs/features/features.markdown\">full list of features</a> including several screenshots.</li></ul>",
             "homepage": "https://github.com/firegento/firegento-magesetup",
             "support": {
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
@@ -355,12 +437,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/firegento/firegento-pdf.git",
-                "reference": "aa5ebf979b42ef2acc34c20ef312c0c4eaf973cb"
+                "reference": "bbed002e6d22f3b021f24343161614e256129a6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/firegento/firegento-pdf/zipball/aa5ebf979b42ef2acc34c20ef312c0c4eaf973cb",
-                "reference": "aa5ebf979b42ef2acc34c20ef312c0c4eaf973cb",
+                "url": "https://github.com/firegento/firegento-pdf/zipball/bbed002e6d22f3b021f24343161614e256129a6b",
+                "reference": "bbed002e6d22f3b021f24343161614e256129a6b",
                 "shasum": ""
             },
             "require": {
@@ -376,7 +458,7 @@
                 "source": "https://github.com/firegento/firegento-pdf/tree/development",
                 "issues": "https://github.com/firegento/firegento-pdf/issues"
             },
-            "time": "2013-10-31 19:27:03"
+            "time": "2014-01-10 16:50:02"
         },
         {
             "name": "ikonoshirt/customadminnotifications",
@@ -566,12 +648,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/integer-net/RemoveCustomerAccountLinks.git",
-                "reference": "9b495c58b65c9389db36842ba9ffeb5cd32eafdc"
+                "reference": "e00478be803870dcd10542096e01bfbe1200ea7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/integer-net/RemoveCustomerAccountLinks/zipball/9b495c58b65c9389db36842ba9ffeb5cd32eafdc",
-                "reference": "9b495c58b65c9389db36842ba9ffeb5cd32eafdc",
+                "url": "https://github.com/integer-net/RemoveCustomerAccountLinks/zipball/e00478be803870dcd10542096e01bfbe1200ea7f",
+                "reference": "e00478be803870dcd10542096e01bfbe1200ea7f",
                 "shasum": ""
             },
             "require": {
@@ -581,34 +663,88 @@
             "extra": {
                 "map": [
                     [
-                        "app/code/community/IntegerNet/RemoveCustomerAccountLinks",
+                        "src/app/code/community/IntegerNet/RemoveCustomerAccountLinks",
                         "app/code/community/IntegerNet/RemoveCustomerAccountLinks"
                     ],
                     [
-                        "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml",
+                        "src/app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml",
                         "app/etc/modules/IntegerNet_RemoveCustomerAccountLinks.xml"
                     ],
                     [
-                        "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv",
+                        "src/app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv",
                         "app/locale/de_DE/IntegerNet_RemoveCustomerAccountLinks.csv"
+                    ],
+                    [
+                        "src/app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv",
+                        "app/locale/en_US/IntegerNet_RemoveCustomerAccountLinks.csv"
                     ]
-                ]
+                ],
+                "magento_connect": {
+                    "name": "IntegerNet_RemoveCustomerAccountLinks",
+                    "license_uri": "http://opensource.org/licenses/osl-3.0.php",
+                    "channel": "community",
+                    "php_min": "5.2.0",
+                    "php_max": "7.9.9",
+                    "stability": "stable",
+                    "content": [
+                        {
+                            "type": "magecommunity",
+                            "structure": "dir",
+                            "path": "IntegerNet/RemoveCustomerAccountLinks"
+                        },
+                        {
+                            "type": "mageetc",
+                            "structure": "file",
+                            "path": "modules/IntegerNet_RemoveCustomerAccountLinks.xml"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "de_DE/IntegerNet_RemoveCustomerAccountLinks.csv"
+                        },
+                        {
+                            "type": "magelocale",
+                            "structure": "file",
+                            "path": "en_US/IntegerNet_RemoveCustomerAccountLinks.csv"
+                        }
+                    ]
+                }
             },
             "license": [
                 "OSL-3.0"
             ],
             "authors": [
                 {
-                    "name": "Christian Philipp"
+                    "name": "integer_net GmbH",
+                    "email": "info@integer-net.de",
+                    "homepage": "http://www.integer-net.de/",
+                    "role": "Company"
+                },
+                {
+                    "name": "Christian Philipp",
+                    "email": "cp@integer-net.de",
+                    "homepage": "http://www.integer-net.de/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Viktor Franz",
+                    "email": "vf@integer-net.de",
+                    "homepage": "http://www.integer-net.de/",
+                    "role": "Developer"
                 }
             ],
             "description": "Removes customer account links in Magento.",
             "homepage": "https://github.com/integer-net/RemoveCustomerAccountLinks",
+            "keywords": [
+                "account",
+                "customer",
+                "magento"
+            ],
             "support": {
-                "source": "https://github.com/integer-net/RemoveCustomerAccountLinks/tree/master",
+                "source": "https://github.com/integer-net/RemoveCustomerAccountLinks/tree/dev",
                 "issues": "https://github.com/integer-net/RemoveCustomerAccountLinks/issues"
             },
-            "time": "2013-08-06 18:43:59"
+            "time": "2014-01-12 13:25:57"
         },
         {
             "name": "itabs/invoice",
@@ -679,12 +815,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
-                "reference": "f859d059e2259e021bffca27c387cf10e124ac07"
+                "reference": "5a4e95b44b5f5b845b7f982b14d932b372bc9645"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/f859d059e2259e021bffca27c387cf10e124ac07",
-                "reference": "f859d059e2259e021bffca27c387cf10e124ac07",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/5a4e95b44b5f5b845b7f982b14d932b372bc9645",
+                "reference": "5a4e95b44b5f5b845b7f982b14d932b372bc9645",
                 "shasum": ""
             },
             "require-dev": {
@@ -745,7 +881,7 @@
                 "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
-            "time": "2013-12-01 19:05:46"
+            "time": "2013-12-10 10:35:46"
         },
         {
             "name": "openstream/rappenrounding",
@@ -897,7 +1033,6 @@
         "firegento/pdf": 20,
         "magento-hackathon/localefallback": 20,
         "fbrnc/aoe_managestores": 20,
-        "fbrnc/aoe_jscsststamp": 20,
         "avstudnitz/scopehint": 20,
         "avstudnitz/admin-notification-advanced": 20,
         "tim-reynolds/magento-qconfig": 20,

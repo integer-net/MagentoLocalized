@@ -152,7 +152,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             // Set a config flag to indicate that the setup has been initialized.
             $this->_setConfigData('magento_localized/is_initialized', 1);
 
-            $this->_setConfigData('removecustomeraccountlinks/settings/remove', 'recurring_profiles,billing_agreements,tags,OAuth Customer Tokens');
+            $this->_setConfigData('customer/integernet_removecustomeraccountlinks/items', 'recurring_profiles,billing_agreements,tags,OAuth Customer Tokens');
 
         } else {
 

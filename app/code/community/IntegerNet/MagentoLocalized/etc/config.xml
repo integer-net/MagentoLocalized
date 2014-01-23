@@ -225,11 +225,11 @@
     </install>
 
     <default>
-        <removecustomeraccountlinks>
-            <settings>
-                <remove>recurring_profiles,billing_agreements,tags,OAuth Customer Tokens</remove>
-            </settings>
-        </removecustomeraccountlinks>
+        <customer>
+            <integernet_removecustomeraccountlinks>
+                <items>recurring_profiles,billing_agreements,tags,OAuth Customer Tokens</items>
+            </integernet_removecustomeraccountlinks>
+        </customer>
         <persistent>
             <options>
                 <enabled>1</enabled>
