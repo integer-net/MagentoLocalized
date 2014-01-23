@@ -31,7 +31,7 @@
 
         "integer-net/magento-localized-ebay": "dev-master",
         "billsafe/billsafe": "dev-master",
-        "ess/m2e-pro": "dev-master#5b72a65"
+        "ess/m2e-pro": "v6.1.0"
     },
     "repositories": [
         {
