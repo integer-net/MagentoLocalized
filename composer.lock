@@ -571,12 +571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "2f4041fe65cd9c7562314ce0888ceae012f6c6db"
+                "reference": "a4cf0d19cb8f39e96db8a935284f8cb1ad2068c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/2f4041fe65cd9c7562314ce0888ceae012f6c6db",
-                "reference": "2f4041fe65cd9c7562314ce0888ceae012f6c6db",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/a4cf0d19cb8f39e96db8a935284f8cb1ad2068c7",
+                "reference": "a4cf0d19cb8f39e96db8a935284f8cb1ad2068c7",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2014-01-23 10:05:06"
+            "time": "2014-01-29 15:25:31"
         },
         {
             "name": "integer-net/magento-localized-de",
@@ -597,12 +597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
-                "reference": "cec5de8614e099f1819dd426bf48dfe8fe23f7a0"
+                "reference": "9857ca35858acbdf0b48c60ee820bba0c80479b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/cec5de8614e099f1819dd426bf48dfe8fe23f7a0",
-                "reference": "cec5de8614e099f1819dd426bf48dfe8fe23f7a0",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/9857ca35858acbdf0b48c60ee820bba0c80479b6",
+                "reference": "9857ca35858acbdf0b48c60ee820bba0c80479b6",
                 "shasum": ""
             },
             "require": {
@@ -615,7 +615,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
             },
-            "time": "2014-01-23 10:05:39"
+            "time": "2014-01-29 15:25:52"
         },
         {
             "name": "integer-net/magento-localized-ebay",
