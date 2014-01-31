@@ -104,8 +104,8 @@
                             id="field_module_<?php echo $moduleIdentifier ?>"
                             class="checkbox"
                             value="1"
-                            <?php if ($module['is_default']): ?>checked="checked"<?php endif ?>
-                            <?php if ($module['is_required']): ?>disabled="disabled"<?php endif ?>
+                            <?php if ((!$this->isInitialized() && $module['is_default']) || $this->isModuleInstalled($module['code'])): ?>checked="checked"<?php endif ?>
+                            <?php if ($module['is_required'] || $this->isModuleInstalled($module['code'])): ?>disabled="disabled"<?php endif ?>
                             />
                         <label for="field_module_<?php echo $moduleIdentifier ?>">
                             <?php echo $this->__($module['name']) ?>
