@@ -100,3 +100,8 @@
 "Modules, Datatransfer","Module, Datenübertragung"
 
 "An error occured. Please provide write access to the whole Magento directory and all subdirectories.","Ein Fehler ist aufgetreten. Bitte beachten Sie, dass Schreibrechte für das Magento-Verzeichnis und alle Unterverzeichnisse vorliegen müssen."
+
+"Please note:","Bitte beachten Sie:"
+"Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt.","Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt."
+"Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern.","Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern."
+"Bitte lasssen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch.","Bitte lasssen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch."
