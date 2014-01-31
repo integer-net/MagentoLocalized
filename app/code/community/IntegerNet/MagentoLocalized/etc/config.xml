@@ -502,6 +502,9 @@
                 <default>http://www.nr-apps.com/n/guide.html</default>
             </install_guide_url>
 
+            <survey_url>
+                <default>http://www.nr-apps.com/n/survey.html</default>
+            </survey_url>
         </magento_localized>
     </default>
 </config>
