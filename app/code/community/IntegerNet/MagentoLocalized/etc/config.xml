@@ -493,6 +493,10 @@
                 </ru_RU>
             </languages>
 
+            <install_guide_url>
+                <default>http://www.nr-apps.com/n/guide.html</default>
+            </install_guide_url>
+
         </magento_localized>
     </default>
 </config>
