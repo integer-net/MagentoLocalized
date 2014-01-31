@@ -191,9 +191,9 @@ class IntegerNet_MagentoLocalized_Model_Observer
         if (!$localeCode) {
             $localeData = Mage::getSingleton('install/session')->getLocaleData();
             $localeCode = $localeData['locale'];
-        }
-        if (!$localeCode) {
-            $localeCode = Mage::getStoreConfig('magento_localized/default_language');
+            if (!$localeCode) {
+                $localeCode = Mage::getStoreConfig('magento_localized/default_language');
+            }
         }
         $languageCode = current(explode('_', $localeCode));
 
