@@ -105,3 +105,9 @@
 "Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt.","Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt."
 "Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern.","Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern."
 "Bitte lasssen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch.","Bitte lasssen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch."
+
+"Please fill in your company details as fully as possible.","Bitte fülllen Sie Ihre Angaben zum Unternehmen möglichst vollständig aus. "
+"These will be needed for the imprint requirements, terms and conditions or some payment methods.","Diese werden z.B. für die Impressumspflicht, AGB oder einige Zahlungsmethoden benötigt."
+"You can edit or complete your data any time. You will find the details under menu item","Sie können diese Angaben auch nachträglich jederzeit editieren oder vervollständigen. Sie erreichen die Angaben über die Menüpunkte"
+"%s &gt; Configuration","%s &gt; Konfiguration"
+"System &gt; Configuration &gt; General: Imprint","System &gt; Konfiguration &gt; Allgemein: Impressum"

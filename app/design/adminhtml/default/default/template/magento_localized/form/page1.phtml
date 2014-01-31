@@ -33,6 +33,18 @@
     <div class="hor-scroll">
         <table cellspacing="0" class="form-list">
             <tbody>
+            <tr>
+                <td class="label" colspan="2">
+                    <p><?php echo $this->__('Please fill in your company details as fully as possible.') ?><br />
+                    <?php echo $this->__('These will be needed for the imprint requirements, terms and conditions or some payment methods.') ?></p>
+                    <p><?php echo $this->__('You can edit or complete your data any time. You will find the details under menu item') ?></p>
+                    <ul>
+                        <li class="indent"><em><?php echo $this->__('%s &gt; Configuration', $moduleTitle) ?></em> <?php echo $this->__('or') ?></li>
+                        <li class="indent"><em><?php echo $this->__('System &gt; Configuration &gt; General: Imprint') ?></em></li>
+                    </ul>
+                </td>
+                <td class="comment"></td>
+            </tr>
             <?php foreach($this->getInputFields() as $field): ?>
                 <tr>
                     <td class="label"><label for="field_<?php echo $field['name'] ?>"><?php echo $field['label'] ?></label></td>
@@ -52,11 +64,7 @@
                             <input type="text" name="field[<?php echo $field['name'] ?>]" id="field_<?php echo $field['name'] ?>"class="input-text" value="<?php echo $this->getValue($field['name']) ?>" />
                         <?php endif ?>
                     </td>
-                    <td class="comment">
-                        <?php if (isset($field['optional']) && $field['optional']): ?>
-                            (<?php echo $this->__('optional') ?>)
-                        <?php endif ?>
-                    </td>
+                    <td class="comment"></td>
                 </tr>
             <?php endforeach ?>
             </tbody>
@@ -79,7 +87,7 @@
                 <td class="value">
                     <input type="text" name="paypal_email" id="field_paypal_email" class="input-text" value="<?php echo Mage::getStoreConfig('paypal/general/business_account') ?>" />
                 </td>
-                <td class="comment">(<?php echo $this->__('optional') ?>)</td>
+                <td class="comment"></td>
             </tr>
             </tbody>
         </table>
