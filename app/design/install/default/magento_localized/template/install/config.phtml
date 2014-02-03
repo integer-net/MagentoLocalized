@@ -107,9 +107,25 @@
     </ul>
 </fieldset>
 
+<fieldset class="group-select">
+    <legend><?php echo Mage::helper('magento_localized')->__('Please note:') ?></legend>
+    <h4 class="legend"><?php echo Mage::helper('magento_localized')->__('Please note:') ?></h4>
+    <ul>
+        <li>
+            <p>
+                <?php echo Mage::helper('magento_localized')->__('Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt.') ?><br />
+                <?php echo Mage::helper('magento_localized')->__('Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern.') ?>
+            </p>
+            <p>
+                <?php echo Mage::helper('magento_localized')->__('Bitte lasssen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch.') ?>
+            </p>
+        </li>
+    </ul>
+</fieldset>
+
 <div class="button-set">
     <p class="required">* <?php echo $this->__('Required Fields') ?></p>
-    <button class="form-button" type="submit"><span><?php echo $this->__('Continue') ?><br />(<small><?php echo $this->__('This could take a little while') ?></small>)</span></button>
+    <button class="form-button" type="submit"><span><?php echo $this->__('Continue') ?></span></button>
 </div>
 </form>
 <script type="text/javascript">

@@ -33,6 +33,11 @@
             <magento_localized>
                 <class>IntegerNet_MagentoLocalized_Block</class>
             </magento_localized>
+            <install>
+                <rewrite>
+                    <end>IntegerNet_MagentoLocalized_Block_Install_End</end>
+                </rewrite>
+            </install>
         </blocks>
 
         <helpers>
@@ -502,6 +507,13 @@
                 </ru_RU>
             </languages>
 
+            <install_guide_url>
+                <default>http://www.nr-apps.com/n/guide.html</default>
+            </install_guide_url>
+
+            <survey_url>
+                <default>http://www.nr-apps.com/n/survey.html</default>
+            </survey_url>
         </magento_localized>
     </default>
 </config>

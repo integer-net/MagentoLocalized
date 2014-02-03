@@ -41,6 +41,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
         Mage::getDesign()->setTheme('magento_localized');
         Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
         Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
+        Mage::getSingleton('install/session')->setInstallGuideUrl($this->_getInstallGuideUrl());
     }
 
     /**
@@ -72,6 +73,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
         Mage::getDesign()->setTheme('magento_localized');
         Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
         Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
+        Mage::getSingleton('install/session')->setInstallGuideUrl($this->_getInstallGuideUrl());
     }
 
     /**
@@ -178,5 +180,29 @@ class IntegerNet_MagentoLocalized_Model_Observer
         if ($setup->getConnection()) {
             $setup->setConfigData($key, $value, $scope, $scopeId);
         }
+    }
+
+    /**
+     * @return mixed
+     */
+    protected function _getInstallGuideUrl()
+    {
+        $localeCode = Mage::getSingleton('install/session')->getLocale();
+        if (!$localeCode) {
+            $localeData = Mage::getSingleton('install/session')->getLocaleData();
+            $localeCode = $localeData['locale'];
+            if (!$localeCode) {
+                $localeCode = Mage::getStoreConfig('magento_localized/default_language');
+            }
+        }
+        $languageCode = current(explode('_', $localeCode));
+
+        $installGuideUrl = Mage::getStoreConfig('magento_localized/install_guide_url/' . $languageCode);
+
+        if ($installGuideUrl) {
+            return $installGuideUrl;
+        }
+
+        return Mage::getStoreConfig('magento_localized/install_guide_url/default');
     }
 }

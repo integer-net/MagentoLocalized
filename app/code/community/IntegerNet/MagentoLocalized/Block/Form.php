@@ -77,6 +77,11 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
         return $modulesData;
     }
 
+    public function isModuleInstalled($packageName)
+    {
+        return (boolean)Mage::getStoreConfig('magento_localized/installed_modules/' . strtolower($packageName));
+    }
+
     /**
      * @return bool
      */

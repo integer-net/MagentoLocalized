@@ -10,3 +10,7 @@
 #nav ul li.magento_localized > a span {
     padding-left: 35px;
 }
+
+.indent {
+    text-indent: 30px;
+}

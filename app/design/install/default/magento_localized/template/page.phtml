@@ -46,19 +46,13 @@
         <div class="header-top-container">
             <div class="header-top">
                 <h1 id="logo" style="width: 600px;">
-                    <a href="<?php echo $this->getUrl('') ?>" style="text-decoration: none; float: left; width: 200px;">
-                        <img src="<?php echo $this->getSkinUrl('images/logo.gif') ?>" title="<?php echo Mage::helper('install')->__('Magento') ?>" alt="<?php echo Mage::helper('install')->__('Magento') ?>" />
-                    </a>
-                    <?php if (Mage::getStoreConfig('magento_localized/logo_filename')): ?>
-                    <a href="<?php echo Mage::getStoreConfig('magento_localized/module_url_override') ? Mage::getStoreConfig('magento_localized/module_url_override') : Mage::getStoreConfig('magento_localized/module_url') ?>" target="_blank" title="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" style="display: block; float: left; width: 170px; height: 53px; overflow: hidden;">
-                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" />
-                    </a>
-                    <?php endif ?>
-                    <?php if (Mage::getStoreConfig('magento_localized/logo_2_filename')): ?>
-                    <a href="<?php echo Mage::getStoreConfig('magento_localized/module_url_override') ? Mage::getStoreConfig('magento_localized/module_url_override') : Mage::getStoreConfig('magento_localized/module_url') ?>" target="_blank" title="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" style="display: block; float: left; width: 200px; height: 53px; overflow: hidden;text-align: left;">
-                        <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_2_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" style="margin-left: 0;" />
-                    </a>
-                    <?php endif ?>
+                    <img src="<?php echo $this->getSkinUrl('images/logo.gif') ?>" title="<?php echo Mage::helper('install')->__('Magento') ?>" alt="<?php echo Mage::helper('install')->__('Magento') ?>" />
+                <?php if (Mage::getStoreConfig('magento_localized/logo_filename')): ?>
+                    <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" />
+                <?php endif ?>
+                <?php if (Mage::getStoreConfig('magento_localized/logo_2_filename')): ?>
+                    <img src="<?php echo $this->getSkinUrl(Mage::getStoreConfig('magento_localized/logo_2_filename')) ?>" alt="<?php echo Mage::getStoreConfig('magento_localized/module_title') . Mage::getStoreConfig('magento_localized/module_title_suffix') ?>" style="margin-left: 0;" />
+                <?php endif ?>
                 </h1>
 
                 <?php echo $this->getChildHtml('topSearch') ?>
@@ -105,12 +99,6 @@
     <div class="footer-container">
         <div class="footer">
         <p class="legality">
-            <?php echo Mage::helper('install')->__('Help Us to Keep Magento Healthy') ?> - <a href="http://www.magentocommerce.com/bug-tracking" id="bug_tracking_link"><strong><?php echo Mage::helper('install')->__('Report All Bugs') ?></strong></a> <?php echo Mage::helper('install')->__('(ver. %s)', Mage::getVersion()) ?><br/>
-<script type="text/javascript">
-//<![CDATA[
-    $('bug_tracking_link').target = "varien_external";
-//]]>
-</script>
             <?php echo Mage::helper('install')->__('Magento is a trademark of Magento Inc. Copyright &copy; %s Magento Inc.', date('Y')) ?>
         </p>
         </div>
