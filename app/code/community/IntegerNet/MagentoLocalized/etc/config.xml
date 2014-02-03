@@ -404,6 +404,15 @@
                     <is_default>1</is_default>
                     <is_available>1</is_available>
                 </timreynolds_magento_qconfig>
+                <magento_hackathon_magemonitoring>
+                    <name>MageMonitoring</name>
+                    <description>Magento Extension to get health of your Magento installation (Server, PHP, APC, Logs, Rewrites, Modules version installed ...)</description>
+                    <url>https://github.com/magento-hackathon/Hackathon_MageMonitoring</url>
+                    <code>magento-hackathon/hackathon_magemonitoring</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </magento_hackathon_magemonitoring>
                 <integernet_removecustomeraccountlinks>
                     <name>Removes Customer Account Links</name>
                     <description>Removes unwanted Links from the "My Account" Navigation</description>

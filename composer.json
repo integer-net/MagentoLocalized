@@ -23,6 +23,7 @@
         "integer-net/autoshipping": "dev-master",
         "ikonoshirt/customadminnotifications": "dev-master",
         "openstream/rappenrounding": "dev-master",
+        "magento-hackathon/hackathon_magemonitoring": "dev-master",
 
         "connect20/cashondelivery": "*",
         "itabs/invoice": "dev-master",
@@ -69,6 +70,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git"
         },
         {
             "type": "vcs",
