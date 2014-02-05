@@ -14,3 +14,7 @@
 .indent {
     text-indent: 30px;
 }
+
+.adminhtml-magentolocalized-form .entry-edit .form-buttons {
+    margin-right: 0;
+}
