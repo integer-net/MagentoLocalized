@@ -11,8 +11,8 @@
         "connect20/locale_mage_community_it_it": "*",
         "etws/et_russianlanguagepack": "dev-master",
 
-        "firegento/magesetup": "dev-development#73dd956",
-        "firegento/pdf": "dev-development",
+        "firegento/magesetup": "dev-master",
+        "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
         "fbrnc/aoe_managestores": "dev-master",
         "connect20/dermodpro_baseprice": "*",
@@ -31,17 +31,13 @@
         "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "billsafe/billsafe": "dev-master",
+        "connect20/billsafe_3": "13.12.13",
         "ess/m2e-pro": "v6.1.0"
     },
     "repositories": [
         {
             "type": "composer",
             "url": "http://packages.firegento.com"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/integer-net/BillSAFE.git"
         },
         {
             "type": "vcs",
