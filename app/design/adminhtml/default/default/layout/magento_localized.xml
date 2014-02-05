@@ -25,6 +25,11 @@
             </action>
             <block type="magento_localized/logo" name="magento_localized.logo" as="logo" template="magento_localized/logo.phtml" />
         </reference>
+        <reference name="footer">
+            <action method="setTemplate">
+                <template>magento_localized/footer.phtml</template>
+            </action>
+        </reference>
         <reference name="before_body_end">
             <block type="magento_localized/tracking" name="magento_localized.tracking" template="magento_localized/tracking.phtml" after="*" />
         </reference>
