@@ -49,12 +49,39 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             ->_title($helper->__('Partners'));
 
         $this->loadLayout()
-            ->_setActiveMenu('magento_localized/dashboard/partner')
+            ->_setActiveMenu('magento_localized/partner')
             ->_addBreadcrumb($helper->__('Partners'), $helper->__('Partners'));
 
         $iframeUrl = Mage::getStoreConfig('magento_localized/iframe_url_prefix')
             . $this->_getLanguageUrlPart()
             . '/exclusive-partners'
+            . Mage::getStoreConfig('magento_localized/iframe_url_suffix');
+        $this->getLayout()
+            ->getBlock('content')
+            ->append(
+                $this->getLayout()
+                    ->createBlock('adminhtml/template')
+                    ->setTemplate('magento_localized/iframe.phtml')
+                    ->setIframeUrl($iframeUrl)
+            );
+
+        $this->renderLayout();
+    }
+
+    public function supportAction()
+    {
+        $helper = Mage::helper('magento_localized');
+
+        $this->_title($helper->__(Mage::getStoreConfig('magento_localized/module_title')))
+            ->_title($helper->__('Support Center'));
+
+        $this->loadLayout()
+            ->_setActiveMenu('magento_localized/support')
+            ->_addBreadcrumb($helper->__('Support Center'), $helper->__('Support Center'));
+
+        $iframeUrl = Mage::getStoreConfig('magento_localized/iframe_url_prefix')
+            . $this->_getLanguageUrlPart()
+            . '/support-center'
             . Mage::getStoreConfig('magento_localized/iframe_url_suffix');
         $this->getLayout()
             ->getBlock('content')

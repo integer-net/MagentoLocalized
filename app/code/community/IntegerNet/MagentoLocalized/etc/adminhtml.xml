@@ -46,6 +46,11 @@
                             <sort_order>190</sort_order>
                             <action>adminhtml/magentoLocalized/form</action>
                         </configuration>
+                        <support translate="title">
+                            <title>Support Center</title>
+                            <sort_order>490</sort_order>
+                            <action>adminhtml/magentoLocalized/support</action>
+                        </support>
                     </children>
                 </magento_localized>
             </children>
@@ -82,6 +87,11 @@
                     <sort_order>190</sort_order>
                     <action>adminhtml/magentoLocalized/form</action>
                 </configuration>
+                <support translate="title">
+                    <title>Support Center</title>
+                    <sort_order>490</sort_order>
+                    <action>adminhtml/magentoLocalized/support</action>
+                </support>
             </children>
         </magento_localized>
     </menu>
