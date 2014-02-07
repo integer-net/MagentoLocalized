@@ -27,6 +27,11 @@
                     <category_attribute_backend_image>IntegerNet_MagentoLocalized_Model_Catalog_Category_Attribute_Backend_Image</category_attribute_backend_image>
                 </rewrite>
             </catalog>
+            <paypal>
+                <rewrite>
+                    <config>IntegerNet_MagentoLocalized_Model_Paypal_Config</config>
+                </rewrite>
+            </paypal>
         </models>
 
         <blocks>
