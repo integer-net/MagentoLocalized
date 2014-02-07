@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "cf35df1104ada928c88590e248a2dd37",
+    "hash": "b5eb3ffb6fb459f27e6f612ce50a7192",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -519,12 +519,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/integer-net/Autoshipping.git",
+                "url": "git://github.com/integer-net/Autoshipping.git",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
+                "url": "https://github.com/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "shasum": ""
             },
@@ -624,12 +624,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "c46c107b68370c7b847de1c544783268ffeb314f"
+                "reference": "17205d72c194f94b64c7ce80ed4d101784a0b2de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/c46c107b68370c7b847de1c544783268ffeb314f",
-                "reference": "c46c107b68370c7b847de1c544783268ffeb314f",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/17205d72c194f94b64c7ce80ed4d101784a0b2de",
+                "reference": "17205d72c194f94b64c7ce80ed4d101784a0b2de",
                 "shasum": ""
             },
             "require": {
@@ -642,7 +642,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2014-02-07 08:28:30"
+            "time": "2014-02-07 14:28:18"
         },
         {
             "name": "integer-net/magento-localized-ru",
@@ -857,12 +857,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
+                "url": "git://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
+                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "shasum": ""
             },
@@ -1056,12 +1056,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
+                "url": "git://github.com/tim-reynolds/magento-qconfig.git",
                 "reference": "1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/1.0",
+                "url": "https://github.com/tim-reynolds/magento-qconfig/zipball/1.0",
                 "reference": "1.0",
                 "shasum": ""
             },

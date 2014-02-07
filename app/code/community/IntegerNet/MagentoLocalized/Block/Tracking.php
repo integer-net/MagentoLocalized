@@ -47,7 +47,7 @@ class IntegerNet_MagentoLocalized_Block_Tracking extends Mage_Adminhtml_Block_Te
 
                 $params['installation_id'] = Mage::getStoreConfig('magento_localized/installation_id'); // Anonymized, not decryptable
                 $params['distributor'] = Mage::getStoreConfig('magento_localized/distributor');
-                $params['package_type'] = Mage::getStoreConfig('magento_localized/module_code');
+                $params['package_type'] = Mage::getStoreConfig('magento_localized/module_title');
                 $params['gsc_version'] = (string)Mage::app()->getConfig()->getNode('modules/IntegerNet_MagentoLocalized/version');
                 $params['transfer_type'] = Mage::getStoreConfig('admin/magento_localized/datatransfer');
         }
