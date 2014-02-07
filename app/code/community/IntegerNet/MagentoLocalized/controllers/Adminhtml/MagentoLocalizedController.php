@@ -341,9 +341,14 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
         if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
 
             $this->_setConfigData('magento_localized/installation_id', md5(Mage::getBaseUrl()));
+            
             date_default_timezone_set(Mage::getStoreConfig('general/locale/timezone'));
             $installationDate = new Zend_Date();
             $this->_setConfigData('magento_localized/installation_date', $installationDate->get(Zend_Date::ISO_8601));
+            
+            if ($distributor = file_get_contents(Mage::getBaseDir() . DS . 'distributor.txt')) {
+                $this->_setConfigData('magento_localized/distributor', $distributor);
+            }
         }
     }
 

@@ -142,25 +142,11 @@
             <tr>
                 <td colspan="2">
                     <p><?php echo $this->__('%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community.', $moduleTitle, $moduleTitle) ?></p>
+                    <p><?php echo $this->__('To track the spread of %s the system transmits requests with a partner identifier from which you have received %s. You can find the responsible file for this at %s. There will be no user-related data transmitted.', $moduleTitle, $moduleTitle, 'app/code/community/IntegerNet/MagentoLocalized/Block/Tracking.php') ?></p>
                     <p><?php echo $this->__('Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions.', $moduleTitle, $moduleTitle, $moduleTitle) ?></p>
                     <p><?php echo $this->__('Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted.') ?></p>
                     <p><?php echo $this->__('Thank you very much in advance for your help.') ?></p>
                 </td>
-            </tr>
-            <tr>
-                <td class="value">
-                    <input
-                        type="radio"
-                        name="field[admin__magento_localized__datatransfer]"
-                        id="field_datatransfer_none"
-                        value="<?php echo IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_NONE ?>"
-                        <?php if(Mage::getStoreConfig('admin/magento_localized/datatransfer') == IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_NONE): ?>checked="checked"<?php endif ?>
-                        />
-                </td>
-                <td class="value">
-                    <label for="field_datatransfer_none"><?php echo $this->__('I wish no information to be transmitted.') ?></label>
-                </td>
-                <td class="comment"></td>
             </tr>
             <tr>
                 <td class="value">
@@ -173,12 +159,7 @@
                         />
                 </td>
                 <td class="value">
-                    <label for="field_datatransfer_basic"><?php echo $this->__('I want to help monitor the distribution of %s and therefore agree on transmitting only the information necessary to accomplish this, thereby supporting the project.', $moduleTitle) ?></label><br />
-                    <p id="datatransfer_basic_information_link"><a style="cursor: pointer;" onclick="$('datatransfer_basic_information_list').show(); $('datatransfer_basic_information_link').hide();"><?php echo $this->__('What information will be transmitted?') ?></a></p>
-                    <ul style="list-style: disc outside; margin-left: 30px; display: none;" id="datatransfer_basic_information_list">
-                        <li><?php echo $this->__('Server IP') ?></li>
-                        <li><?php echo $this->__('Request Date') ?></li>
-                    </ul>
+                    <label for="field_datatransfer_basic"><?php echo $this->__('I wish no further information to be transmitted.') ?></label>
                 </td>
                 <td class="comment"></td>
             </tr>

@@ -24,9 +24,9 @@ class IntegerNet_MagentoLocalized_Block_Tracking extends Mage_Adminhtml_Block_Te
 
             case IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_ADVANCED:
 
+                $params['server_ip'] = Mage::app()->getRequest()->getServer('SERVER_ADDR');
                 $params['installation_date'] = Mage::getStoreConfig('magento_localized/installation_date');
                 $params['installation_url'] = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
-                $params['gsc_version'] = (string)Mage::app()->getConfig()->getNode('modules/IntegerNet_MagentoLocalized/version');
                 $params['magento_version'] = (string)Mage::getVersion();
                 $params['shop_name'] = Mage::getStoreConfig('general/imprint/shop_name');
                 $params['company_first'] = Mage::getStoreConfig('general/imprint/company_first');
@@ -45,9 +45,10 @@ class IntegerNet_MagentoLocalized_Block_Tracking extends Mage_Adminhtml_Block_Te
 
             case IntegerNet_MagentoLocalized_Model_Source_Datatransfer::DATATRANSFER_BASIC:
 
-                $params['installation_id'] = Mage::getStoreConfig('magento_localized/installation_id');
+                $params['installation_id'] = Mage::getStoreConfig('magento_localized/installation_id'); // Anonymized, not decryptable
+                $params['distributor'] = Mage::getStoreConfig('magento_localized/distributor');
                 $params['package_type'] = Mage::getStoreConfig('magento_localized/module_code');
-                $params['server_ip'] = Mage::app()->getRequest()->getServer('SERVER_ADDR');
+                $params['gsc_version'] = (string)Mage::app()->getConfig()->getNode('modules/IntegerNet_MagentoLocalized/version');
                 $params['transfer_type'] = Mage::getStoreConfig('admin/magento_localized/datatransfer');
         }
 
