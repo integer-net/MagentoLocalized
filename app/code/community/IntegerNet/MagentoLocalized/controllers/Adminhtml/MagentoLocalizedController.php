@@ -345,9 +345,10 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             date_default_timezone_set(Mage::getStoreConfig('general/locale/timezone'));
             $installationDate = new Zend_Date();
             $this->_setConfigData('magento_localized/installation_date', $installationDate->get(Zend_Date::ISO_8601));
-            
-            if ($distributor = file_get_contents(Mage::getModuleDir('etc', 'IntegerNet_MagentoLocalized') . DS . 'distributor.txt')) {
-                $this->_setConfigData('magento_localized/distributor', $distributor);
+
+            $distributorFilename = Mage::getModuleDir('etc', 'IntegerNet_MagentoLocalized') . DS . 'distributor.txt';
+            if (file_exists($distributorFilename)) {
+                $this->_setConfigData('magento_localized/distributor', file_get_contents($distributorFilename));
             }
         }
     }
