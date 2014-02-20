@@ -31,7 +31,6 @@
         "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "connect20/billsafe_3": "13.12.13",
         "ess/m2e-pro": "v6.1.0"
     },
     "repositories": [
@@ -78,6 +77,6 @@
     ],
     "extra": {
         "magento-root-dir": "",
-        "skip-package-deployment": true
+        "magento-deploystrategy": "none"
     }
 }
