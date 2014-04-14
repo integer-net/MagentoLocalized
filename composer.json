@@ -31,6 +31,7 @@
         "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
+        "billsafe/billsafe": "v14.03.31",
         "ess/m2e-pro": "v6.1.0"
     },
     "repositories": [
@@ -41,6 +42,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/M2E.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/BillSAFE.git"
         },
         {
             "type": "vcs",

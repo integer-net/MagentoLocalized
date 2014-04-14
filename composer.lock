@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "ee68c4f72bfdb645afc2ac7be4e8759c",
+    "hash": "dc96d1cc49e1d89cb9f50bc3f27afb3c",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -37,12 +37,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "6b22289bc1990cea26f8fcf5deddb044ccc063d9"
+                "reference": "caccbdee242406264fb5a614a50f9181b28cdb93"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/6b22289bc1990cea26f8fcf5deddb044ccc063d9",
-                "reference": "6b22289bc1990cea26f8fcf5deddb044ccc063d9",
+                "url": "https://github.com/avstudnitz/AvS_ScopeHint/zipball/caccbdee242406264fb5a614a50f9181b28cdb93",
+                "reference": "caccbdee242406264fb5a614a50f9181b28cdb93",
                 "shasum": ""
             },
             "require": {
@@ -55,7 +55,33 @@
                 "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2013-11-11 20:24:57"
+            "time": "2014-04-11 10:53:01"
+        },
+        {
+            "name": "billsafe/billsafe",
+            "version": "v14.03.31",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/integer-net/BillSAFE.git",
+                "reference": "d6b21cbfc7df61332bf5f53d49a427a67ef7f609"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/d6b21cbfc7df61332bf5f53d49a427a67ef7f609",
+                "reference": "d6b21cbfc7df61332bf5f53d49a427a67ef7f609",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Payment module for invoice and rate payment",
+            "homepage": "http://www.magentocommerce.com/magento-connect/billsafe-1.html",
+            "support": {
+                "source": "https://github.com/integer-net/BillSAFE/tree/v14.03.31",
+                "issues": "https://github.com/integer-net/BillSAFE/issues"
+            },
+            "time": "2014-04-14 08:38:30"
         },
         {
             "name": "connect20/BankPayment",
@@ -224,12 +250,12 @@
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/etws/et_russianlanguagepack.git",
-                "reference": "2c85eedae6d932ae308f95e43b6abacbd1918de3"
+                "reference": "9fd59daece1c9148d532688ed5837156de026b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/2c85eedae6d932ae308f95e43b6abacbd1918de3.zip",
-                "reference": "2c85eedae6d932ae308f95e43b6abacbd1918de3",
+                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/9fd59daece1c9148d532688ed5837156de026b72.zip",
+                "reference": "9fd59daece1c9148d532688ed5837156de026b72",
                 "shasum": ""
             },
             "require": {
@@ -243,7 +269,7 @@
             ],
             "description": "ET Russian Language Pack",
             "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
-            "time": "2014-02-14 09:40:33"
+            "time": "2014-04-01 08:54:08"
         },
         {
             "name": "fbrnc/aoe_managestores",
@@ -492,12 +518,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/integer-net/Autoshipping.git",
+                "url": "https://github.com/integer-net/Autoshipping.git",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
+                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "shasum": ""
             },
@@ -753,12 +779,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/itabs/Itabs_Invoice.git",
-                "reference": "v1.2.0"
+                "reference": "a9d06e1046e1e320d3e718c6326d6c601319d046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/itabs/Itabs_Invoice/zipball/v1.2.0",
-                "reference": "v1.2.0",
+                "url": "https://github.com/itabs/Itabs_Invoice/zipball/a9d06e1046e1e320d3e718c6326d6c601319d046",
+                "reference": "a9d06e1046e1e320d3e718c6326d6c601319d046",
                 "shasum": ""
             },
             "require": {
@@ -777,10 +803,10 @@
             "description": "Provides the payment method Invoice",
             "homepage": "https://github.com/itabs/Itabs_Invoice",
             "support": {
-                "source": "https://github.com/itabs/Itabs_Invoice/tree/v1.2.0",
+                "source": "https://github.com/itabs/Itabs_Invoice/tree/master",
                 "issues": "https://github.com/itabs/Itabs_Invoice/issues"
             },
-            "time": "2013-11-30 22:47:08"
+            "time": "2014-04-01 20:28:30"
         },
         {
             "name": "magento-hackathon/hackathon_magemonitoring",
@@ -830,12 +856,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
+                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "shasum": ""
             },
@@ -859,18 +885,19 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/magento-hackathon/magento-composer-installer.git",
-                "reference": "5e3730dce7613f2edaf395d5634963532e886dd3"
+                "reference": "2.0.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/5e3730dce7613f2edaf395d5634963532e886dd3",
-                "reference": "5e3730dce7613f2edaf395d5634963532e886dd3",
+                "url": "https://github.com/magento-hackathon/magento-composer-installer/zipball/2.0.0-beta2",
+                "reference": "2.0.0-beta2",
                 "shasum": ""
             },
             "require-dev": {
-                "composer/composer": "*",
+                "composer/composer": "*@dev",
                 "mikey179/vfsstream": "*",
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "*",
+                "symfony/process": "*"
             },
             "suggest": {
                 "magento-hackathon/composer-command-integrator": "*"
@@ -923,10 +950,10 @@
                 "magento"
             ],
             "support": {
-                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/master",
+                "source": "https://github.com/magento-hackathon/magento-composer-installer/tree/2.0.0-beta2",
                 "issues": "https://github.com/magento-hackathon/magento-composer-installer/issues"
             },
-            "time": "2014-02-18 03:30:37"
+            "time": "2014-04-12 01:05:17"
         },
         {
             "name": "openstream/rappenrounding",
@@ -960,12 +987,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/riconeitzel/German_LocalePack_de_DE.git",
-                "reference": "c97bd6e871d7dd4470fab340800a6daef4c1d08d"
+                "reference": "3f482c83660952b07edcd95780215a003ce0e266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE/zipball/c97bd6e871d7dd4470fab340800a6daef4c1d08d",
-                "reference": "c97bd6e871d7dd4470fab340800a6daef4c1d08d",
+                "url": "https://github.com/riconeitzel/German_LocalePack_de_DE/zipball/3f482c83660952b07edcd95780215a003ce0e266",
+                "reference": "3f482c83660952b07edcd95780215a003ce0e266",
                 "shasum": ""
             },
             "require": {
@@ -988,7 +1015,7 @@
                 "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/preview",
                 "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
             },
-            "time": "2013-10-16 10:46:07"
+            "time": "2014-02-21 11:03:48"
         },
         {
             "name": "therouv/debitpayment",
@@ -1030,12 +1057,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git://github.com/tim-reynolds/magento-qconfig.git",
+                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
                 "reference": "1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/tim-reynolds/magento-qconfig/zipball/1.0",
+                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/1.0",
                 "reference": "1.0",
                 "shasum": ""
             },

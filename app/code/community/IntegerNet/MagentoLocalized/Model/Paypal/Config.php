@@ -4,7 +4,7 @@
  *
  * @category   IntegerNet
  * @package    IntegerNet_MagentoLocalized
- * @copyright  Copyright (c) 2013 integer_net GmbH (http://www.integer-net.de/)
+ * @copyright  Copyright (c) 2014 integer_net GmbH (http://www.integer-net.de/)
  * @author     Andreas von Studnitz <avs@integer-net.de>
  */ 
 class IntegerNet_MagentoLocalized_Model_Paypal_Config extends Mage_Paypal_Model_Config 
