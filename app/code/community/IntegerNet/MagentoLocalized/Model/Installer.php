@@ -15,6 +15,8 @@ class IntegerNet_MagentoLocalized_Model_Installer
 
     public function __construct()
     {
+        $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\PathTranslationParser');
+        $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Parser');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Deploystrategy\DeploystrategyAbstract');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Deploystrategy\Copy');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Parser');
