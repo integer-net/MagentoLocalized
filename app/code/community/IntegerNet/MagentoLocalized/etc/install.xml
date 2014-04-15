@@ -30,12 +30,6 @@
                 <module_package>integer-net/magento-localized-de</module_package>
                 <locale_package>riconeitzel/german-localepack-de-de</locale_package>
             </de>
-            <de>
-                <name>Magento DE - Deutschland</name>
-                <image_filename>magento_localized/magento-edition-de.jpg</image_filename>
-                <module_package>integer-net/magento-localized-de</module_package>
-                <locale_package>riconeitzel/german-localepack-de-de</locale_package>
-            </de>
             <at>
                 <name>Magento AT - Österreich</name>
                 <image_filename>magento_localized/magento-edition-at.jpg</image_filename>
