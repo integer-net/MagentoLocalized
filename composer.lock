@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "dc96d1cc49e1d89cb9f50bc3f27afb3c",
+    "hash": "e3a003140b3c89ce98e5f42b4deae71e",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -492,13 +492,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git",
-                "reference": "d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c"
+                "url": "https://github.com/avstudnitz/CustomAdminNotifications.git",
+                "reference": "4a4696e06f402676efa182fd90be3b6e793507dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ikonoshirt/CustomAdminNotifications/zipball/d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c",
-                "reference": "d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c",
+                "url": "https://api.github.com/repos/avstudnitz/CustomAdminNotifications/zipball/4a4696e06f402676efa182fd90be3b6e793507dc",
+                "reference": "4a4696e06f402676efa182fd90be3b6e793507dc",
                 "shasum": ""
             },
             "require": {
@@ -508,22 +508,21 @@
             "description": "Add own RSS Feeds to admin notifications.",
             "homepage": "https://github.com/ikonoshirt/CustomAdminNotifications",
             "support": {
-                "source": "https://github.com/ikonoshirt/CustomAdminNotifications/tree/master",
-                "issues": "https://github.com/ikonoshirt/CustomAdminNotifications/issues"
+                "source": "https://github.com/avstudnitz/CustomAdminNotifications/tree/master"
             },
-            "time": "2013-09-09 15:14:20"
+            "time": "2014-04-16 08:54:51"
         },
         {
             "name": "integer-net/autoshipping",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/integer-net/Autoshipping.git",
+                "url": "git://github.com/integer-net/Autoshipping.git",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
+                "url": "https://github.com/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "shasum": ""
             },
@@ -856,12 +855,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
+                "url": "git://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
+                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "shasum": ""
             },
@@ -1057,12 +1056,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
+                "url": "git://github.com/tim-reynolds/magento-qconfig.git",
                 "reference": "1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/1.0",
+                "url": "https://github.com/tim-reynolds/magento-qconfig/zipball/1.0",
                 "reference": "1.0",
                 "shasum": ""
             },
