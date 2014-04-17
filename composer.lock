@@ -493,12 +493,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git",
-                "reference": "d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c"
+                "reference": "d52d2a9b5232cd28e8372e8d851763a4997f8772"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ikonoshirt/CustomAdminNotifications/zipball/d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c",
-                "reference": "d5d174f4c5e0fd24b6c352cf7ddc91a2b50e716c",
+                "url": "https://api.github.com/repos/ikonoshirt/CustomAdminNotifications/zipball/d52d2a9b5232cd28e8372e8d851763a4997f8772",
+                "reference": "d52d2a9b5232cd28e8372e8d851763a4997f8772",
                 "shasum": ""
             },
             "require": {
@@ -511,19 +511,19 @@
                 "source": "https://github.com/ikonoshirt/CustomAdminNotifications/tree/master",
                 "issues": "https://github.com/ikonoshirt/CustomAdminNotifications/issues"
             },
-            "time": "2013-09-09 15:14:20"
+            "time": "2014-04-16 10:26:29"
         },
         {
             "name": "integer-net/autoshipping",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/integer-net/Autoshipping.git",
+                "url": "git://github.com/integer-net/Autoshipping.git",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
+                "url": "https://github.com/integer-net/Autoshipping/zipball/3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "reference": "3fd94e82fa7f3020e275e2e76f2ea76ef59e3761",
                 "shasum": ""
             },
@@ -545,12 +545,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedAT.git",
-                "reference": "ba1e8371147870c0d4d3f966d1a2bf3c5455e2aa"
+                "reference": "04e5683865c2783eafb21976786149605e09c717"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/ba1e8371147870c0d4d3f966d1a2bf3c5455e2aa",
-                "reference": "ba1e8371147870c0d4d3f966d1a2bf3c5455e2aa",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedAT/zipball/04e5683865c2783eafb21976786149605e09c717",
+                "reference": "04e5683865c2783eafb21976786149605e09c717",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedAT/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedAT/issues"
             },
-            "time": "2014-02-18 13:00:17"
+            "time": "2014-04-16 13:13:01"
         },
         {
             "name": "integer-net/magento-localized-ch",
@@ -571,12 +571,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedCH.git",
-                "reference": "9cbe6098b2d478767d9b722f066582eec0b589eb"
+                "reference": "fcef8bdf7945cb49be33146b2f90117710b2c60e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/9cbe6098b2d478767d9b722f066582eec0b589eb",
-                "reference": "9cbe6098b2d478767d9b722f066582eec0b589eb",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedCH/zipball/fcef8bdf7945cb49be33146b2f90117710b2c60e",
+                "reference": "fcef8bdf7945cb49be33146b2f90117710b2c60e",
                 "shasum": ""
             },
             "require": {
@@ -589,7 +589,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedCH/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedCH/issues"
             },
-            "time": "2014-02-18 13:00:04"
+            "time": "2014-04-16 13:13:40"
         },
         {
             "name": "integer-net/magento-localized-de",
@@ -597,12 +597,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedDE.git",
-                "reference": "d2dfc3413090416475bcd26a1e746ccb6577ecc6"
+                "reference": "15991cb4ee086e30691b442a1859b6a595d6b437"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/d2dfc3413090416475bcd26a1e746ccb6577ecc6",
-                "reference": "d2dfc3413090416475bcd26a1e746ccb6577ecc6",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedDE/zipball/15991cb4ee086e30691b442a1859b6a595d6b437",
+                "reference": "15991cb4ee086e30691b442a1859b6a595d6b437",
                 "shasum": ""
             },
             "require": {
@@ -615,7 +615,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedDE/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedDE/issues"
             },
-            "time": "2014-02-18 13:00:27"
+            "time": "2014-04-16 13:14:03"
         },
         {
             "name": "integer-net/magento-localized-ebay",
@@ -623,12 +623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "d5490d71ef767c85e7d73aca775f960bc776f661"
+                "reference": "ad82d1fd9de3d4193f6c343601c681ac8015bc18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/d5490d71ef767c85e7d73aca775f960bc776f661",
-                "reference": "d5490d71ef767c85e7d73aca775f960bc776f661",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/ad82d1fd9de3d4193f6c343601c681ac8015bc18",
+                "reference": "ad82d1fd9de3d4193f6c343601c681ac8015bc18",
                 "shasum": ""
             },
             "require": {
@@ -641,7 +641,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2014-04-14 09:26:51"
+            "time": "2014-04-17 09:30:25"
         },
         {
             "name": "integer-net/magento-localized-ru",
@@ -649,12 +649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedRU.git",
-                "reference": "9ad7847bcac202ca5004bbb907f420be6c6b2811"
+                "reference": "7d1b6b272ebea6c6b819be8334ec5ddca1147d46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/9ad7847bcac202ca5004bbb907f420be6c6b2811",
-                "reference": "9ad7847bcac202ca5004bbb907f420be6c6b2811",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/7d1b6b272ebea6c6b819be8334ec5ddca1147d46",
+                "reference": "7d1b6b272ebea6c6b819be8334ec5ddca1147d46",
                 "shasum": ""
             },
             "require": {
@@ -667,7 +667,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedRU/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedRU/issues"
             },
-            "time": "2014-02-18 13:00:37"
+            "time": "2014-04-16 13:14:16"
         },
         {
             "name": "integer-net/removecustomeraccountlinks",
@@ -856,12 +856,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
+                "url": "git://github.com/magento-hackathon/Hackathon_LocaleFallback.git",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
+                "url": "https://github.com/magento-hackathon/Hackathon_LocaleFallback/zipball/1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "reference": "1199bbb8b4917c8a189df4a01a3cf85fca0cbf8e",
                 "shasum": ""
             },
@@ -1057,12 +1057,12 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/tim-reynolds/magento-qconfig.git",
+                "url": "git://github.com/tim-reynolds/magento-qconfig.git",
                 "reference": "1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tim-reynolds/magento-qconfig/zipball/1.0",
+                "url": "https://github.com/tim-reynolds/magento-qconfig/zipball/1.0",
                 "reference": "1.0",
                 "shasum": ""
             },
