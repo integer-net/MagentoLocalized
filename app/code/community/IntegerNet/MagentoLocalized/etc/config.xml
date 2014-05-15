@@ -235,6 +235,14 @@
     </install>
 
     <default>
+        <design>
+            <package>
+                <name>default</name>
+            </package>
+            <theme>
+                <default>modern</default>
+            </theme>
+        </design>
         <customer>
             <integernet_removecustomeraccountlinks>
                 <items>recurring_profiles,billing_agreements,tags,OAuth Customer Tokens</items>
