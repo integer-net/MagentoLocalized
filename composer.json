@@ -31,7 +31,7 @@
         "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "billsafe/billsafe": "v14.04.24-2",
+        "billsafe/billsafe": "7906af1",
         "ess/m2e-pro": "v6.1.0"
     },
     "repositories": [
