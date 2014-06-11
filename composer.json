@@ -11,7 +11,7 @@
         "connect20/locale_mage_community_it_it": "*",
         "etws/et_russianlanguagepack": "dev-master",
 
-        "firegento/magesetup": "dev-master",
+        "firegento/magesetup": "dev-feature/revocation_product_types",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
         "fbrnc/aoe_managestores": "dev-master",
