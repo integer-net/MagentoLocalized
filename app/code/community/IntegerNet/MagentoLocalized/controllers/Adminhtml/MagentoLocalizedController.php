@@ -337,6 +337,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
         $this->_setConfigData('admin/startup/page', 'dashboard');
 
         $this->_storeLocales['default'] = Mage::getStoreConfig('magento_localized/default_language');
+        $this->_storeLocales[Mage::app()->getDefaultStoreView()->getId()] = '';
 
         if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
 
