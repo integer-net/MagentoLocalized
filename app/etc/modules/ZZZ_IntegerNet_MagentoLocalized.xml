@@ -16,5 +16,9 @@
             <active>true</active>
             <codePool>community</codePool>
         </IntegerNet_MagentoLocalized>
+
+        <Netresearch_PaymentFee>
+            <active>false</active>
+        </Netresearch_PaymentFee>
     </modules>
 </config>

@@ -250,6 +250,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
                 $this->_setConfigData('shipping/origin/postcode', $fieldData['general__imprint__zip']);
                 $this->_setConfigData('shipping/origin/city', $fieldData['general__imprint__city']);
                 $this->_setConfigData('shipping/origin/street_line1', $fieldData['general__imprint__street']);
+                $this->_setConfigData('payment/banktransfer/active', 0);
                 if (isset($fieldData['general__imprint__bank_account_owner'])
                     && isset($fieldData['general__imprint__bank_account'])
                     && isset($fieldData['general__imprint__bank_code_number'])
