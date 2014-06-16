@@ -240,7 +240,7 @@
                 <name>default</name>
             </package>
             <theme>
-                <default>modern</default>
+                <default>default</default>
             </theme>
         </design>
         <customer>
