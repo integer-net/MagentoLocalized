@@ -1,14 +1,16 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "integer-net/magento-localized-de": "dev-master",
-        "integer-net/magento-localized-ch": "dev-master",
         "integer-net/magento-localized-at": "dev-master",
+        "integer-net/magento-localized-ch": "dev-master",
+        "integer-net/magento-localized-de": "dev-master",
+        "integer-net/magento-localized-nl": "dev-master",
         "integer-net/magento-localized-ru": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
         "connect20/locale_mage_community_fr_fr": "*",
         "connect20/locale_mage_community_it_it": "*",
+        "ho-nl/ho_nl_nl": "dev-master",
         "etws/et_russianlanguagepack": "dev-master",
 
         "firegento/magesetup": "dev-feature/revocation_product_types",
@@ -53,7 +55,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
+            "url": "https://github.com/integer-net/MagentoLocalizedAT.git"
         },
         {
             "type": "vcs",
@@ -61,7 +63,11 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/integer-net/MagentoLocalizedAT.git"
+            "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedNL.git"
         },
         {
             "type": "vcs",
@@ -74,6 +80,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ho-nl/Ho_nl_NL.git"
         },
         {
             "type": "vcs",

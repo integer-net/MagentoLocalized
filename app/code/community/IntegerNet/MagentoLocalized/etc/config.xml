@@ -345,6 +345,12 @@
                     <sorting>70</sorting>
                     <optional>0</optional>
                 </general__imprint__telephone>
+                <general__imprint__telephone_additional translate="label">
+                    <type>text</type>
+                    <label>Supplementary Information for Telephone</label>
+                    <sorting>75</sorting>
+                    <optional>1</optional>
+                </general__imprint__telephone_additional>
                 <general__imprint__fax translate="label">
                     <type>text</type>
                     <label>Fax</label>
@@ -494,7 +500,6 @@
                     <is_default>0</is_default>
                     <is_available>0</is_available>
                 </openstream_rappenrounding>
-
             </modules>
 
             <languages>
@@ -510,6 +515,10 @@
                     <name>French</name>
                     <code>connect20/locale_mage_community_fr_fr</code>
                 </fr_FR>
+                <nl_NL>
+                    <name>Dutch</name>
+                    <code>ho-nl/ho_nl_nl</code>
+                </nl_NL>
                 <it_IT>
                     <name>Italian</name>
                     <code>connect20/locale_mage_community_it_it</code>
