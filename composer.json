@@ -27,7 +27,7 @@
         "openstream/rappenrounding": "dev-master",
         "magento-hackathon/hackathon_magemonitoring": "dev-master",
 
-        "connect20/cashondelivery": "*",
+        "connect20/cashondelivery": "0.4.3",
         "itabs/invoice": "dev-master",
         "therouv/debitpayment": "dev-master",
         "connect20/bankpayment": "*",
