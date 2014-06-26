@@ -13,7 +13,7 @@
         "ho-nl/ho_nl_nl": "dev-master",
         "etws/et_russianlanguagepack": "dev-master",
 
-        "firegento/magesetup": "dev-feature/revocation_product_types",
+        "firegento/magesetup": "dev-feature/revocation_product_types#b5f50cdef0c588377f97cecf34442680e67076a4",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
         "fbrnc/aoe_managestores": "dev-master",
