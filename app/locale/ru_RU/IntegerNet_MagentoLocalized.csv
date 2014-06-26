@@ -35,18 +35,18 @@
 "Choose which modules you want to install (Advanced Mode)","Выберите модули для установки (расширенный режим)"
 
 "Help to improve %s - data transfer","Помогите улучшить %s - передача данных"
-"%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community.","%s это проект, создаваемый сообществом для сообщества. %s  чтобы максимально облегчить начало работы с Magento. Проект был начат компанией Netresearch App Factory. Реализация ведётся под руководством integer_net и их опытных разработчиков, которые встраивают лучшие и важнейшие модули вместе с сообществом."
+"The Localized Magento Editions (LME) are a project by the Community for the Community. The editions were created to make the start into Magento as simple as possible. The project was initiated by the Netresearch App Factory. With integer_net there are experienced and dedicated developers for the lead of implementationin the team, who have integrated the most important and best exensions together with the Community.","Magento RU это проект, создаваемый сообществом для сообщества. %s  чтобы максимально облегчить начало работы с Magento. Проект был начат компанией Netresearch App Factory. Реализация ведётся под руководством integer_net и их опытных разработчиков, которые встраивают лучшие и важнейшие модули вместе с сообществом."
 
-"Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions.","Ваше согласие на передачу информации об использовании системы и контактных данных через %s позволяет разработчикам и партнёрам сообщества распространять, разрабатывать и постоянно улучшать %s. Таким образом, вы и многие другие продавцы получите выгоду от соответствующей современным требованиям и привлекательной %s системы, которая постоянно адаптируется требованиям рынка."
+"With your consent, the transmission of usage and contact information by the Edition you can help developers and community partners actively to track the distribution of the Localized Magento Editions to develop the installation furhter and to continually improve it. Thus you and other merchants benefit from a current and attractive system and from the regular adjustments.","Ваше согласие на передачу информации об использовании системы и контактных данных через Magento RU позволяет разработчикам и партнёрам сообщества распространять, разрабатывать и постоянно улучшать Magento RU. Таким образом, вы и многие другие продавцы получите выгоду от соответствующей современным требованиям и привлекательной %s системы, которая постоянно адаптируется требованиям рынка."
 
-"Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted.","Конечно вы сами решаете какие именно данные будут передаваться. В принципе, данный проект заинтересован только в информации об использовании системы и, если это требуется, контактной информации из ваших исходящих данных."
+"Of course, you can decide yourself which amount of data for transmission you want to allow to be sent how much you want to support the further developement. The project is generally only interested in information about the use of the installation and if necessary in contact details from your official imprint. There will not be any further collection of data.","Конечно вы сами решаете какие именно данные будут передаваться. В принципе, данный проект заинтересован только в информации об использовании системы и, если это требуется, контактной информации из ваших исходящих данных."
 
-"Thank you very much in advance for your help.","Заранее большое спасибо за вашу помощь."
-"I wish no information to be transmitted.","Я не желаю, чтобы передавалась какая нибудь информация."
-"I want to help monitor the distribution of %s and therefore agree on transmitting only the information necessary to accomplish this, thereby supporting the project.","Я хочу помочь контролировать распространение %s и, следовательно, согласен с передачей только той информации, которая необходима для достижения этой цели, тем самым поддерживая проект."
+"Thanks in advance for your help.","Заранее большое спасибо за вашу помощь."
+"I don't want any further transfer of data.","Я не желаю, чтобы передавалась какая нибудь информация."
+"I hereby agree that contact information are transmitted to verify the reach of the Localized Magento Editions and actively support the project.","Я хочу помочь контролировать распространение Magento RU и, следовательно, согласен с передачей только той информации, которая необходима для достижения этой цели, тем самым поддерживая проект."
 
-"What information will be transmitted?","Какая информация будет передаваться?"
-"I want to help monitor the distribution of %s and also want to profit from exclusive offers from the NR App Factory and their partners.","Я хочу помочь контролировать распространение %s и таким образом получать выгоду от эксклюзивных предложений NR App Factory и их партнёров."
+"See data of the transmission","Какая информация будет передаваться?"
+"II help to observe the distribution of the Localized Magento Editions and want to benefit from the exclusive offerings of NR App Factory & your partners.","Я хочу помочь контролировать распространение Magento RU и таким образом получать выгоду от эксклюзивных предложений NR App Factory и их партнёров."
 
 "This could be your exclusive offers","Это могут быть ваши эксклюзивные предложения."
 "Offers could be for example:","Пример конкретных предложений:"
@@ -59,10 +59,10 @@
 "For your personal offers and information about %s, please see the newsfeed of your system.","Для просмотра ориентированных на вас специальных предложениях и информации о %s, пожалуйста, прочитайте ленту новостей в вашей системе."
 "I agree to help monitor the distribution of %s and therefore agree on transmitting the information necessary to accomplish this, thereby supporting the project.","Я согласен помочь контролировать распространение %s и, следовательно, согласен передавать необходимую для достижения этой цели информацию, тем самым поддерживая проект."
 "Server IP","IP сервера"
-"Request Date","Дата запроса"
-"Magento Version","Версия Magento"
-"Imprint Datas: Shop Name, Company, Street, ZIP, City, Country, Telephone, Fax, Email, Website, CEO, Owner","Исходящие данные: Название магазина, Компания, Улица, Почтовый индекс, Город, Страна, Телефон, Факс, Email, Сайт, CEO, Владелец"
-"Further information on data privacy can be found <a href=""%s"" target=""_blank"">here</a>.","Дополнительная информация о защите данных доступна <a href=""%s"" target=""_blank"">тут</a>"
+"Transfer date","Дата запроса"
+"Magento version","Версия Magento"
+"Contact information: Store name, company, address, postal code, city, country, telephone, fax, email, website, CEO, owner","Исходящие данные: Название магазина, Компания, Улица, Почтовый индекс, Город, Страна, Телефон, Факс, Email, Сайт, CEO, Владелец"
+"For more information about privacy, click <a href=""%s"" target=""_blank"">here</a>.","Дополнительная информация о защите данных доступна <a href=""%s"" target=""_blank"">тут</a>"
 
 "News cannot be displayed at the moment. Please try again later.","В данный момент новости не могут быть отображены. Пожалуйста, повторите попытку позже"
 "Store ""%s"" already exists.","Магазин ""%s"" уже существует."

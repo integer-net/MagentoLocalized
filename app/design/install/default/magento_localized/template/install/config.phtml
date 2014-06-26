@@ -113,11 +113,11 @@
     <ul>
         <li>
             <p>
-                <?php echo Mage::helper('magento_localized')->__('Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt.') ?><br />
-                <?php echo Mage::helper('magento_localized')->__('Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern.') ?>
+                <?php echo Mage::helper('magento_localized')->__('By clicking on the button "Continue" you will start the installation of the Localized Magento Edition %s. This process runs in the background.', Mage::getStoreConfig('magento_localized/module_title')) ?><br />
+                <?php echo Mage::helper('magento_localized')->__('Please be patient. The installation may take up to 5 minutes.') ?>
             </p>
             <p>
-                <?php echo Mage::helper('magento_localized')->__('Bitte lassen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch.') ?>
+                <?php echo Mage::helper('magento_localized')->__('Please keep your browser open. DO NOT RELOAD the page before completion of the process.') ?>
             </p>
         </li>
     </ul>
