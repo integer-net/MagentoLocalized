@@ -34,7 +34,8 @@
 
         "integer-net/magento-localized-ebay": "dev-master",
         "billsafe/billsafe": "dev-master",
-        "ess/m2e-pro": "v6.1.0"
+        "ess/m2e-pro": "v6.1.0",
+        "webformat/loginwithpaypal": "dev-master"
     },
     "repositories": [
         {
@@ -80,6 +81,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/Webformat_LoginWithPayPal.git"
         },
         {
             "type": "vcs",
