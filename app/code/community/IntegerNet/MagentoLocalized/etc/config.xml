@@ -509,6 +509,15 @@
                     <is_default>0</is_default>
                     <is_available>0</is_available>
                 </openstream_rappenrounding>
+                <webformat_loginwithpaypal>
+                    <name>Login with PayPal</name>
+                    <description>This extension makes the customer login easier by adding a &#x201C;Login With PayPal&#x201D; button to customer login page and onepage checkout login tab.</description>
+                    <url>http://www.magentocommerce.com/magento-connect/webformat-login-with-paypal.html</url>
+                    <code>webformat/loginwithpaypal</code>
+                    <is_required>0</is_required>
+                    <is_default>1</is_default>
+                    <is_available>1</is_available>
+                </webformat_loginwithpaypal>
             </modules>
 
             <languages>
