@@ -96,7 +96,7 @@
         }
     ],
     "extra": {
-        "magento-root-dir": "",
+        "magento-root-dir": "src",
         "magento-deploystrategy": "none"
     }
 }
