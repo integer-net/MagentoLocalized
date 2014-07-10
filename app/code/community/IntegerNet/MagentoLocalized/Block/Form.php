@@ -111,4 +111,30 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
             ))
             ->toHtml();
     }
+
+    /**
+     * @return string
+     */
+    public function getPrivacyLinkUrl()
+    {
+        $iframeUrl = Mage::getStoreConfig('magento_localized/iframe_url_prefix')
+            . $this->_getLanguageUrlPart()
+            . '/privacy'
+            . Mage::getStoreConfig('magento_localized/iframe_url_suffix');
+
+        return $iframeUrl;
+    }
+
+    /**
+     * @return string
+     */
+    protected function _getLanguageUrlPart()
+    {
+        $localeCode = Mage::app()->getLocale()->getLocaleCode();
+        if (strpos($localeCode, Mage::getStoreConfig('magento_localized/iframe_main_language_code')) === 0) {
+            return Mage::getStoreConfig('magento_localized/iframe_main_language_code');
+        } else {
+            return Mage::getStoreConfig('magento_localized/iframe_fallback_language_code');
+        }
+    }
 }
