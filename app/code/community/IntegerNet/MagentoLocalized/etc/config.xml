@@ -529,6 +529,10 @@
                     <name>English</name>
                     <code></code>
                 </en_US>
+                <es_ES>
+                    <name>Spanish</name>
+                    <code>connect20/locale_mage_community_es_es</code>
+                </es_ES>
                 <fr_FR>
                     <name>French</name>
                     <code>connect20/locale_mage_community_fr_fr</code>
