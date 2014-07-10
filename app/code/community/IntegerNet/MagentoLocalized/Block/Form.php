@@ -117,12 +117,12 @@ class IntegerNet_MagentoLocalized_Block_Form extends Mage_Adminhtml_Block_Widget
      */
     public function getPrivacyLinkUrl()
     {
-        $iframeUrl = Mage::getStoreConfig('magento_localized/iframe_url_prefix')
+        $url = Mage::getStoreConfig('magento_localized/iframe_url_prefix')
             . $this->_getLanguageUrlPart()
             . '/privacy'
             . Mage::getStoreConfig('magento_localized/iframe_url_suffix');
 
-        return $iframeUrl;
+        return $url;
     }
 
     /**
