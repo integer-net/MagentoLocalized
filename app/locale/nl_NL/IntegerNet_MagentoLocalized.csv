@@ -35,14 +35,14 @@
 "Successfully updated module %s.","Module %s is succesvol bijgewerkt."
 
 "Help to improve %s - data transfer","Helpen om %s te verbeteren - gegevensoverdracht"
-"%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community.","De Gelokaliseerde Magento Editie (%s) is een project van de community voor de community. De edities werden gecreëerd om de start van Magento zo eenvoudig mogelijk te maken. Het project is geïnitieerd door de Netresearch App Factory. Met integer_net achter dit project zijn er ervaren en toegewijde ontwikkelaars voor de leiding van de implementatie, die de belangrijkste en beste extensions samen hebben geïntegreerd met de community."
-"To track the spread of %s the system transmits requests with a partner identifier from which you have received %s. You can find the responsible file for this at %s. There will be no user-related data transmitted.","Om de distributie van de Gelokaliseerde Magento edities te volgen, verzendt het systeem verzoeken met een identificatie van de partner, van wie je het systeem hebt gekocht. U kunt het verantwoordelijke bestand te vinden onder app/code/community/IntegerNet/MagentoLocalized/Block/Tracking.php. Het verzamelen van gebruikersgegevens valt hier niet onder."
-"Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions.","Met uw toestemming, kan de overdracht van het gebruiks- en de contactgegevens van de Edition ontwikkelaars en maatschappelijke partners helpen om de verspreiding en ontwikkeling van de Gelokaliseerde Magento Editions verder te ontwikkelen en voortdurend te verbeteren. Dus jij en andere handelaren profiteren van een actueel en aantrekkelijk systeem en van de regelmatige updates."
-"Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted.","Natuurlijk kun je zelf bepalen welke gegevens worden verzonden om de verdere development te ondersteunen. Het project is over het algemeen alleen in informatie geïnteresseerd over het gebruik van de installatie en zo nodig in de contactgegevens van uw installatie. Er zal geen verdere verzameling van gegevens zijn."
-"Thank you very much in advance for your help.","Bij voorbaat dank voor uw hulp."
-"I wish no further information to be transmitted.","Ik wil geen verdere overdracht van gegevens."
-"What information will be transmitted?","Zie gegevens voor de overdracht"
-"I want to help monitor the distribution of %s and also want to profit from exclusive offers from the NR App Factory and their partners.","Ik help om de distributie van de Gelokaliseerde Magento Edities te observeren en wil profiteren van de exclusieve aanbiedingen van NR App Factory & uw partners."
+"The Localized Magento Editions (LME) are a project by the Community for the Community. The editions were created to make the start into Magento as simple as possible. The project was initiated by the Netresearch App Factory. With integer_net there are experienced and dedicated developers for the lead of implementationin the team, who have integrated the most important and best exensions together with the Community.","De Gelokaliseerde Magento Editie (%s) is een project van de community voor de community. De edities werden gecreëerd om de start van Magento zo eenvoudig mogelijk te maken. Het project is geïnitieerd door de Netresearch App Factory. Met integer_net achter dit project zijn er ervaren en toegewijde ontwikkelaars voor de leiding van de implementatie, die de belangrijkste en beste extensions samen hebben geïntegreerd met de community."
+"To track the distribution of the Localized Magento Editions, the system transmits requests with an identifier of the partner, through whom you purchased the system. You can find the responsible file under %s. It will not involve the collection of any user-related data.","Om de distributie van de Gelokaliseerde Magento edities te volgen, verzendt het systeem verzoeken met een identificatie van de partner, van wie je het systeem hebt gekocht. U kunt het verantwoordelijke bestand te vinden onder app/code/community/IntegerNet/MagentoLocalized/Block/Tracking.php. Het verzamelen van gebruikersgegevens valt hier niet onder."
+"With your consent, the transmission of usage and contact information by the Edition you can help developers and community partners actively to track the distribution of the Localized Magento Editions to develop the installation furhter and to continually improve it. Thus you and other merchants benefit from a current and attractive system and from the regular adjustments.","Met uw toestemming, kan de overdracht van het gebruiks- en de contactgegevens van de Edition ontwikkelaars en maatschappelijke partners helpen om de verspreiding en ontwikkeling van de Gelokaliseerde Magento Editions verder te ontwikkelen en voortdurend te verbeteren. Dus jij en andere handelaren profiteren van een actueel en aantrekkelijk systeem en van de regelmatige updates."
+"Of course, you can decide yourself which amount of data for transmission you want to allow to be sent how much you want to support the further developement. The project is generally only interested in information about the use of the installation and if necessary in contact details from your official imprint. There will not be any further collection of data.","Natuurlijk kun je zelf bepalen welke gegevens worden verzonden om de verdere development te ondersteunen. Het project is over het algemeen alleen in informatie geïnteresseerd over het gebruik van de installatie en zo nodig in de contactgegevens van uw installatie. Er zal geen verdere verzameling van gegevens zijn."
+"Thanks in advance for your help.","Bij voorbaat dank voor uw hulp."
+"I don't want any further transfer of data.","Ik wil geen verdere overdracht van gegevens."
+"See data of the transmission","Zie gegevens voor de overdracht"
+"I help to observe the distribution of the Localized Magento Editions and want to benefit from the exclusive offerings of NR App Factory & your partners.","Ik help om de distributie van de Gelokaliseerde Magento Edities te observeren en wil profiteren van de exclusieve aanbiedingen van NR App Factory & uw partners."
 "This could be your exclusive offers","Dit zouden uw exclusieve aanbiedingen kunnen zijn."
 "Offers could be for example:","Deze aanbiedingen zijn bijvoorbeeld:"
 "Special conditions when purchasing extensions or services from the NAF store nr.apps.com","Speciale voorwaarden die gelden wanneer van de NAF store nr.apps.com wordt gekocht"
@@ -51,44 +51,44 @@
 "Showing your shop name and a link to your domain on nr-apps.com","Uw winkelnaam en een link naar uw domein tonen op nr-apps.com"
 "and many more","en nog veel meer"
 "For your personal offers and information about %s, please see the newsfeed of your system.","Voor aanbiedingen & meer informatie over %s, zie de newsfeed van uw systeem."
-"I agree to help monitor the distribution of %s and therefore agree on transmitting the information necessary to accomplish this, thereby supporting the project.","Ik ga ermee akkoord dat de contactgegevens worden doorgegeven om het bereik van de Gelokaliseerde Magento Edities in de gaten te houden en hiermee actief het project te ondersteunen."
+"I hereby agree that contact information are transmitted to verify the reach of the Localized Magento Editions and actively support the project.","Ik ga ermee akkoord dat de contactgegevens worden doorgegeven om het bereik van de Gelokaliseerde Magento Edities in de gaten te houden en hiermee actief het project te ondersteunen."
 "Server IP","Server-IP"
-"Request Date","Datum van overdracht"
-"Magento Version","Magento versie"
-"Imprint Datas: Shop Name, Company, Street, ZIP, City, Country, Telephone, Fax, Email, Website, CEO, Owner","Contact informatie: Winkelnaam, bedrijfsnaam, adres, postcode, woonplaats, land, telefoon, fax, e-mail, website, CEO, eigenaar"
-"Further information on data privacy can be found <a href=""%s"" target=""_blank"">here</a>.","Voor meer informatie over privacy, <a href=""%s"" target=""_blank"">klik hier</a>."
-,
+"Transfer date","Datum van overdracht"
+"Magento version","Magento versie"
+"Contact information: Store name, company, address, postal code, city, country, telephone, fax, email, website, CEO, owner","Contact informatie: Winkelnaam, bedrijfsnaam, adres, postcode, woonplaats, land, telefoon, fax, e-mail, website, CEO, eigenaar"
+"For more information about privacy, click <a href=""%s"" target=""_blank"">here</a>.","Voor meer informatie over privacy, <a href=""%s"" target=""_blank"">klik hier</a>."
+
 "News cannot be displayed at the moment. Please try again later.","Nieuws kan op dit moment niet worden getoond. Probeer het later opnieuw."
 "Store ""%s"" already exists.","Winkel ""%s"" bestaat al."
-,
+
 "FireGento German Setup","FireGento German Setup"
 "Extension Setup","Extension setup"
 "Tax Settings","BTW instellingen"
 "Checkout Agreements","Algemene voorwaarden"
-,
+
 "FireGento PDF","FireGento PDF"
-,
+
 "Autoshipping","Autoshipping"
-,
+
 "Cash On Delivery","Contant bij afhalen"
-,
+
 "Debit","Debet"
 "Bank Data Setup","Bankgegevens setup"
-,
+
 "Remove Customer Account Links","Verwijder Customer Account links"
-,
+
 "Configuration","Configuratie"
-,
+
 "Display Copyright Notice in Imprint","Weergave copyright in imprint"
 "<a href=""%s"" target=""_blank"">%s</a> is a project of the Magento community","<a href=""%s"" target=""_blank"">%s</a> is een project van de Magento gemeenschap"
 "powered by","powered by"
-,
+
 "Phoenix_CashOnDelivery::You will be charged an extra fee of %s.","Contant bij afhalen - extra vergoeding %s"
-,
+
 "This could take a little while","Dit kan een tijdje duren"
 "Country Selection","Land selecteren"
 "Please go to Backend now in order to complete the preconfiguration.","Ga dan naar Backend nu om de preconfiguratie voltooien."
-,
+
 "Next Page","Volgende pagina"
 "Previous Page","Vorige pagina"
 "Setup %s","%s setup"
@@ -96,17 +96,17 @@
 "Page %s of %s","Pagina %s van %s"
 "Languages, Modules, Datatransfer","Talen, Modules, Data Transfer"
 "Modules, Datatransfer","Modules, Data Transfer"
-,
+
 "An error occured. Please provide write access to the whole Magento directory and all subdirectories.","Er is een fout opgetreden. Gelieve schrijftoegang te geven tot de hele Magento map en alle submappen."
-,
+
 "Please note:","Let op:"
-"Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt.","Door te klikken op de knop ""Doorgaan"" gaat u de installatie van de Gelokaliseerde Magento Editie starten. Dit proces draait op de achtergrond."
-"Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern.","Wij vragen u om uw geduld. De installatie kan tot 5 minuten."
-"Bitte lassen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch.","Houd uw browser geopend. Sluit de pagina niet af vóór de voltooiing van het proces."
-,
-"Please fill in your company details as fully as possible.","Vul uw gegevens over het bedrijf zo volledig mogelijk in."
-"These will be needed for the imprint requirements, terms and conditions or some payment methods.","U kunt deze nodig hebben voor de algemene informatie-eisen, voorwaarden, intrekkingsregels of bepaalde betaalmethoden."
-"You can edit or complete your data any time. You will find the details under menu item","U kunt op elk moment alle gegevens bewerken of voltooien. U bereikt deze informatie via "
+"By clicking on the button ""Continue"" you will start the installation of the Localized Magento Edition %s. This process runs in the background.","Door te klikken op de knop ""Doorgaan"" gaat u de installatie van de Gelokaliseerde Magento Editie starten. Dit proces draait op de achtergrond."
+"Please be patient. The installation may take up to 5 minutes.","Wij vragen u om uw geduld. De installatie kan tot 5 minuten."
+"Please keep your browser open. DO NOT RELOAD the page before completion of the process.","Houd uw browser geopend. Sluit de pagina niet af vóór de voltooiing van het proces."
+
+"Please fill in your details on the company as fully as possible.","Vul uw gegevens over het bedrijf zo volledig mogelijk in."
+"You may need this for the general information requirements, terms and conditions, revocation rules or some payment methods.","U kunt deze nodig hebben voor de algemene informatie-eisen, voorwaarden, intrekkingsregels of bepaalde betaalmethoden."
+"You can edit or complete all data at any time. You will reach this details over","U kunt op elk moment alle gegevens bewerken of voltooien. U bereikt deze informatie via "
 "%s &gt; Configuration","%s &gt; configuratie"
 "System &gt; Configuration &gt; General: Imprint","Systeem &gt; Configuratie &gt; Algemeen: Imprint"
 "Support Center","Helpdesk"

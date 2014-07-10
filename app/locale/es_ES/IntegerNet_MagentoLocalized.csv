@@ -35,16 +35,16 @@ Don't install additional modules,No instale módulos adicionales
 Install default modules,Instalar módulos por defecto
 Choose which modules you want to install (Advanced Mode),Elija qué módulos desea instalar (Modo avanzado)
 Successfully updated module %s.,Actualizado con éxito el módulo% s.
-,
+
 Help to improve %s - data transfer,Ayuda a mejorar %s -  la transferencia de datos
-"%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community.","%s ist a project from the community, for the community. %s has been created to make the entry to Magento as easy as possible. This project has been initiated by the Netresearch App Factory. The implementation is being lead by integer_net and their experienced developers, who integrated the best and most important extensions together with the community."
-To track the spread of %s the system transmits requests with a partner identifier from which you have received %s. You can find the responsible file for this at %s. There will be no user-related data transmitted.,"Um die Verbreitung von %s zu verfolgen, übermittelt das System Requests mit einem Identifier des Partners, über den Sie %s bezogen haben. Sie finden die dafür verantwortliche Datei unter %s. Es werden dabei keinerlei nutzerbezogene Daten erhoben."
-"Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions.","Your consent for transferring usage and contact details through %s enables the developers and community partners to further distribute, develop, and continually improve %s. This way, you and many other merchants can profit from an up-to-date and attractive %s system plus frequent adaptions."
-"Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted.","Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted."
-Thank you very much in advance for your help.,Muchas gracias de antemano por su ayuda.
-I wish no further information to be transmitted.,No deseo transmitir más información.
-What information will be transmitted?,¿Qué información será transmitida?
-I want to help monitor the distribution of %s and also want to profit from exclusive offers from the NR App Factory and their partners.,"Quiero ayudar a supervisar la distribución de %s, y también quiero aprovechar ofertas exclusivas del NR App Factory y sus socios."
+"The Localized Magento Editions (LME) are a project by the Community for the Community. The editions were created to make the start into Magento as simple as possible. The project was initiated by the Netresearch App Factory. With integer_net there are experienced and dedicated developers for the lead of implementationin the team, who have integrated the most important and best exensions together with the Community.","The Localized Magento Editions (LME) are a project by the Community for the Community. The editions were created to make the start into Magento as simple as possible. The project was initiated by the Netresearch App Factory. With integer_net there are experienced and dedicated developers for the lead of implementationin the team, who have integrated the most important and best exensions together with the Community."
+"To track the distribution of the Localized Magento Editions, the system transmits requests with an identifier of the partner, through whom you purchased the system. You can find the responsible file under %s. It will not involve the collection of any user-related data.","Um die Verbreitung von %s zu verfolgen, übermittelt das System Requests mit einem Identifier des Partners, über den Sie %s bezogen haben. Sie finden die dafür verantwortliche Datei unter %s. Es werden dabei keinerlei nutzerbezogene Daten erhoben."
+"With your consent, the transmission of usage and contact information by the Edition you can help developers and community partners actively to track the distribution of the Localized Magento Editions to develop the installation furhter and to continually improve it. Thus you and other merchants benefit from a current and attractive system and from the regular adjustments.","With your consent, the transmission of usage and contact information by the Edition you can help developers and community partners actively to track the distribution of the Localized Magento Editions to develop the installation furhter and to continually improve it. Thus you and other merchants benefit from a current and attractive system and from the regular adjustments."
+"Of course, you can decide yourself which amount of data for transmission you want to allow to be sent how much you want to support the further developement. The project is generally only interested in information about the use of the installation and if necessary in contact details from your official imprint. There will not be any further collection of data.","Of course, you can decide what data you wish to be transmitted. In general, this project is only interested in information about the use of the system and, were indicated, contact details from your imprint. No further information or data will be transmitted."
+"Thanks in advance for your help.","Muchas gracias de antemano por su ayuda."
+"I don't want any further transfer of data.","No deseo transmitir más información."
+"See data of the transmission","¿Qué información será transmitida?"
+"I help to observe the distribution of the Localized Magento Editions and want to benefit from the exclusive offerings of NR App Factory & your partners.","Quiero ayudar a supervisar la distribución de %s, y también quiero aprovechar ofertas exclusivas del NR App Factory y sus socios."
 This could be your exclusive offers,Esta podrían ser sus ofertas exclusivas
 Offers could be for example:,"Ofertas podrían ser, por ejemplo:"
 Special conditions when purchasing extensions or services from the NAF store nr.apps.com,Condiciones especiales en la compra de extensiones o servicios de la tienda de NAF nr.apps.com
@@ -53,44 +53,44 @@ Special conditions when purchasing extensions or services from the NAF store nr.
 Showing your shop name and a link to your domain on nr-apps.com,Mostrando su nombre de la tienda y un enlace a su dominio en nr-apps.com
 and many more,y muchos más
 "For your personal offers and information about %s, please see the newsfeed of your system.","Para ofertas personalizadas sobre %s, por favor vea el feed de noticias de su sistema."
-"I agree to help monitor the distribution of %s and therefore agree on transmitting the information necessary to accomplish this, thereby supporting the project.","Estoy de acuerdo en ayudar a controlar la distribución de %s, y acepto transmitir la información necesaria para lograr esto, respaldando el proyecto."
+"I hereby agree that contact information are transmitted to verify the reach of the Localized Magento Editions and actively support the project.","Estoy de acuerdo en ayudar a controlar la distribución de %s, y acepto transmitir la información necesaria para lograr esto, respaldando el proyecto."
 Server IP,IP del Servidor
-Request Date,Fecha de la petición
-Magento Version,Versión de Magento
-"Imprint Datas: Shop Name, Company, Street, ZIP, City, Country, Telephone, Fax, Email, Website, CEO, Owner","Datas Imprint: Nombre de la Tienda, Empresa, Calle, Código Postal, Ciudad, País, Teléfono, Fax, Correo electrónico, Página web, CEO, Propietario"
-"Further information on data privacy can be found <a href=""%s"" target=""_blank"">here</a>.","Para más información sobre la privacidad de los datos puede consultar <a href=""%s"" target=""_blank"">aquí</a>."
-,
+"Transfer date","Fecha de la petición"
+Magento version,Versión de Magento
+"Contact information: Store name, company, address, postal code, city, country, telephone, fax, email, website, CEO, owner","Datas Imprint: Nombre de la Tienda, Empresa, Calle, Código Postal, Ciudad, País, Teléfono, Fax, Correo electrónico, Página web, CEO, Propietario"
+"For more information about privacy, click <a href=""%s"" target=""_blank"">here</a>.","Para más información sobre la privacidad de los datos puede consultar <a href=""%s"" target=""_blank"">aquí</a>."
+
 News cannot be displayed at the moment. Please try again later.,"Las Noticias no pueden ser mostradas en este momento. Por favor, inténtelo de nuevo más tarde."
 "Store ""%s"" already exists.","Tienda ""% s"" ya existe."
-,
+
 FireGento German Setup,FireGento Configuración alemana
 Extension Setup,Configuración de Extensión
 Tax Settings,Ajustes fiscales
 Checkout Agreements,Acuerdos del checkout
-,
+
 FireGento PDF,FireGento PDF
-,
+
 Autoshipping,Envío Automático
-,
+
 Cash On Delivery,Contra Reembolso
-,
+
 Debit,Débito
 Bank Data Setup,Configuración de datos del Banco
-,
+
 Remove Customer Account Links,Eliminar Links de la Cuenta del Cliente
-,
+
 Configuration,Configuración
-,
+
 Display Copyright Notice in Imprint,Mostras información sobre Derechos de Autor en el Pie de página.
 "<a href=""%s"" target=""_blank"">%s</a> is a project of the Magento community","<a href=""%s"" target=""_blank"">%s</a> es un proyecto de la comunidad de Magento"
 powered by,impulsado por
-,
+
 Phoenix_CashOnDelivery::You will be charged an extra fee of %s.,Se le cobrará una tarifa adicional de %s.
-,
+
 This could take a little while,Esto podría tomar algo de tiempo
 Country Selection,Selección del país
 Please go to Backend now in order to complete the preconfiguration.,"Por favor, vaya al Backend para completar la configuración previa."
-,
+
 Next Page,Página siguiente
 Previous Page,Página Anterior
 Setup %s,Configuración de %s
@@ -98,17 +98,17 @@ Setup %s,Configuración de %s
 Page %s of %s,Página %s de %s
 "Languages, Modules, Datatransfer","Idiomas, Módulos, Transferencia de datos"
 "Modules, Datatransfer","Módulos, Transferencia de datos"
-,
+
 An error occured. Please provide write access to the whole Magento directory and all subdirectories.,Ha ocurrido un error. Proporcione acceso de escritura a todo el directorio de Magento y todos los subdirectorios.
-,
+
 Please note:,Tenga en cuenta:
-Mit Klick auf den Button „Fortsetzen“ starten Sie die Installation von Magento DE. Diese wird im Hintergrund ausgeführt.,"Al hacer clic en el botón ""Continuar"" para iniciar la instalación de Magento ES. Este se ejecutará en segundo plano."
-"Bitte haben Sie etwas Geduld, dieser Vorgang kann bis zu ca. 5 min dauern.","Por favor sea paciente, esto puede tardar hasta 5 minutos."
-Bitte lassen Sie Ihren Browser geöffnet und führen bis zum Abschluss KEINEN Reload durch.,"Por favor, deje su navegador abierto y no recargue la página hasta que finalice el proceso."
-,
-Please fill in your company details as fully as possible.,"Por favor, completa la información identificativa de tu empresa."
-"These will be needed for the imprint requirements, terms and conditions or some payment methods.","Esta será necesaria para por ejemplo, los requisitos de información general, los términos y condiciones y/o algunos métodos de pago."
-You can edit or complete your data any time. You will find the details under menu item,Puedes modificar o completar tus datos en cualquier momento. Encontrarás los detalles en el menú
+"By clicking on the button ""Continue"" you will start the installation of the Localized Magento Edition %s. This process runs in the background.","Al hacer clic en el botón ""Continuar"" para iniciar la instalación de %s. Este se ejecutará en segundo plano."
+"Please be patient. The installation may take up to 5 minutes.","Por favor sea paciente, esto puede tardar hasta 5 minutos."
+"Please keep your browser open. DO NOT RELOAD the page before completion of the process.","Por favor, deje su navegador abierto y no recargue la página hasta que finalice el proceso."
+
+"Please fill in your details on the company as fully as possible.","Por favor, completa la información identificativa de tu empresa."
+"You may need this for the general information requirements, terms and conditions, revocation rules or some payment methods.","Esta será necesaria para por ejemplo, los requisitos de información general, los términos y condiciones y/o algunos métodos de pago."
+"You can edit or complete all data at any time. You will reach this details over","Puedes modificar o completar tus datos en cualquier momento. Encontrarás los detalles en el menú"
 %s &gt; Configuration,% s> Configuración
 System &gt; Configuration &gt; General: Imprint,Sistema &gt;  Configuración &gt; General: Pie de página
 Support Center,Centro de Soporte
