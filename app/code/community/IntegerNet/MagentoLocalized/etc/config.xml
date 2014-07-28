@@ -401,15 +401,6 @@
                     <is_default>0</is_default>
                     <is_available>1</is_available>
                 </dermodpro_baseprice>
-                <aoe_managestores>
-                    <name>Manage Stores</name>
-                    <description>A much more intuitive interface for managing your shop structure.</description>
-                    <url>http://www.fabrizio-branca.de/magento-website-store-groups-store-views.html</url>
-                    <code>fbrnc/aoe_managestores</code>
-                    <is_required>1</is_required>
-                    <is_default>1</is_default>
-                    <is_available>1</is_available>
-                </aoe_managestores>
                 <avstudnitz_scopehint>
                     <name>Scope Hint</name>
                     <description>Creates a warning if a configuration setting is overwritten on a lower level (website or store view)</description>

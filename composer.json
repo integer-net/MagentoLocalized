@@ -20,7 +20,6 @@
         "firegento/magesetup": "dev-feature/revocation_product_types",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
-        "fbrnc/aoe_managestores": "dev-master",
         "connect20/dermodpro_baseprice": "*",
         "avstudnitz/scopehint": "dev-master",
         "avstudnitz/admin-notification-advanced": "dev-master",
