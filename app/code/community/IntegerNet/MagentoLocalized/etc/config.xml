@@ -536,6 +536,10 @@
                     <name>Italian</name>
                     <code>connect20/locale_mage_community_it_it</code>
                 </it_IT>
+                <ro_RO>
+                    <name>Romanian</name>
+                    <code>mindmagnetsoftware/Romanian-LocalePack-ro-RO</code>
+                </ro_RO>
                 <ru_RU>
                     <name>Russian</name>
                     <code>etws/et_russianlanguagepack</code>

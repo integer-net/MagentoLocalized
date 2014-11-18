@@ -9,15 +9,17 @@
         "integer-net/magento-localized-fr": "dev-master",
         "integer-net/magento-localized-it": "dev-master",
         "integer-net/magento-localized-ru": "dev-master",
+        "integer-net/magento-localized-pl": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
         "connect20/locale_mage_community_es_es": "*",
         "connect20/locale_mage_community_fr_fr": "*",
         "connect20/locale_mage_community_it_it": "*",
         "ho-nl/ho_nl_nl": "dev-master",
+        "mindmagnetsoftware/Romanian-LocalePack-ro-RO": "dev-master",
         "etws/et_russianlanguagepack": "dev-master",
 
-        "firegento/magesetup": "dev-feature/revocation_product_types",
+        "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
         "connect20/dermodpro_baseprice": "*",
@@ -91,6 +93,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedPL.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
         },
         {
@@ -104,6 +110,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/ho-nl/Ho_nl_NL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/Romanian_LocalePack_ro_RO.git"
         },
         {
             "type": "vcs",
