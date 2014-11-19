@@ -18,6 +18,7 @@
         "connect20/locale_mage_community_it_it": "*",
         "ho-nl/ho_nl_nl": "dev-master",
         "mindmagnetsoftware/Romanian-LocalePack-ro-RO": "dev-master",
+        "SnowdogApps/Magento-Translation-pl_PL": "dev-master",
         "etws/et_russianlanguagepack": "dev-master",
 
         "firegento/magesetup": "dev-development",
@@ -119,6 +120,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/Romanian_LocalePack_ro_RO.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/SnowdogApps/Magento-Translation-pl_PL.git"
         },
         {
             "type": "vcs",
