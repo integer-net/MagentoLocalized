@@ -68,6 +68,12 @@
                 <module_package>integer-net/magento-localized-nl</module_package>
                 <locale_package>ho-nl/ho_nl_nl</locale_package>
             </nl>
+            <ro>
+                <name>Magento RO - Romania</name>
+                <module_package>integer-net/magento-localized-ro</module_package>
+                <image_filename>magento_localized/magento-edition-ro.jpg</image_filename>
+                <locale_package>mindmagnetsoftware/Romanian-LocalePack-ro-RO</locale_package>
+            </ro>
             <ru>
                 <name>Magento RU - Россия</name>
                 <module_package>integer-net/magento-localized-ru</module_package>

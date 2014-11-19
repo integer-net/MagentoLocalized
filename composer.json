@@ -8,6 +8,7 @@
         "integer-net/magento-localized-es": "dev-master",
         "integer-net/magento-localized-fr": "dev-master",
         "integer-net/magento-localized-it": "dev-master",
+        "integer-net/magento-localized-ro": "dev-master",
         "integer-net/magento-localized-ru": "dev-master",
         "integer-net/magento-localized-pl": "dev-master",
 
@@ -86,6 +87,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedFR.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedRO.git"
         },
         {
             "type": "vcs",
