@@ -74,6 +74,12 @@
                 <image_filename>magento_localized/magento-edition-ro.jpg</image_filename>
                 <locale_package>mindmagnetsoftware/Romanian-LocalePack-ro-RO</locale_package>
             </ro>
+            <pl>
+                <name>Magento PL - Poland</name>
+                <module_package>integer-net/magento-localized-pl</module_package>
+                <image_filename>magento_localized/magento-edition-pl.jpg</image_filename>
+                <locale_package>snowdog-apps/magento-translation-pl_pl</locale_package>
+            </pl>
             <ru>
                 <name>Magento RU - Россия</name>
                 <module_package>integer-net/magento-localized-ru</module_package>
