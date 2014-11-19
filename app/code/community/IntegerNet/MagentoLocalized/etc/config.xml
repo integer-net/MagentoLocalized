@@ -13,7 +13,7 @@
 <config>
     <modules>
         <IntegerNet_MagentoLocalized>
-            <version>1.9.0.1.2</version>
+            <version>1.9.0.1.3</version>
         </IntegerNet_MagentoLocalized>
     </modules>
 
@@ -540,6 +540,10 @@
                     <name>Romanian</name>
                     <code>mindmagnetsoftware/Romanian-LocalePack-ro-RO</code>
                 </ro_RO>
+                <pl_PL>
+                    <name>Polish</name>
+                    <code>SnowdogApps/Magento-Translation-pl_PL</code>
+                </pl_PL>
                 <ru_RU>
                     <name>Russian</name>
                     <code>etws/et_russianlanguagepack</code>
