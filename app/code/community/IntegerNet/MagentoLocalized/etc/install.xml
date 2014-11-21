@@ -72,7 +72,7 @@
                 <name>Magento RO - Romania</name>
                 <module_package>integer-net/magento-localized-ro</module_package>
                 <image_filename>magento_localized/magento-edition-ro.jpg</image_filename>
-                <locale_package>mindmagnetsoftware/Romanian-LocalePack-ro-RO</locale_package>
+                <locale_package>mindmagnet/romanian-translation</locale_package>
             </ro>
             <pl>
                 <name>Magento PL - Poland</name>
