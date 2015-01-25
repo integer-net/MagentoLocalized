@@ -21,7 +21,7 @@
         "snowdog-apps/magento-translation-pl_pl": "dev-master",
         "etws/et_russianlanguagepack": "dev-master",
 
-        "firegento/magesetup": "dev-development",
+        "firegento/magesetup": "dev-master",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
         "connect20/dermodpro_baseprice": "*",
