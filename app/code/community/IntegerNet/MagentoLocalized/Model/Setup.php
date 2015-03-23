@@ -11,6 +11,7 @@
 class IntegerNet_MagentoLocalized_Model_Setup
 {
     protected $_storeLocales = array();
+    protected $_messages = array();
 
     /**
      * @param array $params
@@ -36,7 +37,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
 
             $this->_reindexAll();
 
-            Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('magento_localized')->__('Magento was prepared successfully. Please log out and log in again in order to access the newly installed modules.'));
+            $this->_addMessage(Mage::helper('magento_localized')->__('Magento was prepared successfully. Please log out and log in again in order to access the newly installed modules.'));
 
             // Set a config flag to indicate that the setup has been initialized.
             $this->_setConfigData('magento_localized/is_initialized', 1);
@@ -45,7 +46,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
 
         } else {
 
-            Mage::getSingleton('adminhtml/session')->addSuccess(Mage::helper('magento_localized')->__('Your data was saved successfully.'));
+            $this->_addMessage(Mage::helper('magento_localized')->__('Your data was saved successfully.'));
         }
     }
 
@@ -285,7 +286,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
         $store = Mage::getModel('core/store');
         $store->load($languageCode, 'code');
         if ($store->getId()) {
-            $this->_getSession()->addNotice(Mage::helper('magento_localized')->__('Store "%s" already exists.', $languageCode));
+            $this->_addMessage(Mage::helper('magento_localized')->__('Store "%s" already exists.', $languageCode), 'notice');
             return false;
         }
         $store
@@ -382,14 +383,41 @@ class IntegerNet_MagentoLocalized_Model_Setup
             return Mage::getStoreConfig('magento_localized/iframe_fallback_language_code');
         }
     }
-
-    /**
-     * Retrieve adminhtml session model object
-     *
-     * @return Mage_Adminhtml_Model_Session
-     */
-    protected function _getSession()
+    
+    protected function _addMessage($message, $type='success')
     {
-        return Mage::getSingleton('adminhtml/session');
+        $this->_messages[$type][] = $message;    
+    }
+    
+    public function getSuccessMessages()
+    {
+        if (isset($this->_messages['success'])) {
+            return $this->_messages['success'];
+        }
+        return array();
+    }
+    
+    public function getNoticeMessages()
+    {
+        if (isset($this->_messages['notice'])) {
+            return $this->_messages['notice'];
+        }
+        return array();
+    }
+    
+    public function getWarningMessages()
+    {
+        if (isset($this->_messages['warning'])) {
+            return $this->_messages['warning'];
+        }
+        return array();
+    }
+    
+    public function getErrorMessages()
+    {
+        if (isset($this->_messages['error'])) {
+            return $this->_messages['error'];
+        }
+        return array();
     }
 }
