@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1348472bd0ad470c3e4997be054bd4b4",
+    "hash": "53b3251f32a2bed80d6323a45ec2afc6",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -59,32 +59,6 @@
             "time": "2015-03-19 12:53:42"
         },
         {
-            "name": "billsafe/billsafe",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/integer-net/BillSAFE.git",
-                "reference": "0bd0f7c246352be20e890917648bea855887144e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/BillSAFE/zipball/0bd0f7c246352be20e890917648bea855887144e",
-                "reference": "0bd0f7c246352be20e890917648bea855887144e",
-                "shasum": ""
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "description": "Payment module for invoice and rate payment",
-            "homepage": "http://www.magentocommerce.com/magento-connect/billsafe-1.html",
-            "support": {
-                "source": "https://github.com/integer-net/BillSAFE/tree/master",
-                "issues": "https://github.com/integer-net/BillSAFE/issues"
-            },
-            "time": "2015-02-04 11:02:33"
-        },
-        {
             "name": "connect20/BankPayment",
             "version": "0.3.3",
             "dist": {
@@ -93,8 +67,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
             "extra": {
@@ -120,8 +94,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
             "extra": {
@@ -147,8 +121,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
             "extra": {
@@ -174,8 +148,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
             "extra": {
@@ -201,8 +175,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
             "extra": {
@@ -925,12 +899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "f4b62678311a3a5879a5d17c6c2edf55c3395d6f"
+                "reference": "2f23098d28fc4bda71420740ef8325e363afcfad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/f4b62678311a3a5879a5d17c6c2edf55c3395d6f",
-                "reference": "f4b62678311a3a5879a5d17c6c2edf55c3395d6f",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/2f23098d28fc4bda71420740ef8325e363afcfad",
+                "reference": "2f23098d28fc4bda71420740ef8325e363afcfad",
                 "shasum": ""
             },
             "require": {
@@ -943,7 +917,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2015-03-19 14:28:25"
+            "time": "2015-03-19 15:31:07"
         },
         {
             "name": "integer-net/magento-localized-es",
@@ -1405,16 +1379,16 @@
         },
         {
             "name": "magento-hackathon/magento-composer-installer",
-            "version": "dev-master",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Cotya/magento-composer-installer.git",
-                "reference": "8aad743783a4ab4751d8a51fad0e2f77e7886363"
+                "reference": "32a1048626880b181906fddb70f0bac1bab97a65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cotya/magento-composer-installer/zipball/8aad743783a4ab4751d8a51fad0e2f77e7886363",
-                "reference": "8aad743783a4ab4751d8a51fad0e2f77e7886363",
+                "url": "https://api.github.com/repos/Cotya/magento-composer-installer/zipball/32a1048626880b181906fddb70f0bac1bab97a65",
+                "reference": "32a1048626880b181906fddb70f0bac1bab97a65",
                 "shasum": ""
             },
             "archive": {
@@ -1425,8 +1399,7 @@
             },
             "require": {
                 "composer-plugin-api": "1.0.0",
-                "eloquent/composer-config-reader": "2.*",
-                "php": ">=5.3.2"
+                "eloquent/composer-config-reader": "2.*"
             },
             "require-dev": {
                 "composer/composer": "*@dev",
@@ -1490,16 +1463,16 @@
                 }
             ],
             "description": "Composer installer for Magento modules",
-            "homepage": "https://github.com/Cotya/magento-composer-installer",
+            "homepage": "https://github.com/magento-hackathon/magento-composer-installer",
             "keywords": [
                 "composer-installer",
                 "magento"
             ],
             "support": {
-                "source": "https://github.com/Cotya/magento-composer-installer/tree/master",
+                "source": "https://github.com/Cotya/magento-composer-installer/tree/2.1.1",
                 "issues": "https://github.com/Cotya/magento-composer-installer/issues"
             },
-            "time": "2015-01-12 22:39:13"
+            "time": "2014-12-11 23:43:53"
         },
         {
             "name": "mindmagnet/romanian-translation",
@@ -1815,7 +1788,6 @@
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
         "integer-net/magento-localized-ebay": 20,
-        "billsafe/billsafe": 20,
         "webformat/loginwithpaypal": 20
     },
     "prefer-stable": false,
