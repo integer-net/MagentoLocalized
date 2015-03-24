@@ -35,6 +35,7 @@ class IntegerNet_MagentoLocalized_Shell_Setup extends Mage_Shell_Abstract
                 }
             } catch (Exception $e) {
                 echo 'Error: ' . $e->getMessage() . PHP_EOL;
+                Mage::logException($e);
             }
                         
         } else {

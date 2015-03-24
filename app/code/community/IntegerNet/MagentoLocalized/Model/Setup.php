@@ -19,7 +19,20 @@ class IntegerNet_MagentoLocalized_Model_Setup
     public function setup($params)
     {
         if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
+
             $this->_deactivateCache();
+
+            if (isset($params['auto_install'])) {
+                Mage::getSingleton('magento_localized/installer')->installEditionModules($params['edition']);
+
+                if (isset($params['ebay_edition']) && ($ebayEdition = $params['ebay_edition']) && $ebayEdition == 1) {
+                    Mage::getSingleton('magento_localized/installer')->installEbayEditionModules();
+                }
+
+                Mage::reset();
+                Mage::app('admin', 'store');
+                Mage_Core_Model_Resource_Setup::applyAllUpdates();
+            }
         }
 
         $this->_installModules($params);
