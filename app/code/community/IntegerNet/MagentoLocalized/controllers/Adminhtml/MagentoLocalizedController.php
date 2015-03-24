@@ -156,7 +156,22 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             
             $params = $this->getRequest()->getParams();
 
-            Mage::getSingleton('magento_localized/setup')->setup($params);
+            /** @var $setup IntegerNet_MagentoLocalized_Model_Setup */
+            $setup = Mage::getSingleton('magento_localized/setup');
+            $setup->setup($params);
+
+            foreach($setup->getErrorMessages() as $message) {
+                $this->_getSession()->addError($message);
+            }
+            foreach($setup->getWarningMessages() as $message) {
+                $this->_getSession()->addWarning($message);
+            }
+            foreach($setup->getNoticeMessages() as $message) {
+                $this->_getSession()->addNotice($message);
+            }
+            foreach($setup->getSuccessMessages() as $message) {
+                $this->_getSession()->addSuccess($message);
+            }
         }
 
         $this->_redirect('');
