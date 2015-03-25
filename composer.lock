@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53b3251f32a2bed80d6323a45ec2afc6",
+    "hash": "1a45d2267232850c6bc6e75520b45afc",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -67,8 +67,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -94,8 +94,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -121,8 +121,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -148,8 +148,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -175,8 +175,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -419,16 +419,16 @@
         },
         {
             "name": "ess/m2e-pro",
-            "version": "v6.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/M2E.git",
-                "reference": "720cbc1e290e335205c7622bdf7b82128d9375a7"
+                "reference": "5c779d42265ea504efae2ff02ff99c57de775b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/720cbc1e290e335205c7622bdf7b82128d9375a7",
-                "reference": "720cbc1e290e335205c7622bdf7b82128d9375a7",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/5c779d42265ea504efae2ff02ff99c57de775b6b",
+                "reference": "5c779d42265ea504efae2ff02ff99c57de775b6b",
                 "shasum": ""
             },
             "require": {
@@ -438,10 +438,10 @@
             "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
             "homepage": "http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-importing-and-stock-level-synchronization.html",
             "support": {
-                "source": "https://github.com/integer-net/M2E/tree/v6.2.0",
+                "source": "https://github.com/integer-net/M2E/tree/v6.2.4.2-fixed",
                 "issues": "https://github.com/integer-net/M2E/issues"
             },
-            "time": "2014-11-19 13:51:32"
+            "time": "2015-03-25 10:38:53"
         },
         {
             "name": "etws/et_russianlanguagepack",
@@ -899,12 +899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "2f23098d28fc4bda71420740ef8325e363afcfad"
+                "reference": "d7a6321b367c61c48c72c3a70dc798522de36af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/2f23098d28fc4bda71420740ef8325e363afcfad",
-                "reference": "2f23098d28fc4bda71420740ef8325e363afcfad",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/d7a6321b367c61c48c72c3a70dc798522de36af8",
+                "reference": "d7a6321b367c61c48c72c3a70dc798522de36af8",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +917,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2015-03-19 15:31:07"
+            "time": "2015-03-23 21:24:41"
         },
         {
             "name": "integer-net/magento-localized-es",
@@ -1246,12 +1246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "87b54b460febed69726c781ab67462084e97a105"
+                "reference": "680d026082c3aa234b2d8617c50e9c73999913ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/87b54b460febed69726c781ab67462084e97a105",
-                "reference": "87b54b460febed69726c781ab67462084e97a105",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/680d026082c3aa234b2d8617c50e9c73999913ba",
+                "reference": "680d026082c3aa234b2d8617c50e9c73999913ba",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2014-08-25 02:48:14"
+            "time": "2015-03-23 20:38:38"
         },
         {
             "name": "magento-hackathon/hackathon_magemonitoring",
@@ -1734,12 +1734,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/Webformat_LoginWithPayPal.git",
-                "reference": "e0ed66b1da70b2697542c549a0f919e1a96df7a4"
+                "reference": "a955be6fa5c155cfec95cee6739e893413e59701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Webformat_LoginWithPayPal/zipball/e0ed66b1da70b2697542c549a0f919e1a96df7a4",
-                "reference": "e0ed66b1da70b2697542c549a0f919e1a96df7a4",
+                "url": "https://api.github.com/repos/integer-net/Webformat_LoginWithPayPal/zipball/a955be6fa5c155cfec95cee6739e893413e59701",
+                "reference": "a955be6fa5c155cfec95cee6739e893413e59701",
                 "shasum": ""
             },
             "require": {
@@ -1752,7 +1752,7 @@
                 "source": "https://github.com/integer-net/Webformat_LoginWithPayPal/tree/master",
                 "issues": "https://github.com/integer-net/Webformat_LoginWithPayPal/issues"
             },
-            "time": "2014-11-21 15:11:46"
+            "time": "2015-03-24 15:06:21"
         }
     ],
     "packages-dev": [],
@@ -1788,6 +1788,7 @@
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
         "integer-net/magento-localized-ebay": 20,
+        "ess/m2e-pro": 20,
         "webformat/loginwithpaypal": 20
     },
     "prefer-stable": false,
