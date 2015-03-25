@@ -205,6 +205,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
             . '.xml';
         $this->_setConfigData('ikonoshirt/custom_rss_feeds/feeds/magento_localized', $feedUrl);
         $this->_setConfigData('magento_localized/newsfeed_url', $feedUrl);
+        $this->_setConfigData('system/adminnotification/feed_url', $feedUrl);
 
         Mage::getSingleton('magento_localized/installer')->installPackageByName('ikonoshirt/customadminnotifications');
 
