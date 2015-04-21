@@ -16,7 +16,7 @@ src/app/locale/pl_PL/IntegerNet_MagentoLocalized.csv                    app/loca
 src/app/locale/ro_RO/IntegerNet_MagentoLocalized.csv                    app/locale/ro_RO/IntegerNet_MagentoLocalized.csv
 src/app/locale/ru_RU/IntegerNet_MagentoLocalized.csv                    app/locale/ru_RU/IntegerNet_MagentoLocalized.csv
 
-shell/magento_localized_setup.php                                       shell/magento_localized_setup.php
+src/shell/magento_localized_setup.php                                       shell/magento_localized_setup.php
 
 src/skin/adminhtml/default/default/magento_localized/*                  skin/adminhtml/default/default/magento_localized/
 src/skin/install/default/default/magento_localized/*                    skin/install/default/default/magento_localized/
