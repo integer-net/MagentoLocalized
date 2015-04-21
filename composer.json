@@ -1,0 +1,9 @@
+{
+   "name": "integer-net/magento-localized",
+   "type": "magento-module",
+   "description": "Base package for Magento Localized (i.e. Magento DE)",
+   "homepage": "https://github.com/integer-net/MagentoLocalized",
+   "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+   }
+}
