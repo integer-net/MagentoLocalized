@@ -39,6 +39,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
     public function predispatchInstallWizard($observer)
     {
         Mage::getDesign()->setTheme('magento_localized');
+        $this->_setConfigData('dev/template/allow_symlink', 1);
         Mage::getSingleton('install/session')->setTimezone(Mage::getStoreConfig('magento_localized/timezone'));
         Mage::getSingleton('install/session')->setCurrency(Mage::getStoreConfig('magento_localized/currency'));
         Mage::getSingleton('install/session')->setInstallGuideUrl($this->_getInstallGuideUrl());
@@ -182,6 +183,7 @@ class IntegerNet_MagentoLocalized_Model_Observer
         if ($setup->getConnection()) {
             $setup->setConfigData($key, $value, $scope, $scopeId);
         }
+        Mage::app()->getStore()->setConfig($key, $value);
     }
 
     /**

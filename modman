@@ -1,0 +1,22 @@
+src/app/code/community/IntegerNet/MagentoLocalized                      app/code/community/IntegerNet/MagentoLocalized
+
+src/app/design/adminhtml/default/default/layout/magento_localized.xml   app/design/adminhtml/default/default/layout/magento_localized.xml
+src/app/design/adminhtml/default/default/template/magento_localized	    app/design/adminhtml/default/default/template/magento_localized
+src/app/design/frontend/base/default/layout/magento_localized.xml	    app/design/frontend/base/default/layout/magento_localized.xml
+src/app/design/install/default/magento_localized	                    app/design/install/default/magento_localized
+
+src/app/etc/modules/ZZZ_IntegerNet_MagentoLocalized.xml                 app/etc/modules/ZZZ_IntegerNet_MagentoLocalized.xml
+
+src/app/locale/de_DE/IntegerNet_MagentoLocalized.csv                    app/locale/de_DE/IntegerNet_MagentoLocalized.csv
+src/app/locale/es_ES/IntegerNet_MagentoLocalized.csv                    app/locale/es_ES/IntegerNet_MagentoLocalized.csv
+src/app/locale/fr_FR/IntegerNet_MagentoLocalized.csv                    app/locale/fr_FR/IntegerNet_MagentoLocalized.csv
+src/app/locale/it_IT/IntegerNet_MagentoLocalized.csv                    app/locale/it_IT/IntegerNet_MagentoLocalized.csv
+src/app/locale/nl_NL/IntegerNet_MagentoLocalized.csv                    app/locale/nl_NL/IntegerNet_MagentoLocalized.csv
+src/app/locale/pl_PL/IntegerNet_MagentoLocalized.csv                    app/locale/pl_PL/IntegerNet_MagentoLocalized.csv
+src/app/locale/ro_RO/IntegerNet_MagentoLocalized.csv                    app/locale/ro_RO/IntegerNet_MagentoLocalized.csv
+src/app/locale/ru_RU/IntegerNet_MagentoLocalized.csv                    app/locale/ru_RU/IntegerNet_MagentoLocalized.csv
+
+src/shell/magento_localized_setup.php                                       shell/magento_localized_setup.php
+
+src/skin/adminhtml/default/default/magento_localized/*                  skin/adminhtml/default/default/magento_localized/
+src/skin/install/default/default/magento_localized/*                    skin/install/default/default/magento_localized/

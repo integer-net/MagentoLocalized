@@ -1,0 +1,134 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "2.1.1",
+
+        "integer-net/magento-localized-at": "dev-master",
+        "integer-net/magento-localized-ch": "dev-master",
+        "integer-net/magento-localized-de": "dev-master",
+        "integer-net/magento-localized-nl": "dev-master",
+        "integer-net/magento-localized-es": "dev-master",
+        "integer-net/magento-localized-fr": "dev-master",
+        "integer-net/magento-localized-it": "dev-master",
+        "integer-net/magento-localized-ro": "dev-master",
+        "integer-net/magento-localized-ru": "dev-master",
+        "integer-net/magento-localized-pl": "dev-master",
+
+        "riconeitzel/german-localepack-de-de": "dev-preview",
+        "connect20/locale_mage_community_es_es": "*",
+        "connect20/locale_mage_community_fr_fr": "*",
+        "connect20/locale_mage_community_it_it": "*",
+        "ho-nl/ho_nl_nl": "dev-master",
+        "mindmagnet/romanian-translation": "dev-master",
+        "snowdog-apps/magento-translation-pl_pl": "dev-master",
+        "etws/et_russianlanguagepack": "1.5.0",
+
+        "firegento/magesetup": "dev-master",
+        "firegento/pdf": "dev-master",
+        "magento-hackathon/localefallback": "dev-master",
+        "connect20/dermodpro_baseprice": "*",
+        "avstudnitz/scopehint": "dev-master",
+        "avstudnitz/admin-notification-advanced": "dev-master",
+        "tim-reynolds/magento-qconfig": "dev-master",
+        "integer-net/removecustomeraccountlinks": "dev-master",
+        "integer-net/autoshipping": "dev-master",
+        "ikonoshirt/customadminnotifications": "dev-master",
+        "openstream/rappenrounding": "dev-master",
+        "magento-hackathon/hackathon_magemonitoring": "dev-master",
+
+        "connect20/cashondelivery": "0.4.3",
+        "itabs/invoice": "dev-master",
+        "therouv/debitpayment": "dev-master",
+        "connect20/bankpayment": "*",
+
+        "integer-net/magento-localized-ebay": "dev-master",
+        "ess/m2e-pro": "dev-master#5c779d42265ea504efae2ff02ff99c57de775b6b",
+        "webformat/loginwithpaypal": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/M2E.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedEbay.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedAT.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedCH.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedDE.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedNL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedIT.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedES.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedFR.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedRO.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedRU.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/MagentoLocalizedPL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/Webformat_LoginWithPayPal.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/ho-nl/Ho_nl_NL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/magento-romanian-translation"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/Magento-Translation-pl_PL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/etws/et_russianlanguagepack.git"
+        }
+    ],
+    "extra": {
+        "magento-root-dir": "src",
+        "magento-deploystrategy": "none"
+    }
+}
