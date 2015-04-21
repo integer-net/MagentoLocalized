@@ -65,6 +65,8 @@
 
 <?php endif ?>
 
+<?php if (!Mage::getStoreConfig('magento_localized/install/skip_module_install')): ?>
+
 <div class="entry-edit-head">
     <h4 class="icon-head head-edit-form fieldset-legend"><?php echo $this->__('Integrated Modules') ?></h4>
     <div class="form-buttons"></div>
@@ -128,6 +130,8 @@
         </table>
     </div>
 </div>
+
+<?php endif ?>
 
 
 <div class="entry-edit-head">
