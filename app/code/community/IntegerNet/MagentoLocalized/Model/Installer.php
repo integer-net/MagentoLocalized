@@ -12,10 +12,14 @@
 class IntegerNet_MagentoLocalized_Model_Installer
 {
     protected $_composerConfiguration = array();
+    protected $_skipModuleInstall = false;
 
     public function __construct()
     {
-        $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Parser');
+        if (!$this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Parser')) {
+            $this->_skipModuleInstall = true;
+            return;
+        }
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\PathTranslationParser');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Deploystrategy\DeploystrategyAbstract');
         $this->_autoloadMagentoComposerClass('\MagentoHackathon\Composer\Magento\Deploystrategy\Copy');
@@ -32,6 +36,14 @@ class IntegerNet_MagentoLocalized_Model_Installer
      */
     public function installEditionModules($editionCode)
     {
+        if (file_exists('app' . DS . 'etc' . DS . 'modules' . DS . 'FireGento_MageSetup.xml')) {
+            // Modules already installed: skip module installation
+            $this->_setConfigData('magento_localized/install/skip_module_install', 1);
+            $this->_setConfigData('dev/template/allow_symlink', 1);
+            $this->_cleanCache();
+            return;
+        } 
+        
         if (strpos($editionCode, 'ebay') === 0) {
             $ebayPackageName = Mage::getSingleton('install/config')->getNode('magento_localized/ebay_edition/module_package');
             $this->installPackageByName($ebayPackageName);
@@ -92,6 +104,9 @@ class IntegerNet_MagentoLocalized_Model_Installer
      */
     public function installPackageByName($packageName, $force = false)
     {
+        if (Mage::getStoreConfig('magento_localized/install/skip_module_install') || $this->_skipModuleInstall) {
+            return false;
+        }
         $composerConfiguration = $this->_getComposerConfiguration();
 
         foreach ($composerConfiguration['packages'] as $packageConfiguration) {
@@ -130,11 +145,19 @@ class IntegerNet_MagentoLocalized_Model_Installer
         $strategy->deploy();
     }
 
+    /**
+     * @param string $className
+     * @return bool
+     */
     protected function _autoloadMagentoComposerClass($className)
     {
         $baseMagentoComposerPath = Mage::getBaseDir() . DS . 'vendor' . DS . 'magento-hackathon' . DS . 'magento-composer-installer' . DS . 'src';
         $filename = $baseMagentoComposerPath . str_replace('\\', DS, $className) . '.php';
+        if (!file_exists($filename)) {
+            return false;
+        }
         require_once($filename);
+        return true;
     }
 
     /**
