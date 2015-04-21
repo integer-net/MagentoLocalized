@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53b3251f32a2bed80d6323a45ec2afc6",
+    "hash": "585e829e98a81be0810e13334c5fd2f6",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -38,12 +38,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "81a3fab1122e9aaa5dbcd2c5322e617bcf6555e6"
+                "reference": "3e03924e59be89eddaff7be38cf2adb15cf1e24c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/81a3fab1122e9aaa5dbcd2c5322e617bcf6555e6",
-                "reference": "81a3fab1122e9aaa5dbcd2c5322e617bcf6555e6",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/3e03924e59be89eddaff7be38cf2adb15cf1e24c",
+                "reference": "3e03924e59be89eddaff7be38cf2adb15cf1e24c",
                 "shasum": ""
             },
             "require": {
@@ -53,10 +53,10 @@
             "description": "Creates a warning if a configuration setting, product data or category data is overwritten on a lower level (website or store view)",
             "homepage": "https://github.com/avstudnitz/AvS_ScopeHint",
             "support": {
-                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
+                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/0.6.0",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2015-03-19 12:53:42"
+            "time": "2015-03-31 19:50:11"
         },
         {
             "name": "connect20/BankPayment",
@@ -67,8 +67,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -94,8 +94,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -121,8 +121,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -148,8 +148,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -175,8 +175,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -419,16 +419,16 @@
         },
         {
             "name": "ess/m2e-pro",
-            "version": "v6.2.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/M2E.git",
-                "reference": "720cbc1e290e335205c7622bdf7b82128d9375a7"
+                "reference": "5c779d42265ea504efae2ff02ff99c57de775b6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/720cbc1e290e335205c7622bdf7b82128d9375a7",
-                "reference": "720cbc1e290e335205c7622bdf7b82128d9375a7",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/5c779d42265ea504efae2ff02ff99c57de775b6b",
+                "reference": "5c779d42265ea504efae2ff02ff99c57de775b6b",
                 "shasum": ""
             },
             "require": {
@@ -438,18 +438,18 @@
             "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
             "homepage": "http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-importing-and-stock-level-synchronization.html",
             "support": {
-                "source": "https://github.com/integer-net/M2E/tree/v6.2.0",
+                "source": "https://github.com/integer-net/M2E/tree/v6.2.4.2-fixed",
                 "issues": "https://github.com/integer-net/M2E/issues"
             },
-            "time": "2014-11-19 13:51:32"
+            "time": "2015-03-25 10:38:53"
         },
         {
             "name": "etws/et_russianlanguagepack",
-            "version": "dev-master",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://bitbucket.org/etws/et_russianlanguagepack.git",
-                "reference": "249ca243373375cc8c5d6b538aefdc458440a3cc"
+                "reference": "31996d15cf570984576ea0bafeecd84c280f745e"
             },
             "dist": {
                 "type": "zip",
@@ -682,12 +682,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ho-nl/Ho_nl_NL.git",
-                "reference": "1fbff45d0b4668a877049538efffc2abf1d44d96"
+                "reference": "3067c70f3184e46bf416e974848663d775b2b3ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/1fbff45d0b4668a877049538efffc2abf1d44d96",
-                "reference": "1fbff45d0b4668a877049538efffc2abf1d44d96",
+                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/3067c70f3184e46bf416e974848663d775b2b3ec",
+                "reference": "3067c70f3184e46bf416e974848663d775b2b3ec",
                 "shasum": ""
             },
             "require": {
@@ -709,7 +709,7 @@
                 "source": "https://github.com/ho-nl/Ho_nl_NL/tree/master",
                 "issues": "https://github.com/ho-nl/Ho_nl_NL/issues"
             },
-            "time": "2015-03-17 09:06:55"
+            "time": "2015-04-15 12:06:20"
         },
         {
             "name": "icecave/isolator",
@@ -899,12 +899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "2f23098d28fc4bda71420740ef8325e363afcfad"
+                "reference": "d7a6321b367c61c48c72c3a70dc798522de36af8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/2f23098d28fc4bda71420740ef8325e363afcfad",
-                "reference": "2f23098d28fc4bda71420740ef8325e363afcfad",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/d7a6321b367c61c48c72c3a70dc798522de36af8",
+                "reference": "d7a6321b367c61c48c72c3a70dc798522de36af8",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +917,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2015-03-19 15:31:07"
+            "time": "2015-03-23 21:24:41"
         },
         {
             "name": "integer-net/magento-localized-es",
@@ -1246,12 +1246,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "87b54b460febed69726c781ab67462084e97a105"
+                "reference": "1235d2e2100545e775512f9c88cbb0b680245a24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/87b54b460febed69726c781ab67462084e97a105",
-                "reference": "87b54b460febed69726c781ab67462084e97a105",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/1235d2e2100545e775512f9c88cbb0b680245a24",
+                "reference": "1235d2e2100545e775512f9c88cbb0b680245a24",
                 "shasum": ""
             },
             "require": {
@@ -1304,7 +1304,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2014-08-25 02:48:14"
+            "time": "2015-03-31 16:01:45"
         },
         {
             "name": "magento-hackathon/hackathon_magemonitoring",
@@ -1534,12 +1534,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git",
-                "reference": "d22c4aac74e345efe2de632dc72556646733b246"
+                "reference": "adf5c5274cc81e2714a3af46704732722d556924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/d22c4aac74e345efe2de632dc72556646733b246",
-                "reference": "d22c4aac74e345efe2de632dc72556646733b246",
+                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/adf5c5274cc81e2714a3af46704732722d556924",
+                "reference": "adf5c5274cc81e2714a3af46704732722d556924",
                 "shasum": ""
             },
             "require": {
@@ -1559,7 +1559,7 @@
                 "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/preview",
                 "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
             },
-            "time": "2015-03-17 19:10:27"
+            "time": "2015-04-01 18:09:40"
         },
         {
             "name": "snowdog-apps/magento-translation-pl_pl",
@@ -1734,12 +1734,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/Webformat_LoginWithPayPal.git",
-                "reference": "e0ed66b1da70b2697542c549a0f919e1a96df7a4"
+                "reference": "a955be6fa5c155cfec95cee6739e893413e59701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Webformat_LoginWithPayPal/zipball/e0ed66b1da70b2697542c549a0f919e1a96df7a4",
-                "reference": "e0ed66b1da70b2697542c549a0f919e1a96df7a4",
+                "url": "https://api.github.com/repos/integer-net/Webformat_LoginWithPayPal/zipball/a955be6fa5c155cfec95cee6739e893413e59701",
+                "reference": "a955be6fa5c155cfec95cee6739e893413e59701",
                 "shasum": ""
             },
             "require": {
@@ -1752,7 +1752,7 @@
                 "source": "https://github.com/integer-net/Webformat_LoginWithPayPal/tree/master",
                 "issues": "https://github.com/integer-net/Webformat_LoginWithPayPal/issues"
             },
-            "time": "2014-11-21 15:11:46"
+            "time": "2015-03-24 15:06:21"
         }
     ],
     "packages-dev": [],
@@ -1773,7 +1773,6 @@
         "ho-nl/ho_nl_nl": 20,
         "mindmagnet/romanian-translation": 20,
         "snowdog-apps/magento-translation-pl_pl": 20,
-        "etws/et_russianlanguagepack": 20,
         "firegento/magesetup": 20,
         "firegento/pdf": 20,
         "magento-hackathon/localefallback": 20,
@@ -1788,6 +1787,7 @@
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
         "integer-net/magento-localized-ebay": 20,
+        "ess/m2e-pro": 20,
         "webformat/loginwithpaypal": 20
     },
     "prefer-stable": false,

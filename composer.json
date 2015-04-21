@@ -21,7 +21,7 @@
         "ho-nl/ho_nl_nl": "dev-master",
         "mindmagnet/romanian-translation": "dev-master",
         "snowdog-apps/magento-translation-pl_pl": "dev-master",
-        "etws/et_russianlanguagepack": "dev-master",
+        "etws/et_russianlanguagepack": "1.5.0",
 
         "firegento/magesetup": "dev-master",
         "firegento/pdf": "dev-master",
@@ -42,7 +42,7 @@
         "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "ess/m2e-pro": "v6.2.0",
+        "ess/m2e-pro": "dev-master#5c779d42265ea504efae2ff02ff99c57de775b6b",
         "webformat/loginwithpaypal": "dev-master"
     },
     "repositories": [
