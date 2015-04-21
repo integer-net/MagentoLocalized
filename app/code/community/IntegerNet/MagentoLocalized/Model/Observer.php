@@ -119,7 +119,12 @@ class IntegerNet_MagentoLocalized_Model_Observer
     {
         /** @var $page Mage_Cms_Model_Page */
         $page = $observer->getObject();
-        if ($page->getIdentifier() == 'impressum' && Mage::getStoreConfigFlag('general/imprint/display_copyright')) {
+        $imprintIdentifiers = array(
+            'impressum',
+            'imprint',
+            'mentions-legales',
+        );
+        if (in_array($page->getIdentifier(), $imprintIdentifiers) && Mage::getStoreConfigFlag('general/imprint/display_copyright')) {
             $copyrightHtml = Mage::app()->getLayout()
                 ->createBlock('core/template', 'copyright')
                 ->setTemplate('magento_localized/copyright.phtml')
