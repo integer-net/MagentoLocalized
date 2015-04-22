@@ -13,6 +13,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 {
     public function indexAction()
     {
+        /** @var $helper IntegerNet_MagentoLocalized_Helper_Data */
         $helper = Mage::helper('magento_localized');
 
         $this->_title($helper->__(Mage::getStoreConfig('magento_localized/module_title')))
@@ -41,6 +42,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
     public function partnerAction()
     {
+        /** @var $helper IntegerNet_MagentoLocalized_Helper_Data */
         $helper = Mage::helper('magento_localized');
 
         $this->_title($helper->__(Mage::getStoreConfig('magento_localized/module_title')))
@@ -68,6 +70,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
     public function supportAction()
     {
+        /** @var $helper IntegerNet_MagentoLocalized_Helper_Data */
         $helper = Mage::helper('magento_localized');
 
         $this->_title($helper->__(Mage::getStoreConfig('magento_localized/module_title')))
@@ -95,6 +98,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
     public function suggestionsAction()
     {
+        /** @var $helper IntegerNet_MagentoLocalized_Helper_Data */
         $helper = Mage::helper('magento_localized');
 
         $this->_title($helper->__(Mage::getStoreConfig('magento_localized/module_title')))
@@ -127,6 +131,7 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
      */
     public function formAction()
     {
+        /** @var $helper IntegerNet_MagentoLocalized_Helper_Data */
         $helper = Mage::helper('magento_localized');
 
         $this->_title($helper->__('System'))
