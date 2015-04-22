@@ -237,7 +237,7 @@
     <default>
         <design>
             <package>
-                <name>default</name>
+                <name>rwd</name>
             </package>
             <theme>
                 <default>default</default>
