@@ -181,4 +181,17 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
     {
         $this->_forward('index', 'notification');
     }
+
+    /**
+     * @return string
+     */
+    protected function _getLanguageUrlPart()
+    {
+        $localeCode = Mage::app()->getLocale()->getLocaleCode();
+        if (strpos($localeCode, Mage::getStoreConfig('magento_localized/iframe_main_language_code')) === 0) {
+            return Mage::getStoreConfig('magento_localized/iframe_main_language_code');
+        } else {
+            return Mage::getStoreConfig('magento_localized/iframe_fallback_language_code');
+        }
+    }
 }
