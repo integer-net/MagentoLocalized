@@ -35,6 +35,7 @@
         "ikonoshirt/customadminnotifications": "dev-master",
         "openstream/rappenrounding": "dev-master",
         "magento-hackathon/hackathon_magemonitoring": "dev-master",
+        "magento-hackathon/indexer-stats": "dev-master",
 
         "connect20/cashondelivery": "0.4.3",
         "itabs/invoice": "dev-master",

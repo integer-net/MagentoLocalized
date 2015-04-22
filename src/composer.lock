@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "585e829e98a81be0810e13334c5fd2f6",
+    "hash": "b7c7f4b6d0e51c8a764e38f06d88e963",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -38,12 +38,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/avstudnitz/AvS_ScopeHint.git",
-                "reference": "3e03924e59be89eddaff7be38cf2adb15cf1e24c"
+                "reference": "6f63a2a8981b37811c5209c1e2bfa0bebe869c10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/3e03924e59be89eddaff7be38cf2adb15cf1e24c",
-                "reference": "3e03924e59be89eddaff7be38cf2adb15cf1e24c",
+                "url": "https://api.github.com/repos/avstudnitz/AvS_ScopeHint/zipball/6f63a2a8981b37811c5209c1e2bfa0bebe869c10",
+                "reference": "6f63a2a8981b37811c5209c1e2bfa0bebe869c10",
                 "shasum": ""
             },
             "require": {
@@ -53,10 +53,10 @@
             "description": "Creates a warning if a configuration setting, product data or category data is overwritten on a lower level (website or store view)",
             "homepage": "https://github.com/avstudnitz/AvS_ScopeHint",
             "support": {
-                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/0.6.0",
+                "source": "https://github.com/avstudnitz/AvS_ScopeHint/tree/master",
                 "issues": "https://github.com/avstudnitz/AvS_ScopeHint/issues"
             },
-            "time": "2015-03-31 19:50:11"
+            "time": "2015-04-21 08:46:56"
         },
         {
             "name": "connect20/BankPayment",
@@ -453,8 +453,8 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/249ca243373375cc8c5d6b538aefdc458440a3cc.zip",
-                "reference": "249ca243373375cc8c5d6b538aefdc458440a3cc",
+                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/31996d15cf570984576ea0bafeecd84c280f745e.zip",
+                "reference": "31996d15cf570984576ea0bafeecd84c280f745e",
                 "shasum": ""
             },
             "require": {
@@ -468,7 +468,7 @@
             ],
             "description": "ET Russian Language Pack",
             "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
-            "time": "2015-03-19 13:26:39"
+            "time": "2013-12-14 15:13:36"
         },
         {
             "name": "firegento/magesetup",
@@ -1350,6 +1350,33 @@
             "time": "2014-10-13 13:13:21"
         },
         {
+            "name": "magento-hackathon/indexer-stats",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magento-hackathon/Hackathon_IndexerStats.git",
+                "reference": "78328e51e65a56db974e41ab3ea7f2a0353051a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_IndexerStats/zipball/78328e51e65a56db974e41ab3ea7f2a0353051a1",
+                "reference": "78328e51e65a56db974e41ab3ea7f2a0353051a1",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*",
+                "php": ">=5.4"
+            },
+            "type": "magento-module",
+            "description": "Adds a column to the indexer list with information about running time for full reindex of the respective indexers.",
+            "homepage": "https://github.com/magento-hackathon/IndexerStats",
+            "support": {
+                "source": "https://github.com/magento-hackathon/Hackathon_IndexerStats/tree/develop",
+                "issues": "https://github.com/magento-hackathon/Hackathon_IndexerStats/issues"
+            },
+            "time": "2014-12-05 23:01:46"
+        },
+        {
             "name": "magento-hackathon/localefallback",
             "version": "dev-master",
             "source": {
@@ -1784,6 +1811,7 @@
         "ikonoshirt/customadminnotifications": 20,
         "openstream/rappenrounding": 20,
         "magento-hackathon/hackathon_magemonitoring": 20,
+        "magento-hackathon/indexer-stats": 20,
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
         "integer-net/magento-localized-ebay": 20,
