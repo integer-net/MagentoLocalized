@@ -501,7 +501,7 @@
                     <is_available>1</is_available>
                 </webformat_loginwithpaypal>
                 <indexer_stats>
-                    <name>Hackathon_IndexerStats</name>
+                    <name>Hackathon_IndexerStats (PHP 5.4+)</name>
                     <description>Attention: needs PHP 5.4! This Magento extension adds a column to the indexer list with information about running time for full reindex of the respective indexers. The remaining time of a running indexer is estimated based on previous running times.</description>
                     <url>https://github.com/magento-hackathon/Hackathon_IndexerStats</url>
                     <code>magento-hackathon/indexer-stats</code>
