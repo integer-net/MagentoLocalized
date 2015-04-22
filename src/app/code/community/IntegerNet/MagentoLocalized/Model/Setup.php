@@ -89,6 +89,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
         }
 
         $fieldData = $params['field'];
+        $defaultLanguageCode = Mage::getStoreConfig('magento_localized/default_language');
         if (is_array($fieldData)) {
             foreach ($fieldData as $key => $value) {
                 $fieldCode = implode('/', explode('__', $key));
@@ -163,8 +164,8 @@ class IntegerNet_MagentoLocalized_Model_Setup
             $defaultStore = Mage::app()->getDefaultStoreView();
             if ($defaultStore->getId()) {
                 $defaultStore
-                    ->setName(Mage::helper('magento_localized')->__(Mage::getStoreConfig('magento_localized/languages/' . Mage::getStoreConfig('magento_localized/default_language') . '/name')))
-                    ->setCode(current(explode('_', Mage::getStoreConfig('magento_localized/default_language'))))
+                    ->setName(Mage::helper('magento_localized')->__(Mage::getStoreConfig('magento_localized/languages/' . $defaultLanguageCode . '/name')))
+                    ->setCode(current(explode('_', $defaultLanguageCode)))
                     ->save();
             }
             $defaultStoreGroup = $defaultStore->getGroup();
@@ -214,7 +215,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
         $this->_setConfigData('general/region/display_all', 0);
         $this->_setConfigData('admin/startup/page', 'dashboard');
 
-        $this->_storeLocales['default'] = Mage::getStoreConfig('magento_localized/default_language');
+        $this->_storeLocales['default'] = $defaultLanguageCode;
         $this->_storeLocales[Mage::app()->getDefaultStoreView()->getId()] = '';
 
         if (!Mage::getStoreConfig('magento_localized/is_initialized')) {
@@ -359,10 +360,17 @@ class IntegerNet_MagentoLocalized_Model_Setup
      */
     protected function _runMageSetup()
     {
+        $emailStoreLocales = $this->_storeLocales;
+        // workaround as spanisch language doesn't contain emails
+        foreach($emailStoreLocales as $identifier => $localeCode) {
+            if ($localeCode == 'es_ES') {
+                $emailStoreLocales[$identifier] = 'en_US';
+            }
+        }
         Mage::getSingleton('magesetup/setup')->setup(array(
             'country' => strtolower(Mage::getStoreConfig('magento_localized/country')),
             'cms_locale' => $this->_storeLocales,
-            'email_locale' => $this->_storeLocales,
+            'email_locale' => $emailStoreLocales,
         ));
     }
 
