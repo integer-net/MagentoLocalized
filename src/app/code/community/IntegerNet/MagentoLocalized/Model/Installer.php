@@ -36,7 +36,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
      */
     public function installEditionModules($editionCode)
     {
-        if (file_exists('app' . DS . 'etc' . DS . 'modules' . DS . 'FireGento_MageSetup.xml')) {
+        if (!file_exists('app' . DS . 'code' . DS . 'community' . DS . 'IntegerNet' . DS . 'MagentoLocalized' . DS . 'etc' . DS . 'distributor.txt')) {
             // Modules already installed: skip module installation
             $this->_setConfigData('magento_localized/install/skip_module_install', 1);
             $this->_setConfigData('dev/template/allow_symlink', 1);
