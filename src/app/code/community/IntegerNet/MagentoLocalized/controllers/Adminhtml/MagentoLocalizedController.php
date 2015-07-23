@@ -202,6 +202,6 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
 
     protected function _isAllowed()
     {
-        return Mage::getSingleton('admin/session')->isAllowed('system/magento_localized');
+        return Mage::getSingleton('admin/session')->isAllowed('system/magento_localized') ||  Mage::getSingleton('admin/session')->isAllowed('magento_localized');
     }
 }
