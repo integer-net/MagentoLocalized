@@ -199,4 +199,9 @@ class IntegerNet_MagentoLocalized_Adminhtml_MagentoLocalizedController extends M
             return Mage::getStoreConfig('magento_localized/iframe_fallback_language_code');
         }
     }
+
+    protected function _isAllowed()
+    {
+        return Mage::getSingleton('admin/session')->isAllowed('system/magento_localized');
+    }
 }
