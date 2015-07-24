@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "b7c7f4b6d0e51c8a764e38f06d88e963",
@@ -427,7 +427,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/5c779d42265ea504efae2ff02ff99c57de775b6b",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/859aca9eb1840acb63ace2aa8d4a6bb3a1b8d38e",
                 "reference": "5c779d42265ea504efae2ff02ff99c57de775b6b",
                 "shasum": ""
             },
@@ -476,12 +476,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "901df62be3763fb0f8370c56828eb3b6d914cd7f"
+                "reference": "dc25d84b508537c71b399a821978d6859f355d0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/901df62be3763fb0f8370c56828eb3b6d914cd7f",
-                "reference": "901df62be3763fb0f8370c56828eb3b6d914cd7f",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/dc25d84b508537c71b399a821978d6859f355d0e",
+                "reference": "dc25d84b508537c71b399a821978d6859f355d0e",
                 "shasum": ""
             },
             "require": {
@@ -638,10 +638,10 @@
             "description": "See the full list of features including several screenshots at https://github.com/firegento/firegento-magesetup/blob/development/docs/features/features.markdown. Central features of MageSetup are: Setting of important configuration settings per Country; Predefined tax settings and tax classes for shipping from several countries to worldwide destinations; Assign new tax classes to all products (configurable); Creation of email templates based on the local language pack (Legal texts can be added to some templates automatically); Creation and Activation of Checkout Agreements (Agreements can be shown at customer registration instead of or additional to the checkout. They can be required or not); Creation of default CMS pages like imprint, terms and conditions, privacy, shipping, payment methods; Create email templates, cms pages and blocks as well as checkout agreements for store views with a different language as well; Possibility to add tax and/or shipping info to all prices; Automatical generation of meta data to products; Saving of every status change of newsletter subscriptions; Presets are configurable via xml files for every country seperately; Many more.",
             "homepage": "https://github.com/firegento/firegento-magesetup",
             "support": {
-                "source": "https://github.com/firegento/firegento-magesetup/tree/2.2.2",
+                "source": "https://github.com/firegento/firegento-magesetup/tree/2.2.3",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2015-02-20 07:31:11"
+            "time": "2015-07-23 07:55:02"
         },
         {
             "name": "firegento/pdf",
@@ -682,12 +682,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ho-nl/Ho_nl_NL.git",
-                "reference": "3067c70f3184e46bf416e974848663d775b2b3ec"
+                "reference": "02f74e549130a9117e6ec3bbadc442b887fc331a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/3067c70f3184e46bf416e974848663d775b2b3ec",
-                "reference": "3067c70f3184e46bf416e974848663d775b2b3ec",
+                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/02f74e549130a9117e6ec3bbadc442b887fc331a",
+                "reference": "02f74e549130a9117e6ec3bbadc442b887fc331a",
                 "shasum": ""
             },
             "require": {
@@ -709,7 +709,7 @@
                 "source": "https://github.com/ho-nl/Ho_nl_NL/tree/master",
                 "issues": "https://github.com/ho-nl/Ho_nl_NL/issues"
             },
-            "time": "2015-04-15 12:06:20"
+            "time": "2015-07-06 15:12:26"
         },
         {
             "name": "icecave/isolator",
@@ -795,12 +795,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/Autoshipping.git",
-                "reference": "d9b2ab046d68841c5e40cfa0512f61cc90f0123d"
+                "reference": "616be544ab3ad566743728986e53152299049fd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/d9b2ab046d68841c5e40cfa0512f61cc90f0123d",
-                "reference": "d9b2ab046d68841c5e40cfa0512f61cc90f0123d",
+                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/616be544ab3ad566743728986e53152299049fd3",
+                "reference": "616be544ab3ad566743728986e53152299049fd3",
                 "shasum": ""
             },
             "require": {
@@ -810,10 +810,10 @@
             "description": "Provide shipping costs in Magento Cart, plus the ability to change the country there",
             "homepage": "https://github.com/integer-net/Autoshipping",
             "support": {
-                "source": "https://github.com/integer-net/Autoshipping/tree/master",
+                "source": "https://github.com/integer-net/Autoshipping/tree/0.3.1",
                 "issues": "https://github.com/integer-net/Autoshipping/issues"
             },
-            "time": "2015-02-23 07:04:31"
+            "time": "2015-05-22 12:08:16"
         },
         {
             "name": "integer-net/magento-localized-at",
@@ -899,12 +899,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "d7a6321b367c61c48c72c3a70dc798522de36af8"
+                "reference": "a08777a4425f6b1a2b23f13d2feb69b8948cf27a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/d7a6321b367c61c48c72c3a70dc798522de36af8",
-                "reference": "d7a6321b367c61c48c72c3a70dc798522de36af8",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/a08777a4425f6b1a2b23f13d2feb69b8948cf27a",
+                "reference": "a08777a4425f6b1a2b23f13d2feb69b8948cf27a",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +917,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2015-03-23 21:24:41"
+            "time": "2015-07-23 07:16:40"
         },
         {
             "name": "integer-net/magento-localized-es",
@@ -1246,16 +1246,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "1235d2e2100545e775512f9c88cbb0b680245a24"
+                "reference": "34ca930d9fbfb439ae8d3b87ca046b914e190295"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/1235d2e2100545e775512f9c88cbb0b680245a24",
-                "reference": "1235d2e2100545e775512f9c88cbb0b680245a24",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/34ca930d9fbfb439ae8d3b87ca046b914e190295",
+                "reference": "34ca930d9fbfb439ae8d3b87ca046b914e190295",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.2"
             },
             "require-dev": {
                 "json-schema/json-schema-test-suite": "1.1.0",
@@ -1272,8 +1272,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "JsonSchema": "src/"
+                "psr-4": {
+                    "JsonSchema\\": "src/JsonSchema/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1304,7 +1304,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2015-03-31 16:01:45"
+            "time": "2015-07-14 16:34:54"
         },
         {
             "name": "magento-hackathon/hackathon_magemonitoring",
@@ -1312,12 +1312,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git",
-                "reference": "393fd2851597ed7e1a9ab87dae7f05feab455e3b"
+                "reference": "d59e0b3be899722ea6b09c2ee0fdfb3f2043b2b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_MageMonitoring/zipball/393fd2851597ed7e1a9ab87dae7f05feab455e3b",
-                "reference": "393fd2851597ed7e1a9ab87dae7f05feab455e3b",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_MageMonitoring/zipball/d59e0b3be899722ea6b09c2ee0fdfb3f2043b2b3",
+                "reference": "d59e0b3be899722ea6b09c2ee0fdfb3f2043b2b3",
                 "shasum": ""
             },
             "require": {
@@ -1342,12 +1342,12 @@
                 }
             ],
             "description": "Magento Monitoring Module to get information about the current installation (Server,Cache,PHP,Rewrites,Logs,...)",
-            "homepage": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git",
+            "homepage": "https://github.com/magento-hackathon/Hackathon_MageMonitoring",
             "support": {
                 "source": "https://github.com/magento-hackathon/Hackathon_MageMonitoring/tree/master",
                 "issues": "https://github.com/magento-hackathon/Hackathon_MageMonitoring/issues"
             },
-            "time": "2014-10-13 13:13:21"
+            "time": "2015-07-21 07:22:09"
         },
         {
             "name": "magento-hackathon/indexer-stats",
@@ -1561,12 +1561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/riconeitzel/German_LocalePack_de_DE.git",
-                "reference": "adf5c5274cc81e2714a3af46704732722d556924"
+                "reference": "45b415b8f54bcbbe1b5b4967c480021adaf7a121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/adf5c5274cc81e2714a3af46704732722d556924",
-                "reference": "adf5c5274cc81e2714a3af46704732722d556924",
+                "url": "https://api.github.com/repos/riconeitzel/German_LocalePack_de_DE/zipball/45b415b8f54bcbbe1b5b4967c480021adaf7a121",
+                "reference": "45b415b8f54bcbbe1b5b4967c480021adaf7a121",
                 "shasum": ""
             },
             "require": {
@@ -1586,7 +1586,7 @@
                 "source": "https://github.com/riconeitzel/German_LocalePack_de_DE/tree/preview",
                 "issues": "https://github.com/riconeitzel/German_LocalePack_de_DE/issues"
             },
-            "time": "2015-04-01 18:09:40"
+            "time": "2015-06-26 18:30:25"
         },
         {
             "name": "snowdog-apps/magento-translation-pl_pl",
