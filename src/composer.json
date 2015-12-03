@@ -23,7 +23,7 @@
         "snowdog-apps/magento-translation-pl_pl": "dev-master",
         "etws/et_russianlanguagepack": "1.5.0",
 
-        "firegento/magesetup": "dev-master",
+        "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
         "connect20/dermodpro_baseprice": "*",
@@ -43,7 +43,7 @@
         "connect20/bankpayment": "*",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "ess/m2e-pro": "dev-master#5c779d42265ea504efae2ff02ff99c57de775b6b",
+        "ess/m2e-pro": "v6.3.9",
         "webformat/loginwithpaypal": "dev-master"
     },
     "repositories": [
