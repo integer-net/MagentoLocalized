@@ -26,6 +26,7 @@
         "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
+        "dmp/baseprice": "dev-master",
         "avstudnitz/scopehint": "dev-master",
         "avstudnitz/admin-notification-advanced": "dev-master",
         "tim-reynolds/magento-qconfig": "dev-master",
@@ -97,6 +98,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedPL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://avstudnitz@bitbucket.org/integer_net/dmp_baseprice.git"
         },
         {
             "type": "vcs",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b256443995eeff3fa74f9e1a48ee3365",
-    "content-hash": "a46324e1b5dbd4c37554fb70c30658fb",
+    "hash": "14019763a9accc981ba58595bf0dcbe4",
+    "content-hash": "b0c2fddf1f4b9257e787a2141a0d1c74",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -68,8 +68,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -95,8 +95,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -193,6 +193,22 @@
                 }
             ],
             "description": "Magento Community Modules -  Pacchetto di lingua italiano (Italia)"
+        },
+        {
+            "name": "dmp/baseprice",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://avstudnitz@bitbucket.org/integer_net/dmp_baseprice.git",
+                "reference": "b67ac84dfd1fdc6f6df193950c4d1fcbad181da6"
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "description": "Automatic calculation and indication of the basis price for articles",
+            "homepage": "https://bitbucket.org/modulprogrammierer/dmp_baseprice",
+            "time": "2015-12-03 20:16:06"
         },
         {
             "name": "eloquent/composer-config-reader",
@@ -399,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/M2E.git",
-                "reference": "d98e02e282e950f92c4418745bea77795e4a2781"
+                "reference": "ce84a5e9df3f39f501bff599c516cf7d592e9193"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/d98e02e282e950f92c4418745bea77795e4a2781",
-                "reference": "d98e02e282e950f92c4418745bea77795e4a2781",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/ce84a5e9df3f39f501bff599c516cf7d592e9193",
+                "reference": "ce84a5e9df3f39f501bff599c516cf7d592e9193",
                 "shasum": ""
             },
             "require": {
@@ -417,7 +433,7 @@
                 "source": "https://github.com/integer-net/M2E/tree/v6.3.9",
                 "issues": "https://github.com/integer-net/M2E/issues"
             },
-            "time": "2015-12-03 16:01:10"
+            "time": "2015-12-03 16:42:49"
         },
         {
             "name": "etws/et_russianlanguagepack",
@@ -1779,6 +1795,7 @@
         "firegento/magesetup": 20,
         "firegento/pdf": 20,
         "magento-hackathon/localefallback": 20,
+        "dmp/baseprice": 20,
         "avstudnitz/scopehint": 20,
         "avstudnitz/admin-notification-advanced": 20,
         "tim-reynolds/magento-qconfig": 20,
