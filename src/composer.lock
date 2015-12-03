@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "74ddea049ece84f293b327b301086e33",
-    "content-hash": "4bcd271ce29f1eec3f986917d2064eb7",
+    "hash": "b256443995eeff3fa74f9e1a48ee3365",
+    "content-hash": "a46324e1b5dbd4c37554fb70c30658fb",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -114,33 +114,6 @@
             "description": "Cash on Delivery allows to book additional fee on delivery depending on inland or international delivery."
         },
         {
-            "name": "connect20/DerModPro_BasePrice",
-            "version": "0.3.0",
-            "dist": {
-                "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/DerModPro_BasePrice/0.3.0/DerModPro_BasePrice-0.3.0.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "extra": {
-                "package-xml": "package.xml"
-            },
-            "license": [
-                "OSL-v3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Vinai Kopp",
-                    "email": "info@der-modulprogrammierer.de"
-                }
-            ],
-            "description": "This extension enables you to display the base price for products.  E.g. if you sell\ndifferent quantities of oil, you can enter the amount each bottle contains (like 250ml)\nand a reference unit (like liter), and the price per liter is calculated and displayed."
-        },
-        {
             "name": "connect20/Locale_Mage_community_es_ES",
             "version": "1.2.0.02",
             "dist": {
@@ -149,8 +122,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -176,8 +149,8 @@
                 "reference": null,
                 "shasum": null
             },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
             },
             "type": "magento-module",
             "extra": {
@@ -457,7 +430,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/31996d15cf570984576ea0bafeecd84c280f745e.zip",
-                "reference": "249ca243373375cc8c5d6b538aefdc458440a3cc",
+                "reference": "31996d15cf570984576ea0bafeecd84c280f745e",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +444,7 @@
             ],
             "description": "ET Russian Language Pack",
             "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
-            "time": "2015-03-19 13:26:39"
+            "time": "2013-12-14 15:13:36"
         },
         {
             "name": "firegento/magesetup",

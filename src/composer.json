@@ -26,7 +26,6 @@
         "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-master",
         "magento-hackathon/localefallback": "dev-master",
-        "connect20/dermodpro_baseprice": "*",
         "avstudnitz/scopehint": "dev-master",
         "avstudnitz/admin-notification-advanced": "dev-master",
         "tim-reynolds/magento-qconfig": "dev-master",

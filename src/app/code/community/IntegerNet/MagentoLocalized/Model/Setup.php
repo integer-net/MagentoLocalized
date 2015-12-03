@@ -70,7 +70,7 @@ class IntegerNet_MagentoLocalized_Model_Setup
         foreach((array)Mage::getStoreConfig('magento_localized/modules') as $moduleIdentifier => $module) {
 
             if (
-                $module['is_required']
+                (isset($module['is_required']) && $module['is_required'])
                 || (isset($params['modules_default']) && $params['modules_default'] == 1 && $module['is_default'])
                 || ($module['is_available'] && isset($params['module'][$moduleIdentifier]) && $params['module'][$moduleIdentifier] == 1)
             ) {
