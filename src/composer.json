@@ -11,7 +11,6 @@
         "integer-net/magento-localized-fr": "dev-master",
         "integer-net/magento-localized-it": "dev-master",
         "integer-net/magento-localized-ro": "dev-master",
-        "integer-net/magento-localized-ru": "dev-master",
         "integer-net/magento-localized-pl": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
@@ -21,7 +20,6 @@
         "ho-nl/ho_nl_nl": "dev-master",
         "mindmagnet/romanian-translation": "dev-master",
         "snowdog-apps/magento-translation-pl_pl": "dev-master",
-        "etws/et_russianlanguagepack": "1.5.0",
 
         "firegento/magesetup": "dev-development",
         "firegento/pdf": "dev-master",

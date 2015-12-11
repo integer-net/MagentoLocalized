@@ -13,7 +13,7 @@
 <config>
     <modules>
         <IntegerNet_MagentoLocalized>
-            <version>1.9.0.1.3</version>
+            <version>1.9.2.2.0</version>
         </IntegerNet_MagentoLocalized>
     </modules>
 
@@ -544,10 +544,6 @@
                     <name>Polish</name>
                     <code>snowdog-apps/magento-translation-pl_pl</code>
                 </pl_PL>
-                <ru_RU>
-                    <name>Russian</name>
-                    <code>etws/et_russianlanguagepack</code>
-                </ru_RU>
             </languages>
 
             <install_guide_url>
