@@ -181,7 +181,7 @@ class IntegerNet_MagentoLocalized_Model_Installer
             $parser = new MagentoHackathon\Composer\Magento\ModmanParser($this->getSourceDir($packageConfiguration));
             return $parser;
         } else {
-            Mage::throwException('Unable to find deploy strategy for module: no known mapping');
+            Mage::throwException('Unable to find deploy strategy for module ' . $packageConfiguration['name'] . ': no known mapping');
         }
     }
 

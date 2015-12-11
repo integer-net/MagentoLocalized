@@ -15,7 +15,7 @@
         "integer-net/magento-localized-pl": "dev-master",
 
         "riconeitzel/german-localepack-de-de": "dev-preview",
-        "connect20/locale_mage_community_es_es": "*",
+        "connect20/mage_locale_es_es": "*",
         "connect20/locale_mage_community_fr_fr": "*",
         "connect20/locale_mage_community_it_it": "*",
         "ho-nl/ho_nl_nl": "dev-master",
@@ -37,13 +37,13 @@
         "magento-hackathon/hackathon_magemonitoring": "dev-master",
         "magento-hackathon/indexer-stats": "dev-master",
 
-        "connect20/cashondelivery": "0.4.3",
+        "phoenix-media/magento-cashondelivery":"dev-master",
         "itabs/invoice": "dev-master",
         "therouv/debitpayment": "dev-master",
-        "connect20/bankpayment": "*",
+        "phoenix-media/magento-bankpayment": "dev-master",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "ess/m2e-pro": "v6.3.9",
+        "ess/m2e-pro": "v6.4.0",
         "webformat/loginwithpaypal": "dev-master"
     },
     "repositories": [

@@ -450,7 +450,7 @@
                     <name>Cash on Delivery (Payment Method)</name>
                     <description>Cash on Delivery allows to book additional fee on delivery depending on domestic or international delivery.</description>
                     <url>http://www.magentocommerce.com/magento-connect/cashondelivery.html</url>
-                    <code>connect20/cashondelivery</code>
+                    <code>phoenix-media/magento-cashondelivery</code>
                     <is_required>0</is_required>
                     <is_default>0</is_default>
                     <is_available>1</is_available>
@@ -459,7 +459,7 @@
                     <name>Bank Prepayment (Payment Method)</name>
                     <description>Payment Method "Bank Prepayment"</description>
                     <url>http://www.magentocommerce.com/magento-connect/bankpayment.html</url>
-                    <code>connect20/bankpayment</code>
+                    <code>phoenix-media/magento-bankpayment</code>
                     <is_required>0</is_required>
                     <is_default>0</is_default>
                     <is_available>1</is_available>
@@ -522,7 +522,7 @@
                 </en_US>
                 <es_ES>
                     <name>Spanish</name>
-                    <code>connect20/locale_mage_community_es_es</code>
+                    <code>connect20/mage_locale_es_es</code>
                 </es_ES>
                 <fr_FR>
                     <name>French</name>

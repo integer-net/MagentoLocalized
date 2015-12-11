@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14019763a9accc981ba58595bf0dcbe4",
-    "content-hash": "b0c2fddf1f4b9257e787a2141a0d1c74",
+    "hash": "1a941861dcd2b5039c4ae510d22b6e62",
+    "content-hash": "d07d31ef5d44c49ff7f77154ddb49cb6",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -60,87 +60,6 @@
             "time": "2015-04-21 08:46:56"
         },
         {
-            "name": "connect20/BankPayment",
-            "version": "0.3.3",
-            "dist": {
-                "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/BankPayment/0.3.3/BankPayment-0.3.3.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
-            },
-            "type": "magento-module",
-            "extra": {
-                "package-xml": "package.xml"
-            },
-            "license": [
-                "Open-Software-License-(OSL)"
-            ],
-            "authors": [
-                {
-                    "name": "Phoenix Medien",
-                    "email": "info@phoenix-medien.de"
-                }
-            ],
-            "description": "Bank prepayment module which notifies the buyer to which bank account he has to transfer the money."
-        },
-        {
-            "name": "connect20/CashOnDelivery",
-            "version": "0.4.3",
-            "dist": {
-                "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/CashOnDelivery/0.4.3/CashOnDelivery-0.4.3.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
-            },
-            "type": "magento-module",
-            "extra": {
-                "package-xml": "package.xml"
-            },
-            "license": [
-                "Open-Software-License-(OSL)"
-            ],
-            "authors": [
-                {
-                    "name": "Phoenix Medien",
-                    "email": "info@phoenix-medien.de"
-                }
-            ],
-            "description": "Cash on Delivery allows to book additional fee on delivery depending on inland or international delivery."
-        },
-        {
-            "name": "connect20/Locale_Mage_community_es_ES",
-            "version": "1.2.0.02",
-            "dist": {
-                "type": "tar",
-                "url": "http://connect20.magentocommerce.com/community/Locale_Mage_community_es_ES/1.2.0.0.2/Locale_Mage_community_es_ES-1.2.0.0.2.tgz",
-                "reference": null,
-                "shasum": null
-            },
-            "suggest": {
-                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
-            },
-            "type": "magento-module",
-            "extra": {
-                "package-xml": "package.xml"
-            },
-            "license": [
-                "AFL-v3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Magento Core",
-                    "email": "magentoadmin@magentocommerce.com"
-                }
-            ],
-            "description": "Magento Community Modules -  Spanish (Spain) Language Pack"
-        },
-        {
             "name": "connect20/Locale_Mage_community_fr_FR",
             "version": "1.7.0.1",
             "dist": {
@@ -193,6 +112,33 @@
                 }
             ],
             "description": "Magento Community Modules -  Pacchetto di lingua italiano (Italia)"
+        },
+        {
+            "name": "connect20/Mage_Locale_es_ES",
+            "version": "1.9.0.0",
+            "dist": {
+                "type": "tar",
+                "url": "http://connect20.magentocommerce.com/community/Mage_Locale_es_ES/1.9.0.0/Mage_Locale_es_ES-1.9.0.0.tgz",
+                "reference": null,
+                "shasum": null
+            },
+            "suggest": {
+                "magento-hackathon/magento-composer-installer": "Allows to manage this package as a dependency"
+            },
+            "type": "magento-module",
+            "extra": {
+                "package-xml": "package.xml"
+            },
+            "license": [
+                "AFL-v3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Magento Core Team",
+                    "email": "core@magentocommerce.com"
+                }
+            ],
+            "description": "es_ES locale"
         },
         {
             "name": "dmp/baseprice",
@@ -411,16 +357,16 @@
         },
         {
             "name": "ess/m2e-pro",
-            "version": "v6.3.9",
+            "version": "v6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/M2E.git",
-                "reference": "ce84a5e9df3f39f501bff599c516cf7d592e9193"
+                "reference": "4d26556ab016f9984a0d0b1641e4711302f55799"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/ce84a5e9df3f39f501bff599c516cf7d592e9193",
-                "reference": "ce84a5e9df3f39f501bff599c516cf7d592e9193",
+                "url": "https://api.github.com/repos/integer-net/M2E/zipball/4d26556ab016f9984a0d0b1641e4711302f55799",
+                "reference": "4d26556ab016f9984a0d0b1641e4711302f55799",
                 "shasum": ""
             },
             "require": {
@@ -430,10 +376,10 @@
             "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
             "homepage": "http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-importing-and-stock-level-synchronization.html",
             "support": {
-                "source": "https://github.com/integer-net/M2E/tree/v6.3.9",
+                "source": "https://github.com/integer-net/M2E/tree/master",
                 "issues": "https://github.com/integer-net/M2E/issues"
             },
-            "time": "2015-12-03 16:42:49"
+            "time": "2015-12-11 15:06:12"
         },
         {
             "name": "etws/et_russianlanguagepack",
@@ -674,18 +620,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ho-nl/Ho_nl_NL.git",
-                "reference": "98937ecbaf52b537fa8cadf6319286a10dfff282"
+                "reference": "504414b85982af50a5e7f15354eba99964f6e28e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/98937ecbaf52b537fa8cadf6319286a10dfff282",
-                "reference": "98937ecbaf52b537fa8cadf6319286a10dfff282",
+                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/504414b85982af50a5e7f15354eba99964f6e28e",
+                "reference": "504414b85982af50a5e7f15354eba99964f6e28e",
                 "shasum": ""
             },
             "require": {
                 "magento-hackathon/magento-composer-installer": "*"
             },
             "type": "magento-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.9-dev"
+                }
+            },
             "license": [
                 "OSL-3.0"
             ],
@@ -695,13 +646,13 @@
                     "email": "paul@h-o.nl"
                 }
             ],
-            "description": "Nederlandse vertalingen voor Magento 1.7.0.2",
+            "description": "Nederlandse vertalingen voor Magento",
             "homepage": "http://www.h-o.nl/blog/nederlandse-vertalingen-magento-17-inclusief-e-mailvertalingen/",
             "support": {
                 "source": "https://github.com/ho-nl/Ho_nl_NL/tree/master",
                 "issues": "https://github.com/ho-nl/Ho_nl_NL/issues"
             },
-            "time": "2015-11-20 20:03:54"
+            "time": "2015-12-09 16:56:52"
         },
         {
             "name": "icecave/isolator",
@@ -1548,6 +1499,68 @@
             "time": "2015-09-24 09:03:18"
         },
         {
+            "name": "phoenix-media/magento-bankpayment",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHOENIX-MEDIA/Magento-BankPayment.git",
+                "reference": "ba8dc1d01e9f32b37967ce29976e14acff8cf6a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHOENIX-MEDIA/Magento-BankPayment/zipball/ba8dc1d01e9f32b37967ce29976e14acff8cf6a9",
+                "reference": "ba8dc1d01e9f32b37967ce29976e14acff8cf6a9",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "PHOENIX MEDIA",
+                    "email": "support@phoenix-media.eu"
+                }
+            ],
+            "description": "PHOENIX MEDIA cash on delivery",
+            "support": {
+                "source": "https://github.com/PHOENIX-MEDIA/Magento-BankPayment/tree/master",
+                "issues": "https://github.com/PHOENIX-MEDIA/Magento-BankPayment/issues"
+            },
+            "time": "2015-09-10 08:22:32"
+        },
+        {
+            "name": "phoenix-media/magento-cashondelivery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery.git",
+                "reference": "e8e80cd35cc23793e6e96279bdceac0e37b317ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHOENIX-MEDIA/Magento-CashOnDelivery/zipball/e8e80cd35cc23793e6e96279bdceac0e37b317ad",
+                "reference": "e8e80cd35cc23793e6e96279bdceac0e37b317ad",
+                "shasum": ""
+            },
+            "require": {
+                "magento-hackathon/magento-composer-installer": "*"
+            },
+            "type": "magento-module",
+            "authors": [
+                {
+                    "name": "Phoenix Media",
+                    "email": "info@phoenixmedia.com"
+                }
+            ],
+            "description": "Phoenix media cash on delivery",
+            "support": {
+                "source": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery/tree/master",
+                "issues": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery/issues"
+            },
+            "time": "2015-05-07 09:48:22"
+        },
+        {
             "name": "riconeitzel/german-localepack-de-de",
             "version": "dev-preview",
             "source": {
@@ -1805,8 +1818,10 @@
         "openstream/rappenrounding": 20,
         "magento-hackathon/hackathon_magemonitoring": 20,
         "magento-hackathon/indexer-stats": 20,
+        "phoenix-media/magento-cashondelivery": 20,
         "itabs/invoice": 20,
         "therouv/debitpayment": 20,
+        "phoenix-media/magento-bankpayment": 20,
         "integer-net/magento-localized-ebay": 20,
         "webformat/loginwithpaypal": 20
     },
