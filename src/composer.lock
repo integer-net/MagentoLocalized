@@ -387,12 +387,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "745445eb1002fc1ec4b49d317776e7caf55ec39f"
+                "reference": "64b39a8c483b426171e13c31cdb7ccd218d3edc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/745445eb1002fc1ec4b49d317776e7caf55ec39f",
-                "reference": "745445eb1002fc1ec4b49d317776e7caf55ec39f",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/64b39a8c483b426171e13c31cdb7ccd218d3edc3",
+                "reference": "64b39a8c483b426171e13c31cdb7ccd218d3edc3",
                 "shasum": ""
             },
             "require": {
@@ -552,7 +552,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2015-12-13 13:38:25"
+            "time": "2016-01-14 13:01:22"
         },
         {
             "name": "firegento/pdf",
@@ -597,7 +597,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/801562856c7017aab0788c0274d07c75a6ba3257",
+                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/2feb47f2a88c140b526d50a0154c90e0b1d7c535",
                 "reference": "801562856c7017aab0788c0274d07c75a6ba3257",
                 "shasum": ""
             },
@@ -1206,7 +1206,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_MageMonitoring/zipball/4705c9a05be0744311dc9cd3345ea8d6e2258786",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_MageMonitoring/zipball/2bea2099b90dafbc1e7cd182c331cdc3fdccf914",
                 "reference": "4705c9a05be0744311dc9cd3345ea8d6e2258786",
                 "shasum": ""
             },
