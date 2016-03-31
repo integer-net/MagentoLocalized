@@ -41,6 +41,7 @@
         "phoenix-media/magento-bankpayment": "dev-master",
 
         "integer-net/magento-localized-ebay": "dev-master",
+        "iways/paypalplus": "1.7.0",
         "webformat/loginwithpaypal": "dev-master"
     },
     "repositories": [
@@ -91,6 +92,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/integer-net/MagentoLocalizedPL.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:integer-net/Iways_PayPalPlus.git"
         },
         {
             "type": "vcs",

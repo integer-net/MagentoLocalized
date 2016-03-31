@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3dfc269ea7feb9d17fcb9a4a393751ed",
-    "content-hash": "4244d5fe5e9d4d717d08c01ac3bd4532",
+    "hash": "ff97121843260b957a13e1be20b6ce87",
+    "content-hash": "171ee0bbdb7023fc76cce71866de3675",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -1099,6 +1099,29 @@
                 "issues": "https://github.com/itabs/Itabs_Invoice/issues"
             },
             "time": "2015-02-10 20:35:22"
+        },
+        {
+            "name": "iways/paypalplus",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:integer-net/Iways_PayPalPlus.git",
+                "reference": "23311a9db1364c34b6d9066dec8d2ff0aea7432a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/integer-net/Iways_PayPalPlus/zipball/23311a9db1364c34b6d9066dec8d2ff0aea7432a",
+                "reference": "23311a9db1364c34b6d9066dec8d2ff0aea7432a",
+                "shasum": ""
+            },
+            "type": "magento-module",
+            "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
+            "homepage": "https://store.i-ways.net/",
+            "support": {
+                "source": "https://github.com/integer-net/Iways_PayPalPlus/tree/1.7.0",
+                "issues": "https://github.com/integer-net/Iways_PayPalPlus/issues"
+            },
+            "time": "2016-03-31 10:53:25"
         },
         {
             "name": "justinrainbow/json-schema",
