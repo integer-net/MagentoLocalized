@@ -95,14 +95,6 @@
                 </support>
             </children>
         </magento_localized>
-
-        <m2epro_ebay>
-            <disabled>1</disabled>
-        </m2epro_ebay>
-
-        <m2epro_common>
-            <disabled>1</disabled>
-        </m2epro_common>
     </menu>
     <acl>
         <resources>
@@ -140,16 +132,6 @@
                                     </support>
                                 </children>
                             </magento_localized>
-
-                            <m2epro_ebay>
-                                <title>Sell On eBay</title>
-                                <sort_order>12</sort_order>
-                            </m2epro_ebay>
-
-                            <m2epro_common>
-                                <title>Sell On Multi-Channels</title>
-                                <sort_order>13</sort_order>
-                            </m2epro_common>
                         </children>
                     </system>
 

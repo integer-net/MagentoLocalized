@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1a941861dcd2b5039c4ae510d22b6e62",
-    "content-hash": "d07d31ef5d44c49ff7f77154ddb49cb6",
+    "hash": "3dfc269ea7feb9d17fcb9a4a393751ed",
+    "content-hash": "4244d5fe5e9d4d717d08c01ac3bd4532",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -356,70 +356,17 @@
             "time": "2013-03-04 10:10:43"
         },
         {
-            "name": "ess/m2e-pro",
-            "version": "v6.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/integer-net/M2E.git",
-                "reference": "4d26556ab016f9984a0d0b1641e4711302f55799"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/M2E/zipball/4d26556ab016f9984a0d0b1641e4711302f55799",
-                "reference": "4d26556ab016f9984a0d0b1641e4711302f55799",
-                "shasum": ""
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
-            "homepage": "http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-importing-and-stock-level-synchronization.html",
-            "support": {
-                "source": "https://github.com/integer-net/M2E/tree/master",
-                "issues": "https://github.com/integer-net/M2E/issues"
-            },
-            "time": "2015-12-11 15:06:12"
-        },
-        {
-            "name": "etws/et_russianlanguagepack",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/etws/et_russianlanguagepack.git",
-                "reference": "31996d15cf570984576ea0bafeecd84c280f745e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/etws/et_russianlanguagepack/get/31996d15cf570984576ea0bafeecd84c280f745e.zip",
-                "reference": "31996d15cf570984576ea0bafeecd84c280f745e",
-                "shasum": ""
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "authors": [
-                {
-                    "name": "ET Web Solutions"
-                }
-            ],
-            "description": "ET Russian Language Pack",
-            "homepage": "http://shop.etwebsolutions.com/eng/magento-extensions/et-russian-language-pack.html",
-            "time": "2013-12-14 15:13:36"
-        },
-        {
             "name": "firegento/magesetup",
             "version": "dev-development",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firegento/firegento-magesetup.git",
-                "reference": "0b13bad23c39a6b3f4520ec295b7e910e1989a21"
+                "reference": "38c26bcdfa461344f5dc50191f0c4709779a9df5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/0b13bad23c39a6b3f4520ec295b7e910e1989a21",
-                "reference": "0b13bad23c39a6b3f4520ec295b7e910e1989a21",
+                "url": "https://api.github.com/repos/firegento/firegento-magesetup/zipball/38c26bcdfa461344f5dc50191f0c4709779a9df5",
+                "reference": "38c26bcdfa461344f5dc50191f0c4709779a9df5",
                 "shasum": ""
             },
             "require": {
@@ -579,7 +526,7 @@
                 "source": "https://github.com/firegento/firegento-magesetup/tree/development",
                 "issues": "https://github.com/firegento/firegento-magesetup/issues"
             },
-            "time": "2015-11-19 15:32:27"
+            "time": "2016-02-11 20:06:51"
         },
         {
             "name": "firegento/pdf",
@@ -619,13 +566,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ho-nl/Ho_nl_NL.git",
-                "reference": "504414b85982af50a5e7f15354eba99964f6e28e"
+                "url": "git@github.com:ho-nl/Ho_nl_NL.git",
+                "reference": "7f561e5113c662fa1bc777b510f3237451a7ab7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/504414b85982af50a5e7f15354eba99964f6e28e",
-                "reference": "504414b85982af50a5e7f15354eba99964f6e28e",
+                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/7f561e5113c662fa1bc777b510f3237451a7ab7f",
+                "reference": "7f561e5113c662fa1bc777b510f3237451a7ab7f",
                 "shasum": ""
             },
             "require": {
@@ -648,11 +595,7 @@
             ],
             "description": "Nederlandse vertalingen voor Magento",
             "homepage": "http://www.h-o.nl/blog/nederlandse-vertalingen-magento-17-inclusief-e-mailvertalingen/",
-            "support": {
-                "source": "https://github.com/ho-nl/Ho_nl_NL/tree/master",
-                "issues": "https://github.com/ho-nl/Ho_nl_NL/issues"
-            },
-            "time": "2015-12-09 16:56:52"
+            "time": "2016-03-22 16:53:06"
         },
         {
             "name": "icecave/isolator",
@@ -711,7 +654,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git",
+                "url": "git@github.com:ikonoshirt/CustomAdminNotifications.git",
                 "reference": "ba41a74756d7ceba41b3211ddcef00c463ef3c6c"
             },
             "dist": {
@@ -738,12 +681,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/Autoshipping.git",
-                "reference": "616be544ab3ad566743728986e53152299049fd3"
+                "reference": "0a97500a06a46b30a9e6c32f5daa3deceb661662"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/616be544ab3ad566743728986e53152299049fd3",
-                "reference": "616be544ab3ad566743728986e53152299049fd3",
+                "url": "https://api.github.com/repos/integer-net/Autoshipping/zipball/0a97500a06a46b30a9e6c32f5daa3deceb661662",
+                "reference": "0a97500a06a46b30a9e6c32f5daa3deceb661662",
                 "shasum": ""
             },
             "require": {
@@ -753,10 +696,10 @@
             "description": "Provide shipping costs in Magento Cart, plus the ability to change the country there",
             "homepage": "https://github.com/integer-net/Autoshipping",
             "support": {
-                "source": "https://github.com/integer-net/Autoshipping/tree/0.3.1",
+                "source": "https://github.com/integer-net/Autoshipping/tree/0.3.3",
                 "issues": "https://github.com/integer-net/Autoshipping/issues"
             },
-            "time": "2015-05-22 12:08:16"
+            "time": "2016-02-19 08:45:50"
         },
         {
             "name": "integer-net/magento-localized-at",
@@ -1019,43 +962,17 @@
             "time": "2014-11-24 16:50:15"
         },
         {
-            "name": "integer-net/magento-localized-ru",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/integer-net/MagentoLocalizedRU.git",
-                "reference": "d2b13be765ef696f43a47fb7b18fab0ee86feb2d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedRU/zipball/d2b13be765ef696f43a47fb7b18fab0ee86feb2d",
-                "reference": "d2b13be765ef696f43a47fb7b18fab0ee86feb2d",
-                "shasum": ""
-            },
-            "require": {
-                "magento-hackathon/magento-composer-installer": "*"
-            },
-            "type": "magento-module",
-            "description": "Russian Localization package for Magento Localized (aka Magento RU)",
-            "homepage": "https://github.com/integer-net/MagentoLocalizedRU",
-            "support": {
-                "source": "https://github.com/integer-net/MagentoLocalizedRU/tree/master",
-                "issues": "https://github.com/integer-net/MagentoLocalizedRU/issues"
-            },
-            "time": "2014-11-24 11:33:51"
-        },
-        {
             "name": "integer-net/removecustomeraccountlinks",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/RemoveCustomerAccountLinks.git",
-                "reference": "e4e29cb8f6cd65b1b48fab542f6614a69cb218e8"
+                "reference": "17f5b20de146f40c8b7b4cb94fdea61b3df714b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/RemoveCustomerAccountLinks/zipball/e4e29cb8f6cd65b1b48fab542f6614a69cb218e8",
-                "reference": "e4e29cb8f6cd65b1b48fab542f6614a69cb218e8",
+                "url": "https://api.github.com/repos/integer-net/RemoveCustomerAccountLinks/zipball/17f5b20de146f40c8b7b4cb94fdea61b3df714b3",
+                "reference": "17f5b20de146f40c8b7b4cb94fdea61b3df714b3",
                 "shasum": ""
             },
             "require": {
@@ -1143,10 +1060,10 @@
                 "magento"
             ],
             "support": {
-                "source": "https://github.com/integer-net/RemoveCustomerAccountLinks/tree/2.0.0.2",
+                "source": "https://github.com/integer-net/RemoveCustomerAccountLinks/tree/master",
                 "issues": "https://github.com/integer-net/RemoveCustomerAccountLinks/issues"
             },
-            "time": "2014-11-21 09:32:06"
+            "time": "2016-01-04 16:15:27"
         },
         {
             "name": "itabs/invoice",
@@ -1185,25 +1102,25 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "1.5.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/justinrainbow/json-schema.git",
-                "reference": "a4bee9f4b344b66e0a0d96c7afae1e92edf385fe"
+                "reference": "61a95a151aac86eaa9bbd31311d3d12a78c971b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/a4bee9f4b344b66e0a0d96c7afae1e92edf385fe",
-                "reference": "a4bee9f4b344b66e0a0d96c7afae1e92edf385fe",
+                "url": "https://api.github.com/repos/justinrainbow/json-schema/zipball/61a95a151aac86eaa9bbd31311d3d12a78c971b8",
+                "reference": "61a95a151aac86eaa9bbd31311d3d12a78c971b8",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.3.3"
             },
             "require-dev": {
                 "json-schema/json-schema-test-suite": "1.1.0",
                 "phpdocumentor/phpdocumentor": "~2",
-                "phpunit/phpunit": "~3.7"
+                "phpunit/phpunit": "^4.8.22"
             },
             "bin": [
                 "bin/validate-json"
@@ -1211,7 +1128,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-master": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -1221,7 +1138,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
@@ -1247,7 +1164,7 @@
                 "json",
                 "schema"
             ],
-            "time": "2015-09-08 22:28:04"
+            "time": "2016-03-30 21:06:40"
         },
         {
             "name": "magento-hackathon/hackathon_magemonitoring",
@@ -1255,12 +1172,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento-hackathon/Hackathon_MageMonitoring.git",
-                "reference": "4705c9a05be0744311dc9cd3345ea8d6e2258786"
+                "reference": "a8feadb67e374873e7dffb62241e553355deeb0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_MageMonitoring/zipball/4705c9a05be0744311dc9cd3345ea8d6e2258786",
-                "reference": "4705c9a05be0744311dc9cd3345ea8d6e2258786",
+                "url": "https://api.github.com/repos/magento-hackathon/Hackathon_MageMonitoring/zipball/a8feadb67e374873e7dffb62241e553355deeb0b",
+                "reference": "a8feadb67e374873e7dffb62241e553355deeb0b",
                 "shasum": ""
             },
             "require": {
@@ -1287,17 +1204,17 @@
             "description": "Magento Monitoring Module to get information about the current installation (Server,Cache,PHP,Rewrites,Logs,...)",
             "homepage": "https://github.com/magento-hackathon/Hackathon_MageMonitoring",
             "support": {
-                "source": "https://github.com/magento-hackathon/Hackathon_MageMonitoring/tree/2.1.4",
+                "source": "https://github.com/magento-hackathon/Hackathon_MageMonitoring/tree/master",
                 "issues": "https://github.com/magento-hackathon/Hackathon_MageMonitoring/issues"
             },
-            "time": "2015-11-07 18:35:26"
+            "time": "2016-01-31 02:27:59"
         },
         {
             "name": "magento-hackathon/indexer-stats",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/magento-hackathon/Hackathon_IndexerStats.git",
+                "url": "git@github.com:magento-hackathon/Hackathon_IndexerStats.git",
                 "reference": "78328e51e65a56db974e41ab3ea7f2a0353051a1"
             },
             "dist": {
@@ -1478,12 +1395,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openstream/Magento5CentRounding.git",
-                "reference": "da51a1de6538ecc26779a35c96f7d78f2afe6ca0"
+                "reference": "a209c1e32a70ff5bedcc0713ab4c9e3607e25c46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openstream/Magento5CentRounding/zipball/da51a1de6538ecc26779a35c96f7d78f2afe6ca0",
-                "reference": "da51a1de6538ecc26779a35c96f7d78f2afe6ca0",
+                "url": "https://api.github.com/repos/openstream/Magento5CentRounding/zipball/a209c1e32a70ff5bedcc0713ab4c9e3607e25c46",
+                "reference": "a209c1e32a70ff5bedcc0713ab4c9e3607e25c46",
                 "shasum": ""
             },
             "require": {
@@ -1496,14 +1413,14 @@
                 "source": "https://github.com/openstream/Magento5CentRounding/tree/master",
                 "issues": "https://github.com/openstream/Magento5CentRounding/issues"
             },
-            "time": "2015-09-24 09:03:18"
+            "time": "2016-03-04 16:08:08"
         },
         {
             "name": "phoenix-media/magento-bankpayment",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PHOENIX-MEDIA/Magento-BankPayment.git",
+                "url": "git@github.com:PHOENIX-MEDIA/Magento-BankPayment.git",
                 "reference": "ba8dc1d01e9f32b37967ce29976e14acff8cf6a9"
             },
             "dist": {
@@ -1534,7 +1451,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery.git",
+                "url": "git@github.com:PHOENIX-MEDIA/Magento-CashOnDelivery.git",
                 "reference": "e8e80cd35cc23793e6e96279bdceac0e37b317ad"
             },
             "dist": {
@@ -1799,7 +1716,6 @@
         "integer-net/magento-localized-fr": 20,
         "integer-net/magento-localized-it": 20,
         "integer-net/magento-localized-ro": 20,
-        "integer-net/magento-localized-ru": 20,
         "integer-net/magento-localized-pl": 20,
         "riconeitzel/german-localepack-de-de": 20,
         "ho-nl/ho_nl_nl": 20,
