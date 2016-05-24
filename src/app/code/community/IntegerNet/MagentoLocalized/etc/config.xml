@@ -32,6 +32,11 @@
                     <config>IntegerNet_MagentoLocalized_Model_Paypal_Config</config>
                 </rewrite>
             </paypal>
+            <iways_paypalplus>
+                <rewrite>
+                    <partner_config>IntegerNet_MagentoLocalized_Model_PayPalPlus_Partner_Config</partner_config>
+                </rewrite>
+            </iways_paypalplus>
         </models>
 
         <blocks>

@@ -1,7 +1,7 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "magento-hackathon/magento-composer-installer": "2.1.1",
+        "magento-hackathon/magento-composer-installer": "2.1.3",
 
         "integer-net/magento-localized-at": "dev-master",
         "integer-net/magento-localized-ch": "dev-master",
@@ -41,7 +41,7 @@
         "phoenix-media/magento-bankpayment": "dev-master",
 
         "integer-net/magento-localized-ebay": "dev-master",
-        "iways/paypalplus": "1.7.0",
+        "iways/paypalplus": "1.7.2",
         "webformat/loginwithpaypal": "dev-master"
     },
     "repositories": [
@@ -95,7 +95,7 @@
         },
         {
             "type": "vcs",
-            "url": "git@github.com:integer-net/Iways_PayPalPlus.git"
+            "url": "git@github.com:integer-net/ppp.git"
         },
         {
             "type": "vcs",
