@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ff97121843260b957a13e1be20b6ce87",
-    "content-hash": "171ee0bbdb7023fc76cce71866de3675",
+    "hash": "606efbecf4d3fdf03cfb9c23a48b27da",
+    "content-hash": "4a390bbd074a92d7f17c6ce3a74ffa60",
     "packages": [
         {
             "name": "avstudnitz/admin-notification-advanced",
@@ -566,13 +566,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:ho-nl/Ho_nl_NL.git",
-                "reference": "7f561e5113c662fa1bc777b510f3237451a7ab7f"
+                "url": "https://github.com/ho-nl/Ho_nl_NL.git",
+                "reference": "5616da76a802c4742e838f9640346117a9f996a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/7f561e5113c662fa1bc777b510f3237451a7ab7f",
-                "reference": "7f561e5113c662fa1bc777b510f3237451a7ab7f",
+                "url": "https://api.github.com/repos/ho-nl/Ho_nl_NL/zipball/5616da76a802c4742e838f9640346117a9f996a3",
+                "reference": "5616da76a802c4742e838f9640346117a9f996a3",
                 "shasum": ""
             },
             "require": {
@@ -595,7 +595,11 @@
             ],
             "description": "Nederlandse vertalingen voor Magento",
             "homepage": "http://www.h-o.nl/blog/nederlandse-vertalingen-magento-17-inclusief-e-mailvertalingen/",
-            "time": "2016-03-22 16:53:06"
+            "support": {
+                "source": "https://github.com/ho-nl/Ho_nl_NL/tree/master",
+                "issues": "https://github.com/ho-nl/Ho_nl_NL/issues"
+            },
+            "time": "2016-05-09 20:24:53"
         },
         {
             "name": "icecave/isolator",
@@ -654,7 +658,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:ikonoshirt/CustomAdminNotifications.git",
+                "url": "https://github.com/ikonoshirt/CustomAdminNotifications.git",
                 "reference": "ba41a74756d7ceba41b3211ddcef00c463ef3c6c"
             },
             "dist": {
@@ -785,12 +789,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/integer-net/MagentoLocalizedEbay.git",
-                "reference": "86858c797a8e5e6bbe8476cdb5f7de07d8c28449"
+                "reference": "82fa5f07334dcf1ede68d78175e7a084d810a9f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/86858c797a8e5e6bbe8476cdb5f7de07d8c28449",
-                "reference": "86858c797a8e5e6bbe8476cdb5f7de07d8c28449",
+                "url": "https://api.github.com/repos/integer-net/MagentoLocalizedEbay/zipball/82fa5f07334dcf1ede68d78175e7a084d810a9f9",
+                "reference": "82fa5f07334dcf1ede68d78175e7a084d810a9f9",
                 "shasum": ""
             },
             "require": {
@@ -803,7 +807,7 @@
                 "source": "https://github.com/integer-net/MagentoLocalizedEbay/tree/master",
                 "issues": "https://github.com/integer-net/MagentoLocalizedEbay/issues"
             },
-            "time": "2016-04-01 09:49:07"
+            "time": "2016-04-27 07:52:33"
         },
         {
             "name": "integer-net/magento-localized-es",
@@ -1102,26 +1106,25 @@
         },
         {
             "name": "iways/paypalplus",
-            "version": "1.7.0",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
-                "url": "git@github.com:integer-net/Iways_PayPalPlus.git",
-                "reference": "23311a9db1364c34b6d9066dec8d2ff0aea7432a"
+                "url": "git@github.com:integer-net/ppp.git",
+                "reference": "30478e65eed929cb4497f7f5a4f62b03442cb67c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Iways_PayPalPlus/zipball/23311a9db1364c34b6d9066dec8d2ff0aea7432a",
-                "reference": "23311a9db1364c34b6d9066dec8d2ff0aea7432a",
+                "url": "https://api.github.com/repos/integer-net/ppp/zipball/30478e65eed929cb4497f7f5a4f62b03442cb67c",
+                "reference": "30478e65eed929cb4497f7f5a4f62b03442cb67c",
                 "shasum": ""
             },
             "type": "magento-module",
             "description": "eBay/Amazon/Rakuten/PLAY.COM Magento Integration - Order Importing and Stock Level Synchronization",
             "homepage": "https://store.i-ways.net/",
             "support": {
-                "source": "https://github.com/integer-net/Iways_PayPalPlus/tree/1.7.0",
-                "issues": "https://github.com/integer-net/Iways_PayPalPlus/issues"
+                "source": "https://github.com/integer-net/ppp/tree/master"
             },
-            "time": "2016-03-31 10:53:25"
+            "time": "2016-05-24 10:43:29"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1237,7 +1240,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:magento-hackathon/Hackathon_IndexerStats.git",
+                "url": "https://github.com/magento-hackathon/Hackathon_IndexerStats.git",
                 "reference": "78328e51e65a56db974e41ab3ea7f2a0353051a1"
             },
             "dist": {
@@ -1289,16 +1292,16 @@
         },
         {
             "name": "magento-hackathon/magento-composer-installer",
-            "version": "2.1.1",
+            "version": "dev-magento_localized",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Cotya/magento-composer-installer.git",
-                "reference": "32a1048626880b181906fddb70f0bac1bab97a65"
+                "url": "https://github.com/integer-net/magento-composer-installer.git",
+                "reference": "02ce6745a3b4384aa003678091a3a7840619ea27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Cotya/magento-composer-installer/zipball/32a1048626880b181906fddb70f0bac1bab97a65",
-                "reference": "32a1048626880b181906fddb70f0bac1bab97a65",
+                "url": "https://api.github.com/repos/integer-net/magento-composer-installer/zipball/02ce6745a3b4384aa003678091a3a7840619ea27",
+                "reference": "02ce6745a3b4384aa003678091a3a7840619ea27",
                 "shasum": ""
             },
             "archive": {
@@ -1308,7 +1311,7 @@
                 ]
             },
             "require": {
-                "composer-plugin-api": "1.0.0",
+                "composer-plugin-api": "~1.0",
                 "eloquent/composer-config-reader": "2.*"
             },
             "require-dev": {
@@ -1379,10 +1382,9 @@
                 "magento"
             ],
             "support": {
-                "source": "https://github.com/Cotya/magento-composer-installer/tree/2.1.1",
-                "issues": "https://github.com/Cotya/magento-composer-installer/issues"
+                "source": "https://github.com/integer-net/magento-composer-installer/tree/magento_localized"
             },
-            "time": "2014-12-11 23:43:53"
+            "time": "2016-06-06 12:24:40"
         },
         {
             "name": "mindmagnet/romanian-translation",
@@ -1443,7 +1445,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:PHOENIX-MEDIA/Magento-BankPayment.git",
+                "url": "https://github.com/PHOENIX-MEDIA/Magento-BankPayment.git",
                 "reference": "ba8dc1d01e9f32b37967ce29976e14acff8cf6a9"
             },
             "dist": {
@@ -1474,7 +1476,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:PHOENIX-MEDIA/Magento-CashOnDelivery.git",
+                "url": "https://github.com/PHOENIX-MEDIA/Magento-CashOnDelivery.git",
                 "reference": "e8e80cd35cc23793e6e96279bdceac0e37b317ad"
             },
             "dist": {
@@ -1538,13 +1540,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/integer-net/Magento-Translation-pl_PL.git",
-                "reference": "b919da5c34ed76ce8d6bd9bd8056a5f80b8c994c"
+                "url": "https://github.com/SnowdogApps/Magento-Translation-pl_PL.git",
+                "reference": "09a427bfd6bb9027e069b94bbf55d8d5f0f1ce82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/integer-net/Magento-Translation-pl_PL/zipball/b919da5c34ed76ce8d6bd9bd8056a5f80b8c994c",
-                "reference": "b919da5c34ed76ce8d6bd9bd8056a5f80b8c994c",
+                "url": "https://api.github.com/repos/SnowdogApps/Magento-Translation-pl_PL/zipball/09a427bfd6bb9027e069b94bbf55d8d5f0f1ce82",
+                "reference": "09a427bfd6bb9027e069b94bbf55d8d5f0f1ce82",
                 "shasum": ""
             },
             "require": {
@@ -1554,9 +1556,10 @@
             "description": "Polish Translation package",
             "homepage": "https://github.com/SnowdogApps/Magento-Translation-pl_PL",
             "support": {
-                "source": "https://github.com/integer-net/Magento-Translation-pl_PL/tree/master"
+                "source": "https://github.com/SnowdogApps/Magento-Translation-pl_PL/tree/master",
+                "issues": "https://github.com/SnowdogApps/Magento-Translation-pl_PL/issues"
             },
-            "time": "2014-11-21 10:08:59"
+            "time": "2015-09-11 15:25:16"
         },
         {
             "name": "therouv/debitpayment",
@@ -1731,6 +1734,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "magento-hackathon/magento-composer-installer": 20,
         "integer-net/magento-localized-at": 20,
         "integer-net/magento-localized-ch": 20,
         "integer-net/magento-localized-de": 20,

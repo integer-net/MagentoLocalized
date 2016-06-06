@@ -1,7 +1,7 @@
 {
     "minimum-stability": "dev",
     "require": {
-        "magento-hackathon/magento-composer-installer": "2.1.3",
+        "magento-hackathon/magento-composer-installer": "dev-magento_localized",
 
         "integer-net/magento-localized-at": "dev-master",
         "integer-net/magento-localized-ch": "dev-master",
@@ -48,6 +48,10 @@
         {
             "type": "composer",
             "url": "http://packages.firegento.com"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/integer-net/magento-composer-installer.git"
         },
         {
             "type": "vcs",
